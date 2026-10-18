@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { haptic } from "@/lib/haptics";
 import { callbackUrl, supabase } from "@/lib/supabase/client";
+import { SUPABASE_ANON_KEY, SUPABASE_URL } from "@/lib/supabase/config";
 import { cn } from "@/lib/util";
 
 function AppleLogo() {
@@ -31,10 +32,20 @@ export function OAuthButtons({ next = "/app", onError }: { next?: string; onErro
   const go = async (provider: "apple" | "google") => {
     haptic("light");
     setBusy(provider);
+    const label = provider === "apple" ? "Apple" : "Google";
+    // Supabase answers a switched-off provider with a raw error page, so check first.
+    const on = await fetch(`${SUPABASE_URL}/auth/v1/settings`, { headers: { apikey: SUPABASE_ANON_KEY } })
+      .then((r) => r.json() as Promise<{ external?: Record<string, boolean> }>)
+      .then((s) => s.external?.[provider] !== false)
+      .catch(() => true);
+    if (!on) {
+      setBusy(null);
+      return onError(`${label} sign-in is almost ready. Use your email for now.`);
+    }
     const { error } = await supabase().auth.signInWithOAuth({ provider, options: { redirectTo: callbackUrl(next) } });
     if (error) {
       setBusy(null);
-      onError(error.message.includes("not enabled") ? `${provider === "apple" ? "Apple" : "Google"} sign-in isn't switched on yet.` : error.message);
+      onError(error.message.includes("not enabled") ? `${label} sign-in is almost ready. Use your email for now.` : error.message);
     }
   };
 

@@ -10,7 +10,8 @@
 #   GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET            → turns on "Continue with Google"
 #   APPLE_SERVICES_ID, APPLE_TEAM_ID, APPLE_KEY_ID,
 #   APPLE_PRIVATE_KEY (contents of the .p8 file)      → turns on "Continue with Apple"
-#   SUPABASE_REGION (default us-east-1), SUPABASE_ORG_ID, VERCEL_PROJECT (default deyte),
+#   SUPABASE_PROJECT_REF (use an existing project), SUPABASE_REGION (default us-east-1),
+#   SUPABASE_ORG_ID, VERCEL_PROJECT (default deyte),
 #   SITE_URL (default: the Vercel project's production domain)
 #
 # Usage: bash scripts/setup-cloud.sh
@@ -50,7 +51,7 @@ vc() { api "$1" "https://api.vercel.com$2" "$VERCEL_TOKEN" "${3:-}"; }
 # ── Vercel project (needed first for the site address) ─────────────────────
 say "Finding the Vercel project \"$VERCEL_PROJECT\""
 TEAM_Q="" TEAM_SLUG=""
-if ! PROJECT_JSON=$(vc GET "/v9/projects/$VERCEL_PROJECT" 2>/dev/null); then
+if ! PROJECT_JSON=$(vc GET "/v9/projects/$VERCEL_PROJECT"); then
   PROJECT_JSON=""
   for row in $(vc GET "/v2/teams?limit=50" | jq -r '.teams[] | "\(.id),\(.slug)"'); do
     if PROJECT_JSON=$(vc GET "/v9/projects/$VERCEL_PROJECT?teamId=${row%,*}" 2>/dev/null); then
@@ -75,7 +76,7 @@ say "Site address: $SITE_URL"
 
 # ── Supabase project ───────────────────────────────────────────────────────
 say "Finding or creating the Supabase project \"$NAME\""
-REF=$(sb GET /projects | jq -r --arg n "$NAME" '[.[] | select(.name == $n)][0].ref // empty')
+REF="${SUPABASE_PROJECT_REF:-$(sb GET /projects | jq -r --arg n "$NAME" '[.[] | select(.name == $n)][0].ref // empty')}"
 if [[ -z $REF ]]; then
   ORG="${SUPABASE_ORG_ID:-$(sb GET /organizations | jq -r '.[0].id // empty')}"
   [[ -n $ORG ]] || die "Your Supabase account has no organization yet. Create one at supabase.com/dashboard."
