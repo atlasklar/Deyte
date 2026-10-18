@@ -15,7 +15,7 @@ import { ReviewFlow, type ReviewInput } from "@/components/chat/ReviewFlow";
 import { PersonChip, PersonSheet } from "@/components/chat/PersonConnect";
 import { EndedScreen } from "@/components/account/EndedScreen";
 import { Orb, type OrbState } from "@/components/orb/Orb";
-import { PersonAvatar } from "@/components/ui/primitives";
+import { PersonAvatar, UserAvatar } from "@/components/ui/primitives";
 import { useToast } from "@/components/ui/Toast";
 import { LogoMark, Wordmark } from "@/components/ui/Wordmark";
 
@@ -103,9 +103,9 @@ function Lobby() {
         <Link
           href="/app/account"
           aria-label="Account"
-          className="flex h-8 w-8 items-center justify-center rounded-full bg-ink-700 text-[12.5px] font-semibold text-fg"
+          className="rounded-full transition-opacity active:opacity-70"
         >
-          {data.profile.name[0]}
+          <UserAvatar name={data.profile.name} src={data.profile.avatarUrl} size={32} />
         </Link>
       </header>
 

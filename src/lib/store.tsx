@@ -1,88 +1,89 @@
 "use client";
 
 /*
- * Demo persistence for the UI phase. Every account's data lives under its own
- * localStorage key, so two accounts never see each other's memory. When the
- * backend arrives, replace load/save with API calls; the hook surface stays.
+ * Account data, synced to the cloud. Each signed-in user has one private row
+ * in Supabase (`account_data`, protected by row-level security) holding their
+ * profile, memory, people and chats. A local copy makes reopening instant;
+ * changes save to the cloud a moment after they happen.
  */
 
+import type { User } from "@supabase/supabase-js";
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
-import { DEMO_ACCOUNTS, freshAccount, seedFor } from "./seed";
-import type { AccountData, AccountSummary, Person, SubStatus } from "./types";
-import { addMonths, daysFromNow, nowIso, uid } from "./util";
+import { freshAccount } from "./seed";
+import { cloudReady } from "./supabase/config";
+import { providerOf, supabase, type Provider } from "./supabase/client";
+import type { AccountData, Person, SubStatus } from "./types";
+import { addMonths, daysFromNow, nowIso } from "./util";
 
-const NS = "deyte:v1";
-const SESSION_KEY = `${NS}:session`;
-const ACCOUNTS_KEY = `${NS}:accounts`;
-const dataKey = (id: string) => `${NS}:data:${id}`;
+const cacheKey = (id: string) => `deyte:v2:cache:${id}`;
 
-function read<T>(key: string): T | null {
+function readCache(id: string): AccountData | null {
   try {
-    const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : null;
+    const raw = localStorage.getItem(cacheKey(id));
+    const d = raw ? (JSON.parse(raw) as AccountData) : null;
+    return d?.version === 1 ? d : null;
   } catch {
     return null;
   }
 }
 
-function write(key: string, value: unknown) {
+function writeCache(d: AccountData) {
   try {
-    localStorage.setItem(key, JSON.stringify(value));
+    localStorage.setItem(cacheKey(d.id), JSON.stringify(d));
   } catch {
-    /* Storage full or blocked: the demo keeps working in memory. */
+    /* Storage full or blocked: the cloud copy still saves. */
   }
 }
 
-/* ── Session + account registry ─────────────────────────────── */
+export type CloudUser = {
+  id: string;
+  email: string;
+  provider: Provider;
+  firstName: string;
+  lastName: string;
+  avatarUrl?: string;
+  /** A new address waiting to be confirmed from its inbox. */
+  pendingEmail?: string;
+};
 
-export function listAccounts(): AccountSummary[] {
-  const own = read<AccountSummary[]>(ACCOUNTS_KEY) ?? [];
-  return [...DEMO_ACCOUNTS, ...own.filter((a) => !DEMO_ACCOUNTS.some((d) => d.id === a.id))];
+export function toCloudUser(u: User): CloudUser {
+  const m = (u.user_metadata ?? {}) as Record<string, string | undefined>;
+  const full = m.full_name ?? m.name ?? "";
+  const [first = "", ...rest] = full.split(" ");
+  return {
+    id: u.id,
+    email: u.email ?? "",
+    provider: providerOf(u),
+    firstName: m.first_name ?? m.given_name ?? first,
+    lastName: m.last_name ?? m.family_name ?? rest.join(" "),
+    avatarUrl: m.avatar_url ?? m.picture,
+    pendingEmail: u.new_email || undefined,
+  };
 }
 
-export function currentSession(): string | null {
-  return read<{ accountId: string }>(SESSION_KEY)?.accountId ?? null;
-}
-
-export function signIn(accountId: string) {
-  write(SESSION_KEY, { accountId });
-}
-
-export function signOut() {
-  try {
-    localStorage.removeItem(SESSION_KEY);
-  } catch {}
-}
-
-export function findAccountByEmail(email: string) {
-  const e = email.trim().toLowerCase();
-  return listAccounts().find((a) => a.email.toLowerCase() === e) ?? null;
-}
-
-export function createAccount(name: string, email: string): AccountSummary {
-  const summary: AccountSummary = { id: uid("acct"), name: name.trim(), email: email.trim().toLowerCase() };
-  const own = read<AccountSummary[]>(ACCOUNTS_KEY) ?? [];
-  write(ACCOUNTS_KEY, [...own, summary]);
-  write(dataKey(summary.id), freshAccount(summary.id, { name: summary.name, email: summary.email }));
-  return summary;
-}
-
-export function resetDemoAccount(id: string) {
-  const seed = seedFor(id);
-  if (seed) write(dataKey(id), seed);
-}
-
-function loadAccount(id: string): AccountData | null {
-  const stored = read<AccountData>(dataKey(id));
-  if (stored?.version === 1) return stored;
-  return seedFor(id);
+/** Signs out of the cloud session and clears this device's local copy. */
+export async function signOut() {
+  if (!cloudReady) return;
+  const sb = supabase();
+  const { data } = await sb.auth.getUser();
+  if (data.user) {
+    try {
+      localStorage.removeItem(cacheKey(data.user.id));
+    } catch {}
+  }
+  await sb.auth.signOut();
 }
 
 /* ── Provider ───────────────────────────────────────────────── */
 
+export type SyncState = "saved" | "saving" | "error";
+
 type Ctx = {
   data: AccountData;
   mutate: (recipe: (draft: AccountData) => void) => void;
+  user: CloudUser;
+  setUser: (u: CloudUser) => void;
+  sync: SyncState;
 };
 
 const AccountContext = createContext<Ctx | null>(null);
@@ -91,25 +92,100 @@ export function AccountProvider({
   children,
   fallback,
   onMissing,
+  notConfigured,
 }: {
   children: React.ReactNode;
   fallback: React.ReactNode;
   onMissing: () => void;
+  notConfigured?: React.ReactNode;
 }) {
   const [data, setData] = useState<AccountData | null>(null);
+  const [user, setUser] = useState<CloudUser | null>(null);
+  const [sync, setSync] = useState<SyncState>("saved");
   const onMissingRef = useRef(onMissing);
   onMissingRef.current = onMissing;
+  const skipSave = useRef(true);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const latest = useRef<AccountData | null>(null);
 
+  // Load: local copy first (instant), then the cloud copy (source of truth).
   useEffect(() => {
-    const id = currentSession();
-    const loaded = id ? loadAccount(id) : null;
-    if (!loaded) onMissingRef.current();
-    else setData(loaded);
+    if (!cloudReady) return;
+    const sb = supabase();
+    let cancelled = false;
+    (async () => {
+      const {
+        data: { user: authUser },
+      } = await sb.auth.getUser();
+      if (cancelled) return;
+      if (!authUser) return onMissingRef.current();
+      const cu = toCloudUser(authUser);
+      setUser(cu);
+      const cached = readCache(authUser.id);
+      if (cached) {
+        skipSave.current = true;
+        setData(cached);
+      }
+
+      const { data: row } = await sb.from("account_data").select("data").eq("user_id", authUser.id).maybeSingle();
+      if (cancelled) return;
+      let d = (row?.data as AccountData | undefined) ?? null;
+      if (!d) {
+        d = freshAccount(authUser.id, { name: cu.firstName || cu.email.split("@")[0], lastName: cu.lastName || undefined, email: cu.email, avatarUrl: cu.avatarUrl });
+        await sb.from("account_data").upsert({ user_id: authUser.id, data: d, updated_at: nowIso() });
+      }
+      // Auth is the source of truth for the email. (A Google/Apple photo is only
+      // used to start the account, so removing it in Profile sticks.)
+      d = { ...d, id: authUser.id, profile: { ...d.profile, email: cu.email } };
+      skipSave.current = true;
+      setData(d);
+    })();
+
+    const { data: sub } = sb.auth.onAuthStateChange((event, session) => {
+      if (event === "SIGNED_OUT") onMissingRef.current();
+      if (event === "USER_UPDATED" && session?.user) {
+        const cu = toCloudUser(session.user);
+        setUser(cu);
+        setData((prev) => (prev ? { ...prev, profile: { ...prev.profile, email: cu.email } } : prev));
+      }
+    });
+    return () => {
+      cancelled = true;
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
+  const flush = useCallback(async () => {
+    const d = latest.current;
+    if (!d || !cloudReady) return;
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = null;
+    const { error } = await supabase().from("account_data").upsert({ user_id: d.id, data: d, updated_at: nowIso() });
+    setSync(error ? "error" : "saved");
+  }, []);
+
+  // Save: local copy right away, cloud copy shortly after (batched).
   useEffect(() => {
-    if (data) write(dataKey(data.id), data);
-  }, [data]);
+    if (!data) return;
+    latest.current = data;
+    writeCache(data);
+    if (skipSave.current) {
+      skipSave.current = false;
+      return;
+    }
+    setSync("saving");
+    if (timer.current) clearTimeout(timer.current);
+    timer.current = setTimeout(flush, 700);
+  }, [data, flush]);
+
+  // Don't lose the last edit when the app is backgrounded or closed.
+  useEffect(() => {
+    const onHide = () => {
+      if (document.visibilityState === "hidden" && timer.current) void flush();
+    };
+    document.addEventListener("visibilitychange", onHide);
+    return () => document.removeEventListener("visibilitychange", onHide);
+  }, [flush]);
 
   const mutate = useCallback((recipe: (draft: AccountData) => void) => {
     setData((prev) => {
@@ -120,7 +196,8 @@ export function AccountProvider({
     });
   }, []);
 
-  const value = useMemo(() => (data ? { data, mutate } : null), [data, mutate]);
+  const value = useMemo(() => (data && user ? { data, mutate, user, setUser, sync } : null), [data, mutate, user, sync]);
+  if (!cloudReady) return <>{notConfigured ?? fallback}</>;
   if (!value) return <>{fallback}</>;
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;
 }
@@ -153,7 +230,7 @@ export function usePerson(id?: string): Person | undefined {
   return id ? data.people.find((p) => p.id === id) : undefined;
 }
 
-/* ── Subscription transitions (demo billing) ────────────────── */
+/* ── Subscription transitions (billing comes later) ─────────── */
 
 export const subscription = {
   pause(d: AccountData, months: number) {
@@ -178,7 +255,7 @@ export const subscription = {
   },
   /** What happens when the paid access window closes after a cancellation. */
   end(d: AccountData) {
-    const fresh = freshAccount(d.id, { name: d.profile.name, email: d.profile.email });
+    const fresh = freshAccount(d.id, { name: d.profile.name, lastName: d.profile.lastName, email: d.profile.email, avatarUrl: d.profile.avatarUrl });
     Object.assign(d, fresh);
     d.subscription.status = "ended";
   },

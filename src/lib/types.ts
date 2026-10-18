@@ -170,8 +170,11 @@ export type Thread = {
 };
 
 export type Profile = {
+  /** First name (used in greetings). */
   name: string;
+  lastName?: string;
   email: string;
+  avatarUrl?: string;
   ageRange?: string;
   situation: string[];
   goals: string[];
@@ -217,4 +220,3 @@ export type AccountData = {
   subscription: Subscription;
 };
 
-export type AccountSummary = { id: string; name: string; email: string; demo?: boolean };

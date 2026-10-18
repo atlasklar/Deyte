@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { forwardRef } from "react";
+import { forwardRef, useState } from "react";
 import { haptic } from "@/lib/haptics";
 import { cn, initials, personHue } from "@/lib/util";
 
@@ -207,5 +207,23 @@ export function Loader9({ className }: { className?: string }) {
         <span key={i} style={{ animationDelay: `${i * 75}ms` }} />
       ))}
     </div>
+  );
+}
+
+/** The signed-in user's photo, or their initial on a warm gradient. */
+export function UserAvatar({ name, src, size = 40, className }: { name: string; src?: string; size?: number; className?: string }) {
+  const [failed, setFailed] = useState<string | null>(null);
+  return (
+    <span
+      className={cn("relative inline-flex shrink-0 items-center justify-center overflow-hidden rounded-full bg-gradient-to-br from-[#ff8a66] to-[#4c68e0] font-semibold text-white", className)}
+      style={{ width: size, height: size, fontSize: size * 0.4 }}
+      aria-hidden
+    >
+      {(name.trim()[0] ?? "?").toUpperCase()}
+      {src && failed !== src && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={src} alt="" onError={() => setFailed(src)} className="absolute inset-0 h-full w-full object-cover" referrerPolicy="no-referrer" draggable={false} />
+      )}
+    </span>
   );
 }

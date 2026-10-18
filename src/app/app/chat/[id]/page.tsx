@@ -128,10 +128,29 @@ function ChatPage() {
      they scroll up, stop following. Content growth (streaming, images,
      expanding cards) is handled by one ResizeObserver, never per frame. */
 
+  // Only a person's finger, wheel or keys can stop the follow — never our own scrolling.
+  const userScroll = useRef(false);
   const toBottom = useCallback((behavior: ScrollBehavior = "auto") => {
     const el = scroller.current;
     if (el) el.scrollTo({ top: el.scrollHeight, behavior });
   }, []);
+
+  useEffect(() => {
+    const el = scroller.current;
+    if (!el) return;
+    const on = () => (userScroll.current = true);
+    const off = () => setTimeout(() => (userScroll.current = false), 120);
+    el.addEventListener("touchstart", on, { passive: true });
+    el.addEventListener("touchend", off, { passive: true });
+    el.addEventListener("wheel", on, { passive: true });
+    el.addEventListener("keydown", on);
+    return () => {
+      el.removeEventListener("touchstart", on);
+      el.removeEventListener("touchend", off);
+      el.removeEventListener("wheel", on);
+      el.removeEventListener("keydown", on);
+    };
+  }, [thread?.id]);
 
   useLayoutEffect(() => {
     toBottom();
@@ -141,7 +160,10 @@ function ChatPage() {
     const el = content.current;
     if (!el) return;
     const ro = new ResizeObserver(() => {
-      if (stick.current) toBottom();
+      if (stick.current) {
+        toBottom();
+        setShowJump(false);
+      }
     });
     ro.observe(el);
     return () => ro.disconnect();
@@ -150,19 +172,28 @@ function ChatPage() {
   const count = thread?.messages.length ?? 0;
   const lastRole = thread?.messages[count - 1]?.role;
   useEffect(() => {
-    // Your own message always brings you to the bottom.
-    if (lastRole === "user") {
-      stick.current = true;
-      toBottom("smooth");
-    }
+    // Every new message — yours or the coach's — follows to the end.
+    stick.current = true;
+    userScroll.current = false;
+    toBottom();
   }, [count, lastRole, toBottom]);
+
+  // A new thinking block also starts the follow again.
+  useEffect(() => {
+    if (thinking) {
+      stick.current = true;
+      toBottom();
+    }
+  }, [thinking, toBottom]);
 
   const onScroll = useCallback(() => {
     const el = scroller.current;
     if (!el) return;
-    const atBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 72;
-    stick.current = atBottom;
-    setShowJump(!atBottom);
+    const atBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+    // Scrolling back to the bottom resumes following; scrolling up (by hand) pauses it.
+    if (atBottom) stick.current = true;
+    else if (userScroll.current) stick.current = false;
+    setShowJump(!atBottom && !stick.current);
   }, []);
 
   /* ── Callbacks (stable, so rows stay memoised) ──────────── */

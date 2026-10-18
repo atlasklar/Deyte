@@ -1,13 +1,14 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { CloudSetup } from "@/components/auth/CloudSetup";
 import { AccountProvider } from "@/lib/store";
 
 /** Account context for pages outside the app shell (onboarding). */
 export function Gate({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   return (
-    <AccountProvider fallback={<div className="min-h-dvh" />} onMissing={() => router.replace("/login")}>
+    <AccountProvider fallback={<div className="min-h-dvh" />} onMissing={() => router.replace("/login")} notConfigured={<CloudSetup />}>
       {children}
     </AccountProvider>
   );

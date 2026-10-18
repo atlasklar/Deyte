@@ -2,7 +2,7 @@
 
 A mobile-first web app where a man shares what's happening in his dating life — a question, a situation, pasted messages or screenshots — and gets a clear read and one recommended next move. Writing a reply is one part of that, not the point.
 
-**This is the interface phase.** The coach replies, screenshot reading, billing and storage are realistic demos. The real AI, its knowledge base and the backend come later; the seams for them are listed below.
+**Accounts are real; the coach is still a demo.** Sign-up and sign-in (email, Google, Apple), profiles, photos and every account's memory, people and chats live in the cloud (Supabase). The coach replies, screenshot reading and billing are realistic demos — the real AI, its knowledge base and payments come later; the seams for them are listed below.
 
 ## See it in one click (Codespaces)
 
@@ -24,24 +24,69 @@ npm run dev        # http://localhost:3000
 
 ## Deploy on Vercel
 
-1. In Vercel: **Add New → Project → Import** this GitHub repo.
-2. Framework preset: Next.js. Leave build settings on their defaults.
-3. Optional environment variable: `NEXT_PUBLIC_PRICE_MONTHLY` (for example `29.99`). It's clamped to 29.99–39.99; without it the price is $34.99.
-4. Deploy. Nothing else is needed — the preview has no database or secrets.
+1. In Vercel: **Add New → Project → Import** this GitHub repo. Framework preset: Next.js, default build settings.
+2. Add the environment variables from [Accounts & cloud](#accounts--cloud) below (Settings → Environment Variables), then redeploy.
+3. Optional: `NEXT_PUBLIC_PRICE_MONTHLY` (for example `29.99`). It's clamped to 29.99–39.99; without it the price is $34.99.
+
+Every push to `main` redeploys automatically. Until the Supabase keys are added, the sign-in pages show a "Sign-in isn't connected yet" notice instead of a form.
+
+## Accounts & cloud
+
+Accounts run on [Supabase](https://supabase.com) (free tier is fine). One-time setup, about 15 minutes:
+
+### 1. Create the project
+
+1. supabase.com → **New project**. Pick a region near your users and save the database password somewhere safe.
+2. **SQL Editor → New query** → paste all of [`supabase/schema.sql`](supabase/schema.sql) → **Run**. This creates the private `account_data` table (row-level security: each person can only read and write their own row) and the `avatars` photo bucket.
+3. **Project Settings → API**: copy the **Project URL**, the **anon public** key and the **service_role** key.
+
+### 2. Environment variables (Vercel → Settings → Environment Variables, all environments)
+
+| Name | Value | Notes |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SUPABASE_URL` | Project URL | Public |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | anon public key | Public — safe in the browser; row-level security protects the data |
+| `SUPABASE_SERVICE_ROLE_KEY` | service_role key | **Secret.** Server only, used for "Delete account". Never prefix it `NEXT_PUBLIC_` |
+
+For local development copy `.env.example` to `.env.local` and fill in the same values. Redeploy after adding them.
+
+### 3. Auth URLs
+
+Supabase → **Authentication → URL Configuration**:
+- **Site URL**: your production address, e.g. `https://deyte.vercel.app` (or your own domain).
+- **Redirect URLs**: add `https://YOUR-DOMAIN/auth/callback` and, for previews/local, `https://*-YOUR-TEAM.vercel.app/auth/callback` and `http://localhost:3000/auth/callback`.
+
+Email sign-up works now. **Authentication → Providers → Email**: keep *Confirm email* on (people get a link before their first sign-in) and *Secure email change* on (an email change is confirmed from both inboxes). For real volume, add your own SMTP under **Authentication → Emails → SMTP** — Supabase's built-in sender is rate-limited and meant for testing.
+
+### 4. Sign in with Google
+
+1. [Google Cloud Console](https://console.cloud.google.com) → create a project → **APIs & Services → OAuth consent screen**: External, app name *Deyte*, your support email, add your domain under authorised domains. Publish it.
+2. **Credentials → Create credentials → OAuth client ID** → *Web application*.
+   - Authorised JavaScript origins: `https://YOUR-DOMAIN`
+   - Authorised redirect URI: `https://YOUR-PROJECT-REF.supabase.co/auth/v1/callback` (shown in Supabase → Providers → Google)
+3. Paste the **Client ID** and **Client secret** into Supabase → **Authentication → Providers → Google** → enable.
+
+### 5. Sign in with Apple
+
+Needs a paid Apple Developer account ($99/year).
+1. [developer.apple.com](https://developer.apple.com/account/resources) → **Identifiers → +** → *App IDs* → enable **Sign in with Apple**.
+2. **Identifiers → +** → *Services IDs* (e.g. `com.deyte.web`) → enable Sign in with Apple → **Configure**: domain `YOUR-PROJECT-REF.supabase.co`, return URL `https://YOUR-PROJECT-REF.supabase.co/auth/v1/callback`.
+3. **Keys → +** → enable Sign in with Apple → download the `.p8` key; note the Key ID and your Team ID.
+4. Supabase → **Authentication → Providers → Apple** → enable, Client ID = the Services ID, and generate the secret from the `.p8` key, Key ID and Team ID (Supabase links its secret generator there). Apple secrets expire after 6 months — set a reminder to renew.
+
+### How it behaves
+
+- Email accounts can change their photo, first and last name, email (confirmed by link) and password in **Account → Profile**.
+- Google and Apple accounts can change their photo and name; their email and password are managed by Google or Apple, so those rows are locked.
+- Each account's data is one private JSON row. A local copy makes the app open instantly; changes save to the cloud within a second and when the app is backgrounded.
+- **Delete account** erases the photo, the data row and the login.
 
 ## Try it
 
-Open the site → **Try the demo** (or `/login`) and pick an account:
-
-| Demo account | Situation |
-| --- | --- |
-| Daniel | Dating: Maya (early dates), Sofia (declined twice), Ava (new match) |
-| James | In a relationship with Elena |
-
-Each account has its own separate memory, stored under its own key in the browser. **Reset demos** on the login page restores the sample data. **Create an account** starts a fresh, empty account with onboarding.
+Sign up with an email (or Google/Apple), go through onboarding, then add someone in **People** and connect them to a chat.
 
 Things worth trying:
-- In the lobby, type *"Sofia declined again, should I try another day?"* — the conversation links to Sofia automatically and the coach recommends stopping (no message suggested).
+- Add someone in **People** (a short quiz), then type *"she declined again, should I try another day?"* with her connected — the coach recommends stopping (no message suggested).
 - Tap **Upload screenshots** with any images → correct the extracted lines and who sent each → add background → **Get the read**.
 - Paste a conversation (`Her: … / Me: …`) into the lobby input → **review who said what**.
 - Type something short and vague → the coach asks one focused question before recommending anything.
@@ -53,14 +98,14 @@ Things worth trying:
 | Route | What it is |
 | --- | --- |
 | `/` | Homepage: scroll-scrubbed rose hero and champagne scene (Higgsfield video), bar-scene "read" overlay, real app screenshots, stages, features, pricing, FAQ |
-| `/signup`, `/login` | Demo accounts live in the browser only |
+| `/signup`, `/login`, `/forgot` | Cloud accounts: email + password, Google, Apple; password reset by email |
 | `/onboarding` | Goals, situation, communication style, emoji use, optional message samples |
 | `/app` | Lobby: animated orb, "What's going on in your dating life?", four shortcuts, recent chats |
 | `/app/chat/[id]` | Coaching chat: questions, screenshots, pasted messages and follow-ups in one thread |
 | `/app/chats` | Saved conversations with search and per-person filter |
 | `/app/people`, `/app/people/[id]` | Private person profiles: stage, confirmed facts, unconfirmed reads (kept separate), timeline, chats, delete |
 | `/app/memory` | Everything the coach remembers about the user: review, edit, delete, delete all |
-| `/app/account`, `/app/account/plan` | Membership, privacy (export, delete), plan states with pause and cancel flows |
+| `/app/account`, `/app/account/profile`, `/app/account/plan` | Membership and preferences; profile photo, name, email and password; plan states with pause and cancel flows |
 
 ## What every analysis contains
 
@@ -72,7 +117,7 @@ Things worth trying:
 | --- | --- | --- |
 | Coach brain | `src/lib/coach/engine.ts` (`CoachEngine` interface) — demo in `src/lib/coach/demo.ts` | An API route that combines the shared knowledge base with this account's private memory and returns the same `CoachReply` shape |
 | Screenshot reading | `CoachEngine.extract` | Vision/OCR model. The review step already lets the user fix text and senders |
-| Persistence | `src/lib/store.tsx` (localStorage, one key per account) | Database + auth. The `useAccount()` / `mutate()` surface can stay |
+| Persistence | `src/lib/store.tsx` (Supabase `account_data` row per user + local cache) | Already cloud. Split into tables later if needed — the `useAccount()` / `mutate()` surface can stay |
 | Billing | `subscription` transitions in `src/lib/store.tsx` | Stripe (or similar) webhooks driving the same four states |
 | Pricing, upload bounds | `src/config/product.ts` | Same file — single source of truth |
 

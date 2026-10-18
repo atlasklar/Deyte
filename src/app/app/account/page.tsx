@@ -1,6 +1,6 @@
 "use client";
 
-import { Brain, CreditCard, Download, HelpCircle, LogOut, Shield, SlidersHorizontal, Trash2, Users } from "lucide-react";
+import { Brain, ChevronRight, CreditCard, Download, HelpCircle, LogOut, Shield, SlidersHorizontal, Trash2, Users } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -9,7 +9,7 @@ import { signOut, useAccount } from "@/lib/store";
 import { formatDate } from "@/lib/util";
 import { Group, IconTile, RowButton, RowLink, ToggleRow } from "@/components/ui/List";
 import { DEFAULT_PREFS, type Prefs } from "@/lib/types";
-import { Badge, Button } from "@/components/ui/primitives";
+import { Badge, Button, UserAvatar } from "@/components/ui/primitives";
 import { Page } from "@/components/ui/PageHeader";
 import { Sheet } from "@/components/ui/Sheet";
 import { useToast } from "@/components/ui/Toast";
@@ -22,7 +22,7 @@ const STATUS = {
 } as const;
 
 export default function AccountPage() {
-  const { data, mutate } = useAccount();
+  const { data, mutate, user } = useAccount();
   const router = useRouter();
   const toast = useToast();
   const s = data.subscription;
@@ -57,17 +57,16 @@ export default function AccountPage() {
       </header>
 
       {/* Profile */}
-      <Link href="/app/account/plan" className="card flex items-center gap-3.5 px-4 py-4 transition-colors active:bg-ink-800 hover:bg-ink-850">
-        <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#ff8a66] to-[#4c68e0] text-[22px] font-semibold text-white">
-          {data.profile.name[0]}
-        </span>
+      <Link href="/app/account/profile" className="card flex items-center gap-3.5 px-4 py-4 transition-colors active:bg-ink-800 hover:bg-ink-850">
+        <UserAvatar name={data.profile.name} src={data.profile.avatarUrl} size={56} />
         <span className="min-w-0 flex-1">
-          <span className="block text-[17px] font-semibold tracking-[-0.02em] text-fg">{data.profile.name}</span>
+          <span className="block truncate text-[17px] font-semibold tracking-[-0.02em] text-fg">{[data.profile.name, data.profile.lastName].filter(Boolean).join(" ")}</span>
           <span className="block truncate text-[13px] text-fg-subtle">{data.profile.email}</span>
           <span className="mt-1 flex items-center gap-1.5 text-[12.5px] text-fg-muted">
             Deyte membership <Badge tone={STATUS[s.status].tone}>{STATUS[s.status].label}</Badge>
           </span>
         </span>
+        <ChevronRight size={16} className="shrink-0 text-fg-faint" />
       </Link>
 
       <div className="mt-6 flex flex-col gap-6 pb-10">
@@ -100,16 +99,16 @@ export default function AccountPage() {
 
         <Group>
           <RowButton
-            onClick={() => {
-              signOut();
-              router.push("/login");
+            onClick={async () => {
+              await signOut();
+              router.replace("/login");
             }}
             icon={<IconTile icon={LogOut} tint="gray" />}
             label="Sign out"
           />
         </Group>
 
-        <p className="text-center text-[11.5px] text-fg-faint">Deyte · preview build</p>
+        <p className="text-center text-[11.5px] text-fg-faint">Deyte · signed in as {user.email}</p>
       </div>
 
       <Sheet

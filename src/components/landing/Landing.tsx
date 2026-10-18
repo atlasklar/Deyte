@@ -187,7 +187,7 @@ function Hero() {
               Start with Deyte <ArrowRight size={16} />
             </Cta>
             <Cta href="/login" variant="ghost">
-              See the demo
+              I have an account
             </Cta>
           </div>
         </motion.div>

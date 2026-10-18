@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { BRAND } from "@/config/product";
+import { CloudSetup } from "@/components/auth/CloudSetup";
 import { haptic, setHapticsEnabled } from "@/lib/haptics";
 import { AccountProvider, useAccount } from "@/lib/store";
 import { cn } from "@/lib/util";
@@ -47,7 +48,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const immersive = pathname.startsWith("/app/chat/") || pathname === "/app/people/new";
 
   return (
-    <AccountProvider fallback={<Loading />} onMissing={() => router.replace("/login")}>
+    <AccountProvider fallback={<Loading />} onMissing={() => router.replace("/login")} notConfigured={<CloudSetup />}>
       <ScrollReset />
       <HapticsSync />
       <div className="relative min-h-dvh md:pl-[232px]">
