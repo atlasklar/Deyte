@@ -16,6 +16,23 @@ import type { AccountData, Person, SubStatus } from "./types";
 import { addMonths, daysFromNow, nowIso } from "./util";
 
 const cacheKey = (id: string) => `deyte:v2:cache:${id}`;
+/** Set while this device has edits the cloud hasn't confirmed yet. */
+const pendingKey = (id: string) => `deyte:v2:pending:${id}`;
+
+function setPending(id: string, on: boolean) {
+  try {
+    if (on) localStorage.setItem(pendingKey(id), "1");
+    else localStorage.removeItem(pendingKey(id));
+  } catch {}
+}
+
+function hasPending(id: string) {
+  try {
+    return localStorage.getItem(pendingKey(id)) === "1";
+  } catch {
+    return false;
+  }
+}
 
 function readCache(id: string): AccountData | null {
   try {
@@ -69,6 +86,7 @@ export async function signOut() {
   if (data.user) {
     try {
       localStorage.removeItem(cacheKey(data.user.id));
+      localStorage.removeItem(pendingKey(data.user.id));
     } catch {}
   }
   await sb.auth.signOut();
@@ -84,6 +102,8 @@ type Ctx = {
   user: CloudUser;
   setUser: (u: CloudUser) => void;
   sync: SyncState;
+  /** Applies a change and saves it to the cloud right away (resolves once saved). */
+  commit: (recipe: (draft: AccountData) => void) => Promise<void>;
 };
 
 const AccountContext = createContext<Ctx | null>(null);
@@ -102,6 +122,8 @@ export function AccountProvider({
   const [data, setData] = useState<AccountData | null>(null);
   const [user, setUser] = useState<CloudUser | null>(null);
   const [sync, setSync] = useState<SyncState>("saved");
+  const [loadError, setLoadError] = useState(false);
+  const [attempt, setAttempt] = useState(0);
   const onMissingRef = useRef(onMissing);
   onMissingRef.current = onMissing;
   const skipSave = useRef(true);
@@ -127,10 +149,21 @@ export function AccountProvider({
         setData(cached);
       }
 
-      const { data: row } = await sb.from("account_data").select("data").eq("user_id", authUser.id).maybeSingle();
+      const { data: row, error } = await sb.from("account_data").select("data").eq("user_id", authUser.id).maybeSingle();
       if (cancelled) return;
+      if (error) {
+        // Never start a blank account because a read failed; keep the local copy if there is one.
+        if (!cached) setLoadError(true);
+        return;
+      }
       let d = (row?.data as AccountData | undefined) ?? null;
-      if (!d) {
+      if (cached && hasPending(authUser.id)) {
+        // This device has edits the cloud never received (closed mid-save, went offline):
+        // they're newer, so they win and get pushed up now.
+        d = cached;
+        const { error: pushError } = await sb.from("account_data").upsert({ user_id: authUser.id, data: d, updated_at: nowIso() });
+        if (!pushError) setPending(authUser.id, false);
+      } else if (!d) {
         d = freshAccount(authUser.id, { name: cu.firstName || cu.email.split("@")[0], lastName: cu.lastName || undefined, email: cu.email, avatarUrl: cu.avatarUrl });
         await sb.from("account_data").upsert({ user_id: authUser.id, data: d, updated_at: nowIso() });
       }
@@ -138,6 +171,7 @@ export function AccountProvider({
       // used to start the account, so removing it in Profile sticks.)
       d = { ...d, id: authUser.id, profile: { ...d.profile, email: cu.email } };
       skipSave.current = true;
+      setLoadError(false);
       setData(d);
     })();
 
@@ -153,7 +187,7 @@ export function AccountProvider({
       cancelled = true;
       sub.subscription.unsubscribe();
     };
-  }, []);
+  }, [attempt]);
 
   const flush = useCallback(async () => {
     const d = latest.current;
@@ -161,6 +195,8 @@ export function AccountProvider({
     if (timer.current) clearTimeout(timer.current);
     timer.current = null;
     const { error } = await supabase().from("account_data").upsert({ user_id: d.id, data: d, updated_at: nowIso() });
+    // Only clear the flag if nothing newer arrived while this save was in flight.
+    if (!error && latest.current === d) setPending(d.id, false);
     setSync(error ? "error" : "saved");
   }, []);
 
@@ -173,10 +209,19 @@ export function AccountProvider({
       skipSave.current = false;
       return;
     }
+    setPending(data.id, true);
     setSync("saving");
     if (timer.current) clearTimeout(timer.current);
     timer.current = setTimeout(flush, 700);
   }, [data, flush]);
+
+  // Leaving this screen (e.g. onboarding → app) must not drop a save that's waiting.
+  useEffect(
+    () => () => {
+      if (timer.current) void flush();
+    },
+    [flush],
+  );
 
   // Don't lose the last edit when the app is backgrounded or closed.
   useEffect(() => {
@@ -196,10 +241,39 @@ export function AccountProvider({
     });
   }, []);
 
-  const value = useMemo(() => (data && user ? { data, mutate, user, setUser, sync } : null), [data, mutate, user, sync]);
+  const commit = useCallback(
+    async (recipe: (draft: AccountData) => void) => {
+      const prev = latest.current;
+      if (!prev) return;
+      const next = structuredClone(prev);
+      recipe(next);
+      latest.current = next;
+      skipSave.current = true;
+      setData(next);
+      writeCache(next);
+      setPending(next.id, true);
+      await flush();
+    },
+    [flush],
+  );
+
+  const value = useMemo(() => (data && user ? { data, mutate, user, setUser, sync, commit } : null), [data, mutate, user, sync, commit]);
   if (!cloudReady) return <>{notConfigured ?? fallback}</>;
+  if (loadError) return <LoadError onRetry={() => (setLoadError(false), setAttempt((n) => n + 1))} />;
   if (!value) return <>{fallback}</>;
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;
+}
+
+function LoadError({ onRetry }: { onRetry: () => void }) {
+  return (
+    <div className="mx-auto flex min-h-dvh max-w-[380px] flex-col items-center justify-center px-6 text-center">
+      <p className="text-[16px] font-semibold text-fg">Couldn&apos;t load your account</p>
+      <p className="mt-2 text-[13.5px] leading-relaxed text-fg-muted">Check your connection. Nothing is lost — your coach is saved in the cloud.</p>
+      <button type="button" onClick={onRetry} className="mt-5 h-10 rounded-[10px] bg-white px-5 text-[14px] font-medium text-black">
+        Try again
+      </button>
+    </div>
+  );
 }
 
 export function useAccount() {

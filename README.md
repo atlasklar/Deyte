@@ -51,6 +51,7 @@ Accounts run on [Supabase](https://supabase.com) (free tier is fine).
 | `NEXT_PUBLIC_SUPABASE_URL` | Project URL | Public |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | anon public key | Public — safe in the browser; row-level security protects the data |
 | `SUPABASE_SERVICE_ROLE_KEY` | service_role key | **Secret.** Server only, used for "Delete account". Never prefix it `NEXT_PUBLIC_` |
+| `ANTHROPIC_API_KEY` | Claude API key (console.anthropic.com → API keys) | **Secret.** Server only. Powers the coach chat, screenshot reading and re-toning |
 
 For local development copy `.env.example` to `.env.local` and fill in the same values. Redeploy after adding them.
 
@@ -96,6 +97,17 @@ Things worth trying:
 - Type something short and vague → the coach asks one focused question before recommending anything.
 - On a suggested reply: **Shorter / Warmer / More playful / More direct**, copy it, and answer *"Sound like you?"* — "Not quite" saves a writing preference to Memory.
 - **Account → Your plan**: pause (memory kept) vs cancel (exact reset date shown, acknowledgment required). Preview controls simulate the access period ending, which resets memory.
+
+## The coach's brain
+
+The coach is Claude (`claude-opus-5-5`), answering only from the expert knowledge in `src/knowledge/`:
+
+- `playbook.md`: principles distilled from @thereallgame's X posts, reel captions and reel transcripts, grouped by topic. Sent with every request (prompt-cached, so it costs little after the first message).
+- `corpus.json`: the original posts, captions and transcripts. For each message the server pulls the 8 most relevant (keyword ranking in `src/lib/coach/retrieve.ts`) and adds them to the request.
+
+The rules (answer only from the expert material, never guess, never say there's no answer, find the closest teaching) live in `src/lib/coach/prompt.ts`. Each request also carries the member's onboarding answers, saved memory and the connected person's profile. To grow the brain, add to these two files and redeploy.
+
+API routes (signed-in members only): `/api/coach` (streams the reply), `/api/coach/extract` (reads screenshots), `/api/coach/retone` (rewrites a suggested message).
 
 ## Pages
 

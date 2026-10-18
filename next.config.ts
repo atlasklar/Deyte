@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: __dirname,
   poweredByHeader: false,
   devIndicators: false,
+  // The coaching playbook ships as plain Markdown, imported as a string.
+  webpack(config) {
+    config.module.rules.push({ test: /\.md$/, type: "asset/source" });
+    return config;
+  },
   async headers() {
     return [
       {

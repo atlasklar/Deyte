@@ -76,7 +76,7 @@ export default function AccountPage() {
         </Group>
 
         <Group title="Your coach">
-          <RowLink href="/onboarding" icon={<IconTile icon={SlidersHorizontal} tint="blue" />} label="Goals & texting style" sub={data.profile.goals.slice(0, 2).join(" · ") || "Not set"} />
+          <RowLink href="/onboarding?edit=1" icon={<IconTile icon={SlidersHorizontal} tint="blue" />} label="Goals & texting style" sub={data.profile.goals.slice(0, 2).join(" · ") || "Not set"} />
           <RowLink href="/app/memory" icon={<IconTile icon={Brain} tint="violet" />} label="Memory" value={`${memoryCount} items`} />
           <RowLink href="/app/people" icon={<IconTile icon={Users} tint="amber" />} label="People" value={data.people.length} />
         </Group>

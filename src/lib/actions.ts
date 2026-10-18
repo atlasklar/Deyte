@@ -88,7 +88,7 @@ export function useCoachActions() {
         t.updatedAt = at;
         const p = d.people.find((x) => x.id === t.personId);
         // "Remember automatically" setting: save the coach's suggestions straight away.
-        if (d.prefs?.autoRemember && reply.kind === "analysis") {
+        if (d.prefs?.autoRemember && (reply.kind === "analysis" || reply.kind === "chat")) {
           for (const m of reply.memory ?? []) {
             if (m.status !== "pending") continue;
             m.status = "saved";
@@ -97,8 +97,9 @@ export function useCoachActions() {
             else d.self.push({ ...item, category: "context" });
           }
         }
-        if (p && reply.kind === "analysis") {
-          p.timeline.push({ id: uid("ev"), at, kind: "review", title: t.title, detail: `Recommendation: ${RECOMMENDATION_LABEL[reply.next.type].toLowerCase()}`, threadId });
+        const next = reply.kind === "analysis" ? reply.next.type : reply.kind === "chat" ? reply.next : undefined;
+        if (p && next) {
+          p.timeline.push({ id: uid("ev"), at, kind: "review", title: t.title, detail: `Recommendation: ${RECOMMENDATION_LABEL[next].toLowerCase()}`, threadId });
           p.updatedAt = at;
         }
       });
@@ -146,7 +147,7 @@ export function useCoachActions() {
       mutate((d) => {
         const t = d.threads.find((x) => x.id === threadId);
         const m = t?.messages.find((x) => x.id === messageId);
-        if (!t || !m || m.role !== "coach" || m.reply.kind !== "analysis") return;
+        if (!t || !m || m.role !== "coach" || (m.reply.kind !== "analysis" && m.reply.kind !== "chat")) return;
         const s = m.reply.memory?.find((x) => x.id === suggestionId);
         if (!s) return;
         s.status = save ? "saved" : "dismissed";
@@ -189,6 +190,7 @@ export function lastCoachReply(thread: Thread) {
 export function previewOf(thread: Thread) {
   const r = lastCoachReply(thread);
   if (r?.kind === "analysis") return RECOMMENDATION_LABEL[r.next.type];
+  if (r?.kind === "chat") return r.next ? RECOMMENDATION_LABEL[r.next] : r.text.replace(/[*_#>`]/g, "").replace(/\s+/g, " ").slice(0, 120) || (r.say ? "Suggested reply" : "");
   if (r?.kind === "draft") return "Suggested reply";
   if (r && "text" in r) return r.text;
   const u = thread.messages.find((m) => m.role === "user");

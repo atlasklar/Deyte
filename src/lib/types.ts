@@ -136,7 +136,18 @@ export type CoachReply =
     }
   | { kind: "clarify"; text: string; options: string[] }
   | { kind: "note"; text: string; options?: string[]; actions?: ("upload" | "paste")[] }
-  | { kind: "draft"; intro: string; text: string };
+  | { kind: "draft"; intro: string; text: string }
+  /** A live answer from the coach: Markdown text plus optional structured extras. */
+  | {
+      kind: "chat";
+      text: string;
+      say?: { text: string; variants?: Partial<Record<Tone, string>> };
+      options?: string[];
+      memory?: MemorySuggestion[];
+      next?: RecommendationType;
+      /** The reply was cut short (stopped by the user or a connection drop). */
+      partial?: boolean;
+    };
 
 export type UserMessage = {
   id: string;
@@ -177,6 +188,12 @@ export type Profile = {
   avatarUrl?: string;
   ageRange?: string;
   situation: string[];
+  /** What he wants out of dating right now. */
+  lookingFor?: string;
+  /** What's been hardest lately (from onboarding). */
+  struggles?: string[];
+  /** How blunt the coach should be. */
+  coachTone?: "blunt" | "balanced" | "gentle";
   goals: string[];
   style: string[];
   emoji: "never" | "sometimes" | "often";

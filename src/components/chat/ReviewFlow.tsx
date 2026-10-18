@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeftRight, Plus, Trash2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import type { Draft } from "@/lib/actions";
-import { coach } from "@/lib/coach/engine";
+import { extractLive } from "@/lib/coach/live";
 import { parsePasted } from "@/lib/coach/parse";
 import { makeThumb } from "@/lib/files";
 import { useAccount } from "@/lib/store";
@@ -12,6 +12,7 @@ import { STAGES, type Attachment, type ChatLine } from "@/lib/types";
 import { cn, sleep, uid } from "@/lib/util";
 import { Button, Chip, Loader9, PersonAvatar, Textarea, Toggle } from "@/components/ui/primitives";
 import { Sheet } from "@/components/ui/Sheet";
+import { useToast } from "@/components/ui/Toast";
 
 export type ReviewInput = { files: File[]; pasted?: string; text?: string; personId?: string };
 
@@ -31,6 +32,7 @@ export function ReviewFlow({
   onComplete: (draft: Draft, personId?: string) => void;
 }) {
   const { data, mutate } = useAccount();
+  const toast = useToast();
   const [step, setStep] = useState<Step>("reading");
   const [lines, setLines] = useState<ChatLine[]>([]);
   const [attachments, setAttachments] = useState<Attachment[]>([]);
@@ -82,7 +84,13 @@ export function ReviewFlow({
         });
         if (token !== run.current) return;
         setPhase("read");
-        [extracted, thumbs] = await Promise.all([coach.extract(input.files, p), thumbsP]);
+        const read = extractLive(input.files)
+          .then((ls) => ls.map((l) => ({ ...l, id: uid("l") })))
+          .catch((err: unknown) => {
+            toast(err instanceof Error && err.message.includes("switched on") ? "Screenshot reading isn't switched on yet. Add the messages below." : "Couldn't read those screenshots. Add the messages below, or try again.", "info");
+            return [] as ChatLine[];
+          });
+        [extracted, thumbs] = await Promise.all([read, thumbsP]);
       } else {
         await sleep(700);
         extracted = parsePasted(input.pasted ?? "");
@@ -116,7 +124,7 @@ export function ReviewFlow({
   const subtitle =
     step === "reading"
       ? fromScreens
-        ? `${input?.files.length} screenshot${input?.files.length === 1 ? "" : "s"} · demo extraction`
+        ? `${input?.files.length} screenshot${input?.files.length === 1 ? "" : "s"} · reading every message`
         : "Sorting out who said what"
       : step === "review"
         ? "Tap a message to fix the text. Tap the name to switch who sent it."

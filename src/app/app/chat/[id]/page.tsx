@@ -7,13 +7,15 @@ import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { memo, Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { lastUnanswered, useCoachActions, type Draft } from "@/lib/actions";
 import { coach } from "@/lib/coach/engine";
+import { buildRequest, CoachError, streamCoach } from "@/lib/coach/live";
+import { parseReply } from "@/lib/coach/protocol";
 import { validateScreenshots } from "@/lib/files";
 import { accessFor, useAccount } from "@/lib/store";
 import { stageLabel, type Message, type Person } from "@/lib/types";
-import { formatDate, sleep } from "@/lib/util";
+import { formatDate } from "@/lib/util";
 import { Composer, type ComposerSubmit } from "@/components/chat/Composer";
 import { PersonChip, PersonSheet } from "@/components/chat/PersonConnect";
-import { CoachReplyView, Thinking, UserBubble } from "@/components/chat/Replies";
+import { CoachReplyView, LiveReply, Thinking, UserBubble } from "@/components/chat/Replies";
 import { ReviewFlow, type ReviewInput } from "@/components/chat/ReviewFlow";
 import { PasteSheet } from "@/components/chat/Sheets";
 import { ButtonLink, IconButton, PersonAvatar } from "@/components/ui/primitives";
@@ -85,6 +87,11 @@ function ChatPage() {
   const [picking, setPicking] = useState(false);
   const [menu, setMenu] = useState(false);
   const [showJump, setShowJump] = useState(false);
+  /** The reply being written right now, as raw text from the coach. */
+  const [live, setLive] = useState<string | null>(null);
+  const [failure, setFailure] = useState<{ message: string; canRetry: boolean } | null>(null);
+  const [retryTick, setRetryTick] = useState(0);
+  const abort = useRef<AbortController | null>(null);
   const scroller = useRef<HTMLDivElement>(null);
   const content = useRef<HTMLDivElement>(null);
   const stick = useRef(true);
@@ -102,26 +109,51 @@ function ChatPage() {
     }
   }, [params, thread, data.people, linkPerson, router]);
 
-  // Ask the coach whenever the latest message is the user's.
+  // Ask the coach whenever the latest message is the user's. The reply streams in live.
   useEffect(() => {
     if (!thread || !pending || inflight.has(pending.id) || stopped.has(pending.id) || !access.canUseAI) return;
-    inflight.add(pending.id);
-    const req = { account: data, thread, message: pending, person };
-    const steps = coach.thinkingSteps(req);
-    setThinking(steps);
-    const minThinking = 2600 + steps.length * 450 + Math.random() * 700;
-    Promise.all([coach.reply(req), sleep(minThinking)])
-      .then(([reply]) => {
-        if (stopped.has(pending.id)) return;
-        setStreamingId(receive(thread.id, reply));
+    const pid = pending.id;
+    const tid = thread.id;
+    inflight.add(pid);
+    setFailure(null);
+    setThinking(coach.thinkingSteps({ account: data, thread, message: pending, person }));
+    const ctrl = new AbortController();
+    abort.current = ctrl;
+    let raw = "";
+    streamCoach(
+      buildRequest(data, thread, person),
+      (text) => {
+        raw = text;
+        setThinking(null);
+        setLive(text);
+      },
+      ctrl.signal,
+    )
+      .then((full) => {
+        receive(tid, parseReply(full));
+      })
+      .catch((err: unknown) => {
+        // Whatever was already written is kept, marked as cut short.
+        if (raw.trim()) receive(tid, parseReply(raw, true));
+        if (ctrl.signal.aborted) {
+          if (!raw.trim()) {
+            stopped.add(pid);
+            force((x) => x + 1);
+          }
+          return;
+        }
+        const message = err instanceof CoachError ? err.message : "Couldn't reach your coach. Check your connection.";
+        setFailure({ message, canRetry: !raw.trim() });
       })
       .finally(() => {
         setThinking(null);
-        inflight.delete(pending.id);
+        setLive(null);
+        inflight.delete(pid);
+        if (abort.current === ctrl) abort.current = null;
       });
-    // Triggered by a new unanswered message only.
+    // Triggered by a new unanswered message (or a retry) only.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pending?.id, isStopped]);
+  }, [pending?.id, isStopped, retryTick]);
 
   /* ── Scrolling ──────────────────────────────────────────────
      Follow new content only while the reader is at the bottom; the moment
@@ -199,7 +231,7 @@ function ChatPage() {
   /* ── Callbacks (stable, so rows stay memoised) ──────────── */
 
   const threadId = thread?.id ?? "";
-  const canSend = access.canUseAI && !thinking && !streamingId;
+  const canSend = access.canUseAI && !thinking && !streamingId && live === null;
   const onStreamDone = useCallback(() => setStreamingId(null), []);
   const onOption = useCallback((text: string) => canSend && send(threadId, { text }), [canSend, send, threadId]);
   const onUpload = useCallback(() => filePick.current?.click(), []);
@@ -219,22 +251,18 @@ function ChatPage() {
     );
   }
 
-  const busy = Boolean(thinking || streamingId);
+  const busy = Boolean(thinking || streamingId || live !== null);
 
   const stop = () => {
-    if (thinking && pending) {
-      stopped.add(pending.id);
-      setThinking(null);
-      force((x) => x + 1);
-    } else if (streamingId) {
-      setStopSignal((x) => x + 1);
-    }
+    if (abort.current) abort.current.abort();
+    else if (streamingId) setStopSignal((x) => x + 1);
   };
 
   const retry = () => {
     if (!pending) return;
     stopped.delete(pending.id);
-    force((x) => x + 1);
+    setFailure(null);
+    setRetryTick((x) => x + 1);
   };
 
   const onSubmit = ({ text, files, reviewPaste }: ComposerSubmit) => {
@@ -286,7 +314,7 @@ function ChatPage() {
                 threadId={thread.id}
                 message={m}
                 person={person}
-                latest={m.id === lastId && !thinking}
+                latest={m.id === lastId && !thinking && live === null}
                 streaming={m.id === streamingId}
                 stopSignal={m.id === streamingId ? stopSignal : 0}
                 onStreamDone={onStreamDone}
@@ -296,7 +324,18 @@ function ChatPage() {
               />
             ))}
             {thinking && <Thinking steps={thinking} />}
-            {pending && !thinking && isStopped && (
+            {live !== null && <LiveReply raw={live} />}
+            {failure && !thinking && live === null && (
+              <div className="flex flex-wrap items-center gap-2 pl-8 text-[12.5px] text-fg-subtle">
+                {failure.message}
+                {failure.canRetry && pending && (
+                  <button type="button" onClick={retry} className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg">
+                    <RotateCcw size={12} /> Try again
+                  </button>
+                )}
+              </div>
+            )}
+            {pending && !thinking && live === null && isStopped && (
               <div className="flex items-center gap-2 pl-8 text-[12.5px] text-fg-subtle">
                 Stopped.
                 <button type="button" onClick={retry} className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg">
