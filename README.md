@@ -32,7 +32,11 @@ Every push to `main` redeploys automatically. Until the Supabase keys are added,
 
 ## Accounts & cloud
 
-Accounts run on [Supabase](https://supabase.com) (free tier is fine). One-time setup, about 15 minutes:
+Accounts run on [Supabase](https://supabase.com) (free tier is fine).
+
+**Automatic:** with `SUPABASE_ACCESS_TOKEN` and `VERCEL_TOKEN` set (plus optional Google/Apple credentials — see the top of the script), `bash scripts/setup-cloud.sh` does steps 1–3 below, saves the keys to Vercel and redeploys. It's safe to re-run, e.g. after adding Google credentials.
+
+**By hand,** about 15 minutes:
 
 ### 1. Create the project
 
