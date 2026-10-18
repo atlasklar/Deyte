@@ -1,8 +1,215 @@
 # Deyte coaching playbook
 
-Distilled from @thereallgame's posts and reel captions. Respectful, honest, confident: no manipulation, no pressure.
+Distilled from @thereallgame's video transcripts, X posts and reel captions. His voice and his teaching about the man's own behavior. Respectful, honest, confident: no manipulation, no contempt.
 
 ## Core beliefs & mindset
+- Money, fame or moving to another country won't fix your dating life. "There is nothing that is going to save you" from having to learn attraction, social dynamics and how to hold your frame.
+- The skills that make you successful at work (logical, rational, linear, direct) don't carry over to dating on their own. It's "an entirely different game", so build a new, more playful and emotional skill set.
+- Your looks, money, status, height or hairline aren't what's holding you back. "Confidence leaks that are broadcasting insecurity before you even open your mouth" are. Don't use your genetics as an excuse to quit.
+- Be genuinely okay with losing her. "You must be okay losing her, looking her dead in the eyes and walking away." Most dating problems "stem from you giving way too much of a fuck."
+- Being willing to walk away is your real leverage. A man who will tolerate anything to keep her doesn't get respected.
+- Carry yourself like the man worth choosing, even before you fully believe it: "act as if." "You can't care. You have to just know you are him."
+- "There is not a world in which being overly confident will ever hurt you." Certainty and confidence are attractive.
+- Approaching a woman isn't bothering her. "You're a man... see a woman and say, yeah, I want that, and go get it. Remind yourself of the lion inside you, brother."
+- Don't put all your hope on one woman. Relying on a single lead makes you fragile, because her interest can change overnight. Keep options open until something is real.
+- Judge interest by what she does, not by what she says she wants. Actions (making time, effort, meeting up) are the real signal.
+- Never settle on attraction. If you date someone you aren't attracted to just because she's a good person, "you will always want somebody else." Find someone who is both.
+- A competent, resourceful, good-looking man is rare. Value what you bring and keep building it.
+- Stay aware of your own behavior. When you like a girl, it's easy to slide into people-pleasing without noticing. "If you don't have conscious awareness over your behavior, you're smoked."
+- The more attached, emotional and pressured you are about a woman, the worse you perform; "the paradox of not caring" is that letting go makes you more attractive.
+- Nervousness usually comes from scarcity and past pain: after a long dry spell, every new match feels like something you can't afford to lose, so you get anxious and in your head. Recognize that and stop putting so much weight on one person.
+- You're nervous because you've put her opinion on a pedestal above your own; stop treating her approval as the thing that decides your worth.
+- Best mindset: "You should not care at all," be nonchalant and unperformative; "You're not auditioning. You have a plentiful amount." Scarcity makes you cling and drives her away.
+- Never feel like you're trying out for her. Flip the script from "I hope she likes me" to "let's see if I like her, let's see what she brings to the table."
+- Operate from abundance: "there's a million women," every time you leave the house is an opportunity, and you don't need a backup because you know you can meet someone new.
+- "The mind is the epicenter of everything": how you feel (rested, healthy, confident) changes your tonality, body language and results.
+- Money, fame and status don't save you; without frame and understanding the dynamic, you can still get "cooked."
+- Looks, physique and money may get you "a foot in the door," but they don't keep a woman; how you make her feel does.
+- "Be yourself" only works if yourself is getting results; who you are with women is mostly conditioning, and you can evolve it.
+- Nice-guy behavior usually comes from wanting approval; the fix is a root-cause change in who you are as a man, not a pickup line.
+- Judge a woman by her behavior, not by what she says she wants; stated preferences often reflect how she wants to be seen, so following them like a checklist doesn't work.
+- Every mistake and fumble with women is a lesson; "everything good or bad with women is always a positive because it teaches you so much."
+- Changing your mindset takes months of unlearning; consume the right content, understand how you were raised, and practice consistently. Things can turn around in weeks once it clicks.
+- Abundance beats scarcity: if you're talking to "one girl a month, one girl a year," you'll care too much, cling, and react emotionally. Keep meeting new people so no single woman carries all your hopes.
+- Over-eagerness "screams scarcity"; "if you had so much abundance, why would you try so hard?" Act like a man with options, because you should have them.
+- Stop putting her on a pedestal. Mentally lower how much value you give one woman's approval; "when you don't care, you win. You just care way too much."
+- Fear of her approval shows instantly: "she can see right through a guy that is afraid of her approval. In a millisecond." Work on not needing it.
+- Your trouble with women was never money or resources (as long as you have a roof over your head). It's skill and understanding, plus years of conditioning that taught you behaviors that don't create attraction.
+- What wins in business (consistent, predictable, transparent) doesn't automatically create attraction; "that spikes no emotion." Money and success alone are a "very fleeting emotional feeling."
+- Money is "a foot in the door, maybe," but not retention, respect, loyalty or admiration. Success doesn't protect you from being cheated on; the dynamic does.
+- Hypergamy isn't "if you're not Brad Pitt you're not desired." It's about the quality of emotion you create, and only your behavior can keep that going long term.
+- Status matters more than money or body.
+- If a woman is nonchalant about you, "that's on you and your energy." Own it and fix your energy instead of blaming her.
+- Know your own value as a high-achieving man; "there's a gazillion pretty women in the world. High achievers, far and few between." Don't rank her looks above everything you've built.
+- Holding your frame takes discipline: "it's a test of your will." Set mental anchors so you don't slide back into your comfortable needy default once dating starts.
+- Your real power is your behavior, not your bank account, jawline or follower count: what you tolerate, how you keep your standards and whether you will walk away.
+- Be willing to walk away at all times, even if you're talking to nobody else right now. Not needing her is what gives you power.
+- Being willing to walk away has to be real inside you first. It then shows in your body language on dates, how you text and the tone of your voice notes.
+- Have an abundance mindset. Don't act like she's your only option; she can tell within about an hour whether a guy has options from how available he is, his tone, his body language and how much he talks about his feelings.
+- Don't make her "the epicenter of your life." "She's thinking about you, you're thinking about the world." Your mission and your own life come first.
+- You show care by being "the rock" while you go and do your own thing, not by obsessing over her.
+- Stop caring so much about whether she replies. Dating should be fun for you, not a source of anxiety ("oh my god, is she responding?").
+- Low effort reads as high value. "The lower energy you put in... the more powerful she believes you to be." Over time she should be putting in at least as much effort as you.
+- Money and success don't fix your dating problems. If anything they make you a target for people who want your resources, so don't lead with them.
+- No amount of money makes up for being boring. "Being boring as a man is like being fat and ugly for a woman to us. It is a deal breaker, even if you're filthy rich."
+- Gifts and experiences give a "fleeting emotion... a band-aid on a broken leg." The feeling you create when you're together is what keeps her interested.
+- Magnetism, charisma and aura come from inner work on your identity, your self-image and your subconscious. "There's no other way."
+- Don't see her as fragile. If you treat her like a delicate flower who can't handle anything, you'll end up doing far more for her than you should.
+- Attraction should come from who you are ("magic, aura, game"), not from raising your investment. More trips, dinners, money or time early on reads as trying to get her to like you.
+- People are driven by emotion and want to feel something. A purely logical, flat interaction won't build attraction, so bring energy, playfulness and some tension.
+- Money and status don't make up for weak social skills, low energy and no game. "You used to be able to do that... In 2026 and beyond, it's no longer the case."
+- Being successful but too agreeable, with no backbone or "leverage," still comes across as low value. Success on paper is not the same as a strong presence.
+- Be willing to walk away. Boldness tells her you can protect, provide and decide, and its opposite is being timid. There is no safe "sweet spot" between bold and passive.
+- Don't take anything she does personally, whether she likes you, rejects you or blocks you: "It's just data." Don't tie her reactions to your self-worth.
+- Real ease in conversation comes from not fearing or caring about the outcome. That is what lets you take nothing personally and not get emotional.
+- When she gets moody or picks a fight, respond with "Acceptance, not anger." Don't make it personal.
+- Build real value, meaning experience, a social life and options, so you're never dependent on one woman. Scarcity shows up in how you behave.
+- "You got to be a risk taker. You got to enter the danger zone." Playing it safe kills attraction.
+- Confidence problems with women come from two places: insecurity about yourself, and thinking too highly of her. Fix both: "You have value, you work hard, you do the things you should be doing. Be confident in yourself."
+- Take her off the pedestal. She's a human being, often more nervous and insecure than you are. The more you treat her like she's above you, the worse you act.
+- Don't let her looks blind you. If you're so impressed by her looks that you get nervous and can't hold a conversation, you're reacting to the outside and not the person.
+- Instagram is a highlight reel, "it is marketing, it is not reality." A polished profile doesn't mean she's more confident or has more real options than you think. Don't be intimidated by it.
+- On a date she's probably more nervous than you. "You can't be more afraid than the coyote." Be the rock, relax, and don't be nervous about her approval.
+- Always be okay, deep down, with walking away. "If you're not comfortable walking away from the table, how are you going to win the deal?" Clinging ("I can never lose you") pushes her away.
+- Nothing lasts forever. "Things happen in seasons and in cycles." Knowing that keeps you from clinging to one woman.
+- Aura is detachment from the outcome and from her approval. Be authentic, carefree and bold, and accept that some people will like you and some won't.
+- Step into "the danger zone": be bold, say what you think, be fine with walking away. Being timid and afraid of her approval is what holds most guys back.
+- You define success in dating. It means having the dating life *you* want (one loyal partner and kids, or staying single and dating around), not what society says you should want. Struggling means feeling powerless and like a victim.
+- Dating is a skill you learn, just like the skills behind running a business. Successful men often skip learning it and expect money and logic to fix everything.
+- What works in business (being on time, transparent, predictable, purely rational) doesn't carry over directly to attraction. Dating needs a different way of thinking that runs more on emotion and fun.
+- Abundance kills neediness. If you only talk to one woman a month, that date feels like "your one day" and you get nervous and try to perform. Keep meeting new people whatever you want long term (marriage, family or casual).
+- "Nobody bats 100%." You won't meet your wife on the first approach, so lean toward more abundance than you think you need.
+- Business success doesn't carry over to dating by itself; the logical, cause-and-effect "CEO mode" that built your career makes you flat with women. Attraction runs on how you make her feel, so learn the emotional side instead of reasoning your way through it. "Women are not business."
+- More money doesn't fix a behavior problem; find the real bottleneck. "Instead of taking a girl to Chipotle, you took her to Nobu, and she still friend-zoned you... Nothing changed."
+- She judges you on the feeling you create in the moment (over text, on the date), not on your resume. Looks, money and status get forgotten if your behavior comes across needy, overly nice or boring.
+- Once basic security is covered (you pay, she's safe and taken care of), what decides it is emotion: your frame, game and aura.
+- Close the "perception gap": if your online presence, texting and behavior don't match your real value, women will see the weak version of you. Make your positioning, imagery and behavior line up with who you actually are.
+- Being boring is a deal-breaker no matter what else you bring. To her it works like the physical-attraction minimum you have for women.
+- Confidence and presence come across as the ability to provide; she trusts a man who will "figure shit out" more than she trusts a number.
+- Frame, game and aura are your number one asset. The feeling they create can't be swapped for another guy with similar looks or money, and that's what makes her remember you.
+- Fix your inner game first. Copy-paste openers won't work if you secretly expect to be rejected or see yourself as a loser; she can feel scarcity and low self-esteem.
+- Most men are stuck in a "psychological prison" of people-pleasing conditioning that tells them anything other than being a pleaser makes them a bad person. Recondition it a little every day.
+- Stop auditioning for women. "Leaders don't audition for followers." Lead with or without her and don't put in more effort than she does.
+- Act from strength, not "please like me, please accept me". Doing things in the hope that she'll like you for it backfires.
+- Build validation that comes from inside, so rejection doesn't shake you: "I'd be drenched in water... be like, don't care... walk it off, go to the next one."
+- Whatever you look like, carry yourself as if you're handsome; that confident energy is what she picks up.
+- Being indifferent to the outcome attracts. When he stopped caring whether a lukewarm match stayed or left, she got much more interested. Don't over-invest early.
+- Never hand a woman the emotional power over you: no public groveling or simping, however much value you have.
+- Success on paper (career, money, punctuality, transparency, efficiency) doesn't create attraction by itself; attraction runs on how you make her feel in the moment, so dating is a separate skill set you have to learn, "like learning marketing."
+- Money doesn't stand out the way it used to: social media shows her wealth all day, so "they've become numb to it." Leaning on spending as a crutch tends to attract women who want the money, not you.
+- She'll value you for the feeling she gets around you more than for your car, watch or bank account; "there's nothing worse than being boring."
+- Your inner state matters more than external upgrades. Looks work and status can "get your foot in the door," but presence and energy are what keep her.
+- "When you don't care, you win": detachment from the outcome is the core. You can be interested without being attached to how it turns out.
+- Being stiff and over-logical with women usually comes from fear of her approval. Once you stop worrying "what's she going to think?", you're free to be playful.
+- Outcome independence comes from inner work, not a special line. It's how he approaches women taller than him with no hesitation.
+- More effort and emotional attachment usually means worse results; men who do well put in "80% less of the effort most guys are doing."
+- Chasing her drives her away; "if you want women to pursue you, they will never do it if you are pursuing them."
+- Every interaction gets judged right then: a dull text thread or a boring date is what she remembers, no matter what you bring to the table.
+- There's no shortcut: you can't hand the skill off to anyone else, you have to learn it yourself.
+- Be genuinely okay with losing her. Until you can look her in the eyes and walk away, you'll chase, overthink and put up with disrespect. "All problems stem from you giving way too much of a fuck."
+- Be outcome independent. Keep dating and taking action, but don't tie your mood to whether a date goes well or a text gets answered. You'll be bolder, take more risks, and come across as more attractive. "You're unstoppable."
+- Money and looks won't fix your dating life. Online, women see wealth everywhere, so your behavior, energy and how you communicate are what set you apart. "You will never accomplish that with a Lamborghini."
+- Success makes a man feel like a provider through how he acts and leads, not through his car, house or a big spend. Material things "don't go deep enough."
+- Height and other physical traits matter less than people think (he's 5'9"). A guy who leads and can say no feels safer to her than a taller guy who agrees to everything.
+- Your inner presence counts for more than outside status. A calm "I don't need you to like me" energy beats a nice car or watch. Status items "can get your foot in the door," and that's all.
+- Stop putting women on a pedestal. Being beautiful doesn't make her worth more than you. Treating her that way makes you anxious, nervous and unsure of yourself. Remember she's a regular person with her own insecurities.
+- Assume you're worth her time, the way you assume your friends like you. You don't keep telling a buddy "you look great today." Constant validation tells her you're unsure whether you measure up.
+- Aim for respect, not for being liked. Being liked means agreeable and having lots in common. Respect comes from standards, saying no and leading.
+- "Happy wife, happy life" is appeasement. Keeping the peace in the moment by giving in builds resentment "on a long enough time horizon." "Have her respect you and she'll love you forever."
+- Be the leader. If you follow her lead on everything to keep her happy, there's no leader left: "There's one leader. There cannot be two."
+- Showing you care as a man means being "the rock" while you go and do your own thing. It doesn't mean taking on an anxious, doting role.
+- Don't believe the movie version of courtship. Moving cities, extravagant gestures and endless effort to win someone over usually come across as lower status, not as devotion.
+- Be interesting, not like a dry documentary. Energy, playfulness and some drama make you compelling. A flat stream of information doesn't.
+- Have two modes: a firm one that holds a line when you're disrespected, and a "fun, playful, carefree" one. You need both.
+- Dating is up and down. If you feel anxious or frustrated waiting on texts, you're mentally fragile, and that makes you quit. Get mentally "ironclad," stay detached, and keep playing.
+- Don't carry hate or resentment toward women; it's "unnecessary mental friction" that stops you from improving your skills and behavior. If something confuses you, look for the solution instead of turning it into anger.
+- Most dating problems are in your hands: if you keep getting poor treatment, look at what you're tolerating and what you're doing, not "feminism, hypergamy, modern dating."
+- Attraction is energy: "It's 10% the things you say and 90% how you say them." Weak, timid energy can't create desire, however good the words are.
+- Non-attachment to outcome is attractive: "You like your life and yourself with or without her." Be fine in the worst case (she leaves, she isn't interested) because you're "fulfilled... content... certain in my own life."
+- Get free of approval-seeking. Around family you never worry how you're coming across, and you should feel that same freedom around a beautiful woman. You hide yourself because you're "petrified of the outcome."
+- You get emotional about women because you've told yourself it's a big deal ("if she doesn't like me... I'm worthless"). Drop that story and you can laugh off "I don't like you at all." "Imagine that liberation."
+- See value accurately. Don't put a young, attractive woman above yourself just for her looks, because a distorted view of her worth and yours throws off your emotions, your words and the risks you take.
+- Abundance is the dating version of "f-you money." When you're not stressed about finding another girl you can hold standards and walk away from bad behavior.
+- Trust your gut: if you think she's lying or being sketchy, she probably is. Don't ignore red flags because you're lonely, have no other options or are "thinking with" your libido.
+- There are no magic lines. Copying "James Bond" lines and ploys is "seeking the wrong solution"; lasting desire comes from your behavior.
+- Act from certainty: be very clear about who you are, what you want and what you like and don't like. Certainty draws people to you.
+- Confidence is the foundation of everything; how you carry yourself matters far more than your physique. "You and your ability to be confident and sure of yourself as a man is everything."
+- Your value and validation cannot come from a woman; build it in yourself first, and the right dynamic follows. "Learning to love yourself. You expect her to do it for you." Doing it the other way round is "the wrong sequence."
+- Live from abundance: know there are always more women out there ("You will never, ever run out"), so no single reschedule, flake or slow reply can shake you. Once you stop caring that much, you stop chasing, and that is what makes you attractive.
+- Build a full pipeline (his word: a "factory") of options and social life, so that one woman never has "too much mental and emotional and psychological control over you."
+- Height, looks and money don't decide your results. He is 5'10" and says "90%" is how you behave: how you text, how you show up on dates. Status "gets your foot in the door" but is not the end-all.
+- Money and looks won't save you without skill: "I don't care how much money you have... you will fuck up every situation if you don't know game." Learn the skill set.
+- Judge a woman by her behavior, not her words, and watch that behavior over a long enough stretch of time.
+- How people treat you says nothing about you: "How people treat you has zero to do with you." So detach from other people's opinions, including your parents'; "You have your own life to live."
+- Rejection only means what you let it mean: "I don't even believe rejection's even real... everything's always working for me."
+- Having feelings is normal ("We're human beings. We feel things"). You will love people, but keep discipline over your behavior and "don't lose sight of who you need to be."
+- Be yourself, but the best version of yourself, without performing: "being like you, but also the best version of you that is not performative is the sweet spot."
+- Learn from other men's mistakes so you can skip the heartache. Most situations aren't as unique as guys think.
+- Every bad interaction is data: "It's all data. Learn from it. You'll just get better and better."
+- Real relationships teach you more than years of casual dating. A serious relationship, even a young one that won't last, "is gonna teach you a shit ton."
+- Using your skill with women to deceive is off the table: "you can't just be... taking souls out here, manipulating, deceiving, I'm not a fan of that." Use this influence responsibly.
+- Abundance comes from volume, and volume comes from skill: "build your factory" so that no single woman's dry reply or flake matters to you.
+- If you lack dating success, it's always a skill-set gap: a lack of skill causes the lack of volume, which causes the lack of results. Raise the skill and the volume follows right away.
+- How rare or special a woman seems to you depends on your abundance, and your abundance depends on your skill: "They're only one in a million to you." Get better and she's suddenly "one in a hundred."
+- Your logic, not your emotions, should drive your behavior. Have the discipline not to over-communicate or get predictable even when you really like her: "I may love cake. I don't eat cake every day."
+- The discipline that keeps you in the gym and stops you overeating is the same discipline that stops you "throwing your guts on the table" with women.
+- Power with women doesn't come from money, looks or success. It comes from leverage: your perceived value plus behavior that shows you're hard to replace and willing to walk away.
+- Know your own status and value and act like it. If you don't act like you have the power you actually have, no woman will believe you have it.
+- You can't throw money at the problem; "throw money at the solution", which is understanding female psychology. Paying your way into attention means you "get rinsed" because the root cause is still there.
+- It's never too late to change, no matter how people knew you: "Everything's a choice."
+- Understanding something means you don't hate it; "hating is a waste of energy." Seeing women's behavior clearly should make you calmer, not bitter.
+- Once you really understand dating dynamics, you stop taking things personally, stop getting pulled into pointless arguments, and aren't fazed by much. That makes relationships easier.
+- Don't listen to doomer or pessimistic people who say dating is broken, even if they're family: "miserable people are always negative."
+- "Delusion is subjective": adopt an abundant mindset and stop worrying about the opinions of strangers who don't know you.
+- Be afraid of nothing: talking to women in public carries basically no real downside.
+- To get good at anything, including women, you have to be willing to go through the trials and the effort.
+- Looks get you in the door, but "the second you open your mouth, it's all about your game." Money is the least important factor in modern dating.
+- His approach is psychology, human behavior, energy and inner work, not memorized pickup lines.
+- Whatever method gets you the outcome you want is fine, whether that's apps, the street or the dance floor. The same psychology applies.
+- Women are valuable as lessons: painful experiences force you to grow in ways comfort never would.
+- "It starts and ends with you." Everything in your dating life reflects you; as long as you blame the market, the city, the apps or other people, you lose. You're in the driver's seat and you can change it.
+- To get new results with women you need new behaviors and new inputs. More money and other external upgrades won't move the needle on their own.
+- Don't fight reality: "just accept it, learn, understand it, and apply."
+- You don't have to kill the nice guy in you, but don't let him run the show with women. Develop other sides of yourself (playful, bold, firm).
+- Being a people-pleaser is conditioning from parents and society. Do the inner work: find the specific moments that shaped you, let them go, then reprogram yourself with repeated daily actions until your identity changes. It takes time and repetition.
+- Approach anxiety isn't a lack of information. You already know rejection is no big deal. In the high-pressure moment your subconscious conditioning takes over, so the fix is reconditioning your identity and self-image, not more content.
+- If you only fumble the women you really want, the problem is inside: deep down you believe she's worth more than you. More lines and scripts won't fix that. Rebuild how you see yourself so you stop "giving a fuck" about losing her.
+- Social media trains you to treat likes and followers as worth. That can leave you at 30 or 40 feeling worthless next to attractive women. See that distortion for what it is.
+- Inner magnetism (certainty, presence, energy, charisma) beats pickup lines and copy-paste texts every time. He says the words are "5, maybe 10%" of how she feels about you. "Master energy, master seduction."
+- Primal desire comes from her seeing "absolute certainty in who you are." Copying texts and approaches you saw online without being authentic won't get you there.
+- The things you're afraid to do (being bold, saying no, being unconventional) are usually what works. "Everything you're afraid to do... take the risk."
+- Women judge value by how you make them feel, not by your job or résumé. Successful men often end up "dating down" because their texting, photos and in-person behavior come across as logical and flat.
+- Ambitious men still need women. Intimacy and affection are a major pillar of a man's life, and they feed your confidence and even your business.
+- If you're older and only attracting older women, it's your game, not the market. He has clients in their 40s and 50s dating women in their 20s in big US cities. "These are learnable skills."
+- Moving abroad (e.g. Colombia) to fix your dating life is "a band-aid on a broken leg." You'll attract women who want you for being American or for your money. Fix the root cause and get better wherever you live.
+- Behave like a man with options and abundance in every area of life.
+- At the highest skill level you put in 70–80% less effort and get better results.
+- The more options you have, the less bad behavior you have to tolerate. With scarcity you put up with things you shouldn't.
+- Go into dating with a clear desired outcome (casual, girlfriend, remarriage, etc.) instead of winging it: "If you're aiming at nothing, how are you gonna hit anything?"
+- Your inner game (mindset, beliefs, attitudes, emotions) is the foundation; it drives your behavior, tonality and body language, so no technique sticks if deep down you think "she probably won't like me." Women "feel your energy from the inside out."
+- Kill limiting beliefs like "women don't like me because of my looks/money," "I'm just awkward," "women are evil and terrible"; replace them with "I'm the prize," "I'm in abundance," "I don't care if I get rejected, there will be more women," "I am completely unattached to the outcome."
+- Looks, money and status are usually not the real bottleneck; guys improve dramatically by changing behavior and mindset alone.
+- Unlearn the idea that being maximally polite and pleasing ("the golden rule," "perfect gentleman") automatically creates attraction; niceness by itself doesn't create desire.
+- Drop the guilt and fear of "looking like a bad guy" that keeps you timid; let yourself be bold, a little cheeky and willing to take risks, done with nuance.
+- Be genuinely indifferent to the outcome; heavy emotional investment in whether she stays or goes reads as scarcity.
+- Don't be scared to tell her what you want to do; being direct and leading is attractive, not offensive.
+- Expect dating to be a bumpy road; you need an "ironclad" mind to handle rejection and keep going.
+- "Act as if": start moving, speaking and carrying yourself like the confident man you're becoming.
+- Inner game comes first. Lines, openers and scripts can't save a man who believes women don't like him. "It's an energy game and there's no shortcut."
+- About 90% of how she takes your words comes from how you say them: tonality, eye contact, posture, hand movements, how comfortable you are. A script doesn't fix any of that, which is why copied lines fall flat.
+- Women pick up on your energy, even over text. Anxiety, fear, scarcity, fear of walking away, fear of being bold all show through, even if the words are "right". The fix is inner work below the surface.
+- Self-talk creates your reality. If you keep telling yourself "women hate me, am I ugly, am I annoying," you program yourself to stay stuck. Notice how you talk to yourself and change it on purpose, all the time.
+- Stop living in the past and pushing it onto the future ("she'll probably ghost me like the girl five years ago"). Expect new outcomes.
+- Overthinking is fear dressed up as intelligence. Cut it out instead of preparing for every worst case.
+- Scarcity ("it's so hard to find women, I have to hold on to this one") makes you soft, timid and clingy. Abundance is the cure.
+- Unresolved childhood trauma leaks out as clinging, love-bombing, not putting your foot down and folding on tests. Resolving it is necessary work for a man, not a weakness.
+- Confidence can't be tied to outside validation. Be so detached from the outcome that a ghosting or a bad approach doesn't shake you. "I'd still stand there like I'm a king."
+- Assume women like you. "They all love me... You can't prove me otherwise." If one isn't into you, it's her loss and you move on.
+- "Women are mirrors to energy. The energy you bring is exactly what you get back."
+- Don't use women or a relationship to fill a void of unhappiness in your life. Your purpose, self-worth and happiness have to come from building your own life, or women won't feel safe in your energy.
+- Play to win, not "play not to lose". Playing not to lose is scarcity. Playing to win means a rock-hard inner certainty that whether she stays or leaves, your life is good.
+- Optimize for respect, not for being liked or keeping the peace. Avoiding conflict to "limit your exposure to pain" actually guarantees the pain.
+- The confident version of you is already in you. "You become you." You uncover him by peeling off conditioning, not by becoming a character.
 - Operate from "abundance": when you have a full life and real options, you stop clinging to any one woman and can date on your own terms — "fuck you money with women."
 - Outcome independence is the foundation: "If you're asking if she'll come back, you've already lost" — needing a specific result puts you in a fear state and you play "not to lose."
 - Be comfortable with worst-case scenarios (her leaving, saying no, never texting back); a man who is at peace with the downside is calmer and more attractive.
@@ -10,7 +217,6 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Seduction "lines" come from insecurity — a man certain he's desirable doesn't try to convince anyone. Drop the James Bond script mindset.
 - Desire is built from your inner state plus congruent behavior, not from one clever line; your words must feel organic to who you actually are.
 - Fix the foundation before stacking tactics — pickup lines, stimulants, hacks layered over unresolved trauma/insecurity won't hold.
-- People-pleasing often traces back to upbringing (e.g., a critical home where speaking up was punished); recognizing that origin is part of inner work.
 - Accept that attraction is emotional, not logical — "release the need for it to make sense"; fighting that reality only creates internal friction.
 - There are no shortcuts: a great dating life takes weeks and months of consistent application across many skills.
 - Don't lose faith — loyal, committed partners exist; notice and value a woman whose attention stays on her own partner.
@@ -96,6 +302,263 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Much of the media's message about masculine and feminine energy is wrong. The "Disney movie" version of dating is backwards from what the coach saw over 400+ dates.
 
 ## Attraction & frame
+- Attraction comes from emotion, not logic. If you talk "so boring, so logical, so linear," you won't spark anything. Bring intrigue, playfulness and some unpredictability.
+- "It's the feeling that you give them that no one else gives." Most guys hand out validation and attention, so be different from the herd.
+- Don't lead with looks compliments. She hears them constantly, and "validation is cheap." Opening by putting her on a pedestal makes you look like a fan.
+- Don't act overly impressed by her. The less you perform approval, the more she wants to impress you too.
+- Show interest through action, not declarations. Instead of "I like you" or "you're beautiful," say "let's hang out, let's make plans."
+- Your attention is valuable only if it isn't in endless supply. Give less of it, but make what you give emotionally charged.
+- Keep some mystery. Don't over-explain your life or your feelings. Let her imagination have room. "The more you tell them, the less their mind can run."
+- Abundance shows. When she can tell you're confident in your ability to meet other women and aren't in a shortage, her attraction goes up.
+- Be bold. Have opinions and say them even if she might disagree. Fear of offending reads as weak, and courage signals you can lead.
+- Don't be a yes man. Being agreeable to win approval kills attraction, and it's fine to say no.
+- Your effort should feel natural and nonchalant, never like a performance. Visible over-effort reads as lower value.
+- Combine two things: be certain and decisive ("a certain guy, you get shit done"), and also autonomous, never acting like you need her. "That duality is what women will always stay with."
+- Your energy should be warm, playful, relaxed, calm and confident. That's what she feeds off.
+- Open, relaxed body language: sit spread out, arms open, eye contact. Ask questions, let her talk and stay nonchalant. "This body language, this aura, this energy, is what women are drawn to."
+- Be charismatic and friendly with everyone around you on a date, including staff. Social ease is attractive.
+- Don't seek reassurance or validation from her (e.g., asking her how the intimacy was).
+- Don't drop your frame once things get good. Being the "sweet, lovey-dovey" one who mirrors her every move early on hands away your frame.
+- Neediness cancels everything else: you can check every box, but if you're needy and desperate she can't feel attracted.
+- Don't out-invest her early: "You have to like her less than she likes you." If after a few dates you're pouring in effort and validation, she'll pull back.
+- Show you're good with or without her: you have a life, purpose, work and options, and she's "a bonus," not the center of it.
+- Don't put her on a pedestal or make her your top priority early; powerful men are focused on their mission, "conquering the world," not chasing.
+- Be willing to walk away. Having standards and options is what gives you leverage.
+- Don't show your whole hand early; leave some mystery and let her wonder a bit instead of announcing how much you like her.
+- Don't be overly eager or excited to see her; too easy and transparent means no tension or challenge.
+- "More is less. Less is more." Like a cat, she comes closer when you stop forcing it.
+- Effort and performance read as auditioning; calm, poised and confident reads as strength.
+- "The worst thing you could ever be with women is boring." Predictable, flat attention loses value; stimulate emotion with humor, playfulness and intrigue.
+- Use polarity: "wear different hats" (the comedian, the guy with firm standards) so you're not one-note. Even being edgy the whole time gets boring.
+- Be bold and speak your mind; don't bite your tongue for fear of offending her.
+- Funny plus firm is the best combination: make her laugh and keep clear standards.
+- Social proof matters: let her see that other people are comfortable around you and like you.
+- "Frame is lost slowly," through small compromises; once it's gone it's very hard to get back.
+- Nonverbal is the bigger share: confident tonality, open body language and strong eye contact count more than your exact words.
+- When you meet someone who seems perfect, don't get swept up and mirror her intensity; "you can never lose your frame."
+- The more attractive she is, the less special treatment she needs. Very attractive women are used to men fawning over them, and if you act the same way she'll "clump you into her fan base." Be casual.
+- Women chase men who give them a reason to. If you hand over all the attention, validation and certainty without her putting in any effort, there's nothing left for her to chase.
+- Being unbothered stands out because she's surrounded by men "blowing up her phone." Calm, grounded energy is rare and attractive.
+- Don't open with compliments, high energy and a performance. It tells her from the first second that you see her as above you.
+- Mix boldness with humor. Nice, linear, boring behavior creates "no emotional stimulation," and "when a woman is bored, desire is at zero."
+- Say the same topic with confidence instead of caution. Swap "isn't this weather so crazy?" for "what the f*** is going on with the rain?" The small shift reads as "I'm the shit" instead of "I'm afraid of having a conversation."
+- Don't over-perform comedy. Being "too comedian-like... dancing monkey" looks like you're working for her approval.
+- Tease with taste. It has to make sense, build on rapport and fit the conversation, never be random or cruel ("You are super ugly, give me your number" won't work).
+- Let her feel you're choosing her too. When she senses you're vetting her rather than just handing her your approval, she invests more.
+- Don't gush about her looks or take the bait when she fishes for compliments. Over-the-top praise kills attraction.
+- Keep some mystery. Don't explain your whole life up front; "the more you tell her, the less she likes you," so let her find out about you over time.
+- Energy beats looks: "Energy is king." Body language, tonality, eye contact and hand motions matter more than the words. "The words are simple."
+- Looks are "maybe 10 to 20%," "a foot in the door and nothing more." After the first spark it's all about how you make her feel and what the conversation is like.
+- Being nice is fine if it's "gentleman nice," not "really soft and sweet and dumb nice" or "performative nice."
+- Tension comes from not being eager, desperate or fully transparent. If she can predict your every move, she feels nothing.
+- Be anything but "boring and nice." Have a unique, unpredictable personality and bring real emotional highs and lows to the interaction.
+- Don't let politeness and formality stop you from creating any emotion. Being "so programmed to be so polite" makes you forgettable.
+- Be self-assured and certain, "erring on the side of arrogant and cocky," rather than the soft-spoken "just little old me" type. Don't undersell yourself.
+- Don't be overly diplomatic, timid or walk on eggshells. That hides your masculine edge; be bold.
+- Keep the frame where she is also putting in effort to impress you, not only you performing for her.
+- The more attractive she is, the less impressed you should act. She's used to guys drooling over her, so not doing that is what sets you apart.
+- Don't flood her with attention. She already gets plenty; yours becomes valuable when it's scarce and real.
+- Don't get giddy or visibly excited just because she's giving you attention.
+- Keep some mystery. Let her wonder about you and don't explain everything. Mystery and imagination are what keep her thinking about you.
+- Have a purpose and be "serious" about your life. Don't be the guy who's just cheerful and coasting with nothing going on.
+- "Asshole funny" works better than stand-up comedy or pickup lines: cheeky, slightly edgy humor she finds amusing. It depends on the girl.
+- Bold, cheeky teasing delivered "in a way that is nice and playful" hits several emotions at once and is very stimulating.
+- Flirting isn't "you're so beautiful, you're so cute." It comes from playful teasing with "a hint of humor," not direct compliments.
+- Tease from what she tells you. Ask good, relevant questions, listen, and use her answers "as ammunition to tease." Random insults with no context don't land.
+- "How you deliver the tease is a thousand times more important than the words you actually say."
+- Women judge your competence and leadership by how you make them feel: how you text, what you ask on dates and how you tease.
+- Don't put her on a pedestal or act starstruck by her looks. Being openly infatuated or impressed doesn't help you.
+- Don't make her the center of your world or promise "I'll do anything for you" early. Respect goes to a man who would be fine without her.
+- Lead with confidence. She wants structure and direction from you, delivered in a fun way, not a heavy one. "It's a balance."
+- Social proof matters. A man with a full social life who others value is more attractive than one who seems to have nobody else around.
+- Keep some mystery. Don't lay out all your feelings and intentions right away, and let her enjoy finding out who you are.
+- Don't let her boss you around or dictate your behavior. Hold your boundaries calmly, and she tends to respect you more for it.
+- A "nice, perfect gentleman" with no edge is forgettable. Being polite isn't the problem; having no boldness or spark is.
+- Wear several "hats" at once. The caring hat: listen and make her feel comfortable. The standards hat: "you don't tolerate bullshit, you expect the best." The comedian hat: make her laugh. Mastering all three together is what people love.
+- Give her two things: a sense of security and safety with you, and emotional excitement. Security alone gets boring; you need both.
+- Being "liked" is just comfort. Comfort alone gets you a couple of dates and some attention, not real desire. Add attraction and some tension.
+- Be "the smart guy who talks like a dumbass." She may admire your intelligence, but on a date she wants to feel light and giddy, not hear "a Harvard-level lecture."
+- Your energy matters more than your face. Show up "confident, assertive, and certain." The same guy in a bad mood gets ignored.
+- Looks mostly help by making you more confident ("a placebo effect"). They open doors, but "as soon as you open your mouth, it's about your energy, your conversation, the vibe you give."
+- Have your own life and mission so she's part of a good life, not the center of it. Send the message "I'm good with or without you."
+- Don't make her the center of your thoughts. Be the guy conquering his own goals, not the one thinking about her all day.
+- Don't out-invest her. If you're more enthusiastic than she is at any point in the conversation, you look like you're chasing. Let her match or exceed your energy.
+- Trying too hard early (extra effort, grand gestures, overeager courting) tells her you think she's out of your league, and that kills attraction.
+- Keep some mystery early. If you spell out exactly how much you like her before she's invested, the tension and excitement disappear.
+- Be decisive. Indecision makes her anxious and makes you look less competent and less able to take care of things.
+- Have opinions and stand by them. Don't hide your real views out of fear of offending her; a masculine man "has his own opinions and he believes them."
+- Don't be agreeable for the sake of it. A leader doesn't say "yes, no problem" to everything and is willing to say "no" when he knows better.
+- Disagree playfully. Say what you really think, but wrap it in humor, or it won't land and there's no spark.
+- "Let your intrusive thoughts win so long as they're not sexual." Funny, slightly dark honesty beats holding back out of fear of approval.
+- Be "a playful asshole," not a jerk. Mix lightheartedness with a bit of edge, because either extreme alone fails.
+- Balance firm standards with "nothing matters, this is hilarious" fun. That mix is a feeling few men can give her.
+- Have boundaries and standards. If you never put your foot down about anything, she loses respect and gets bored.
+- How you make her feel matters more than your résumé. Value is felt emotionally, which is why she'll pick the guy who makes her feel good over the rich, boring one.
+- Confidence and certainty beat a logical, cautious approach. Pure logic "creates zero desire"; triggering emotion does.
+- Watch her behavior more than her words. What people say they want and what they actually respond to are often different.
+- When she checks every box, the challenge is not switching into needy, over-giving mode. Keep the same frame you'd have with anyone.
+- Have discipline over your behavior. Don't let the urge to be "a ball of mush" run the interaction early on.
+- Don't follow her lead about who you should be. Keep your own direction and identity instead of reshaping yourself around her suggestions.
+- Have a visibly full life. If you're always more available than she is, she loses respect, even if you're more successful. "She has to see you doing things."
+- Only one person can be chasing. Don't pursue harder than she does, and be willing to not text, not reach out and not try.
+- Always be willing to walk away. You create desire by not over-showing interest and by showing you don't need her.
+- She shouldn't feel she's the most important thing in your life early on. Keep your priorities (work, mission, life) clearly ahead of chasing her.
+- Have an abundance mindset. The high-quality men women actually want are scarcer than you think, so don't act like she can have anyone and you have nobody.
+- You need both comfort and tension. Polite and gentlemanly gives comfort only, so tease, take bold chances in conversation and show some edge, or she'll never get past a "five or six".
+- His style is "playful dominance": the line between being playful and being assertive. Leaving out either side kills the spark.
+- Don't play the jokester or "the clown at the circus". Her laughing at your jokes doesn't mean she's attracted.
+- Play "anti-game": no courting, no performing, no stream of compliments. Engage in a way that doesn't make your interest obvious.
+- You don't have to announce your interest ("you're beautiful, I like you"). She already knows you're interested because you're talking to her, and saying it kills the mystery.
+- Compliments and validation early on signal you rank yourself below her. Leave them out of openers and early conversation.
+- Disagreeing with her builds respect, because it shows you aren't afraid of losing her approval.
+- Be able to say no. Men who say yes to everything lose respect.
+- Don't take on feminine courtship behaviors yourself (gushing, crying over her, telling her how obsessed you are) to prove you like her.
+- Don't match her sweetness word for word. When she says "I miss you" or "you're addicting", answer with calm confidence ("See you tonight") instead of "I miss you too, I can't wait!"
+- Don't tell her you're emotionally affected by how fast she texts back. It shows she's your number one priority.
+- Don't use her as your outlet for complaining or playing the victim; carry your own stress.
+- You don't need to explain or justify everything. Some mystery about where you are and what you're thinking keeps the intrigue.
+- How you say things (presence, certainty, tonality) matters more than the words, and that energy comes through in text too.
+- Social proof matters. Women judge a lot by how others see you, so your online presence and the people around you count.
+- Don't bait dates with spending (concerts, fancy dinners). She'll see you as a source of experiences, not a man she desires.
+- Stop dropping luxury brands, gifts and vacations into conversation. It sets the baseline she'll expect from you.
+- Your degrees, engineering knowledge and investing talk don't come across as intelligent to her; they come across as boring. Intelligence shows in how you create emotion.
+- Being assertive and decisive leaves the impression that "he's got it", and that puts you above every other guy.
+- Have a life you clearly enjoy (purpose, work you like, things you're doing). That's what makes you attractive, not making her your top priority early on.
+- Don't act impressed by her looks. Stay grounded even with a model: "You're okay. You're just okay." Showing you're impressed kills the tension.
+- Boldness reads as masculine; the things men are afraid to do are often what women respond to.
+- Give her quality attention, not a constant stream. Too much attention makes it worthless because "it's in such excess."
+- "Micro dose" the immersion: short, fun stretches of conversation beat all-day back-and-forth.
+- Don't flirt too openly or too hard; it tells her you're in scarcity and kills the mystery. Leave some intrigue.
+- Playful dominance: give direction with humor, not like a stern drill sergeant. Being "alpha" with no emotion doesn't land.
+- Be both: masculine and steady, but also playful and fun. "You can't just be happy-go-lucky and you can't just be grumpy, disagreeing guy."
+- Boardroom energy is "too sharp" for dating; bring warmth and play along with the edge.
+- The playful, masculine energy has to be natural; it fails when you're "hyper fixated on being a character."
+- Be "the rock": calm and steady, not anxious, while still bringing fun and emotion to the interaction.
+- Don't give her the same validation every other guy does ("they're a celebrity with validation and with attention"); be different from the herd.
+- People-pleasing reads as scarcity regardless of your resources; it's your behavior that conveys value.
+- Overdone niceness can make her wonder what you're after; being straightforward is more comfortable for her than constantly asking if she's comfortable.
+- Don't hide that you've dated and have experience; women are drawn to a man other women find desirable.
+- When you do something nice, do it casually and don't make it a big production or fish for credit.
+- Keep things interesting so she doesn't get bored. Predictable, flat, purely logical interaction "gets stale."
+- Less is more: less texting, less effort, fewer compliments, less attachment to the outcome. Don't be the one who likes the other person more early on.
+- Make her put in effort too. If you make yourself too easy to get, she values you less. "The man that makes it challenging for them, that makes them put in effort."
+- Don't reciprocate everything automatically. When she compliments you, says she had fun, or love-bombs about a future together, enjoy it but don't match it point for point. Stay grounded.
+- She reads abundance from how you behave, not from what you tell her. A man with options "is never drooling over a woman."
+- Keep some mystery early. You don't need to narrate your whole schedule, every feeling, or where this is heading. A little uncertainty keeps things exciting. Too much clarity too soon can feel flat.
+- Don't plaster your Instagram with photos of other women to look in demand. "It looks forced. It doesn't look organic."
+- Conversation should create feeling, not swap résumés. Commonalities, job details and logical facts bore her. Playful, imaginative banter ("go to La La Land") keeps her engaged.
+- Change your tonality. Be goofy and light, and don't take everything seriously. Don't talk to her "like clients, leads, like you're in a meeting."
+- Use cheeky, low-effort teasing humor rather than trying-hard, performative humor. Effortful performing reads as needy.
+- Be the relaxed, fun presence that takes her anxiety away: carefree, optimistic, "nothing's a big deal," especially early. That isn't the same as smothering her with comfort or being a nice-guy pushover.
+- Be bold. Do things that are audacious and make her think "did he really just do that?" Playing it safe creates no spark.
+- Don't treat her as fragile or tiptoe around her. Being overly gentle and accommodating kills attraction. Be direct and confident.
+- Comfort alone leads to the friend zone. You need some comfort plus real tension and playful challenge.
+- Don't take a bio or stated preferences too literally. What she writes about herself is often about image. Go by how she actually responds to you.
+- Surface value (money, looks, height, fame, followers) is common for an attractive woman and wears off fast ("Two days on the yacht. It's just a yacht."). What's rare and lasting is "a unique feeling you provide" through your behavior.
+- "Nothing matters outside of how you make her feel." Buying her things or taking her to a nice dinner won't make up for a boring date with no tension.
+- Being boring can't be fixed by a yacht, a plane or your height. Bring stimulation, mystery and fun.
+- Avoid predictable, scripted conversation ("now it's time to talk about jobs... relationships... our five year plan"). If she can predict every line, there's no spark.
+- Trying to impress backfires: trying to sound intelligent, hunting for commonalities and talking about your job bores her. Speak to feelings and the vibe instead.
+- Over-niceness and buttering her up puts her on edge ("what does he want from me?") and signals low value. Be warm without being ingratiating.
+- Don't be the guy who only gives comfort and checks every box. The "perfect gentleman" with no challenge or playfulness comes across as boring.
+- Offer variety: steady comfort alone "loses its weight." Mix comfort with playful tension, teasing and fun so the interaction has range.
+- Attractive women get flattered constantly. Confident, playful teasing stands out far more than another round of compliments.
+- Teasing has to be funny ("Keyword on funny"). Plain insults don't work; wrap the tease in humor so she ends up laughing.
+- Don't perform jokes or rehearsed stories to impress her. Humor should come from playful teasing about what's happening in the moment.
+- Share interesting perspectives and teach her things "organically about reality." Never say "I'm better than you" outright; it won't land.
+- Don't reflexively return every bit of warmth or put her on a pedestal. Let her invest too.
+- Make effort proportional. Heavy courting reads as low value; "cut your effort in half" in how you talk to her and stay relaxed and assertive.
+- Keep some mystery. Don't announce your feelings early ("I really like where this is going... I think you're really great"). Know "when to not voice your feelings."
+- Reverse the instinct to chase: you don't build comfort by pushing it. Sit back ("the other end of the couch") and let her come toward you.
+- Don't be always available. Have a genuinely full life that other people want to be part of; a busy, interesting life brings social proof and some mystery.
+- Be willing to be polarizing and bold instead of playing it safe. Confidence that doesn't seek approval "screams certainty."
+- Don't agree with everything she says. Light, good-natured disagreement creates tension; constant agreement looks like you're just trying to please her.
+- Playful debate and banter can create a lot of chemistry; in his example she said "you brought out that dog in me."
+- Playful challenges and mock accusations about absurd little things keep her engaged and on her toes.
+- Go along with her silly, playful tangents ("La La Land") instead of breaking the mood by getting serious and logical.
+- Unleash a playful flow state: drop the self-monitoring and let your weird, unconventional side out while staying competent and leading. It matters even more with high-quality women, and it's hardest for successful, logical men.
+- Don't make her the center of your thoughts. Be the man focused on his mission and "the horizon"; that purpose is what draws her in.
+- Your real leverage is being willing to walk away: "I would literally rather be alone my entire life than endure disrespect."
+- Aim for a calm "sort of indifference": don't show all your interest, but stay assertive and direct. Pure indifference only works if you also spark emotion. "I'm never on my knees for a woman. I'm never eager."
+- Be "anti-love bomber." Being too transparent and too predictable early is "a death sentence": "When is a bomb ever helped something?"
+- Tease the right way. It should feel like a "tickle slap": "It doesn't hurt that bad, but they feel it and they laugh." It shouldn't be a punch (just a jab) or just a tickle. It must stay lighthearted.
+- Teasing without charisma, the right tonality and good timing "always falls flat." Opening a stranger with an insult "is not a tease. That's just bad game."
+- "Playful dominance": tease in a way that shows you're leading while both of you are laughing.
+- Spark a range of emotions (fun, giddy, happy, playful teasing). Using only one gets stale, so "wear different hats," including the comedian.
+- Match her energy. If you come in at a 10 when she's at a 3, it's over. Read what kind of woman she is and calibrate.
+- Calibrate to the person: "there's many things I've said to many women, but I would not say to many other women... It's just nuanced."
+- Hold eye contact. If she holds it and you look away, she becomes the more dominant one, so "dominate the eye contact."
+- Keep some mystery early. You can kill her desire by "overdosing her with your time, attention, transparency."
+- Desirability shows: it should be implied that you have a life and other women find you attractive. "You don't have to rub it in their face."
+- Don't go to market with "I need a girlfriend" energy. "Women can sense the pressure, the anxiety."
+- Aura beats looks: "You need to bone smash your aura." Fix your energy and your game.
+- Some excitement and unknown in your life (his example: getting a motorcycle) draws strong reactions.
+- If you have a girlfriend and someone asks, own it. Don't get flustered or change your story, because nervousness "is like bleeding in front of a shark."
+- The strategy is the same whatever your looks. Higher value only means you can take more risks and walk away more easily.
+- Women respond to how you treat them. If she's disrespectful, ask whether you're demanding respect. If it can't be fixed, end it.
+- To show you don't need her, build your own thing: "go start an app or something. Go build a company. Come back when you're ready."
+- Presence, aura and the emotional feeling you give her matter more than anything else: "Nothing can ever touch it."
+- Being boring is the worst thing you can be with a woman: "Be anything but boring." Predictable, repetitive niceness kills attraction.
+- Niceness alone has no emotional pull. Mix warmth with playfulness and some challenge so there's polarity.
+- Teasing only works wrapped in humor, playfulness and lightheartedness. "It's not just like, call them fat, and they're going to like you... You can't just be mean."
+- If you're a serious or intimidating guy, carry an underlying vibe of playfulness. With women, keep it lighthearted and skip the heavy "reality talk."
+- "It's all about how you say things": tonality, timing and nonverbal delivery matter more than the words. "They hear and they feel your tonality."
+- Treat a stunningly beautiful woman exactly like anyone else. Don't change your behavior because of her looks.
+- Don't act overly impressed by her. Staying unimpressed shows you have options.
+- Competition and social proof are powerful attractors: a man other women value is more attractive.
+- Have a life so full that she isn't your focus. Making her your top priority backfires, and being absorbed in your own life makes you more attractive.
+- Be willing to say no to her requests instead of agreeing to everything.
+- Being a "nice guy" who gives in to everything isn't kindness. It's lazy, and it hands over the lead. Hold your own perspective.
+- Matching her energy and doing whatever she says she wants are "very different things." Match energy; don't just comply.
+- Pursuit is "a dance," a back-and-forth. Do your part, but don't be "foaming at the mouth" chasing. With the right frame you won't look pathetic.
+- Inner magnetism always beats pickup lines or copy-paste texts.
+- Everything you're afraid to do with women (be bold, be direct, go for it) is usually what she's hoping you'll do.
+- Be charismatic and friendly with everyone around you on a date or out (bartenders, waitstaff, her friends). Being a social guy is attractive.
+- Hypergamy isn't about being Brad Pitt or a billionaire. For keeping a woman long-term it's about the emotion and presence you create.
+- Dress boldly in your own style. His eccentric wardrobe is just what he likes, not a calculated signal.
+- Women are drawn mostly by emotion, and the strength of the emotion matters more than whether it's positive. Laughter, teasing and stimulation all build attraction.
+- Give her "emotional polarity", a mix of positive and playful-negative feelings. Constant comfort loses its weight, while a playful push-pull keeps her engaged.
+- Many people walk around stressed and anxious. If you're relaxed, fun and playful, being with you feels like relief, and that makes you magnetic.
+- Be calibrated-bold: have opinions, push back, and don't play it safe. Timid, over-accommodating behavior reads as a man with no options. Boldness signals power and makes her feel safer with you.
+- Calibration is learned. Don't be crude or go too far. Disarm first, then add playful tension.
+- Stay unimpressed by looks. If she can feel you're dazzled by her, "it's over." Even with a model, carry an energy of "you're okay."
+- Keep your purpose, career and self above any woman. Making her number one reads as eager and kills attraction.
+- Act like an experienced man in body language, conversation and tone, even before you are one. "Fake it till you make it." The more experienced you seem, the more she trusts your judgment and leadership.
+- Being nonchalant works at every stage, but you still have to take initiative: approach, message, make plans. Find your sweet spot of initiative done in a low-effort, relaxed, indifferent way.
+- Mystery matters. Don't hand over every detail of your schedule and plans the moment she asks. Not knowing everything keeps her curious.
+- Looks give her "a fleeting initial jolt." After that it's your behavior, aura and how you talk that carries it. A man with great game gets away with more than a merely good-looking one.
+- Women want plausible deniability, so being overtly sexual right away usually backfires. Build desire indirectly through emotion.
+- Playful, mischievous banter that shows you're up for anything and don't take things too seriously is attractive.
+- Perceived value is about how she sees your leverage. If you get lots of pushback when you try to move things forward, work on how valuable you come across.
+- Attraction comes from the emotional state you create (playfulness, tension, fun), not from being good on paper; put her in a playful, emotional state rather than a logical, interview-like one.
+- Fun for her comes from tension and challenge, not from you being agreeable or spending money on excursions.
+- Real comfort comes from your groundedness and not being afraid to lose her, not from constant reassurance: "power is the comfort generator."
+- Don't gush over her looks; act normalized to attractive women and treat her "human to human."
+- Don't try to manufacture connection by hunting for commonalities ("oh my god, me too!"); keep the focus on her and let her tell you what's special about her in a fun, playful way.
+- Hold back heavy vulnerability early (goals, ambitions, intentions); keep some mystery so her imagination runs: "you wanna be Houdini."
+- Be bold: stand on your opinions, don't bite your tongue, be willing to walk away and "leave it all on the field."
+- Confident, playful teasing stands out because everyone else is buttering her up; it lands like "a splash of cold water on the face." Keep it playful so it lands.
+- Have a full life where your time is in demand (friends, family, work); always being available signals nobody else wants your time.
+- Don't narrate your feelings for her early; "knowing when to shut up" about how you feel keeps intrigue.
+- Social proof matters: charisma, a great life and a decent Instagram presence signal other people value you, even if you want marriage and kids.
+- Don't get giddy and overexcited about her, and don't put her ahead of your own mission and priorities.
+- Carry yourself like you've "done this a thousand times": grounded, relaxed, assume she likes you, ask good questions.
+- Nonverbal communication is most of what she reads; a relaxed, leaned-back posture that isn't "salivating" over her builds interest.
+- Be the "state changer": when the mood dips, lift it with lighthearted humor instead of wallowing with her. "The state changer is the most powerful man in the world."
+- Attraction runs on emotion, not logic. She chooses the man who makes her feel the most, not the one with the best résumé.
+- Every woman is different on the surface (talkative, reserved, playful, uptight) but wants the same core things: a leader, to laugh, to feel comfortable, to feel challenged, something interesting.
+- You need both: masculine (decisive, makes the calls, can say no) and playful (teasing, light, not taking everything seriously). One without the other gets stale or loses respect.
+- Playful is not cracking jokes or performing. It's being silly in a low-effort way from a position of authority and taking her out of the everyday into "la la land". Trying to be funny is auditioning.
+- It has to be authentic, with zero need for her approval. Forced macho or forced goofy comes off cringe.
+- Successful, logical men often struggle because they're too rational. Get out of your logical brain and create some emotional ups and downs.
+- Boredom kills attraction faster than anything. "They will stop talking to a billionaire that's good looking just because they feel bored with him."
+- The "safe bet" guy (successful but boring) gets put in a box. The guy who brings emotional stimulation and leadership together is the one she doesn't look past.
+- Being nice all the time reads as eager and low-power. Mix in teasing and a bit of tension so it's clear you're not just trying to win her over.
+- Over-the-top generosity and compliments early (an expensive restaurant, praise all the time) lower her respect for you instead of building attraction.
+- Being willing to walk away beats big spending. In his story, the guy who drove two hours, flew across the country and paid for a five-star dinner lost to the guy who wouldn't treat her like a prize.
+- Seduction lines and deliberate "moves" don't work. Any sense that you're eagerly trying to get her into bed makes you look low-value. Desire builds indirectly: vibe out, tease her, laugh together, let her feel safe, comfortable, intrigued and having fun.
+- Let her put in some effort to show she's a fit for you. Don't make it effortless by declaring your feelings up front.
+- Be the one who leads and guides. Make decisions and bring clarity instead of handing her the whole job of knowing what to do.
 - Bring illogical, playful, high-confidence energy; emotionally flat, purely logical conversation loses to lively energy regardless of status or money ("It's ENERGY — not actual WORTH").
 - Attraction ingredients to cultivate: comfort, tension, emotional polarity (masculine/feminine contrast), security in yourself, mystery, intrigue.
 - Four master skills: disarm her anxiety, create tension, show you have options/leverage (a full life), and create emotional polarity.
@@ -194,6 +657,168 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Avoid becoming attached or dependent. Stay autonomous with your own life and purpose to keep desire alive.
 
 ## Texting
+- Don't overthink your Instagram DM opener. Have a good profile, send "something very short and to the point," skip gimmicky pickup lines. "Shoot the DM, move on."
+- The point of texting is to make plans. Don't text every single day just to keep a conversation alive.
+- When you're not seeing her, text a little here and there: a bit of emotion, then plans. "When you make plans, you stop talking."
+- If you talk Wednesday and set plans for Friday, "leave it at that on Wednesday." Constant texting before the date drains the anticipation.
+- "Less is always more, but the less has to be more potent." A voice note, an image or a quick FaceTime builds more than endless "hey, how are you?"
+- Swap small talk for emotionally charged, context-based banter. Excess casual chat "destroys your attraction in real time."
+- Don't feel pressured to rush to your phone. Answer when you're actually free. "She's not gonna go anywhere."
+- Early on, skip "I've been thinking about you" texts and daily good-morning/good-night texts. They over-validate and put her at the center of your day.
+- Don't answer "what are you doing?" with "nothing." Have a real life with things going on: "women are repulsed by men that have no motion."
+- Set the precedent early that you're not a pen pal. Texting is for meeting up.
+- Don't double-text and chase a woman who isn't responding.
+- Over time, being readable, predictable and doing too much question-asking over text slowly kills interest.
+- Cut compliments and validation from your texts.
+- Mostly drop emojis.
+- Don't send more than two texts at a time, and avoid double or triple texting.
+- If you write multi-line texts, "cut that shit by 60%": be concise. No paragraphs.
+- Skip the daily "good morning / good night" routine and constant "when are you free" check-ins.
+- If you're boring over text, you're probably texting too much; text less and keep it context-based on what you know about her, not "hi, how are you."
+- Read her interest: questions back, exclamation points and laughing emojis mean stay on the topic; dry replies mean pivot with a new question.
+- Make replies easy: light, playful, easy questions ("put the ball on the tee") get better responses than heavy or open-ended ones.
+- Start with a clear direction so she knows how to respond.
+- Voice notes are great, especially before you meet; they build certainty, trust and comfort better than 20 text messages.
+- You can also send photos or short videos of what you're doing to make texting less flat.
+- Texting is a big share of how you build intrigue between dates, so it's worth getting good at.
+- Don't feel you have to reply instantly every time; your life and work come first.
+- Read her energy and reply slightly below it. If she's at a 6 or 7 out of 10, give a 5. That's enough to keep her engaged while leaving room for her to put in more.
+- Never put in more effort than she does: no double texting, emoji floods, paragraphs against her one line, or chasing a date she keeps rescheduling.
+- Don't text all day. Constant attention and transparency wear off and kill desire. Let the situation breathe.
+- Don't feel you have to reply instantly out of fear she'll find someone else. Once you've sparked interest, a relaxed pace is fine.
+- Don't fall into predictable routines like the daily "good morning" text.
+- Don't reward low effort. If she replies every three days and you answer immediately, you're reinforcing it.
+- Tie attention to meeting up. Use texting to set plans and be assertive about what you want, not to hand out "free, easy attention" with "no contingencies."
+- If she keeps trying to hold long conversations over text, don't let text set the pace. Keep it short and steer toward seeing her.
+- Don't send lines like "I can't wait to see you tonight" or "I had so much fun, can't wait to see you again." Keep it understated.
+- If she gives a dry, one-word reply, address it directly instead of ignoring it. Either she puts in more effort, or you've saved your time.
+- After meeting at a bar, a missing reply the next day is "unfortunately normal" because people drink and forget. Ask for her Instagram instead of a number; it gives you more room to build comfort.
+- Cut your word count in half. Drop the fluff, the heavy punctuation, the compliments and the validation; cut about 80% of your effort.
+- Don't do daily good-morning and good-night texts, even if she asks for them. They make you predictable and readable.
+- Don't send texts like "I miss you," "I love you" (early), "When can I see you again?" or "What are you doing today? Cause I miss you."
+- Don't send constant check-in texts like "I hope you had a great day... I hope you're okay... I care about you." Smothering kills attraction.
+- Don't copy her texts automatically. Just because she said good morning or "miss you" first doesn't mean you send it back.
+- Text in spurts, not as a constant stream. It shows you have a real, busy life and aren't available all the time.
+- Don't send the whole schedule of your day (when you wake up, gym, work). It leaves no mystery.
+- Keep texting casual and simple, using her slang and abbreviations, instead of formal or overly intellectual messages.
+- Mix up your style: voice notes, odd comments, teasing, sometimes very assertive. Never be "consistent, readable or giving compliments like the 99%."
+- Use voice notes. Hearing your voice, tone and humor calms her nerves so she doesn't overthink her way out of meeting you.
+- When she's dry, don't raise your effort or pile on questions. Match her energy; "when I play the game back, it always increases."
+- Don't reward lazy, low-effort replies with long thoughtful answers. Once you stop rewarding them, she sees she has to put in more.
+- Don't jump to save a dry message. "Less is always more"; if you're doing more than her, "it's going to go south."
+- After a date, watch your texting pace. Don't love-bomb, blow up her phone the next day, or talk about future plans or trips.
+- Early on, don't hint at sex and try to be funny about it. It reads as desperate and like "he has no other women."
+- Keep ongoing texting casual. Don't pour flirty "I miss you" energy into texts, and save the real connection for when you see her.
+- Don't accept one-word, low-effort replies as normal. Address them directly: either she re-engages, or you've saved your time and energy.
+- When she sends a photo, don't reflexively shower it with compliments. He calls automatic praise a failed test that leads to ghosting.
+- Don't gush before or after a date ("I'm so excited," "I had so much fun," "can't wait to see you again"). It removes the tension. Let some things stay unsaid.
+- Don't make good-morning and good-night texts a duty, and don't text with predictable routines, emoji-heavy paragraphs or over-punctuation. Dry, playful and a bit sarcastic works better than effortful.
+- Match her effort. If she's at 5/10 enthusiasm, don't come back at 9/10 with more and more questions. Rewarding dry replies with extra effort lowers her respect.
+- If she sends three texts, don't send back three or four. Don't mirror or exceed her investment.
+- If she sends a low-effort reply with no question back, keep yours minimal too (he just thumbs-upped it) or call it out playfully. She then put in more effort.
+- Cut back on the "haha"s. Lots of laughing texts come across as unsure and timid.
+- Use voice notes. The same simple message sounds more interesting and confident when she hears your voice and tone.
+- Text with the mindset that you're not trying to impress her: no stream of compliments, no "being on your knees," and no attachment to how it turns out.
+- Don't over-confirm a date. Five follow-up texts to "confirm" signal low value.
+- Texting has a goal: create emotion, reach a peak, set the plan, go on the date. "Spike emotion, pull back, push in, set dates consistently."
+- Create emotion indirectly. A second message like "when will I see you / when are we going out?" is cringe at any age.
+- Find the sweet spot between too logical (no curiosity, no mystery) and overdone (witty pickup lines, cringe). "It's like learning a new language."
+- Match texting cadence to her schedule. Texting too much too soon kills it, and so does playing it too cool and waiting weeks. Don't text constantly if she's out of town; strike while the iron is hot if she's available.
+- Don't go into "interview mode" with a dry texter. If you're asking all the questions and she asks nothing back, pull your effort back and match her energy.
+- When she's bland or putting in less effort, don't raise your effort or perform harder: "Never works. Literally ever." Lower your investment so she has room to bring more.
+- Don't answer everything instantly or keep the chat going for its own sake. Be comfortable letting a conversation rest and not always ending with a question.
+- End on a high. Once interest peaks, wrap up instead of over-texting; intrigue lasts when it comes in small doses.
+- Before you've met, one low-key touch point to restart a stalled chat is fine; sometimes life just got in the way and you did nothing wrong.
+- Play off her profile. If her prompt jokes about fighting with you, banter back assertively and with humor. Openers should be specific to her, not copy-paste.
+- Be direct and assumptive, not permission-seeking ("can we connect on Instagram?"). Lead from the moment you match.
+- Have real opinions. Don't fake agreement to win her approval, and pivot with an easy question to keep things flowing.
+- Keep the post-date text light. Don't gush that you liked her and had a great time, and don't map out future plans; that turns it into a formal "HR text" and friend-zones you.
+- Move important conversations to a call or in person; your voice, tone and body language persuade far more than text.
+- Match her effort. If she's dry, don't reward it with more energy, more questions or longer texts; "I'm matching the dryness."
+- Stop "interviewing" her by text. If she gives a boring answer, don't follow up with question after question.
+- Witty high-effort banter in every message comes across as "performative" and "auditioning," even if the texts are short.
+- Before the date, drop your effort and energy and do less; it sets more dates.
+- Skip the needy check-ins ("hey, I hope you're having an amazing day, I miss you").
+- If she sends a photo, don't gush ("You look so beautiful... send me more"); stay low-key.
+- If she only "likes" your message, that's not a reply. Don't answer with a full itinerary.
+- Use cliffhangers and breadcrumbs: build excitement over time instead of rushing in a straight line. "It's not a rocket, it's an ascension."
+- Texts that never turn into dates are usually all logic and comfort, with no tension or boldness.
+- Timing matters: jump to plans too fast and you look eager; drag it out and the momentum dies. Find the sweet spot.
+- When she's comfortable she'll send playful nonsense; long, formal, logical messages often mean she's still "putting on a mask."
+- Swap generic questions ("How was your day?") for a playful assumption, then let it breathe.
+- If she's dry, match her energy and don't up your effort. Sending a 9/10 effort reply to her 5/10 rewards low effort and costs you respect.
+- Don't become "the interviewer." Stop firing question after question at a low-effort texter. Let her step up or let it go.
+- A sudden dry patch before the first date is often her checking whether you're needy. It doesn't always mean lost interest. Lower your effort calmly rather than chasing, and she often comes back.
+- Don't send good-morning and good-night texts on autopilot. Being too predictable and routine kills excitement.
+- Cheesy compliments and pickup lines get laughs but don't turn into dates. Texting should build intrigue and her "certainty" that meeting you will be fun.
+- A thumbs-up isn't a confirmation. Press for a clear yes.
+- When she asks about you over text, don't send a big impressive answer. Keep it short and light. She's sensing how you handle women, not collecting information.
+- Once the plan is set ("where and when"), stop over-texting before the date.
+- Over-texting usually comes from anxiety. If you worry about the perfect wording with attractive women, fix the inner game first, not just the texts.
+- Texting is "a new language"; don't text like you're in a business meeting.
+- Good texting is low effort but emotionally engaging: detached, relaxed and short, with messages that spark intrigue.
+- Overthinking texts leaks low confidence and leads to over-communicating. Fix the root cause (anxiety, low certainty), not just the wording.
+- Mirror her investment. If she gives dry replies, don't keep pouring in effort; text like you're not afraid to lose her.
+- Don't fall into her frame. If she's choosing every topic and question and you're just following, interest drops; lead the conversation.
+- Scarcity shows up in paragraphs, emojis and how often you message her; keep messages short and certain.
+- Skip robotic routine texts ("good morning," "good night princess," "I miss you," a daily rundown of your plans). Predictable check-ins get boring.
+- Don't get sexual in texts with a girl you've never met or been intimate with. It kills the mystery and the implied tension.
+- After an in-person approach, keep the tone casual, dry and nonchalant; it sets the frame for how she sees you over text.
+- Diagnose your texting with metrics: reply rate to openers, where conversations stall, whether you get off the app, and whether you get ghosted when you go for plans.
+- Hearts, laughs and "haha" are false positives. "The only thing that matters is going on dates."
+- Conversations die when you go for the number or plans because you've only given comfort and attention. Use your effort level and questions so she qualifies herself too.
+- Don't open by acting like she's special or exciting to you; that devalues you.
+- Playful, imaginative openers can work: say something that sends her mind somewhere fun and unexpected.
+- Don't hop platforms fast (for example, Instagram straight to Snapchat). Each jump adds friction and invites an objection.
+- "Less is more." The more you text, the more chances you have to mess it up.
+- Text to turn attention into plans, nothing more: "You don't want to text to be a pen pal... It's not about building a connection over text." Spark just enough desire to set the plan and move.
+- With a dry texter, call out the low effort once. Either she steps up, or you've "saved all your time and energy." If nothing changes, move on.
+- Don't fix a dead thread with a needy double text. "Your texting should never put you in a position where you're having to reach back out." If you follow up, do it on another platform.
+- No sexting with a woman you haven't met: "if you've never met, never go sexual." Even after you've been intimate, tread lightly.
+- Long distance texting is no different from texting someone 30 minutes away. You just plan further out. The real question is whether she has genuine desire to keep talking.
+- If she takes hours to answer and never starts conversations, "it's not a great sign." You're probably being too nice and too available.
+- When banter was great but she flaked and went quiet, it's an abundance problem, not a texting problem. With "15 of her clones" around, you wouldn't chase this one.
+- Don't send her money.
+- "Decrease your effort, but increase the quality of the effort." One voice note or two good texts can spark more emotion and intrigue than a whole day of texting.
+- "You don't increase a woman's effort with more effort. That's literally never ever ever been the case."
+- Be nonchalant without being boring by focusing on quality over quantity: a few skilled minutes that make her laugh beat hours of texting.
+- Text sporadically, on no fixed schedule (no nightly "8 p.m. to 10 p.m. block"). Respond when you have time, the way a genuinely busy guy would.
+- Use texting to make plans, not as a pen pal: "only talk to make plans."
+- There's no nonchalant way to double text; it always reads as high effort. Fix your opening texting so you get ghosted less, and post your life on social media so she gets some FOMO.
+- A rare "Hail Mary" double text (even a month later) is possible, but it will come across as effort.
+- If banter is good on the app but she goes quiet when you ask for her number, you're hitting intrigue and flirtiness but missing social proof and certainty. You need all of them.
+- Do text after a date, a day or two later, like "a normal functioning human." Keep it low-key, and re-engage the next day. Some women are too proud to reach out first.
+- If the date went great, everything takes care of itself. If you need flawless post-date texting to save it, the date didn't go that well.
+- Don't answer dry, low-effort messages with more eagerness. Step back, live your life, and re-engage when she shows real interest; her effort tends to rise when you won't tolerate dry energy.
+- When you re-engage, a voice note can carry more energy than text.
+- If she responds super dry or not at all, move on without caring.
+- If she's warm in person but cold over text, the mismatch is "shady"; something else is going on.
+- Texting and dating are "a dance." If you go quiet for too long you lose momentum ("strike while the iron is hot"). If you overcommunicate you lose too. Find your sweet spot of pulling back and leaning in.
+- How often to text depends on context: what stage you're at, whether you've met, how often you see her. Your "North Star" is her state, keeping her in the best possible mood so she keeps wanting to see you.
+- Don't reward dry, low-effort replies by chasing. Be willing to walk away from a conversation with bad energy. When she re-engages with real interest, pick it back up. A voice note can boost the energy.
+- "Don't fall for the bait": when she's super flirty and forward before she even knows you, don't match it with heavy flirting. Add some friction and make her earn it. If it's too easy, she takes it back.
+- Flirting over Instagram means "nothing" unless she actually meets you and things get physical.
+- If she takes forever to reply, let it roll off your back. Having other options keeps you from being thrown by it.
+- Vet early whether she's serious about meeting. Cut off women who only want attention ("tire kickers") quickly. Also check whether your own texting is the reason she won't meet.
+- Your texting after the first date matters a lot for keeping her interested. Play it cool.
+- Voice notes work.
+- Openers should come from the context of her profile and location, never copy-paste.
+- Online, open with a little bold tension rather than a safe, bland message. Be willing to send the riskier text.
+- The goal of texting is setting plans, but not with pure logistics in two messages; she needs more certainty and comfort about meeting a stranger than you do, so build comfort, intrigue and certainty, pre-handle objections, then ask.
+- Aim to set the date within about three to five days of talking, not same-day "Mach 10 rocket ship" and not weeks of chatting.
+- Long-game texting kills momentum: weeks of chatting with no date shows your time is worthless and leads to the friend zone or a flat first date.
+- Masculinity over text shows through detachment from the outcome, not through firing off a time and place in message two.
+- Read the flow: if she's wishy-washy, don't blaze to plans; get her to a good state first, because she won't follow your lead before she's comfortable.
+- Skip directly sexual or "movie scene" flirty texts ("wear this tonight"); playfulness and mystery build tension, overt flirting reads as eagerness.
+- Quality over quantity: texting all day out of fear she'll get bored makes your attention worthless. Be a "scarce resource that contains value."
+- Match her effort; if she's dry and low-effort, don't up your effort and reward it.
+- No copy-paste lines; adjust to her age, temperament (shy vs. extroverted) and culture, and rally at her pace.
+- Don't feel you must reply instantly every time; live your life and answer when it suits you. Being glued to the phone signals you have nothing going on.
+- You don't have to be "the entertaining clown"; a short reply or a light tease is fine.
+- Swap boring small talk for playful assumptions, spike the fun, then exit the conversation: "I won. And then I disappear."
+- Texting matters a lot: "90% of communication now is over the phone," so weak texting undercuts even a charismatic guy.
+- Be bold over text when setting up dates. Don't stop at surface-level rapport and then ask for plans. A little teasing and tension is better than playing it safe.
+- Your energy comes through text too. Certainty or nervousness shows in how you write.
 - Text primarily to make plans; texting is a bridge to meeting, not the relationship itself.
 - Texting formula: "Build rapport, don't care, make fun" — connect, stay outcome-independent, tease playfully — then use the high-emotion moments to set plans.
 - Keep your effort at or slightly below hers; find the "sweet spot between emotion and effort."
@@ -255,6 +880,89 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Spike emotion in the conversation, through both what you say and how you say it. Flat small talk won't lead to a date.
 
 ## Dating apps & profiles
+- Market yourself well. "You are a product in the marketplace." Low-effort photos are a big reason successful men get ghosted online.
+- You don't need a photographer, but get good images and clothes that fit you.
+- With an optimized profile and good texting, 10–15 minutes a day on apps is enough.
+- Online ghosting usually means your texting is boring, too logical and doesn't convert to dates. Fix how you talk, not just your photos.
+- Back to dating after a marriage? Get new images and "do a bit of a rebrand," then combine online dating with meeting women in person.
+- If you can't set dates from apps, you're probably too timid and anxious over every message. For a week, playfully "troll" your matches without trying to set dates and watch how much better it goes when you relax.
+- Don't treat her bio instructions as a script to perform; lead the interaction your own way.
+- Instagram for men: less is more. Fewer images, a short bio, a little mystery in your highlights.
+- Photo types: photo dumps, rooftops, restaurants, anywhere you've traveled, clear shots of your face. Nighttime flash photos show the face well.
+- Grab a friend and get good photos; a handful of strong images can carry you for years.
+- Be good both online and in person; "max out all your stats."
+- A short, specific opener works, e.g. "Are you Latina?" If the reply is a flat "no," call out the low effort (see Texting).
+- If you're well-off, you don't need to explain it on an app. Don't share your income; if she asks, stay vague and light.
+- Choose profile photos that show a lifestyle she'd want to be part of and some subtle status. That's what brings inbound messages and matches.
+- A strong Instagram with good photos of you in places that show value (you don't need to be an influencer), plus good game, can make your dating life "international."
+- Use the context of her profile to create emotion right away and stand out from every other guy messaging her. Easy, boring openers get ignored.
+- On Hinge, get her off the app fast with an engaging conversation (he then unmatches once you've moved off the app).
+- Be bold in your first message. If you're too scared to send a bold message to someone you've never met, that's scarcity and fear of disapproval.
+- Don't send openers that just validate her or show you're very into her; "it screams no options."
+- If her bio says she's "looking for guy friends," be upfront that you're not there to be friends.
+- Don't open a match by gushing ("you're so beautiful, I'm so glad you matched me"). It puts her above you from the first message.
+- Even if her profile says "take me out right now," keep doing what you do. What people say they want and what they respond to often differ, and following her stated script tends to end in flakes and ghosting.
+- If she won't share her number or Instagram before meeting, don't plead or argue. State your standard once and let her decide: "Look, I need this to know if I want to spend time and money on you. Let me know if you're up for it."
+- Three things win online: your marketing (photos), whether you create emotion, and whether you convert (text game and setting dates).
+- Use candid, natural photos with "low-effort status" that show you have a cool life she'd want to join, not a stiff "LinkedIn photo shoot" leaning against a tree.
+- Prompts should be short, mysterious, intriguing and emotional in a masculine frame, giving off "I don't care, this is nonchalant, but I'm the shit."
+- She's scanning for reasons to rule you out, so tighten every photo and prompt.
+- Bold openers only work if your profile backs them up; looking like you have no status makes them fall flat.
+- Get off the app quickly (number or Instagram). Many women log on only once or twice a month and face "a thousand dudes" each time.
+- Skip super likes and Hinge roses; paying to stand out reads as overeager.
+- Treat Instagram as required: "like having a company that doesn't have a website." A wealthy man with 30 followers, 1,000 following and bad photos comes across as broke.
+- Your Instagram and app photos have to show your real value. A successful man with a weak profile gets read as low value, and "there is no workaround to a terrible Instagram."
+- Titles in your bio ("founder," "investor") don't land; "they feel from images." Show it in photos.
+- Photo checklist: high resolution, clothes that fit, you clearly visible, in a lifestyle setting she'd want to be part of.
+- Spend "one day" or "one weekend" getting new photos and outfits in places she can imagine herself, then drip-feed the content.
+- You don't need to post often or be famous: "I post three, maybe four times a year. It's not about volume. It's about positioning."
+- "All roads lead to Instagram": whether you meet her in person or on an app, she'll check your profile, so it should say "this guy has a life that's good with or without me."
+- A good profile works like a lead magnet that brings a steady stream of new women, which takes away scarcity.
+- Move a good app match to Instagram with a playful cliffhanger.
+- Your photos, prompts and texting all have to show value ("leverage"). Weak photos plus a broken texting game leaves you "in the bottom 99% fighting for the scraps."
+- Instagram can be your best dating source. You don't need to be famous or post often. Look good, dress well, and be in good settings to show "subtle status." It's "a one-time optimization" with "zero spend."
+- Your profile, Instagram and texting have to work together as one "in sync funnel." A weak link anywhere costs you dates.
+- If a match's replies stay low-effort, be ready to walk away instead of carrying the whole conversation.
+- If a match says she just wants to be friends, move on and put your attention on women who are serious.
+- Apps should be "a beautiful, amazing, well-run engine." If they aren't working, it's your pictures, your texting or your prompts; fix the profile, the funnel and the texting. It works "no matter your age" (59-year-old clients).
+- Common profile mistakes: a fast-food restaurant with the bathroom in the background, an ill-fitting suit and tie or a bad color scheme, a cringe facial expression, a bad camera angle, timid body posture and a needy bio.
+- Instagram should be "your number one source of new women" and a key part of the funnel. You don't need to fake it ("rent Ferraris"); look polished and affluent in free places that show a high-end lifestyle.
+- Dating women in their 20s without Instagram "is like applying for a house without income or a credit report." She wants to see your lifestyle, more photos and social proof, and to be reassured you're safe.
+- Avoid a "funnel letdown": every step (approach or match → Instagram/number → date) should raise your perceived value. A weak Instagram, or a bare saved number she can't put a face to, loses her.
+- A strong online presence keeps reminding her of your value and social life, which helps you keep a woman's interest as well as get dates.
+- Use every channel (apps, social media, cold approach); "they all work. Get good at all of them." Apps give volume. Cold approach "makes you feel the best because you really feel like a man."
+- Online, focus on your marketing (photos) and your texting. In person, focus on tonality, body language, nonverbal communication and conversation.
+- Get the best photos you can, even a new photoshoot: "always optimize... the first step of online is your appearance." Max it out "within reason."
+- Have an Instagram. Don't give women a reason to rule you out before they know you; build trust and certainty.
+- If random women never message you online, "then your online brand is terrible. It's a branding game. It's a marketing game."
+- Move off the app fast: "On the app, it's you in a million. On Instagram, it's you in 50. On numbers, you in 15." Each step separates you from more guys.
+- Even with lots of matches, keep the number you actively pursue small. You don't need 20 women going at once.
+- Don't confuse photos with value. Online photos of women are "always edited... always distorted," and looks alone don't make someone high value. Look beyond appearance.
+- Max out your online presence, meaning both your apps and your Instagram. Social proof, status and lifestyle shape how she perceives your worth.
+- Not having an Instagram in 2026 is "not having a website as a company." Make one and make it great; you can fix a weak one in a day.
+- Keep your Instagram public, not private. She won't wait around for you to approve a follow request.
+- Getting her Instagram instead of just her number gives her more trust and certainty about who you are.
+- Show your status and leverage subtly, in a way that looks organic when she vets you. Forced flexing looks fake and lowers interest.
+- A great profile is useless if you can't text. Without texting skill you "can't convert" and she feels boredom or that you don't know what you're doing.
+- Profile photo expression: go for a middle ground, neither hyper-serious nor a goofy, happy-go-lucky grin.
+- Once your skills and profile are dialed in, about 20 minutes a day on apps can set a date or two a week.
+- Do both apps and in-person; each has pros and cons, and together they max your volume.
+- Even if apps work for you, never stop approaching in person. It's a great skill to keep, and his favorite dating experiences came from meeting women in person.
+- In modern dating (2026), especially in big cities and with women in their early 20s, not having Instagram hurts you badly no matter how good your game is.
+- "It's better to have no IG than an IG with a bad follower ratio." Fix it. It takes about two days.
+- Your online presence "makes or breaks" desire. Good photos shape how she perceives your power and leverage. Even a very successful man looks like "a $3 pack of gum" if his presentation is weak.
+- To show abundance on your profile: look good, dress well, use good lighting, shoot in good-looking places that suggest a desirable lifestyle. Skip selfies and mirror pics, and don't post from McDonald's.
+- Use Instagram stories to show your lifestyle subtly. A good lifestyle picture implies abundance.
+- Almost no young women use Snapchat anymore. Use Instagram.
+- Some drop-off from app matches is normal, but if every girl ghosts you it's a texting or funnel problem.
+- If you meet women in a busy setting (e.g. you're a DJ working), get their Instagram and turn it into a date later.
+- Your photos need to show you looking good with your face clearly visible; activity shots (tennis, kayaking, skydiving) only work if you actually look great in them.
+- Avoid selfies (they suggest no friends or life), mirror pictures (unless at a beautiful venue) and awkward posed-in-nature shots ("in front of this oak tree").
+- Don't open with rookie questions like "How are the apps?"
+- Have an Instagram and keep it presentable. She will look you up, and with no profile you lose to men who have one.
+- You don't need to be famous or make content: "you just need some followers and some images that look good" that show you're a normal guy with friends and a life.
+- Don't fake it (no renting cars or staging a lifestyle). Just show your real life at its best.
+- If you'd rather avoid the apps and approaching out of fear of rejection, that's playing not to lose.
 - Online presence matters: a solid Instagram plus app profiles is part of a strong dating life.
 - Profile photo audit: no cheap/ugly backdrops (e.g., a fast-food restroom), a relaxed confident facial expression, outfit that fits the setting (not a suit and tie in a fast-food spot), a flattering color scheme, a good camera angle and image quality, and strong posture.
 - Your bio should read as a socially confident adult, not awkward or inexperienced.
@@ -286,6 +994,202 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Fixing photos and strategy can multiply match volume (the coach claims "10x").
 
 ## Setting and running dates
+- You make the plan: pick the place and the time. Don't make her figure out where to go. "Go here. This is the time."
+- Give it about a week. From meeting her online or in person, you should be meeting up within roughly a week. If it keeps dragging, she's stringing you along.
+- Don't accept repeated or vague rescheduling, especially for a first date with no valid reason. Chasing a flake "looks very chasing, it looks very desperate."
+- Early on, don't drive 30–60 minutes to pick her up. More than about 10 minutes and you're losing frame. "She needs to put in some effort" too.
+- No flowers on the first date. She doesn't know you yet, and it comes off as over-investing.
+- How she feels in the conversation decides the date. "The biggest lever is our conversation."
+- Use active listening. She'll give you the topics she's comfortable with. Pick up on them and ask follow-up questions so she keeps talking.
+- Aim for her talking 80% and you 20%. You still lead by steering with questions.
+- Don't info-dump about yourself ("I like to do this, I like to do that, what do you like?"). Long rants about yourself make the conversation heavy and give away your mystery.
+- Ask relevant, easy questions built on what you already know about her. Avoid hard-hitting questions that put her on the spot.
+- Fill small gaps of silence with another follow-up question about what she just said: "Flow, flow, flow."
+- Keep it light and playful. Skip negative, stressful or heavy topics (wars, tariffs, politics) early on.
+- Take the conversation to "La La Land": playful hypotheticals, fantasy and fun stories around what she likes (horses, movies, "we should go to Mars"). Don't stay stuck in logic and reality.
+- Remember she's nervous too, often more than you. Your job is to disarm that anxiety by making her laugh and feel comfortable.
+- Use the context you have for witty banter and light teasing. Playful trolling with absurd tangents keeps her laughing.
+- When she asks "What do you do for work?", don't give a long, performative interview answer. Keep it short and light, because she cares more about how the answer feels.
+- Don't treat a date like an interview or a performance. That's especially true for older guys dating younger women, where nerves and an interview style fall flat.
+- For a busy successful guy, the efficient approach is to keep your head up at the grocery store, gym and coffee shop and talk to one or two women a day, plus a few minutes online. Done right, that can mean several quality dates a week.
+- Lead the plans: tell her what you're doing instead of asking what she wants and fitting around her schedule.
+- First dates are drinks, not a fancy dinner; dinner is for when she's invested time and effort.
+- On a first date, show with your body language that you've done this before: spread out, confident tonality, steady eye contact, and genuinely okay if it doesn't go well.
+- She's nervous on a first date too; build comfort fast with context-based comments, light teasing and active listening.
+- Lead with questions: "I'm in charge of the conversation but I'm not the one talking." Ask, let her talk, add interest ("Oh wow, really? Tell me about that").
+- Ask relevant, easy questions based on what you know ("if this girl plays volleyball, do not ask her if she's gonna be a doctor"): when did you start, how long have you been doing it.
+- Don't ramble stories about yourself or your work; get her talking about things she enjoys.
+- Grade each answer on tonality, sentence length, questions back and eye contact. A good response means ask more on that topic; a mid response means pivot.
+- Energy on a first date: start a bit higher, then lower it as she gets more engaged so she leans in.
+- Sprinkle teasing into a real conversation; don't try to be a comedian for two hours.
+- You don't need to announce on a first date that you're looking for a girlfriend; keep it light ("we'll see what happens. What about you?").
+- If she's always with friends, talk to the whole group as a friend, then close with her: "I need your Instagram."
+- Go-to first date: drinks. "It's easy... it's sexy, it's at night."
+- Keep it to one or two drinks on a first date.
+- Come in knowing a bit about her (e.g. what she's studying), stay on relevant topics, notice which questions she lights up on, and go deeper there.
+- Let the conversation flow naturally. "You can bounce around a little, but within reason." Don't jump from "you're Mexican" to "have you been to the moon?"
+- On the date, be relaxed, ask good questions and listen, like you've "been on a million dates before."
+- Don't dominate the airtime. If you're talking 70% and she's talking 30%, the balance is upside down.
+- "Less is always more": cut the long story "by 90 percent."
+- Lead the plans. Give clear direction on what you're doing instead of making her figure it out.
+- When scheduling, propose a specific day. If she counters, offer a concrete alternative, and don't settle for an open-ended "I'll text you when I know"; "everybody knows their damn schedule."
+- Group meetups are an easy first step: "Come pregame at my place; you're with a friend, I'm with a friend, we'll all go out."
+- Never share details about a woman you're seeing (name, Instagram, intimate details) with anyone.
+- Don't overdo random gifts or flowers early, before there's any real connection. Constant unprompted gestures suggest "this guy doesn't have anything else going on."
+- Make the decision. "I found these places, where do you wanna go?" shows no leading and no certainty, and having to choose for both of you gives her anxiety.
+- Date on your own terms. Don't back down when she tries to dictate how you'll spend your money on her.
+- Skip the big courting gestures early (flowers, fancy reservations, gifts, cooking for her). Over-investing tells her you see yourself as below her.
+- Early on, show interest by spending time with her and setting up the next time to meet, not by declaring feelings or giving gifts.
+- On the date, really listen. A slight lean in, a slight nod, eye contact and "oh, really? Interesting" make her feel heard, build comfort and ease her anxiety.
+- When she asks about you, keep the answer short and turn it back to her: she's at her best talking about things she enjoys.
+- Don't ramble about your work, career or business. Her questions are an invitation to have fun, not to get facts; long logical answers make the date tank.
+- Don't answer every question with dry logic. Spin boring topics with some "flavor" and imagination ("take them to the moon").
+- She should leave the date feeling you know a lot about her and she still has a lot to learn about you.
+- Keep cold approaches short. Talking 10–20 minutes makes it look like you have nothing better to do.
+- How things go before the date sets how ready she is on it. Look at the whole "funnel" (first impression, then dates, then three or more dates and intimacy), not just the date itself.
+- Each stage has a "dead zone" where things stop moving and end: never getting to a first date, never getting to intimacy, or her vanishing after three dates. Work out which stage you're stalling at.
+- Don't run an "interview date" of back-and-forth questions with no emotion or tension. "You'll never hear from her again."
+- Answer her questions playfully instead of reciting facts. Early on she cares more about how the conversation feels than about your job details.
+- Be willing to step into her silly, playful world in conversation and show you can "hang" with it, instead of keeping everything serious.
+- If she vents about something on the date, lean in and play along with her energy rather than staying neutral. Bonding over a shared playful gripe builds excitement.
+- Move fast. "Strike while the iron is hot." Days and weeks of chatting let her interest drop and make the date harder to set.
+- Once you know roughly her schedule and yours, "Set the date. Just say it. Assume the date."
+- Balance assertive and relaxed when setting plans. Too rigid ("here, this time, this date") boxes you in if she's busy; too vague ("we can do something sometime") means "nothing ever gets planned."
+- Show you have a plan (when, where, what time) without sounding eager. The vibe: "this guy goes on dates all the time... he's moderately excited."
+- "How the date goes does not start on the date." It starts with the energy you give while texting and setting plans.
+- Ask once. If it's a struggle to get her to say yes to your time and money, move on. "It should not be challenging for me to take you out."
+- Share the travel. Early on he and a woman an hour away took turns, so she came the first time and he went the second.
+- Don't talk about negative or heavy topics on a date. If she asks about something dark, answer in a light, playful way; how she feels around you is what she'll remember.
+- Don't bring your career achievements to the date to impress her. She doesn't care about the details; play, banter and make it fun.
+- Skip "copy and paste questions" like "What made you want to become a nurse? Do you like your coworkers?" The same topic lands very differently depending on how you say it and how you play with it.
+- Adapt to who's in front of you. Talk about things she's into, in a way that fits her (a lawyer and a 19-year-old get different references).
+- Talk about imaginative, playful, made-up things ("La La Land," "fiction land") instead of dry facts and logic.
+- Ask easy, light questions, not heavy, hard-hitting ones.
+- When she asks you something, give a short, teasing answer plus a question back instead of a full explanation. She's asking "to feel things, not know the truth."
+- Your tone, body language, eye contact and facial expression carry the emotion. You can tease with your words while your tone and nonverbals stay warm, which hits two emotions at once.
+- Don't burn the date on heavy money moves. Leading with spending doesn't earn loyalty or respect.
+- Aim for a talking split of roughly 80/20 in her favor. Ask good questions and chime in so it doesn't feel like an interview; she's in her best state talking about what she enjoys. At 50/50, or you talking more, attraction dies.
+- Don't spend the date on your success, career or work. It creates no attraction.
+- Stay composed. If you're visibly more excited and giddy than she is, interest drops; let her be the one enjoying it more.
+- You pick the plan. If she dictates where you're going, that's a power test, not a sign of interest.
+- Build some rapport before locking in plans. Being too direct with no connection leads to flakes once her anxiety kicks in later.
+- Busy-man strategy: max out your looks basics, build social proof online, get good at apps and texting, and use everyday moments (gym, coffee shop, grocery store) for two-minute conversations that end with her Instagram and a date.
+- In cold approach, open indirectly with good energy, not a compliment, so she relaxes and feels disarmed.
+- Don't interrogate her to get honest answers. Tease, tell stories and keep the mood light, and people open up on their own.
+- Early on, keep the "what are you looking for" talk light and low-pressure rather than making a heavy declaration.
+- Don't ask "When can I take you out?" or "Are you free sometime this week?"; it hands her all the power. Lead instead: "Tell me what you have going on this week."
+- On the date, her emotional state is what matters. Get her talking about things she enjoys rather than walking her through your résumé.
+- Don't get annoyed if she doesn't ask much about you; it's nothing personal, and she enjoys you more when the conversation is fun for her.
+- When she asks about you, she wants a feeling, not a data dump. Keep answers short and playful, and don't ramble.
+- Steer clear of work talk; "work is maybe the most boring subject of all time." If you want to know, playfully guess her job instead.
+- Copy-paste date questions ("How are the apps?", "What happened with your ex?", "Tell me about your family") mark you as a rookie.
+- Talk about light, imaginative, silly things, like a kid at recess, not revenue and accolades.
+- Learn when to stay on a topic and when to pivot. Hanging onto a dead topic and rambling kills the energy.
+- Use relaxed body language: lean back, sit comfortably, listen actively. Nonverbals are most of what she reads.
+- Don't spend big on early dates; rolling out the red carpet on dates one to three reads as high effort.
+- Pace it: don't future-pace or see her several times in the first week; "women clock these things subconsciously."
+- After the date, don't send gushing texts ("I had so much fun! That was a blast! When are we gonna do this again?").
+- His sequence: strong online presence, texting that matches it, a date with laughter and tension, then a calm follow-up.
+- Propose early dates that cost little time and money. If she only wants expensive outings, you can walk. That's how successful men avoid being used for their money.
+- Build plenty of options ("fix your top of funnel") so you're not in scarcity mode trying to buy interest with dinners and trips.
+- Don't throw trips or luxury at a low-interest woman to win her over. "She doesn't clock the Four Seasons… she clocks: he's below me."
+- Avoid sit-down dinner first dates. Facing each other across a table feels formal and "very interview mode," not relaxed or flirty.
+- Don't make yourself endlessly available. He won't agree to plans more than about three days out, and he doesn't jump at plans so fast it looks too easy.
+- Lead the plan: tell her where and when.
+- If plans stay vague ("maybe," "I'll text you when I know"), call it out early and ask for a concrete answer. You're not going to sit around waiting.
+- Keep standards on punctuality. He once canceled a first plan because she was running too late.
+- Women flake on plans mostly because they aren't sure the date will be good. Build "certainty" that she'll have a great time (he uses voice notes) before you ask her to meet.
+- For high-friction dates (she lives two-plus hours away, or needs to fly), texting alone won't get her there. Build extra comfort and certainty first.
+- Don't upgrade the date because she's high status. With a woman who had 100k+ followers he kept it more casual than usual, not Nobu.
+- On the date, have fun and talk about light or imaginative things rather than your job, revenue and accomplishments.
+- A good date ends with her texting that she had an amazing time, not in the friend zone.
+- Women's desire is mostly mental. The setting, the vibe and how she feels around you matter more than looks alone. "It's a dance."
+- Don't go straight to time and place cold. First get a sense of her schedule and availability to head off objections.
+- Once you know her schedule, tell her the plan simply: "Meet me here at this time." It's "in between the assertiveness and the nonchalantness."
+- Rapid-fire first-date asks right after matching or meeting rarely work, especially with women under 40. Build rapport and certainty first or she'll say yes and flake.
+- Excitement in the moment fades by the time plans are made. Mixed signals usually mean she enjoyed the chat but didn't have enough certainty to show up.
+- Suggest a low-effort first date to see her real interest; don't "roll out the red carpet."
+- Don't accept a fancy date with a girl who's only lukewarm about you.
+- Don't lead with money or spend on her for nothing; it won't earn loyalty and it rewards zero effort.
+- Lead the choices on the date: where to go and what to order. Don't defer out of fear she'll dislike your pick. "Say it with your chest."
+- On dates, steer clear of morbid, sad or depressing topics; she'll link that feeling with you.
+- Don't arrive way early and wait for her. Stick to the plan you set rather than letting it get rearranged on arrival.
+- A good date shows afterward: she reaches out to see you again. If you're always the one coordinating, review your conversation, the venue, the vibe and the energy you brought.
+- Don't set the next date right after the first ends; "It's too soon. It's too much. It's too eager. It's too fast."
+- Don't send gushing post-date texts ("I had a great time, when can I see you?"). Even after a great date or hooking up she's alone with her thoughts, friends and social media, and one eager message can undo it.
+- Keep verbalized excitement low ("Oh my God, I can't wait to see you tonight"); let your actions show interest.
+- If she flakes or reschedules, don't chase or bend over backwards; stay busy with your life. Constantly giving in to reschedules erodes respect.
+- Don't interview her on a first date (for example, asking about her life priorities). Keep it light, fun and playful. Silly topics ("talking about plants") work well.
+- Don't rant about yourself.
+- Leave about a week between dates. Early on, see her once or twice a week at most.
+- If she keeps bringing up her ex on the date, he calls it quits: "one of the worst signs humanly possible."
+- Approach the vetting way: "let's see what she's got... Maybe she's great. Maybe she's not." Not "I hope she likes me."
+- He only uses indirect approaches. In a club: read the room, open with an indirect line, be confident without words, have a real conversation, and vet her.
+- Aura is what works in clubs and anywhere else: "Aura is king."
+- To beat approach fear, practice small talk with strangers as if you were asking for directions. Build the habit even when nothing comes of it.
+- If you feel insecure or shy in clubs, that's internal; work on it with meditation and inner work.
+- Daytime is prime for approaching: coffee shops, malls, gyms, grocery stores, "literally anywhere." Night game means dealing with her friends.
+- "There is literally no bad place or wrong time to approach women."
+- Approach while running errands; opportunities are everywhere.
+- Use indirect, context-based openers. Read your surroundings first; if there's nothing there, pull from something you notice about her.
+- Avoid opening with compliments or validation ("Oh my God, you're so beautiful"). Be nonchalant, with the right tonality and body language.
+- He calls "direct openers never work" a myth. Direct can work when the delivery is nonchalant; it's tonality and body language that decide it.
+- Creative openers and pickup lines never work in your favor.
+- She doesn't care about commonalities with you; don't build the interaction around "we both like X."
+- Hard closes always create anxiety; transition smoothly instead of forcing it.
+- Time spent talking doesn't equal desire or interest.
+- Gauge interest within about five seconds of approaching. She doesn't need to be highly interested, but she should stop and give you decent attention; if not, leave and move on.
+- On a night out, around three approaches before leaving a venue is a good number.
+- If she's with friends at a coffee shop, still open with context, get a conversation going and roll from there.
+- If you want a high-quality woman, take her out on a real date instead of just inviting her over.
+- A woman who shows up to the date is already interested, so don't treat it like an interview you have to win.
+- She has little real interest in hearing your life story, even when she asks about you. Don't turn the date into a résumé.
+- Be a great active listener; it builds attraction.
+- Playful disagreement in a positive mood creates attraction; you don't have to agree with everything.
+- Maintain mystery: "never show your cards."
+- Less friction means more intimacy. Keep logistics smooth and easy.
+- Carry yourself like you've "done this a thousand times." Rookie behavior gets zero results.
+- Avoid heavy reality and logic topics on dates; keep it fun and about feelings.
+- You don't have to debate a hot-button question on a date (e.g., politics). Playfully deflect ("you're so silly") and keep the vibe light.
+- Alcohol, on occasion, is "really good for dates."
+- When the date ends and she asks when you'll hang out again, keep it light and open rather than locking in a definite day on the spot.
+- No shared language? "Translator. Interface. Speak. Type. It's no excuse."
+- Traveling for work for weeks? Leave your hotel, walk around and meet someone in person.
+- Keep Valentine's Day as cheap and low-key as possible, especially with someone new; it's awkward timing to start dating.
+- Dates must be "experiences," not interviews. Skip logical questions about work, travel and hobbies, and don't brag about your job or money. Logic makes her feel nothing.
+- Be a "state changer." Trying to bond over commonalities and rapport isn't what creates desire. Emotional stimulation is.
+- Your nonverbals should be relaxed and indifferent, not nervous or eager for it to go well. Eagerness reads as "he doesn't have other options."
+- Build tension through bold questions and conversation flow. If you're too safe, too polite or too logical, there's no tension and no desire.
+- Tease her and make fun of her a little. Let her feel silly and change her mood, but don't go too negative.
+- If you disagree with something she says, say so. Don't fake-agree to be pleasant (his "sea urchin" example). Fake agreement comes back later and shows you weren't being real.
+- When she says something ridiculous, call it out playfully ("are you out of your mind?") instead of nodding along.
+- Be assertive when coordinating plans. Don't agree to endless reschedules or venue and time changes.
+- Date ideas: skip alcohol and coffee, do an activity, ideally something with competition.
+- If she brings up heavy family trauma, acknowledge it briefly and move the mood on. Don't turn the date into therapy.
+- A strong sign the date went well is that she was comfortable and interested enough to come back to your place. Sex on the first date isn't required.
+- The number one thing in person is energy.
+- Lead the plan: "Let's go to X at 8:30" plus a short positive line, not "whatever you want is fine" or "here are some options, where do you want to go?" Making her decide creates anxiety.
+- Ask about availability as a light statement ("Tell me what you have going on this week") rather than a hopeful "Are you free sometime this week?"
+- Presume the plans and project certainty that it'll be fun; your energy sets her certainty.
+- He doesn't recommend dinner dates.
+- Prioritize women you meet in person, especially same-day; he moved a planned date to a later slot to see a woman he'd just met at the gym.
+- Let her talk about 80/20, and actively listen: probe topics that light her up, show with your eyes and body language that you want to know more.
+- When she asks about you, she wants to feel something, not get information; skip long rambling answers and keep it light and fun.
+- Avoid copy-paste interview questions ("How are the apps?", "What happened with your ex?", "Tell me about your family," truth or dare); they mark you as a rookie.
+- Disagree when you genuinely disagree, but keep the vibe positive and playful; boldness plus a good mood creates attraction.
+- Don't ask plainly about work; guess her job playfully or spin it into something fun.
+- Reduce friction: pick venues that are easy to reach and close to your place.
+- Don't future-pace, talk about more dates, or explain what you're looking for on early dates; keep some mystery.
+- A date that feels "good" to you (calm, logical, lots of get-to-know-you questions) often feels like nothing to her. Aim for fun, teasing, tension and playful nonsense, not an interview.
+- Talk about things she knows and loves (her home country, her culture, her food). Ask for her recommendations. The more she talks about home with you, the more at home she feels with you.
+- The worst first-date move is a long tangent about something you care about and she doesn't.
+- Don't make up experiences. If you haven't been somewhere, ask her about it instead: "Tell me about it. Where should I go?"
+- No pre-planned lines. Riff, go with the flow, and play off the setting (a bad bar, a dead Monday night).
+- Read the room and adjust. A reserved woman gets a calmer, more interesting conversation. An outgoing one gets more bold banter. Her clothes, body language, background and how loudly she talks tell you whether to push or pull.
+- Keep going with what works. If a topic gets a lukewarm response, drop it. If it lights her up, stay on it.
+- If you need to change plans, be direct, not meek: give the new time and offer to reschedule if it doesn't work.
+- Don't steer a first date into her heavy past or trauma. That turns you into her free therapist.
+- In his experience, a woman you met in person is a safer bet than an app match, because you already know her energy and what she looks like.
 - First-date preferences from the coach: meet after ~8pm, skip a full dinner (drinks/lighter venue), sit next to her rather than across, keep conversation light rather than heavy-deep, and don't spend the date talking about your work.
 - "The micro details make all the difference in her state" — venue, seating, and timing shape the mood.
 - Don't make a heavy, direct "come home with me" ask on a first date; keep any invitation low-pressure and easy for her to decline.
@@ -328,6 +1232,89 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - "Fantastic conversation CREATES emotions that CREATE attraction." Aim for feelings, not facts.
 
 ## Escalation & leading
+- Lead the logistics and decisions. Asking "what do you want to do?" for everything lowers attraction. Decide and invite her along.
+- Be physically present in a confident, playful way: a hand on her back while you talk, guiding her as you walk, playful horsing around. "She needs to feel your presence."
+- Assertive, decisive behavior makes her feel more comfortable, not less. "The more bold and confident and assertive you are, the more comfortable they feel."
+- Move quickly and with intent. Passive, slow, agreeable guys lose out to men who make things happen.
+- Be direct about what you want; don't dance around it or be timid.
+- Get her into a good mood with humor, then lead: suggest the next thing to do.
+- Make the decisions about plans yourself rather than negotiating every detail back and forth.
+- "You can just do things": shoot your shot wherever you are (mall, grocery store, gym, elevator) instead of waiting for the perfect moment.
+- Win the small games: hold eye contact and keep up in the banter.
+- Be assumptive and confident when inviting her back, not hesitant ("Do you want to come to my house... and also see my lion?"). Make the invite playful and sure.
+- A clear, low-drama choice works: "I can either drop you off or you're coming home with me."
+- He kisses on the first date "all the time." Be bold and go for it.
+- Back at your place, don't pounce. Give her a tour, sit back, put something on and let her relax; she often expects a man to rush, and not rushing takes the pressure off.
+- If she says "let's wait" or "not tonight," don't push. Say you're fine with that and mean it; no pressure, no persuading.
+- Approach anywhere, the gym included, as long as you "do it good... don't be a clown."
+- Daytime approaches (grocery stores, coffee shops, malls) beat bars because at night people drink, forget, and you can't leave much of a mark.
+- If she's wearing big headphones, don't just start talking. Give a quick gesture so she takes them off, make eye contact, then open.
+- Use an easy, context-based opener (like asking if she's from your hometown), talk cities, ethnicities, what's around you, then move to her Instagram. With fluid conversation that takes "60 seconds, 90 seconds."
+- Comfort first, then go for it. Early in the date, ease her anxiety. Later in the night, if things are going well, invite her back to your place and make a move physically; if you never do, she loses respect.
+- Leading means having standards and not agreeing with everything; "the leader cannot go around agreeing with everything."
+- Women look to you for structure. Be clear and have things in place; calling "once a month" while being cold won't build anything.
+- Make decisions calmly, especially when there's disagreement. Being decisive is part of the role she's looking for.
+- Use your own judgment instead of doing whatever you're asked. If one emotional outburst gets you to drop your day and rearrange your schedule, she won't trust you to lead.
+- Being able to look her in the eyes and say no when it's right is part of leading. "Masculinity is about certainty."
+- Make "executive decisions" as often as you can, from where to eat up to bigger plans. Decisiveness shows competence.
+- Take the burden of planning off her: "We're going to do that, we're going to do this." Many women are relieved not to have to decide.
+- When she flirts, don't jump to matching it or turning it sexual. Stay composed and let her keep investing.
+- Avoid raising the stakes too early, such as talk of a trip or bigger spending, to speed things along. It reads as overcompensating.
+- Break the touch barrier casually, mid-conversation: light backhanded taps and teasing ("Oh yeah, I bet you like that tap, right?") so touch feels natural and disarming.
+- For her, getting physical is "a slow climb." Don't startle her by going from zero to forcing it.
+- Plan for intimacy to progress. Even if you want a traditional relationship, there should be clear points where physical intimacy moves forward. Taking the same woman to dinner over and over with no progression leads nowhere.
+- Sort out logistics. He admits he went on repeated dinner dates with no place to bring her back to, and it stalled.
+- Lead the logistics with small, clear direction ("Text me when you get home," "Text me when you leave," "Go here, this is the time"). She doesn't have to figure everything out, and that's relaxing.
+- Treat early hesitation like objection handling. She warms up slowly and has real worries (is he real, is he safe), so address those calmly instead of pushing.
+- Keep cold approaches short. Talk for a few minutes, not 20. A guy with a busy life doesn't hang around forever.
+- Make the decisions. Her having to plan everything makes her anxious about whether you can lead. "Would you not tell a Make-A-Wish kid the plans for the day?"
+- Deciding together on everything, or letting her make every call, costs you respect however successful you are.
+- Lead like a leader: "I'm going this way. You can come or not."
+- Don't be timid about making a move when the moment is there. Hesitating comes across as nervous and passive.
+- It's never a bad time to talk to a woman. Get over the fear of seeming "creepy"; go talk to her, and if she isn't into it, move on.
+- Seduction is "a dance": build comfort, bring her to a peak, then make your move decisively ("like a lion in the jungle"). If you never make one, she'll assume you're not a man about it and drift.
+- Don't rush the first move; let the tension build through the night until the moment is clearly there.
+- Leading means making the call yourself rather than checking what she wants at every step.
+- If she's agreed to come over and asks "what are we going to do?", give a light, playful answer rather than spelling it out.
+- Give her a vision: she needs to be excited about where things are heading. "Sell the dream big," but never deceive.
+- If nothing has happened physically within one to three dates, you're probably focused only on making her comfortable. Add playful tension and lead.
+- Make the decisions. When you leave every choice to her out of niceness, she gets anxious and loses trust in your leadership.
+- Set up the logistics. A bad venue or bad logistics means "that door" never even opens.
+- Escalate late in the date, after building comfort with great conversation, relaxed body language, good tonality and eye contact. If the date went well, escalation feels natural.
+- It gets weird when the date went badly and you try to escalate anyway with no cues from her.
+- Expect some physical escalation by the end of a first date (at least a kiss). If it doesn't happen, review your conversation, tonality and body language.
+- When inviting her back to your place, don't come across as nervous or like it's a big deal. Make it clear she's genuinely free to go home.
+- Don't ask her how the intimacy was; asking for reassurance shows insecurity.
+- Take the lead on decisions and plans instead of making her decide everything.
+- Show interest through action and lead the plans: "I indicate and show I'm interested by saying we're doing this. We're going there."
+- Take the chance in front of you. Don't play a long game or plan to "say hi tomorrow"; that's how you never see her again. "If you think you're attracted, fucking go for it."
+- Never tiptoe: "the worst thing you could be with women is tiptoeing and tentative." Say it plainly and see how she reacts. If she says no, that's it.
+- Signs she wants you to make a move: closeness, eye contact, how she positions her body, licking her lips, and any touch at all.
+- If she's with a friend and your wingman won't help, take the lead and pull her aside to talk one-on-one.
+- If you want a threesome, look for women who are open to it from the start instead of springing it on a partner who isn't.
+- Build comfort, but then "go for it"; she wants you to make the move.
+- Before a physical move, read her body language and proximity in the moment.
+- Ask her to hang out casually and nonchalantly, maybe leaving a cliffhanger, not needily.
+- Sometimes a simple direct text, "let's cut to the chase," is all it takes to tell a woman you're interested. It depends on the dynamic.
+- Instead of telling her she's attractive and then asking if she's single, just ask if she's single.
+- When you do a playful bit or role-play, commit with a straight-faced, serious delivery. A half-hearted "haha, let's pretend" falls flat.
+- Lead the plans. If she makes you "audition" or perform to see her, don't jump through hoops. Step back; if she comes back keen, offer a simple, easy invite.
+- A first kiss on the first date is "a bare minimum." If you can't get there, look at how you're behaving, verbally and nonverbally.
+- Physical intimacy comes from emotion, not dirty talk or overt sexual moves. Create enough emotional stimulation and the physical follows.
+- Lead: you provide structure and direction. Don't just defer to whatever she wants.
+- If a woman some distance away (e.g. 80 miles) is open to coming to you, FaceTime her rather than send a voice note, and have her "pack a bag."
+- You don't have to call her beautiful to show interest: "you talk to her." A man talking to a woman already shows interest.
+- If she agreed to plans and spent hours getting ready, she's already interested; be in "go mode," not timid and passive like it'll take three or four dates.
+- Early in the date, focus on comfort and easing her nerves; once she's at a peak, make your move decisively, "like a lion in the jungle." Always with consent.
+- Wait fairly late in the night to make the first move so she's primed, but don't skip it; not going for it reads as no confidence and can get you ghosted.
+- Go for the next step (your place) with frictionless logistics; "Where's your place? It's right there" beats 30 minutes away.
+- Be decisive in every plan; not making decisions makes her doubt your competence.
+- Treat it like a sale: an opening, a middle where the details change with each woman, and a close. The steps stay the same.
+- Eye contact from across the room is her making room for you to approach. Take it.
+- Get to the point and take the lead on next steps ("Give me your Instagram, I'll DM you." / "I'll see you tonight."). Women like a man who's clear.
+- Invite her back confidently, as an assumption, not a nervous question.
+- Getting her to want you isn't a seduction routine: "you just kind of vibe out, and you kind of just make fun of her, and you laugh with her."
+- Make decisions, like choosing the restaurant. Don't just go along with a place you don't like.
 - Lead the "funnel" smoothly: first contact → texting → date, with no dead ends.
 - Turn good emotional moments in conversation into concrete plans right away.
 - Build rapport before any sexual insinuation; escalation without groundwork backfires.
@@ -351,6 +1338,123 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Read the context before acting. Context decides what's appropriate.
 
 ## Reading her signals (interest vs. disinterest)
+- Real interest means it's easy to see her: she makes time, shows up and doesn't keep flaking.
+- If she keeps flaking and never pursues intimacy when you do meet, she may just be bored or enjoying the attention.
+- Her being nice to you doesn't mean she likes you. "The only test is does she hang out with you."
+- "You're a great guy, it's just not right now" is a soft no. Read it as rejection and move on.
+- A woman who's into you will sometimes push back, show some emotion or test you a little. Total indifference can mean low investment.
+- Interest that was a "seven or eight" can slide to zero over time if you become predictable, readable and over-available.
+- If she chose another guy, look at your part: too passive, too agreeable, a conversation that dried out.
+- Texting interest: she asks questions back and uses exclamation points and laughing emojis. Low interest: short, dry replies.
+- In person: tonality, sentence length, questions back and eye contact show on a 0–10 scale how a topic is landing.
+- If she keeps bringing up her ex, positive or negative, that's a red flag that he's still on her mind.
+- When she gives an excuse (age gap, etc.), it's usually about the energy between you, not the excuse itself.
+- If she wants a relationship with you, "she will make it so abundantly clear." "If you don't know if she likes you, she doesn't."
+- If she replies fine until you ask her out and then goes slow, she wants the attention but not the date. Move on.
+- A woman who's really into you doesn't pull back. If she pulls away, she probably doesn't respect the dynamic or has other options; put your energy elsewhere.
+- "I'll let you know" usually means no.
+- Being called "a good guy, a nice guy, a sweet guy, the perfect gentleman, a funny guy" often means there's no attraction.
+- Friend-zone talk: "he was so funny... we kind of kissed, but I wouldn't take him seriously" or "he checked every box, but I'm not gonna date him" means you over-invested.
+- Playful insults like "you're an asshole," "a playboy," "a f***boy" are often teasing that signals interest, not real rejection.
+- If she vents to you about trauma, family or other guys, you're in the comfortable friend or therapist role, not the one she desires.
+- If she isn't excited to be physically close when you see each other, she isn't that into you; she may just be enjoying your time, attention or money.
+- Playful insults like "you're such a fuckboy," "I hate you," "you're the worst" or "why are you like this?" in a flirty context often mean she's attracted to you.
+- Signs she's invested: she's curious about what you're thinking, asks what's on your mind and takes your opinions on board.
+- If she's open to meeting other guys while she's seeing you, her attraction isn't high. At 10/10 attraction "every other guy is invisible."
+- If you pull back and she doesn't come toward you, she wasn't really into you. Take it as a note to build more attraction early in the first interaction.
+- First date: if you pay and she doesn't say thank you, take it as a character tell. People wear a mask early, but "they will have slips."
+- A vague brush-off when you suggest concrete plans means low interest: "we all have time for things we wanna do."
+- He sees a dog as a practical red flag for scheduling: she'll cut things short, be busy and not be able to stay over.
+- If she texts "made it home safe, thanks for tonight," then goes quiet for a day, watches your story and doesn't answer your follow-up, the date probably went worse than you think. Don't block her, but read the cue.
+- Judge interest by what she does, not by polite praise. Nice words after a date don't necessarily mean she wants you.
+- Playful teasing or "rage-bait" from her is often flirting, not an insult. "Guys see this as a bad response. This is an amazing response."
+- Signs she's more into social media than into you: she films your reaction to the food for a reel without asking, or wants you to take 30 photos of her in front of a mirror. He treats this as a reason to move on.
+- If early on she introduces you to her male best friend, he treats it as a dealbreaker.
+- "I'll let you know" means either a soft no or "I'm not sure yet, I need more time, I'm not comfortable."
+- "You're so thoughtful," "you're such a nice guy," or "I had a great time, but you'd be a great friend" means she isn't romantically interested.
+- Repeated flaking, rescheduling, being hard to reach, or putting you down in person and calling it a joke are signs she doesn't respect the dynamic. "This is a you problem," because she acts the way you allow.
+- She ghosts when the interaction stops giving her any feeling or fun. That's not about effort; your behavior "provides no emotion."
+- People show their best-behavior version early. The real personality comes out over longer stretches (a week-long trip, months), so get to know her before drawing big conclusions.
+- High interest means she goes along with what you want to do. Her telling you what you're doing is a test.
+- If she keeps trying to figure out what you're thinking or watches you closely, she's into you. If she never wonders, she isn't.
+- "You're so nice," "the perfect gentleman" and "I can always count on you" are warning signs of no tension and a friend-zone dynamic, not wins.
+- Playful insults ("I hate you," calling you an "evil prince") usually mean she hates how much she likes you, which is a good sign.
+- Friend zone means she enjoys your company and attention but there's no desire.
+- Her laughing at your jokes isn't proof of attraction.
+- When she sends you things unprompted (a video, a curious question), she's chasing.
+- A Hinge conversation going quiet is sometimes just timing and nothing you did.
+- What she says she wants and what attracts her can be different. "We just want to be heard" means listen, then lift her mood, not just agree to everything.
+- Truest sign of interest: you drop your effort and she raises hers. If you go quiet and she never re-engages, "she doesn't like you that much."
+- If you take a day to reply and she doesn't come back, her interest is low.
+- At the scheduling stage, high interest looks like "it's wide open," or her double-texting her availability. Constant "I'm so busy" friction means medium to low interest, or she may just want the attention.
+- In person, interest looks like held eye contact, questions unrelated to the situation, a real smile and warm energy.
+- Laughing and calling you "such a nice guy" on a date doesn't mean she's attracted; don't misread a polite date as a good one.
+- Long, logical texts can mean she's guarded; playful nonsense means she's relaxed with you.
+- If she complains that you work too much, don't drop your purpose to appease her; she's drawn to the drive.
+- Don't take a polite breakup reason ("you did everything right") at face value; look honestly at whether you were too eager or too available.
+- With women working retail or as baristas, steer to something personal and non-work. If she engages, asks questions back, and her eye contact and body language are warm, she's interested. If she gives a short answer and goes back to the product, she's probably just being nice.
+- Body lean in a single photo means little; in short-term photos she's just focused on looking good. Over a long-term relationship, consistently pulling away is a real sign of disengagement.
+- Interest rarely drops from 10 to 0 overnight. It wears down over time, often behind a "mask" of acting fine. Watch the slow trend, not one moment.
+- If she cancels but suggests a new time or asks when you're free, she's interested. If she says "oh, I can't" and never asks about another time, drop it.
+- A thumbs-up or "maybe" in reply to a plan isn't real commitment.
+- Laughing at your cheesy lines isn't the same as wanting to meet. Judge by whether she converts to a date.
+- If she brings up "friends" on a dating app, she isn't romantically interested. Move on.
+- When she suddenly turns dry, consider that she may be checking how you react before you assume she's gone cold.
+- High interest: she texts you as soon as she gets home from the date, reaches out to plan the next one, finds reasons to see you again (even "leaving stuff" at your place). You shouldn't have to chase.
+- Low interest: she reschedules with no documented emergency and doesn't offer another day or time.
+- Low interest: a formal, polite "thanks for the date." High interest sounds more like "when am I gonna see you again?"
+- Low interest: a logical, business-like post-date text ("I guess if you're going to do it, I'll put in the effort").
+- False positives: hearting or laughing at texts and then not replying; calling you "a great guy" after a first date; "you're hilarious" with no follow-up. Judge by whether it turns into dates.
+- If she shows interest first ("I think you're really hot"), don't assume it's in the bag and turn equally direct and eager. Keep banter and qualifying going.
+- Early on, people show a curated version of themselves; be attuned and don't over-read the instant "click."
+- Lazy, low-effort replies can be a test of whether you'll keep interviewing her; don't keep carrying the conversation.
+- If she friend-zones you because you "treated her too well," don't blame your looks; next time, stop over-investing early.
+- Words can show interest, but if she won't reschedule herself, she's less interested than she says. Move on.
+- When she starts and holds long eye contact, it's a choosing signal: "Women do not accidentally hold eye contact with men."
+- "If she wanted to see you, she would make it easy." Don't make excuses when she gives no availability after a first date.
+- When a woman is really into you, "everything is so easy": she makes time and responds. Constant drama and "the hardest time" mean she's not that invested.
+- A woman who truly likes you wants you to herself and gets protective.
+- If she ignores you all the time, she has "left the board." Stop playing and walk.
+- Very sweet early words aren't proof. Only behavior over time shows who she is.
+- If she pulls back after intimacy on a first date that went well, there may be an ex or another guy, but he says that's "pretty unlikely."
+- Don't overreact when her mood changes from day to day; "Just carry on."
+- If your girlfriend mentions she went out with a guy at a club, "it's not promising." She may be trying to get a reaction, so don't give one.
+- Simple test: does she actually hang out with you, and is there intimacy? If not, she's using you for attention. "If you wanted to hang out with someone, would you make it difficult to do so?"
+- If she keeps "making plans" but makes them insanely difficult, she wants your attention, not you. Stop investing.
+- If she only texts when she wants attention, keep the conversation to making plans.
+- Watching your stories while ignoring your messages (or the reverse, like leaving you undelivered while replying to your story) is game-playing. Don't chase it; move on.
+- Don't get excited early because she's playful or sarcastic. You don't know who she really is yet, so take early behavior "with a grain of salt."
+- Women can mask how they really feel through their behavior; judge over time, not on first impressions.
+- Men often think things are going well when they're not. She may avoid confrontation and say everything is fine.
+- A great green flag is the family she comes from.
+- If she doesn't even say thank you when you take her out, that's a sign the dynamic is transactional.
+- If she constantly uses the word "insecure" about others, it can signal she plays the victim.
+- When she confides personal things, treat it as neutral, not as a sure sign of deep interest.
+- If she insists hard on you being "open and transparent," it's usually a fear response about being the vulnerable one who gets hurt, not a real need for the information.
+- Watch how she treats you early on. Behavior matters more than words, so notice how she responds in different situations.
+- If a woman is nonchalant and lukewarm, don't fight for her attention. Focus on women who are clearly into you.
+- Signs she's choosing you: proximity, eye contact, smiling. If she holds eye contact, smiles, or looks back more than once, it wasn't an accident.
+- Flirting or online attention without meeting up means nothing. Her actions are the real signal.
+- Judge her by her actions, not by what she says about herself. Self-descriptions are about how she wants to look to you.
+- "I had a really good time" after a date doesn't prove real desire. She could just be polite.
+- If she texts first and then gives one-word answers, she either wanted attention or lost interest because of your texting.
+- Time spent together doesn't equal desire. She may enjoy 20 minutes of your attention because she's lonely. It's about how well you create emotion, not how long you talk.
+- If she pulls back after two weeks of talking when you stop over-showing interest, the real problem is usually that the in-person interactions weren't exciting enough.
+- When women approach you at a social event, they've already chosen you, so don't kill it with question after question.
+- When you're relaxed and not trying hard, interest shows as dilated pupils, sitting up and leaning in, more engagement.
+- Her agreeing to plans and getting ready for hours is a strong sign she's into it.
+- Dry, low-effort texting signals medium-to-low interest; match it rather than chasing.
+- If she looks for reasons to disqualify you while excusing everything for another guy, it's about the emotional state each of you creates, not just looks.
+- Until she really desires you, small frictions (distance, awkward logistics) become reasons not to escalate.
+- Women who commit to plans and then flake often never got enough certainty and comfort during texting.
+- Probing questions ("What are you really looking for?", "Tell me more about you," body count) are often testing whether you'll cave; playful deflection works better than a full disclosure.
+- Signs she's interested early on: steady eye contact, long answers from the first sentence, body turned toward you, asking you questions, expanding on topics, laughing. If all of these are there, "it's a green, green light."
+- If she asks what you're doing tonight, she's interested. That's what happens when you bring the right energy.
+- If she's trying to impress you or win your approval (apologizing for how she looks, asking whether you'd have approached her), the attraction is there.
+- If she unloads her past, her ex and her trauma on a first date and never catches herself, that's not a sign she's comfortable. It means she sees you as a therapist, not a man she's trying to impress.
+- If she catches herself ("Sorry, I know this is getting kind of deep"), she cares what you think of her.
+- "You're a great guy but let's be friends" or "I'm not ready to date right now" after a pleasant date usually means she felt no spark. The date was too logical.
+- A lukewarm reaction to a topic means change the topic.
 - Matching, texting back, and agreeing to a date are all signs of attraction.
 - Polite warmth on a date can be a false positive — people rarely tell you to your face that you're boring or too eager, so judge by her follow-through, not her politeness.
 - "I don't know if I feel like going out" is a sign to let it go rather than plead.
@@ -390,6 +1494,131 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - What people say they want in dating often differs from what actually attracts them. Don't follow stated preferences blindly. Watch what she responds to.
 
 ## Tests, pushback & conflict
+- Don't cave to tests or hand over your frame, especially once you're comfortable with her.
+- When she provokes you or something she does annoys you, don't react emotionally. Calm, unreactive composure is what makes her feel safe. "When you react, they win."
+- Don't get pulled into heated back-and-forth arguments. Calmly remove yourself, go do your own thing, and come back when it's calm.
+- If she tries to take over the lead or tests your decisions, laugh it off, stay playful and don't concede.
+- If she gives you attitude, don't automatically fold with "okay, yeah, my bad." Hold your ground with calm confidence and humor.
+- Be willing to call out behavior you don't like, directly and without fear. Letting things slide to avoid friction reads as weak.
+- If she calls you "immature" or "insecure," don't get defensive. Stay unbothered and answer with humor.
+- When she asks "Are you always this confident?", don't defend yourself or tone it down. Playfully double down. "The worst thing you could do with this question is concede, cave, lose frame, defend yourself."
+- When she brings up heavy news or world events emotionally, don't get into a logical debate. Calmly reassure her ("it's okay, take it easy") and move on to something lighter.
+- Don't apologize reflexively just to smooth things over or win approval.
+- Don't over-justify yourself. If she asks "why aren't you texting me more?", stay calm and don't launch into explanations.
+- If she threatens to leave unless you put in more effort, don't cave; calmly accept that she might go ("take care"). Threats like that are usually a bluff, and if she really wants out, it's better to know.
+- When she has an attitude, treat it as a test; hold your ground calmly instead of getting rattled.
+- Don't react emotionally even when she does something dumb; stay steady and stoic.
+- If she's openly rude or cusses at you, you don't have to entertain it; you can walk away.
+- When she fishes for compliments ("how do I look?"), keep it light and playful and get moving ("okay, alright, let's go") instead of over-reassuring.
+- Stay emotionally steady. If she goes quiet for three days, don't show you're hurt; a calm "oh cool, I'm busy too" beats a reaction.
+- Don't over-demand effort from her. Expecting too much pushes her away and gets "the opposite outcome."
+- Don't get pulled into long back-and-forth debates over tests (e.g. "you need to be nicer"). A short, calm, confident answer holds your frame better than negotiating.
+- If she feels comfortable calling you a loser to your face, ask why she feels she can. You've probably been too accommodating and let the boundary slide.
+- If she says "you work too much" or "I don't see you enough," don't drop your mission to keep her. Be honest that your priorities won't change and let her decide.
+- When she brings you a problem, the solution often isn't the point. Focus on lifting her mood and helping her feel better rather than rushing to fix it.
+- Being called out playfully ("you obviously don't have a pet lion") isn't a reason to back down. Laugh it off and stay on course.
+- Expect to be tested for the whole relationship, short or long term. Stay steady instead of folding.
+- Don't over-explain yourself when she pushes you to justify yourself. State your view calmly: "This is what I think."
+- When she behaves badly, don't get emotional or launch into long talks about your feelings. Pull back your attention and stay unbothered.
+- Long logical "good communication" doesn't settle an emotional moment. Stay calm, keep it light and change the mood instead of debating.
+- Name low-effort or rude behavior directly instead of quietly putting up with it. Either she corrects herself or you save your time.
+- If she adds friction to every question you ask, call it out lightly ("Do you enjoy adding friction?").
+- When she has an attitude, meet her energy with confident banter. Don't placate or fold.
+- If she tries to take charge, hold your position with humor: a callback from earlier in the conversation softens it, but you still hold your ground.
+- If she starts nagging, cut it off calmly ("We're not doing this") instead of getting dragged into the cycle.
+- Put your foot down and stop tolerating disrespect. Most men tolerate everything, so having standards makes you stand out.
+- When she throws a fit or gets mad over nothing, don't get pulled in. Stay calm and unbothered ("yeah, okay"), and she often comes back on her own. In his example she returned a day later.
+- Fights that seem random usually aren't. They often mean she's bored, under-stimulated or has lost respect for you, so look at the dynamic instead of arguing about the details.
+- Don't simply agree every time she reschedules. Passively going along is, in his view, a failed test that leads to ghosting.
+- When she pushes to control what you do, put your foot down calmly instead of complying.
+- When she pushes to change the plan you set, don't fold right away. Hold your plan with confidence; "she might say no, but... at the bare minimum, there was respect."
+- When she pushes back on a standard of yours, stay calm and hold your position rather than caving. Be willing to walk away.
+- When she brings you a problem, she usually wants to feel better, not get a logical fix. Change the mood instead of lecturing her with solutions.
+- "Emotional intelligence" in practice means staying calm and steady when emotions run high.
+- If complaining becomes a habit, don't feed it with long heavy sessions. "Joke about it and pivot."
+- There need to be consequences for repeated disrespect. Stop investing, and be willing to walk away.
+- Casual-seeming pushback is often a test of your frame. "To the untrained eye, this is nothing... to the trained eye, this is a test of frame." Don't fold or apologize to smooth it over.
+- Answer a test by changing the emotional state (humor, playful nonsense, "La La Land", light touch) instead of defending yourself logically.
+- When she tries to run everything, tease her about it lightly rather than handing over all the decisions.
+- If she accuses you of something, don't get defensive or over-explain; stay calm and unbothered.
+- In a playful disagreement, hold your position instead of backing down to keep the peace.
+- Don't grovel over small slips. If you mess up (say, the wrong name in an opener), recover with confidence instead of begging forgiveness.
+- When she pulls back, never answer with more effort or anxious check-ins ("are you okay?"). "Never... will you ever get more effort... by putting in more effort yourself."
+- Don't be on call for 40-minute venting sessions every time; you have your own life to run.
+- Don't let money sob stories (bills, rent, a bad tips day) pull you into paying for things early on. Stay sympathetic but don't become her bank.
+- If she sees you have resources and suddenly demands a much more lavish date, don't take the bait.
+- You don't have to drop work commitments every time she asks. Keeping your mission is part of leading, and constantly giving in wears away respect.
+- Expect tests, especially from very attractive women. Don't jump through hoops to pass them.
+- Giving in the moment she complains reads as not leading. "Stand on something": masculine men stand on what they think is right and don't waver.
+- Aim for her respect, not to keep her happy every moment. Granting every request just moves the goalposts; the discernment to say no builds respect.
+- Ultimatums: hold the line with a calm "it's a hard no." It's hardest when you're in love and short on options, which is why abundance matters.
+- When she challenges you, don't get defensive or over-explain with logic. Stay light and laugh it off.
+- If she labels you mid-argument ("you're a narcissist"), don't take the bait or defend yourself; stay amused and unshaken.
+- Don't get pulled into long, emotional text fights; staying calm and unreactive stops the cycle.
+- Disagree when you genuinely disagree, but keep the mood positive with playful tone and body language rather than a flat "No, you're wrong."
+- Teasing has to be calibrated. Avoid sensitive topics like height or appearance before rapport is built, and read whether it will land.
+- When she pulls back, don't rush to "let's talk about it"; that's more effort. Ease off, match her distance and keep living your life.
+- Many small requests and jabs are her checking whether you can say no and lead. You don't have to agree to everything just to keep her happy, like carrying her bag or giving in to every ask.
+- When she teases you, don't defend yourself or explain logically. That "gives them ammo." Own it playfully and exaggerate it, like a cartoonish "Bond villain."
+- His go-to replies to a test are short, unbothered prompts like "Or what?", "And?", "So?" He just holds eye contact and doubles down calmly.
+- When she has an attitude, don't react. "Every time they bark, it's just a bark." Stay amused and unbothered ("yeah, yeah, okay"), and it settles down because there's nothing to push against.
+- When she picks an argument, don't assume the stated topic is the whole story, and don't get pulled into long logical debates. Stay calm and steady.
+- Know your non-negotiables and say no clearly. Boundaries usually get pushed in small steps ("give an inch, they take a mile"), so notice the creep. If she asks to see other people in an exclusive relationship, the answer is a clear no: "We're not negotiating here."
+- If she threatens to leave or brings up an ex or another guy, don't panic or beg. Stay calm, and make it clear she's free to go.
+- Never tease her about a physical insecurity. Even with good delivery she'll take it personally. Don't gush "you look beautiful" either. Just move off the topic.
+- If she pressures you in a relationship to drop your work, ambition or freedom, it's often about whether you'll stop leading your own life. Keep your purpose; don't take your eye off the ball.
+- Tests you handle badly don't blow up on the spot. They get "tallied up" quietly and show up months later. Handle them well when they come up.
+- When she asks something like "why are you single?", give a playful answer that changes the mood instead of a sincere explanation.
+- Expect tests from before the first date onward; they're normal, so don't take them personally.
+- Tests are often a check that you're steady, a request for reassurance that you lead and won't fold. Be the rock: "Rocks don't change position."
+- When she teases or tests you on a trait, own it with humor instead of defending yourself: "And? You're right, I am like that."
+- If you tease her, don't backpedal with a nervous apology; "you don't back down, you double down" (playfully).
+- Get comfortable saying no. Being a constant yes-man costs respect; in his example she tested twice and liked the calm "no."
+- Don't apologize just to smooth over a test or a non-issue; save apologies for real wrongdoing.
+- If she gets an emotional rise out of you during tests, she'll test more. Staying unbothered leaves "no cracks in your armor."
+- Don't vent and process all your feelings at her ("Why did you do that and upset me?"); stay composed and handle your emotions yourself.
+- When she complains ("you never compliment me"), don't panic and overcorrect into appeasing her; it often means she's emotionally invested.
+- Requests like "do you want to split the bill tonight?" may be a check on whether you lead; handle it confidently.
+- If she calls you "dry" while giving nothing herself, call it out lightly instead of over-compensating.
+- If she's pushy or has attitude in conversation, calmly reassert that you're leading; don't scramble asking how to please her.
+- If she does something unacceptable, state clearly that you won't tolerate it and be willing to walk.
+- He sees her offering to pay as a test.
+- If she accuses you of something you didn't do, explain once and calm it down. Then stop defending yourself over and over: "You believe me or you don't... I'm not repeating myself again." Otherwise it drags on forever.
+- If another man hits on your girlfriend, one line is enough: "That's my girl." If you can't trust her to turn him down, the relationship has deeper problems.
+- Don't reward fights with extra attention, or she'll learn that conflict is how to get you. Give your attention when things are good.
+- When she's upset, don't treat it as a debate or rush to solve it. Calm it down instead of arguing point by point; often she wants to feel heard, not to get a solution.
+- If a heated argument (politics, for example) is going nowhere, stop feeding it and calmly step back.
+- If she asks whether you're seeing other women, "context matters a lot": who she is to you shapes the answer.
+- No point telling anyone your body count.
+- Don't lend money to someone you're dating just because she says she'll pay it back.
+- If she speaks to you poorly, don't tolerate it; move on. Building abundance means you never have to tolerate bad behavior or "attitude."
+- If she provokes you by flirting with other men while ignoring you, it's a chaotic mess. Leave.
+- When she reschedules, how you react depends on your abundance. Typically he doesn't accept a lot of it; reply nonchalant and low-effort (even just a thumbs-up) rather than scrambling.
+- When she comes back after a period of distance, keep your frame. Don't suddenly turn mushy and gushing ("Oh, it's so good to see you!").
+- If a woman who ghosted you is someone you see every day (e.g., at work), be unbothered and act like nothing happened. "When you show that you're affected, you lose."
+- If she's reluctant to commit and asks you to make an exception or prove yourself, he sees it as bait; don't bend your standards.
+- When she asks a loaded question, it's about delivery: you can say nearly anything with the right timing and tone, and she'll laugh.
+- A test is often her checking whether you're steady, "the rock." Calmly holding your position or saying no gives her that reassurance. Saying yes to everything to keep her happy loses her respect.
+- Don't answer a test with logic. Answer with silliness, teasing and a change of mood. "When you change state and you make light of it, you win."
+- On a cold approach, just deflect tests. On a date, don't let them slide into something deep and negative.
+- Random fights and drama often come from boredom and too little stimulation. Bring more emotional variety and boldness rather than more comfort.
+- When an ultimatum comes, hold firm. "It's a hard no." If you cave, the goalposts keep moving and her respect drops. This gets hard once you have feelings, so your discipline has to be strongest then.
+- Don't tolerate entitlement. With a woman you've been seeing who keeps pushing, be willing to calmly say she should find someone else, and mean it.
+- If there's never any consequence for repeated bad behavior because she knows you won't leave, it continues. Have standards and be willing to walk.
+- You'll get calibration wrong at first and lose some women. "You have to be willing to lose women to get great at women."
+- Shit tests are mostly indirect ways of seeking reassurance that you can lead, make decisions and say no; expect them for as long as you're together.
+- Small asks like "hold my bag" or "why do you never do this?" can be tests of whether you hold your ground; respond calmly from your own frame.
+- When she teases or challenges something about you, own it confidently rather than getting defensive ("You're right, I am like that").
+- Don't say yes to things you don't want out of fear of losing her; saying yes just to please her erodes respect.
+- When she picks a fight or nags, don't over-explain or try to logically argue it away; stay calm, hold your boundary and be willing to walk away.
+- Playfully deflect invasive questions like body count; "smoke screen that, play around the fact."
+- When she tests you or pushes back, don't fold just to keep the peace. Agreeing and siding with her to avoid conflict looks like fear, and she reacts to it later.
+- Women notice every small time you back down and can act on it months later (pulling away, less intimacy, leaving). Small moments matter.
+- If she's subtly disrespectful by text or in person, don't just laugh it off. Address it.
+- Handle playful debates by staying playful first: tease back and enjoy the sparring. If she seriously pushes to see how far she can get, the masculine side comes in: hold your point and don't give in just to end it.
+- When she's upset or emotional, stay calm and don't take every reaction literally. Don't jump to logic, explanations or fixes, and don't spiral into "wait, did I do something wrong?" Stay steady and the moment passes.
+- Speak calmly when things get heated. Calm takes the tension out.
+- Don't change your stance or your plans because of her attitude. Hold the line and be willing to walk away.
 - Common "tests" men fumble: her sending a photo, rescheduling/flaking, questions about relationships or exes, pressing you for reassurance, asking small favors. Respond calmly and securely rather than anxiously or over-eagerly.
 - Whether a flake's reason is legitimate or not, she notices how you handle it — calm, non-chasing responses communicate self-respect.
 - Let your real personality and humor show early; it reveals compatibility. Men who hide themselves to be liked find it "slips out" months later and causes conflict.
@@ -432,6 +1661,122 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Set boundaries: "Only tolerate great behavior."
 
 ## Relationships & long-term
+- "When you start to get the girl, that's when the game actually starts." Don't get comfortable, lazy and predictable once you're together.
+- Stay the man she was first attracted to. "You retain women when you don't waver." Don't drop your life, follow her lead on everything or start compromising away your identity once you're invested.
+- Showering her with validation and putting her on a pedestal can work in the honeymoon phase, but it corrodes respect over time.
+- Keep your own priorities, focus and busy life. Don't make her the center of your universe.
+- Effort should go both ways. Don't do everything for her. A relationship where she gets your time, attention and money without investing herself loses respect.
+- Keep leading and giving direction in the relationship, and don't defer every decision to her.
+- Early on, don't push anxious "where is this going? are you my girlfriend now?" conversations. Let it develop through time together.
+- When she asks "what are you looking for?" early, don't put heavy pressure on it with an intense answer. Keep it light and playful without misleading her.
+- If "have you ever cheated?" comes up, a flat interview-style yes or no tends to land badly. Keep it light and playful.
+- If she persistently refuses intimacy in a relationship, take it seriously as a sign she may have checked out, and be willing to leave.
+- Long-term, your frame has to grow over time; the biggest mistake is falling in love and going soft.
+- Hold standards for how she treats you and don't tolerate repeated bad behavior; that doesn't mean being cold all the time ("you need polarity").
+- Don't simply reciprocate every burst of sweetness by dropping your own standards; stay grounded.
+- Gifts are fine if she's earned them, but downplay them ("I was at the mall, I got you something") rather than making a big emotional production.
+- Early on, he suggests seeing a girlfriend no more than about twice a week and not moving in, to keep some space and mystery.
+- Avoid long distance unless it's an extreme case; if you do it, she should be willing to move to you soon.
+- If interest drops after a few months, look at your own behavior: effort level, interest level, how you're treating her.
+- Pick a partner on the whole package. Looks are minor; she should treat you well and add peace and value. "Don't tolerate bad behavior" just because she's attractive.
+- A woman with great energy and personality can be far more attractive than a more beautiful one with a bad attitude; don't force attraction.
+- Religion or labels don't replace judging her by her behavior.
+- Don't get involved with married women.
+- Dating a coworker adds unnecessary friction; he wouldn't recommend it, but if you do, keep your frame.
+- Don't make your partner your main outlet for venting and ranting. Have other support (friends, family) so she isn't your emotional dumping ground.
+- If you feel you need to go through her phone, the trust is already gone. He'd end it rather than snoop.
+- If she retaliates by thirst-trapping for other men's attention, the dynamic is already broken; leave.
+- He advises against moving in together, because seeing each other all day every day means "too much exposure, too much consistency."
+- Short-term long distance is pointless. If you do long distance, it should be for something long-term.
+- Dating a coworker is possible but "it just gets messy." He wouldn't recommend it.
+- If you're busy and ambitious, see one or two women at most when dating casually; more is "another job in and of itself."
+- A woman with a very dominant, set personality from decades of conditioning isn't yours to fix. "Don't try to change" her; move on if it doesn't fit.
+- Asking her to be your girlfriend with roses is "high school." Keep it simple and natural.
+- To keep her long-term without "playing a game and performing," be busy with things that aren't her. It protects you from manipulation and keeps you from being overexposed.
+- Keep some excitement and challenge going. A relationship with no spark gets boring, and boredom leads to drama or someone leaving.
+- Don't keep giving without it being earned. The more you do for her for free, the more she takes you for granted.
+- Control the urge to over-invest when you're falling for her: the extra gift, telling her how much you like her, more effort, pillow-talk venting. Tell that emotional mind to "shut up" every day.
+- Don't keep reassuring her that you have no one else and nothing going on ("on my couch doing nothing, just thinking about you"). Show her you have a full life instead.
+- Don't go into "relationship mode" after one date. He admits his own mistakes: dinner as a first date, being super into her, and dropping all other options after one date.
+- Be the one who knows what he wants and leads. Don't fall into simply following her lead in the relationship.
+- Don't let a relationship go emotionally flat, whether you're a weekend in or years in. "If things don't carry a strong feeling of emotion," they lose value.
+- Respecting your partner is different from fearing her. Don't live in fear of your wife or girlfriend.
+- Don't cut off your social life and become someone nobody else values just to soothe a partner's insecurity. It backfires, because she still needs a man others value.
+- Stay someone she'd be sorry to lose. Don't become a sure thing who stopped bringing value.
+- Early on, don't front-load heavy talk about exactly what you're looking for, whether settling down or casual. Spelling it out too soon puts pressure on things.
+- Don't reward zero effort with big treats. Lavish gifts and trips she hasn't helped build set a precedent where she stops trying.
+- Don't lead with money, especially if you're wealthy. Spending doesn't buy loyalty or respect, and a sudden big lifestyle upgrade she didn't earn can turn into rising expectations.
+- Don't push to define the relationship too fast ("let's commit," "where is this going," "I like you"). It drives women away.
+- Keep male friends on the same mission as you. Your girlfriend shouldn't be your only best friend.
+- Friends-with-benefits setups rarely stay casual for long; eventually someone wants more.
+- A matchmaker won't fix you. If your inner and outer game is weak, you won't know what to say, how to escalate or how to keep your frame once you're matched.
+- Both people have to invest. When you're the only one giving, it stops being a relationship and becomes chasing.
+- Getting the girl is when the real game starts: "You were in warmups before... Now you're actually in the game." Don't get complacent and give up your frame once you're in love.
+- A relationship goes stale when she's the only thing in your life and knows nothing would change. Keep your own life, standards and willingness to walk away.
+- Don't rush to fix every worry by over-explaining; a little mystery keeps the attraction alive.
+- Keep leading decisively in the relationship. What she asks for in the moment (say, flowers she saw on TikTok) isn't always what keeps her respect.
+- She needs to know you're a man who can walk away. If you've never shown you can live without her, she'll assume you can't.
+- Keep your discipline even when you're attached: don't drop work commitments or your schedule every time she asks.
+- Don't copy grand romantic gestures she sees online to win her over; steady leadership matters more.
+- Keep the relationship fun and dynamic so it doesn't fall into boredom.
+- Keeping the peace by always giving in creates long-term resentment. Hold your standards even when it would be easier not to.
+- Don't hand over everything she asks for just because she asked. Generosity should follow how she treats you and how appreciative she is, not just her appearance. Rewarding everything "trains" laziness, "like spoiling a nepo baby."
+- Stay the steady leader with your own mission. Showing you care means being "the rock," not giving up your goals to orbit her.
+- Early on, don't make her your therapist. Venting about your boss or family drama too soon can shake her sense that you're steady.
+- Over-explaining everything about budgets, plans and "where this is going" pulls things out of the fun and into anxiety. Keep some lightness.
+- If she's comfortable enough to treat you poorly, be willing to end it. Your willingness to leave is what keeps the relationship respectful.
+- Lasting attraction comes from staying a man with options, standards and a life of your own, not from romance gestures or comfort alone.
+- Don't let drama, sudden fights or "I just don't feel well" keep pulling you out of your plans with friends; keep living your life.
+- Long-term, openness and honesty aren't enough; keep excitement, variety and playfulness alive or things go stale.
+- Keep leading in the relationship; don't hand her all the decisions.
+- Boredom is a main reason women leave or ghost; keep things fresh and engaging.
+- Keep your online presence strong even once you're dating someone; it keeps reminding her of your social value.
+- To keep a woman long-term, hold your ground and keep your own mission at the center. Don't make her your whole world.
+- Don't move in too soon: "It's a catastrophic mistake." He sees no reason to live together unless you're building a family.
+- Don't drop your standards and frame just because she's sweet. Guys who "get all soft" and over-accommodate after getting back together often lose her again.
+- Marriage takes a very strong frame, mental fortitude and a very high-quality partner. He sees the modern legal setup as a risky deal.
+- If you want kids and she doesn't, that's deeply rooted and rarely changes. Ask yourself honestly whether it can work.
+- Different religions: it depends on how religious each of you is.
+- If there's no peace in the relationship, leave.
+- Friends-with-benefits rarely last because "someone always catches feelings." Be honest with yourself about that.
+- Don't "sell her the dream" with big future promises unless you're serious about her.
+- Platonic friendships where one person wants more are "a recipe for disaster." As the man, you make the call clearly.
+- If she's sliding toward "just friends," don't act anxious about it; if she senses you want more and are needy, she pulls back.
+- He advises against dating someone who is deeply into fame and clout.
+- If your friend is dating someone bad for him, you won't win by arguing; a man who's emotionally hooked takes her side. Sometimes he has to learn it himself.
+- Women need some tension and emotion. If everything becomes flat comfort with no spark, she gets bored and may look elsewhere. Keep it fun and alive.
+- Spending too much time with her early on tends to make things worse; don't smother the connection.
+- Having experience with multiple women helps you not just in dating but in long-term relationships too.
+- He learned the most about women from long-term relationships, because that's where you see who someone truly is over years. Casual dating gives you a narrow view.
+- Every relationship is a negotiation, usually subconscious. The more leverage you have in your life, the better terms you can get.
+- On marriage: objectively he sees it as a risky contract for men in the West, so do your due diligence. If you're religious and will marry, choose very carefully, knowing "risk is unavoidable."
+- Long distance is very hard to sustain without a very strong initial emotional pull. Ask what the outcome is worth.
+- The sweet spot for dating multiple women is "a couple." Ten at once is outrageous and a ridiculous amount of work.
+- Don't pursue married women: "There's so many women in the world."
+- He's an advocate of having kids.
+- Long-term interest: live your own life, keep some mystery, don't be too nice, don't shower her with compliments, and don't make her the main focus.
+- Discipline slips most once you like her. That's when you have to watch your behavior.
+- "The game never stops." Keep the boldness and playful tension going months into a relationship. Don't drop your guard because things are comfortable.
+- He doesn't recommend long distance. If you do it, she needs to move to you within a few months or there's no point.
+- If you only want something casual, be ethical. Don't keep her around on false relationship hopes.
+- He doesn't accept a woman he's seeing sleeping with another man. That's a line for him.
+- Early on, don't share your struggle or grind (being broke, building up). She'll fixate on that part, so let her see the results.
+- Be wary of chasing the "Instagram 10" or famous women for status. They come with high expectations, curated personas, constant outside attention, and you're "competing with the world." He says it's not worth it.
+- He sees a high-value woman holistically: looks, behavior, upbringing, lifestyle.
+- If you hand over all leadership and over-accommodate in a relationship, attraction and intimacy fade and fights increase; keep leading.
+- Keep your own life, mission and priorities first even in a committed relationship.
+- Stay internally detached "one day in, a hundred years in"; needing her not to leave weakens your position.
+- Later in a relationship, the comfort she wants is often nonverbal, steady masculine presence ("just being there for her") more than lots of soothing words.
+- A good social life and social presence still matter if your goal is marriage and family.
+- Keeping her interested should come naturally, not from daily tactics or schemes.
+- Stay busy with your own life. If she's the number one thing in your life or your only source of happiness, she'll lose interest.
+- Limit how much time you spend together, however serious it gets. Too much exposure pulls you into her frame and makes you more emotional and agreeable.
+- Keep your ability to say "no", "absolutely not" and "we're not doing that". Respect over the long run depends on it.
+- Putting in tons of effort to keep her makes her feel above you, get bored and want more. Find the middle: high interest without over-investing.
+- Getting comfortable and playing it safe ("I hate dating, I don't want to rock the boat") is a common way men lose long-term relationships.
+- If she asks you to "open up" or "communicate more", what she usually wants is to feel that you trust her and are comfortable with her. Give her that feeling. Long rants and venting aren't the answer.
+- You don't have to mirror her emotional style. Being different from her is part of the dynamic, not a problem to fix.
+- Playing to win is hardest when she's especially beautiful and treating you well. That's exactly when you have to stay dialed in and not fear losing her.
 - In a long-term partner, strong mutual desire and chemistry is hard to manufacture later, while many other things can grow over time — don't compromise on mutual attraction.
 - "You can be happy, or you can be right. You decide." — pick your battles in a marriage.
 - Abundance lets you choose a partner who loves you for who you actually are.
@@ -462,6 +1807,74 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Staying autonomous keeps desire alive, while over-attachment smothers it.
 
 ## Breakups, rejection & moving on
+- Be willing to say "I'm done. Take care" and mean it. Walking away when you're being treated poorly earns respect, and endless nice-guy chasing doesn't.
+- If she's interested but busy, don't push days ("what about this day, that day?"). Pull back and reach out again in a few weeks. He calls it "long-term nurture."
+- If someone is stringing you along for months without meeting, stop waiting. "You need to be cutthroat... stop making excuses."
+- After a divorce, detach mentally from what happened in the marriage and don't carry it into new dating. "Your mindset might be your worst enemy. It needs to be your best ally."
+- After one great date, don't decide "she's really special" and jump into relationship mode. Slow down and keep living your life.
+- If she isn't into you, it's her loss: "Generational fumble. Take care. Onto the next."
+- You can't win someone back with more effort, double texting, pleading, explaining or apologizing. Show that you're living your life and doing fine without her.
+- Don't go back to an ex. Go through the pain, learn from it, and go meet new women.
+- If you miss an ex, it's usually because you don't have abundance yet; build your social life instead.
+- If she wants a completely different dynamic than you do, don't try to convert her; walk away.
+- Don't try to win back an ex. "It didn't work for a reason."
+- When you're done, end it cleanly ("cold turkey, on a dime"). No need for a closure meeting or more talks.
+- If your ex blocked you, accept it; she doesn't want to talk.
+- When interest fades or she stalls, don't chase. Go meet someone new.
+- If she treats you badly and then comes back apologetic, it's usually her own guilt, not care for you. Move on.
+- When you're done, say it and mean it: "you know what, I'm done. Take care." Stop trying to win her over by being the nice guy who treats her "super duper well."
+- If she makes a serious mistake that crosses your line, be willing to leave immediately. The man who won't leave gets left.
+- After a great interaction, give her space and get on with your life. Posting interesting moments from your real life on Instagram keeps you on her mind without chasing.
+- Coming out of a long-term relationship, leave "boyfriend mode." The soft, husband-style version of you gets "slaughtered" in the dating world. As his mom told him: "You're not in a relationship, you gotta play the game."
+- If she rejects, ignores or blocks you, treat it as data, not a verdict on your worth. Don't spiral into negative self-talk or blame her.
+- Coming out of a long relationship, don't take "boyfriend mode" into dating a new match. Get back into the dating mindset ("put your armor back on").
+- When she starts pulling away, don't chase her with "Hey, what's going on?" talks. Give her space, stay unbothered and keep living your life.
+- Make it clear early that you're not looking to be friends. He has never been friend-zoned because he says it plainly and is willing to walk away.
+- Rejection is part of it. Shrug it off, stay unbothered and go to the next one.
+- Back in dating after divorce: the market has completely changed since you met your ex. Get current photos ("you probably haven't taken a picture of yourself in 20 years"), get on the apps and Instagram, learn modern texting, and do the inner work to clear out bitterness.
+- After a long marriage, rebuild your masculine confidence and find your weak spots before you jump back in.
+- Older men can still compete; game, frame and aura can outweigh the age preferences women say they have.
+- Dating volume (meeting new women regularly) is what lets you walk away comfortably instead of putting up with bad behavior out of scarcity.
+- If she doesn't put in effort, be willing to walk away. "You have no other option"; staying and chasing costs you her respect.
+- Walking away from nonsense, instead of tolerating it, often makes her see your value.
+- Be willing to walk away from any woman at any time. That's what keeps you from chasing and accepting bad behavior.
+- Don't reward flaky or cold behavior. If she leaves you on seen, says she's busy, then pops back weeks later, don't jump back eagerly. Let her show real effort.
+- When she says "friends," cut your losses fast and redirect your time and attention to other women.
+- Breakups that feel sudden usually weren't. Attraction was wearing down for weeks or months. Look back at your own behavior patterns, not just the final moment.
+- Rejection matters less when you're not emotionally invested in each outcome.
+- Use "one Hail Mary" to re-engage a girl who's gone quiet, matched to where she stopped: on Hinge, a message to get off the app; on Instagram, an indirect, playful story reply. Keep it low effort and not "butt hurt."
+- If she friend-zones you, move on instead of lingering.
+- When things fall apart, look at your own behavior (eagerness, over-niceness, no tension) rather than blaming her or her stated reasons.
+- If she ghosts you, don't chase. Match her energy and move on.
+- If someone keeps ghosting you, ask why you tolerate it in the first place. A label or sad backstory is no reason to accept poor treatment over and over.
+- After betrayal (an ex was with someone else during your break), "use the pain. Harness it," and go back out and win. "Crawl up in a ball and quit" is not an option.
+- If you're "on a break," don't put your life on hold. With little experience, you can't know she's your soulmate: "You need volume."
+- If you got back together and she left again, move on and take the lesson to the next one.
+- To get over an ex or stop feeling guilty, remember the whole relationship, including the bad parts, not just the highlights.
+- If she blocks or unfriends you, go meet other women.
+- After being cheated on, look objectively at your own behavior with emotions set aside: how you treated, talked to and texted her, how much time you spent together and what you did with it, and whether your time allocation changed once she became your girlfriend.
+- Then channel it into improving your life, your game and your knowledge of women. "Don't get bitter. Don't become an incel. Learn." Be glad the lesson came.
+- Never get back with an ex. It usually comes from scarcity and loneliness, and you only remember the good parts. "If it wasn't going to work out in the first place, it's not going to work out now."
+- Don't stay friends with long-term exes.
+- Don't try to decode what your ex is doing (e.g., showing up at your old spots); stop thinking about her and move on.
+- Once you've cut contact or blocked her, let her go completely: "Forget she exists." Use the block button freely on contacts that keep dragging you back.
+- If an initial date idea gets ignored, typically don't retry. With enough volume you don't need to.
+- If you're "getting steamrolled" in dating, evaluate your behavior and how you're doing it.
+- Breaking up with a woman over taking money from another guy was the right call.
+- Big pain is often what finally makes a man "grow a pair"; let it change you.
+- Rejection like "I have a boyfriend" happens to everyone. It's part of the game, and you can stay playful about it.
+- Don't try to get an ex back. With plenty of options you wouldn't want to.
+- If she was with someone else during a break, he advises moving on. A second chance rarely restores the respect.
+- If an ex who blocked you texts "good morning" a couple of days later, don't be surprised and don't let it pull you back in.
+- If she goes quiet after you've suggested a next date, that's a no. Don't chase it. Move on and look at what you did, like coming on too eager.
+- When a woman is busy or vague, move on to other options rather than fixate.
+- Plenty of matches never stand out, and that's fine. Make real plans with the ones who do.
+- Adopt the belief "I don't care if I get rejected. There will be more women." Being attached to the outcome causes most struggles.
+- Build daily mental resilience so rejection and setbacks don't derail you: "it's never a smooth road."
+- After a breakup (two weeks or a 10-year marriage), first let go of blame and resentment toward her, toward yourself, toward modern dating. You might be right, but replaying it all day keeps you down.
+- Bitterness comes out in your behavior, your texting and your dates, and pushes everyone away, women included.
+- Then put your energy into the man you want to become in your dating life. Get crystal clear on him and live it in "every belief, every thought, every action."
+- Rejection doesn't define you. Walk it off and go to the next one.
 - If she says she's not ready (healing, just out of something), respect it gracefully — offer your number and say you'd like to see her again when she's ready.
 - If she flakes and never comes back, "then she doesn't" — let it go without resentment.
 - Sometimes you do everything right and she still bails (e.g., realizing she's not over an ex) — that's on her situation, not your failure.
@@ -480,6 +1893,96 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Self-respect means you can walk away from someone who treats you poorly.
 
 ## Self-improvement & lifestyle
+- Have "motion": work, plans, friends and goals. Being busy and having a life is attractive in itself.
+- Upgrade your presentation with good photos and clothes that fit.
+- Fix your energy before you fix your lines: calm, confident, warm, playful.
+- Keep your head up and be open to meeting women in daily life (gym, grocery store, coffee shop).
+- Learn the skills: attraction, conversation and frame are learnable, and nothing replaces learning them.
+- Be competent and resourceful. It's part of what makes a man rare.
+- Take care of yourself: don't be out of shape or "a bum," and get your life in relative order. You don't need to be a millionaire or shredded.
+- Improve your looks within reason (fitness, haircut), but surgeries are "addressing the wrong problem."
+- Be a busy man who likes his work and his purpose.
+- Meditate and work on personal development; being stoic helps with women.
+- Practice conversation: if no one's around, practice in the mirror, and go on more dates. Reps teach you to read a woman's vibe within a minute.
+- Meet women in daily life (grocery stores, Target, Zara, malls, coffee shops, the gym), not just clubs and bars.
+- Weekday women out are often tourists, which can be fun.
+- Don't let obstacles stop you; he used ChatGPT to talk with a French woman who spoke no English and got her Instagram.
+- Get your looks solid: don't be fat, get a good haircut, look after your teeth (floss, braces if needed). It's the foundation, not the whole game.
+- You don't need to be ripped. "Just get toned... just be in decent shape."
+- Most guys are more attractive than they think. With a haircut and decent shape, "everyone is basically at a bare minimum average."
+- Men's grooming shouldn't become an obsession at a woman's level of focus. Care "to a degree." Wear cologne "in moderation."
+- Charisma is trainable. Count the hours you actually spend on tonality, body language and charisma; "practice in the mirror," "watch the content, apply it," "put in the work."
+- Introverts can be confident without being outgoing. Pick an actor or person you admire, embody them, and use them as an anchor to get into a good state.
+- Build confidence and self-esteem as an internal job: "If you don't develop a personality... confidence... self-esteem, your life will suck."
+- In your 20s, balance work and dating. Working nonstop until 35 and then dating with zero experience makes you "a massive target"; chasing women with no ambition gets you nowhere.
+- Have a life and mission that keeps you busy, so she's part of your life rather than its center.
+- Build a life that's genuinely busy and ambitious. A man sitting on the couch doing nothing loses respect, even if he has money ("the money goes out the window").
+- Work on yourself internally (identity, self-image, subconscious) to build presence and charisma.
+- Get good photos of yourself in places that show your lifestyle, for your apps and your Instagram.
+- Learn to text, tease and run a conversation. Skill beats money and looks.
+- Work on your psychology, energy and social skills, not just your income. Money alone won't carry you.
+- Build experience and a real social life so that abundance is genuine, not an act.
+- Put in conscious work to get better. If you blame your genetics or everyone but yourself, nothing changes. "The game's never going to change."
+- Practice every time you leave the house. Talk to people, ask open-ended rapport questions, make eye contact and use confident body language at the grocery store, gym, coffee shop or bar.
+- Build a full life (work, goals, friends) so you're not organizing your world around one woman.
+- Fix the foundation, your inner game and your understanding of attraction, rather than looking for a shortcut.
+- You can be more confident right now without changing anything about how you look.
+- Max out your base looks: get in shape ("don't be a fat ass"), then do the inner work so your presence matches. He says you can become "that guy in six months, max."
+- Work on your aura: body language, eye contact, presence and how you carry yourself. A Ferrari and 6'5" won't save you without it.
+- Do something every day to recondition how you see yourself and women, especially if you're a recovering people-pleaser.
+- Build a real online presence and keep your photos current, as part of your dating "marketing".
+- Build a life with purpose and things you enjoy, and let it show; that's the foundation, not her.
+- Do the inner work on approval-seeking and outcome dependence; that confidence beats looks and height.
+- Improving your looks is fine, but it isn't "the key to the kingdom"; game, emotional skill and presence are.
+- Get back in touch with playfulness, "your childlike state when you were six years old, playing recess."
+- Get good, current photos and keep your online presence in line with your real life and value.
+- Work on your inner game. Low past success makes you undervalue yourself, which leads to timid, passive behavior and not being willing to put your foot down or walk away.
+- Get yourself into a peak mental and physical state so dating's ups and downs don't knock you off balance.
+- Do a one-time upgrade of your Instagram and photos: good clothes, good settings, subtle status.
+- Build real abundance with a steady flow of women you're meeting, through an optimized profile, Instagram and texting, so no single woman holds all the power.
+- Don't be timid about meeting women in your daily life, including your apartment building. "The worst thing that can happen is you don't talk to them when you see them again."
+- Keep your own ambitions and life going. That's part of being attractive.
+- Childhood conditioning shapes your dating. Growing up under a critical, controlling parent can leave you timid, "walking on eggshells" and people-pleasing; heal it to become the man you need to be.
+- "Just be yourself" fails when your current self is a suppressed version. Do the inner work to become a bolder, freer, more authentic version, not an imitation of someone else.
+- Don't suppress yourself around women; say what you want ("You know you want the bowling games, bro").
+- Build a great life that fills you, so there's "no void that needs to be filled" by her approval.
+- Look polished in your photos and lifestyle; good settings can be free.
+- Successful, high-earning, logical men often need to deliberately practice playfulness and spontaneity, because what wins in business doesn't win in attraction.
+- His supplements: magnesium, iodine, sea moss, maca, an herbal multivitamin, vitamin D, ubiquinol, ginkgo, creatine and electrolytes, plus caffeine.
+- "Hydrate the shit out of yourself" and add a pinch of salt for electrolytes. It helps you think clearly and talk better with women, in business and in relationships.
+- Make peace with your past through meditation, awareness of your thoughts, reading books and spiritual work. He says it matters for dating, business and life.
+- Looks within reason: eat well, go to the gym, get some sun and an organic tan (not spray), and wear insoles if you're short. Skip extreme surgery.
+- Use frustration as fuel. A bad nine-to-five drove him to become an entrepreneur.
+- Study good content and other men's experiences to speed up your learning.
+- Max out the physical stats you were given: if you're overweight, fix it; get regular haircuts; "take care of your shit." Then master your presence, aura and energy.
+- Fix your internal game: how you see yourself in the mirror, your identity and your self-worth. Inner charisma and no insecurities are "the secret."
+- Get better at social skills by wanting to improve, studying people who are great, and being "hyper aware" of every interaction (when someone tunes out, when they laugh), then practicing a lot.
+- If you're a busy entrepreneur, don't shut women out completely to grind; you'll be miserable. Set up systems like in business, and set aside one to two days a week to see women.
+- Build skill to become efficient: a skilled guy may need three approaches to get an Instagram where an unskilled one needs a hundred.
+- To set two or three dates a week: max your online presence, get really good at texting, and get good at in-person approaching.
+- Health habits he uses: lots of vitamins, infrared sauna, "health-maxing" and "IQ-maxing"; no steroids, peptides or testosterone.
+- Moving to another country won't fix your game. Your behavior shapes the side of a woman you get. Be skeptical of people selling "go abroad" because of their incentives.
+- Max out your base looks first: gym, good food, hygiene, grooming. Then focus on communication, energy, presence, aura, online presence and texting.
+- He's against extreme looksmaxxing (procedures, makeup) because of diminishing returns. "Get like a skinnier nose... it's not going to move the needle."
+- Charisma is practiced daily: body language, mindset, tonality, how you articulate.
+- Cold approach skill is reps plus inner game. If your form is wrong, more reps won't help, "like shooting a basketball with bad form." Learn the right way, then crank up the reps.
+- Be conversational and extroverted with everyone in daily life, not just when approaching women.
+- If you zone out and don't know what to say: "Lock in. Life is too short to zone out."
+- Keep self-reflection separate. Do personal development alone or with a mentor, and be fully present when you're with a woman.
+- "Max out your volume. Do it all": online dating, Instagram, cold approach and day game. Approaching in person is a lifelong skill that helps in every area of life.
+- In college: join a fraternity, don't be out of shape, build social skills.
+- Keep a full life (business, clients, gym) so women are never your whole focus.
+- Change your mindset with daily actions, not hype: affirmations, only consuming empowering content, constant awareness of your self-talk, and introspection on where negative talk comes from.
+- Daily habits: gym, meditation to center your mind, and audiobooks in the car or gym "instead of that shitty music."
+- Build a life where people genuinely want your time (friends, family, work, goals).
+- Study how women think and how attraction works; dating is a skill "you weren't taught in school."
+- Do daily identity work: change your self-talk and visualize yourself doing well with women (approaching, texting, dates going well).
+- Visualize good interactions. Most men only ever picture rejection.
+- Work through childhood trauma that affects your confidence and how you see women.
+- Build a full, busy, purpose-driven life so women add to it instead of filling a hole.
+- Have real experiences (travel, culture, interests). They give you real things to talk about.
+- Keep a presentable social media presence that shows your actual life and friends.
+- Own what you say and don't second-guess yourself after the fact. "You just own everything you do and you always double down."
 - Best-dating-life checklist: maximize your purpose and life, solid online presence, a clean funnel from contact to date, magnetic and carefree vibe, healed childhood wounds, strong texting, willingness to approach, excellent date behavior, self-control after intimacy, and deep understanding of how to handle tests.
 - Inner game warning signs: talking yourself out of approaches, anxiety over replying to texts, avoiding ways to meet women, nerves on dates, caring too much whether she likes you back.
 - Talk to people in everyday life — elevators, your building — you never know where it leads.
@@ -518,6 +2021,202 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Work smarter. Good strategy should mean better results for less time and effort.
 
 ## Common mistakes men make
+- Spending way too long crafting the perfect opener or using gimmicky pickup lines.
+- Texting all day with small talk and treating texting as the relationship instead of a way to set dates.
+- Being too available, too readable and too validating.
+- Reciprocating her sweetness so much that you become the more invested, "lovey-dovey" one too early.
+- Changing your behavior once you like her: prioritizing her over everything, following her lead, losing your frame.
+- Taking your logical, work-brain style into flirting and conversation.
+- Talking too much about yourself on a date.
+- Giving long, performative interview answers to simple questions.
+- Accepting flakes and reschedules and chasing her for a new date.
+- Waiting months for a coffee date with a woman who never makes time.
+- Bringing flowers on a first date.
+- Driving long distances to pick up a woman you've just started seeing.
+- Being too agreeable, a yes man who never says no.
+- Getting emotionally reactive in arguments.
+- Settling for someone you aren't attracted to.
+- Blaming height, looks or genetics and giving up.
+- Treating her the way you'd want to be treated by showering her with attention and effort out of fear of disapproval.
+- Doing the "logical" nice things on autopilot: complimenting, buying things, telling her how much you like her early. Catch yourself and stop.
+- The nice-guy checklist: double texting, constant compliments, calling women beautiful as an opener, trying to win her with stories, jokes and theatrics.
+- Giving her everything she says she wants, never making decisions, getting emotional: "the perfect recipe to lose a woman."
+- Being linear and flat ("hey you're cute, hey I wanna see you") with no playfulness or intrigue.
+- Showing up with "you're so beautiful, here's a rose, when can I take you out?" instead of creating tension by challenging and teasing her.
+- Bombarding her on a date with "you look so good, I'm so happy you came" instead of staying measured.
+- Opening with a compliment: it leaves her nothing to say but "thank you" and the conversation stalls.
+- Teasing out of context ("your hair sucks") so it lands as a random insult.
+- Learning a pickup line but not knowing how to continue the conversation or set dates.
+- Bending your plans and forcing yourself into things you don't want just to please her; frame is lost through small compromises.
+- Texting all the time, sending lots of emojis and over-investing before the first date.
+- Showering her with compliments and attention she hasn't earned with any effort.
+- Treating her like "the prize" and making her the priority, which tells her she's above you.
+- Constantly asking what she wants instead of leading.
+- Being nervous, stiff and visibly inexperienced on dates.
+- Talking too much and telling long stories.
+- Being too nice, linear and predictable, so there's no spark.
+- Thinking money, success or looks alone will keep a woman.
+- Visibly reacting when she goes quiet or acts cold.
+- Rewarding dry, slow replies with instant, enthusiastic ones.
+- Being "timid," never willing to walk away from someone who isn't investing.
+- Opening or flirting with compliments like "I thought you were cute/pretty/beautiful." To her it sounds like begging her to like you.
+- "You're stunning, when can I take you out?" is too transparent. She already knows you find her attractive because you're talking to her.
+- Not being able to stop talking about how you feel ("I like you so much. I had so much fun"). Learn "the discipline to shut up" about your feelings.
+- Future-pacing right after the first date. It's "too much, too soon, too transparent," and all your success stops mattering.
+- Overshowing with one sentence: "You're destroying the game with one sentence."
+- Performing "like a circus clown" to impress her every time you talk.
+- Reacting to every story she posts with "you look so beautiful, when are we going out?"
+- Formal, polite openers like "Hey, hi, how are you?" Talk to her like you already know her and assume she's into you.
+- Successful men assuming they can "throw money at every single problem" instead of building real attraction.
+- Telling yourself these principles "only work on toxic girls." He says the same dynamics apply across the board.
+- Courting too hard and too early (flowers, reservations, gifts), which shows you see yourself as below her.
+- Matching her dry energy with more questions and more effort.
+- Raising investment (more dinners, trips, spending, time) to win her over.
+- Telling her too early, "I love you so much, I'll do anything for you, you're the woman of my dreams."
+- Generic compliments ("you're so pretty, you're so sexy") instead of playful, teasing banter. "That's boring."
+- Treating a date like a job interview.
+- Hinting at sex in early texts and trying to be funny about it.
+- Reading her teasing as hostility and getting offended.
+- Staying in "boyfriend mode" when you're single again.
+- Assuming money or a nice car makes up for having no backbone.
+- Taking her moods and rejections personally.
+- Putting her on a pedestal and getting nervous because she's attractive.
+- Over-investing early: five confirmation texts, weeks of chatting, driving an hour to a fancy reservation. "Effort, effort, effort."
+- Love-bombing with flowers and grand gestures before there's any attraction.
+- Leading with money and spoiling her when she hasn't earned it.
+- Bringing a purely business, logical mindset to dating.
+- Being directly complimentary right away ("you're beautiful," "I want to take you on a date"), which puts her on guard.
+- Using cheesy pickup lines and gimmicky openers. They make it obvious you rarely do this.
+- Trying to make her laugh by performing jokes and stories. Humor should come from relevant, in-the-moment teasing.
+- Giving logical advice when she just wants to feel better.
+- Agreeing with everything and hiding your opinions.
+- Waiting days or weeks to set the date.
+- Repeatedly chasing a woman who won't commit to plans.
+- Interviewing her with generic questions.
+- Switching into needy mode when she's "the one."
+- Asking all the questions and rewarding dry, low-effort texting with more attention.
+- Scrambling with alternatives when she's busy ("Okay, well, when are you free? Tuesday, Thursday, Wednesday?").
+- Opening with compliments, "Hey beautiful", or copy-paste pickup lines.
+- Logical, random openers no one wants to answer ("what are your favorite cardinal directions?"), then getting upset at her reply.
+- Over-sweet texting: smiley faces, "sleep well, beautiful", "good morning, I'm so tired", making time mid-activity to text her.
+- Faking agreement or lying to win her approval in an app chat.
+- Post-date texts that gush and lay out future plans.
+- Buying super likes or roses.
+- Talking about your career, credentials or success on dates; name-dropping brands.
+- Leading with spending and experiences to win her over.
+- Being "too respectable": boardroom politeness with no edge, walking on eggshells.
+- Trying to make her happy at all costs and being too accommodating.
+- Treating your online presence as useless because it has no "direct ROI".
+- Getting comfortable and dropping your frame once the relationship starts.
+- Running dating like business: logical, efficient, "work mode" texting, transparent about everything.
+- Asking permission for dates ("When can I take you out?", "Are you free sometime this week?").
+- Rewarding dry texts with more effort and more questions.
+- Leading in person with compliments, a direct "I just had to stop you, you look amazing" opener, long high-energy interactions, or asking her out during the approach.
+- Answering her questions with long logical info dumps, or rambling about yourself.
+- Showing you're impressed, or over-flirting.
+- Uncalibrated teasing that "doesn't land."
+- Spending lots of money early to impress her.
+- Signs you're too invested: you remember exactly when she last replied, you replay your texts, you strategize ways to make her like you.
+- Caving to complaints or ultimatums.
+- Assuming that if you don't give her constant attention, someone else will.
+- Showering her with compliments, attention and effort early because you're scared she won't like you.
+- Coming on too strong too fast: "I like you, you're beautiful, I had so much fun, what do you want? I wanna give it to you." Interest can collapse "in a split second."
+- Matching her love-bombing or future-talk in the very beginning.
+- Asking safe filler questions ("what's your favorite color") because you're afraid of how she'll respond. Ask what you actually want to know. "Get serious."
+- Interviewing a dry texter with more and more questions.
+- Talking to her like a business meeting: logic, LinkedIn-style facts, commonalities.
+- Trying to fix low interest or conflict by spending money.
+- Explaining and defending yourself logically when she teases or tests you.
+- Giving a long earnest answer to "why are you single?" It signals you have no other options.
+- Being a yes-man. "If she's asking you for more and you feel bad telling a woman no, you're too nice."
+- Going all out for a woman because she's high status or has a big following.
+- Assuming everything is fine because she says "there's no problem," while tests keep stacking up unhandled.
+- Leading with money to win her over.
+- Trying to impress her with intelligence, your job and common interests.
+- Being overly nice, gentle and accommodating ("appease and accommodate") in the hope she'll like you.
+- Writing paragraphs about how you want to take her out.
+- Following her lead in texts and plans ("The second a woman goes jump and you jump").
+- Saying "I had a great time" or "when can I see you?" right after a date.
+- Being always available and eager.
+- Getting sexual over text before meeting.
+- Jumping platforms too fast.
+- Skipping Instagram in the funnel.
+- Trusting false positives (hearts, laughs, "you're a great guy").
+- Telling her how you feel about her too early.
+- Answering "how was your day?" with a dry logistics report.
+- Opening with "you're so beautiful, hello" or a direct "I think you're pretty, I wanted to come up to you."
+- Blaming dating, women or the apps when your photos and texting are the issue ("You're the problem").
+- Showering her with compliments. He says skip them: your plans and time already show your interest. "I know if I compliment them, it's basically going to be like poisoning myself."
+- Buying gifts or sending money early to win her over.
+- Love bombing: too transparent and predictable too early.
+- Over-investing too early: pouring out feelings, being eager, and returning every nice gesture with even more.
+- Turning one woman into your "favorite" when you barely know her.
+- Texting like a pen pal instead of setting plans.
+- Playing the long game and not acting when the vibe is there.
+- Tiptoeing instead of being direct.
+- Seeing her too often and moving in too soon.
+- Interviewing her on a first date instead of keeping it fun.
+- Chasing with no awareness of why it's failing. Most guys chasing "don't understand what they're doing."
+- Believing looks or money alone will carry you.
+- Believing flirtatious words or texts alone create desire.
+- Believing that if you don't give her lots of attention, she'll go to a guy who does.
+- Believing the longer you text, the more comfortable she'll get and the more she'll like you.
+- Believing you must set a place and time right off the bat to seem masculine.
+- Believing you need to give more effort to get more effort from her.
+- Believing all lines work on all women.
+- Showing interest by always texting back really quickly.
+- Forcing deliberate effort to "spike emotions" so she keeps talking to you.
+- Telling her she makes you nervous ("let me drop my ego a little, I get nervous texting you"); it kills your position.
+- Thinking you're a jerk if you don't compliment her. You don't need to shower a woman you're dating with compliments; that belief is "conditioning."
+- Submitting to her mind games and starting to chase: "You're cooked."
+- Being too nice and agreeable and getting "played."
+- Having a weak or missing Instagram, or a private one, in 2026.
+- Chasing the extremely hot "status" girl, who is typically not worth it.
+- Trying to buy attention with money instead of fixing your understanding of attraction.
+- Being so locked into work that you neglect your dating life entirely.
+- Treating the date like a job interview: logical questions, talking business.
+- Looking nervous, interested and eager in your body language.
+- Pushing for the next date right after the first one. To her, the day after already feels like "the second after."
+- Reciprocating instantly when she flirts or messages first ("falling for the bait").
+- Agreeing with everything she says and hiding your real opinions.
+- Saying yes to every request to make her happy, which hands her the lead.
+- Being too accommodating with plans and reschedules.
+- Neglecting photos and Instagram, or having a bad follower ratio.
+- Relying on copy-paste lines, AI-written texts or scripts instead of doing the inner work.
+- Diagnosing the wrong problem, e.g. blaming texting when the in-person vibe was flat ("you think it's dehydration, you have a tumor").
+- Being impressed by her looks and showing it.
+- Over-sharing information and your schedule, which leaves no mystery.
+- Blaming the market, age or country instead of improving your skills.
+- Texting pure logistics right away ("Mach 10"), or the opposite, endless long-game texting with no date.
+- Opening an approach with a compliment ("You're beautiful, I just had to come up to you"); it reads as inexperienced and as wanting something.
+- Courting, putting her above you and giving away all mystery, which puts her in logic mode.
+- Showering her with "nice" gestures (flowers, dinners, compliments) expecting attraction in return.
+- Asking the same rookie questions on every date.
+- Word-vomiting "me too" commonalities.
+- Heavy sympathy mode early when she mentions a bad day ("Oh my god, I'm so sorry that happened"), which keeps things in a low mood.
+- Believing more attention and faster replies win her over.
+- Upping your effort when she's dry.
+- "Whatever you want is fine" and making her choose the plan.
+- Boring surface small talk: "How was your day/week?", "So what do you do for work?", "When did you start working out?"
+- Telling her how you feel and future-pacing too early.
+- Reciprocating a post-date "I had so much fun" with a generic "I had a blast too, let's do this again soon."
+- Blaming looks, money or height instead of fixing mindset and skills.
+- Using selfies, mirror pics and awkward activity shots on your profile.
+- Hunting for the perfect line or opener instead of fixing inner game.
+- Running a first date like a logical interview built on questions and rapport, then wondering why she went cold.
+- Asking vanilla, rational follow-ups ("Oh cool, what do you do?") instead of playing with what she just said.
+- Agreeing with everything she says. "The more agreeable you are, the worse you are in their eyes."
+- Going along with a restaurant you don't like to avoid rocking the boat, then sulking at the table about it.
+- Being so accommodating while setting up the date that she treats you like a free therapist.
+- Spending heavily and complimenting constantly early on to impress her.
+- Putting your feelings all out there up front ("I like you, I think you're really attractive, I think you're smart, I'd love to go out sometime").
+- Trying too hard with moves or seduction lines, which shows eagerness.
+- Being too logical: giving her solutions, information and explanations when she's emotional.
+- Making her the center of your life and spending all your time together.
+- Overthinking a late reply ("It's been two minutes. She hasn't responded. What do I say?").
+- Trying to be a character (forced alpha or forced clown) instead of being authentic.
+- Skipping social media entirely.
+- Carrying resentment from a past relationship into new dating.
 - Being nice out of fear of rejection rather than genuine choice.
 - Over-investing via text: exclamation points, long formal messages, front-loaded compliments, rewarding low effort with more effort.
 - Logical, interview-style conversation with no emotion.
@@ -544,7 +2243,6 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Copy-pasted lines and backhanded compliments.
 - Heading to the venue before you know when she'll arrive.
 - Asking for her Instagram instead of her number.
-- Feeling inferior because of her followers or lifestyle.
 - Following the golden rule ("I'll put in effort so she does").
 - Escalating physically at the venue too early.
 - Blaming the woman for an outcome your own behavior set up.
@@ -598,6 +2296,158 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Losing confidence with age and frustration instead of fixing the cause.
 
 ## Example lines & scripts
+- Instagram DM opener he sent, reacting to her post: "Is she in this city with pretzels?" Short and to the point, nothing performative.
+- To show interest without over-validating: "Let's hang out. Let's make plans."
+- To stop pen-pal texting early on: "Only text me if you're trying to link. I don't care to just speak."
+- Making the plan for her: "Go here. This is the time."
+- Follow-up when she mentions getting into fitness during COVID: "Oh yeah, COVID was such a crazy time. Where did you quarantine? Were you with your family?"
+- Active listening on a date: "Oh wow... oh yeah, tell me about that."
+- Playful fantasy tangent: "Have you seen that movie? We should go to Mars."
+- Redirecting after a playful tease: "Life is crazy, how's your drink?"
+- Calming a heavy-news moment: "It's okay... take it easy."
+- Walking away when it isn't working: "You know what, I'm done. Take care."
+- Opener at a store around the holidays: "What should I get my mom?" (act like you're shopping for your mother's Christmas gift).
+- Opener when nothing unique stands out: ask if she goes to your gym because she looks familiar.
+- Follow-up at the mall: "What are you doing here? Where are you from? You look so familiar."
+- Closing with a group: "I need your Instagram. We'll connect."
+- If she expects a fancy first dinner: "I might hate you before the appetizers come out. We're not doing dinner. We're doing drinks. I'm free Tuesday."
+- Showing interest while she talks: "Oh wow, really? Tell me about that."
+- Dog conversation thread: "Aren't they normally fluffier, like a marshmallow? Is this a mix?" ... "What's his name?" (keep asking relevant questions on a topic that's landing).
+- Playful flirting line: "I have a million wives, do you wanna be a million and one?"
+- When she asks what you're looking for on a first date: "We'll see what happens. What about you?"
+- Giving a gift without a big production: "I was at the mall, I got you something."
+- When she fishes for a compliment before going out: "Okay, alright, let's go."
+- Measured interest instead of gushing: something like "yeah, you're interesting, you have potential."
+- If she threatens to leave unless you change: "Take care."
+- "What the f*** is going on with the rain?" (a bold take on small talk instead of "isn't this weather so crazy?")
+- Teasing banter, after she says she's from Sweden: "What, you left? ... For good, please God." / "Yes or no? I want to know, am I safe from you? Am I safe from you permanently?"
+- "You gotta come see my lion." / "His name is Leon. You gotta come see him. He's begging to meet you."
+- "I'm joking. You're taking me literally. I can either drop you off or you're coming home with me."
+- "Come pregame, come to my place... you're with a friend, I'm with a friend, we'll all go out."
+- Scheduling: "You don't love some Thursday cocktails?" ... "I have the same thing on Friday. I can do Saturday night."
+- When she won't commit to a time: "Don't jerk me around... You think I'm gonna just be sitting around waiting?" (said playfully, not angrily)
+- Hinge opener: "Are you Latina?"
+- His mom's rule: "'I'll let you know' means no."
+- When she complains that he works too much: "You're right, and it's not gonna change."
+- When she says "you need to be nicer": "No, I don't." (calm, short, no debate)
+- After a quiet stretch from her: "Oh cool, I'm busy too."
+- Turning a "what about you?" back to her: "yeah, I do a lot of things, tell me more about that, tell me more about your trip."
+- Moving to plans: "What are you doing this weekend?" ... "Bet, let's make plans."
+- When she gives a vague dodge to plans: "We all have time for things we wanna do."
+- When she demands an elaborate itinerary: "Do I look like TripAdvisor? Do I look like Resy? Do I look like OpenTable?"
+- When she adds friction to every question: "Do you enjoy adding friction?"
+- To a bio that says "looking for guy friends": "I'm not gonna be your friend."
+- Ending something that isn't working: "You know what, I'm done. Take care."
+- When she nags: "We're not doing this."
+- When she pushes you to justify yourself: "This is what I think."
+- Active-listening reactions on a date: "Oh, really? Interesting."
+- Playful banter: "we hate each other" lands better than "do we like each other? Are we a good match?"
+- To lead a plan: "We're going to do that, we're going to do this, this is what we're going to do."
+- A playful non-answer to a routine question: "We're on the moon and there's turtles and they talk, they speak Spanish."
+- A calm reply to her blowing up over nothing: "Yeah, okay."
+- A light tease instead of "you're beautiful": calling her nuts or crazy, playfully and with humor.
+- Not to send as an opener: "You're so beautiful. I'm so glad you matched me."
+- Voice note instead of a flat "what are you doing today?": "What are your plans today? It's the perfect day out... What are you going to do?"
+- Getting the number when she says she only gives it out after meeting: "Look, I need this to know if I want to spend time and money on you. So let me know if you're up for it."
+- Casual touch while teasing: "Oh yeah, I bet you like that tap, right?"
+- Underplaying enthusiasm when she's very excited: "You know what? Maybe. Maybe. I don't know. Maybe."
+- Small leading lines: "Text me when you get home." / "Text me when you leave." / "Go here. This is the time."
+- Pushing back on a plan change: "We're not doing that. No, this is what's going to happen."
+- Ruling out friendship: "We are not going to be friends, I do not want to be friends with you."
+- Low-effort reply with no question back: send a thumbs-up and nothing else.
+- Playful, imaginative replies instead of literal ones. When she asked him to guess her ethnicity, he went for an absurd "you're Dr. Seuss" style answer instead of a careful logical guess.
+- She says she's busy on the night you suggested → reply with a simple thumbs-up and nothing else.
+- Re-engaging after she said she wasn't free that weekend: "How was the weekend?"
+- When she offers a date weeks away: "You don't book me out like a dentist appointment."
+- Answering "I miss you" with calm confidence: "See you tonight."
+- Casual opener instead of "Hey beautiful": "Yo, what do you want?"
+- Quick in-traffic approach: nod, roll the window down, "What's up, cool car," chat 30 seconds, get her contact.
+- Leader stance: "I'm going this way. You can come or not."
+- Avoid as a second message: "When will I see you? When are we going out?"
+- To set a date: "Tell me what you have going on this week."
+- Instead of "How was your day?": "Who did you run over on the road today?" (when you know she's a bad driver).
+- Instead of "What do you do for work?": "Hmm, you look like... I don't know if I see you in an office, I don't know if I see you saving wildlife."
+- When she asks "How are the apps?" or "How's dating?": "Oh, I love it. It's so fun," then change the subject.
+- When she says "I had so much fun" after a date: reply with a callback rather than "I had a blast too, let's do this again soon," e.g. "That was the best cocktail I've ever had in my life."
+- Disagreeing playfully: "Your opinion is nuts. This is not how it is... No, no, no. You'll come around to it."
+- To an ultimatum: "I'm not giving you what you want. It's a hard no."
+- She texts "What are you doing?": "Why, you wanna come through?" If she then acts like you're the eager one, playfully point out she texted first.
+- App banter: she says "Marry me" → "Okay, but I have conditions." She asks what they are → "You're gonna find out on Instagram."
+- Getting her number at a venue: "Yeah, your Insta, duh." If she can't share hers: "I'll give you mine." Then: "Secret's safe with me."
+- Playful answer when she asks what you'll do when she comes over: "Patty cake."
+- When an app match puts in no effort: "I'm not gonna play this game. I'm not gonna be the interviewer here."
+- After she texts "I had so much fun," skip the echo ("I had a blast too, let's do this again soon") and bring up a moment instead: "That was the best cocktail I've ever had in my life."
+- When she answers a plan with "maybe": "I don't do maybes."
+- Planning back-and-forth: "You don't love some Thursday cocktails?" / "I have the same on Friday. I can do Saturday night."
+- When she says "let me text you when I know": "Everybody knows their schedule… You think I'm just gonna be sitting around waiting?"
+- After a thumbs-up to plans, press for a real answer: is this a "hell yeah" or a maybe?
+- Replies to a test or tease: "Or what?" / "And?" / "So?" / "What are you gonna do about it?" / "Oh, you like this? That's weird."
+- She mocks your drink: say you love it so much you'll drink it all day long and she'll have to watch.
+- "Why are you single?": "I'm not. We got married 10 hours ago."
+- To a short, dry text: "Wrong answer."
+- To a burst of attitude: "Yeah, yeah, okay, yeah, whatever."
+- Boundary in an exclusive relationship: "Well, what if I want to go date someone else?" → "No… we're not negotiating here."
+- Ordering at a restaurant: "Don't worry about it, I'll order for you."
+- Owning a tease or test: "And? You're right, I am like that."
+- Setting the date: "Meet me here at this time."
+- Inviting her back: "Look, you can go home right now, you can come over. Like, I literally don't care. You wanna come or not?"
+- Playfully owning her interest: "You want me? You're in love with me? You're obsessed?"
+- Matching a dry reply: "Okay, yes, sick. Glad I asked. Awesome."
+- Reply to "What did you do today? / How was work?": a playful non-answer ("Oh, you know, la, la, la") instead of "I had a meeting at five and my boss was really rude."
+- Banter: when she said "you brought out that dog in me," he answered "yeah, like woof woof."
+- Easy, relevant openers: ask about her yoga or gym if her profile shows it; at a coffee shop, her order or "how long she's been going here"; at a bar or club, "what are you celebrating / what's the occasion?"
+- Calling out an unfair "you're dry": "Then why don't you say something?" (said lightly).
+- Hail Mary: an indirect, playful story reply, not "Hey, where are you? Where have you been?"
+- To a man hitting on your girlfriend: "That's my girl."
+- Making a move on a coworker, client or acquaintance: "We should hang out sometime." Then see how she reacts.
+- Leading the plan: "We're doing this. We're going there." / "Let's do this. Let's do that."
+- Pulling her away from her friend: "Hey, I gotta talk to you." If she asks what about: "Don't worry about that. Let's go talk."
+- Ending a loop of accusations: "You believe me or you don't... I'm not repeating myself again."
+- She asks, "What are you thinking about?" He says: "Conquering the world." Then, playfully: "You're thinking about trying to guess what I'm thinking about."
+- Approach practice with strangers: "Hey, excuse me. Do you know where this place is?"
+- Making a friendship clearly platonic yourself: "Oh, you're actually really cool. Let's be friends."
+- To ask her out without being needy: casual, nonchalant, with a cliffhanger. Low-key directness also works: "Let's cut to the chase here."
+- Playfully deflecting a loaded question on a date: "You're so silly" (with a light touch), then move on.
+- Playful-serious role-play delivered deadpan: "I am your husband, we just got married. Look at the ring."
+- When she's eager to see you after you stepped back: "You can come over."
+- Don't send: "Let me drop my ego a little, I get nervous texting you."
+- For a reschedule: just thumbs-up the message, a nonchalant low-effort reply.
+- Post-date text: something low-key a day or two later, not "Hey, that was so much fun!"
+- Opener at a hotel pool: "Is this the mellow side of the pool?" ... "You like taking it easier? You hungover?"
+- Follow-ups from the same approach: "What are you here for?" / "What are the birthday plans?" / playful guess "Are you from Spain? ... you can pull that off." Then mention your own plans ("I'm going to Encore Beach Club in like three hours") to set up meeting again.
+- When a date asks about your job, play instead of talking logic: "I'm an astronaut." "We're gonna go to the moon," then riff on what you'll do there and how to pack.
+- When she asks what you're doing tomorrow: "I don't even know," with a laugh.
+- When she pushes back on "why do you want my Instagram?": "Because I want it." Or: "Okay, never mind, don't send it."
+- Calling out a silly statement: "What? Are you out of your mind?"
+- Holding firm on an ultimatum: "I'm not giving you what you want. It's a hard no."
+- Inviting a woman who lives far away: FaceTime her and have her "pack a bag."
+- Instead of "How was your day?": "Who did you run over on the road today?" (if she's a bad driver).
+- If you know her job: "Who's getting fired today? What happened in the office? What's the drama?"
+- Guessing her job: "You look like... I don't know if I see you in an office. I don't know if I see you saving wildlife."
+- If she's a receptionist at a law firm: "Wow, receptionist, you, what an interesting role. What kind of stuff do you see every day? I bet you see so many random clients... What is that like?"
+- If she's into the gym: "You look like a pre-workout girl." / "You look like a [gym name] girl." / "You look like you hit legs twice a day."
+- Setting plans: "Tell me what you have going on this week."
+- Leading logistics: "Let's go to [place] at 8:30. They have the best [X] / the vibe is fantastic. It's gonna be great."
+- After she says "I had so much fun": "That was the best cocktail I've ever had in my life."
+- Playful disagreement: "Your opinion is nuts. This is not how it is, and I'm gonna tell you why... Nah, nah, nah, you'll come around to it."
+- When she mentions somewhere she's been: "Oh, you've been there. What is that? Tell me."
+- Owning a tease or test: "You're right, I am like that."
+- Approach energy: "What's up? How are you?" (normal, human to human, no compliment).
+- Gym opener, with a smile and an upbeat, playful tone: "Hey, how long have you been a member here?"
+- Light banter when she says she's just visiting the gym: "Oh, they let you sneak in here, huh?"
+- Light tease about something small and harmless, like her New Jersey tattoo while living in England: "You're such a dork. Why would you ever do that?" (said with a smile; she laughed)
+- When she asks you out but you have plans: "Oh, I got some things, but I could move some stuff around. We can make it work."
+- Closing an approach: "Give me your Instagram, I'll DM you." ... "I'll see you tonight."
+- When she apologizes for being sweaty after a workout: look her in the eye and say "No, it's hot."
+- Moving a date time directly: "Can you do 6:30? If not, we can just reschedule."
+- When she asks "Would you have approached me?", don't gush. Pause, then something like: "Yeah, you're cute. Don't worry. Chill. Relax."
+- Inviting her back, as an assumption: "You'll come see it tonight."
+- Playing off the setting: on a Monday when only a bad bar is open, "Mondays are tough. That's why that bar was open, because it was so bad."
+- Showing interest in her culture when you haven't been there: "Tell me about it. Where should I go when I go?"
+- Playful jab when she weighs in on food on TV: "This is why I order for you."
+- Standing by your restaurant choice: "I don't like that restaurant. I'm going to pick a place and it's going to be great."
+- Casual invite to come over after she messages him: "Just pull up later."
+- Teasing on a phone call: "You're too difficult."
 - When she says she isn't ready: "Well, let me give you mine, and when you're ready I'd like to have breakfast with you again."
 - Teasing reply to a boxing/gym story: play-scared — "big and strong and scary, ahhh! You can totally beat me up!"
 - Texting mantra: "Build rapport, don't care, make fun."
@@ -621,6 +2471,337 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - Self-talk mantras from the captions: "Behavior > words." "More is always less." "Know your worth no matter how she behaves." "Remain stoic." "Only tolerate great behavior."
 
 ## Scenario → advice
+- When she flakes on a first date with no real reason and goes quiet → don't chase her for a new day, because chasing positions you as desperate.
+- When you suggest meeting and she's busy → don't throw out date after date. Pull back and reach out again in a few weeks ("long-term nurture"), because it shows abundance and you aren't needy.
+- When a week passes after matching or meeting and she still won't meet up → stop investing and move on, because she's stringing you along.
+- When you set plans on Wednesday for Friday → stop texting until the date, because over-texting drains the anticipation.
+- When she texts while you're busy at work → reply when you're actually free. If she gets upset that you have work, treat it as a red flag.
+- When she wants you to drive 30–60 minutes to pick her up early on → don't. Meet somewhere that means she makes some effort too, because one-sided effort costs respect.
+- When she asks "What do you do for work?" → give a short, light answer and get back to her, because a long interview-style answer is boring.
+- When she asks "What are you looking for?" on an early date → keep it light and make her laugh rather than giving a heavy, pressured answer, because "with every straight answer, they will find an issue."
+- When she asks "Are you always this confident?" → playfully double down instead of defending or downplaying, because caving loses frame.
+- When she starts an argument or tries to provoke you → stay calm, don't take the bait, step away and do your own thing, because emotional reactions escalate it.
+- When she tries to take control of the plans or tests your decision → laugh it off, stay warm and playful, and keep the plan, because bending every time makes your leadership hollow.
+- When she calls you "insecure" or "immature" → don't get defensive. Answer with humor and stay unbothered.
+- When she brings up war or politics on a date and gets worked up → don't debate. Calmly reassure her and steer to something light and fun.
+- When there's a lull in conversation → ask a follow-up about something she just said, because she should do most of the talking.
+- When she's sweet to you but never actually makes time to meet → don't read it as interest. "Does she hang out with you?" is the real test.
+- When she says "you're a great guy, it's just not right now" → take it as a no and move on.
+- When you meet a girl you really like and want to lock it in after one date → slow down and keep your life and dating going, because jumping into "comfort relationship guy mode" kills the spark.
+- When you're older and dating younger women → don't get nervous or interview her. Bring warm, playful, relaxed energy, because insecurity about your age shows up in your behavior.
+- When you're back on the market after a divorce → detach from the marriage mentally, get new photos, rebrand, and use both apps and in-person meeting.
+- When you're getting ghosted on apps despite being successful → upgrade your photos and make your texting less logical and more fun.
+- When you're about to bring flowers to a first date → don't. Save gestures for when she's invested.
+- When she persistently refuses intimacy in a relationship → treat it as a serious sign she may have checked out and be ready to walk away.
+- When you're a busy professional with little time → talk to one or two women a day in your normal routine and spend 10–15 minutes a day on apps.
+- When you're nervous texting a new match after a dry spell → remind yourself she's one of many and relax into playful, low-pressure messages (anxiety comes from scarcity and makes you passive).
+- When her replies get short and dry → pivot to a new topic with an easy question (staying on a dead topic kills momentum).
+- When she answers a question enthusiastically → stay on that topic and ask more relevant follow-ups (it's "a winner").
+- When you meet a woman who seems perfect and she's super sweet → enjoy it but don't match her love-bombing intensity or flood her with texts (getting overexcited is how men fumble).
+- When she complains you don't text enough → stay calm, don't over-explain, and keep living your life (justifying puts you on the back foot).
+- When she gives an ultimatum or threatens to leave → stay calm and be okay with her leaving (it's usually a bluff, and if not, you've saved time).
+- When she wants a fancy dinner for a first date → suggest drinks instead (dinner is earned once you know each other).
+- When the woman you like is always with friends → talk to the whole group, then ask her for her Instagram as you leave (singling her out cold looks odd).
+- When there's a language barrier → use a translation app on your phone and keep going.
+- When you see someone in a parking lot and can't talk to her → he's left his contact info on a windshield; keep a pen and paper in the car.
+- When an ex texts or you miss her months later → don't go back; process it and go meet new people (missing her means you lack abundance).
+- When you want an ex back → stop reaching out, pleading or explaining; live a good life that she can see (effort doesn't bring someone back).
+- When your girlfriend keeps talking about her ex → treat it as a red flag and consider walking away (he's still on her mind).
+- When she says she wants to be the dominant one and you don't want that → walk away rather than fight over it.
+- When attraction fades a few months into a relationship → audit your own behavior: effort, interest, how you treat her (the answer is usually there).
+- When she has a strong attitude with you → stay calm and hold your ground (it's often a test).
+- When a conversation gets too serious → lighten it with gentle humor rather than staying heavy.
+- When she's fishing for compliments about her looks → keep it playful and move on ("okay, alright, let's go").
+- When you're thinking of buying her a gift → only if she's earned it, and hand it over casually.
+- When you're considering long distance → avoid it unless it's extreme; if you go ahead, she should plan to move to you.
+- When she cites an age gap as the problem → work on your energy (excuses usually mask how you make her feel).
+- When she's at a 6 or 7 out of 10 energy over text → reply at about a 5 (it keeps her engaged and leaves room for her to invest).
+- When she sends a one-word or dry reply early on → address it directly instead of carrying the conversation (either she steps up or you've saved your time).
+- When she replies slowly only after you ask her out → move on (she wants attention, not a date).
+- When she says "let me text you when I know" about a date → push for a concrete day or offer one firm alternative; treat endless vagueness as a no.
+- When she keeps trying to hold long chats over text → keep it short and move it to an in-person plan (you set the pace, not the text thread).
+- When she goes silent for days → stay calm and unreactive, don't chase or send hurt messages, and keep living your life.
+- When she pulls back after you pull back → don't scramble to win her back; redirect your energy to new people (a woman who's into you doesn't pull back).
+- When you got a number at a bar and heard nothing the next day → don't take it personally (drinking makes people forget); next time get her Instagram so you can build comfort.
+- When she's wearing headphones → give a small gesture first so she takes them off, then open with an easy context-based question.
+- When you're unsure what to talk about on a date → use what you know about her, notice which topics get the best response, and expand on those.
+- When she comes back to your place → give her a tour, sit back and put something on; no rushing (it takes the pressure off and lets her relax).
+- When she says "let's wait" or "not tonight" → agree, drop it completely and keep the mood easy.
+- When she fishes for compliments ("do I look good enough?") → don't gush or get pulled into reassuring her.
+- When she calls you "a nice guy" or "a perfect gentleman" → read it as low attraction and change your behavior (stop over-investing, lead more).
+- When she says you work too much → don't apologize or drop your goals; say honestly it won't change and let her choose.
+- When she brings you a problem → focus on lightening her mood rather than rushing to solve it.
+- When you feel you need to check her phone → treat that as a sign the trust is already gone and consider ending it rather than snooping.
+- When you're tempted to go back to an ex → don't; it ended for a reason, so put the energy into new connections.
+- When you're an introvert who freezes up → pick a confident person you admire and play them as an anchor until it becomes natural.
+- When you're rich and she asks what you do or make on an app → stay vague and playful; your income isn't early-stage information.
+- When you're busy and ambitious and dating casually → keep it to one or two women at most.
+- When asked about a relationship with a coworker → it's possible, but he warns it "gets messy."
+- When your girlfriend wants to move in → he advises against it (too much constant exposure kills the polarity).
+- When she gives one-word, dry replies → don't add more questions or effort; match her energy or call it out once, and be willing to move on (low effort usually means low interest, and you save your time).
+- When she replies lazily, just reporting what she's up to with nothing to build on → don't reward it with a long answer; keep yours brief.
+- When she asks about your weekend plans and gives a vague answer after you suggest meeting → say "we all have time for things we wanna do" and stop pushing.
+- When you're picking a date spot → choose the place yourself and tell her; don't send a list asking where she wants to go (because indecision gives her anxiety).
+- When she asks about your job on a date → give a short, playful answer and ask about something she enjoys (a long career talk makes the date tank).
+- When the first date went great → text at a normal pace the next day; no flood of messages, no "when can I see you again," no trips or future plans.
+- When she's nervous about meeting up or overthinking it → send a voice note so she hears your tone and humor and relaxes.
+- When you pay on a first date and she doesn't say thank you → treat it as a character tell and don't pursue further.
+- When she spends your conversations venting about her ex, other guys or family trauma → recognize you've slid into the friend/therapist role and change the energy.
+- When the date is going well late in the night → invite her back to your place and escalate; don't stay stuck in comfort mode.
+- When she tries to dictate expensive plans or how you'll spend money on her → hold your terms, with humor ("Do I look like TripAdvisor?").
+- When she has an emotional outburst demanding you drop everything → stay calm and keep your plans; use your judgment rather than reflexively giving in.
+- When she pressures you to explain yourself → state your position briefly and calmly; skip the long justification.
+- When she treated you badly and now comes back apologizing → recognize it's mostly her guilt and move on.
+- When you pull back a little and she doesn't re-engage → she wasn't that into you; next time build more attraction at the start.
+- When you're approaching in person → keep it short instead of standing there 10–20 minutes.
+- When she's very attractive and used to attention → don't lead with compliments about her looks; be relaxed and unimpressed.
+- When she's feisty and challenging → respond with bolder, playful confidence, not soft compliments.
+- When she sends good morning / "miss you" → you don't need to send the same back by reflex.
+- When she texts "home safe, thanks for tonight," then goes quiet, watches your story and ignores your follow-up → take it as a sign the date went worse than you thought. Don't block her, don't chase, and adjust your expectations.
+- When she replies with one dry word → call it out directly instead of writing more, because either she re-engages or you've saved your time.
+- When she reschedules → don't just agree passively (he calls that a failed test), because the way you respond shapes how she sees you.
+- When she sends you a picture → don't automatically compliment it, because reflexive praise reads as low value.
+- When she teases you or says something provocative → lean in and play along instead of getting offended, because it's usually flirting.
+- When she flirts with you → don't escalate sexually or over-match it; stay composed, because coming down from your frame kills her interest.
+- When she asks what you're looking for early on → sidestep gracefully rather than laying out a full plan, because spelling it out puts pressure on things.
+- When she starts a fight out of nowhere → stay calm, don't take it personally, and ask yourself whether things have gone flat or she's lost respect, because that's usually the real cause.
+- When she has a tantrum over nothing → don't react or chase; let it pass, because she often comes back once she's calmed down.
+- When she complains about someone on a date → join in with playful energy instead of staying neutral, because shared excitement builds connection.
+- When she films you for her reel without asking, or wants a big mirror photoshoot mid-date → treat it as a sign she's focused on social media rather than on you, and consider moving on.
+- When she introduces you to her male best friend early → he treats it as a dealbreaker and moves on.
+- When you've just left a long relationship and are dating again → drop the soft boyfriend habits, because "you gotta play the game again."
+- When decisions come up (where to eat, what to do) → make the call yourself, because decisiveness shows competence and takes pressure off her.
+- When she says "I'll let you know" to your plan → don't sit around waiting; take the plan off the table and suggest another time, e.g. "Let's do it sometime next week" (because waiting hands her all the leverage).
+- When her dating profile says "take me out right now" → keep leading your way rather than following her stated script (because what people say and what they respond to often differ).
+- When she won't give her number before meeting → state your standard once and let her decide (because arguing or begging kills your frame).
+- When you've been texting for days with no plan → set the date now and assume it (because interest drops the longer you wait).
+- When she sends dry, low-effort texts → match the dryness or call it out playfully instead of adding more questions (because rewarding low effort lowers her respect).
+- When she wants a nightly good-morning/good-night routine → don't treat it as a required duty (because predictable obligation texting kills tension).
+- When she pushes to change the plan you set → hold your plan with confidence; at minimum you keep her respect (because handing over control signals weak leadership).
+- When she shares a problem → help her feel better and shift the mood instead of jumping to a logical fix (because the fix isn't what she's after).
+- When she starts pulling away or asks for space → don't chase with a "what's going on?" talk; give space, stay unbothered and keep living your life (because chasing confirms she has the upper hand).
+- When she flakes, reschedules repeatedly or is hard to reach → see it as a respect issue you've allowed; stop investing and be ready to walk away (because she behaves the way you let her).
+- When she checks every box and treats you well → don't suddenly become needy and over-giving; keep the same frame (because that's where most guys mess it up).
+- When she asks about something dark or heavy on a date → answer lightly and playfully (because how she feels around you is what sticks).
+- When she asks you a question → give a short teasing answer and turn a question back to her (because a full serious answer is boring).
+- When you're seeing her repeatedly but nothing physical progresses → sort out logistics and let intimacy move forward at each meeting (because endless dinners with no progression stall).
+- When you approach a woman in person → keep it to a few minutes (because hanging around too long makes you look like you have nothing else going on).
+- When she calls you "so sweet" or "a great friend" → recognize it as a romantic no and move on (because she's not attracted).
+- When you're getting back into dating after a long relationship → don't bring boyfriend-level investment to new matches; rebuild your dating mindset first (because you'll "get smoked").
+- When you're wealthy and dating → don't use money to win her or spoil her before she's invested (because it buys entitlement, not loyalty).
+- When she won't make it easy to take her out → don't try a second time (because "it should not be challenging" to take her out).
+- When you're nervous before a date → remember she's probably far more nervous than you, and be the calm one (because "you can't be more afraid than the coyote").
+- When she says she's busy on the night you offered → acknowledge it lightly (a thumbs-up) and don't fire off alternative days (because not chasing keeps your frame; in his example she came back with high interest 10 minutes later).
+- When a match is bland and dry after you've met or swapped numbers → cut your effort and attention way back, stop acting impressed, and don't keep asking questions (because performing harder "never works").
+- When she suddenly pulls back → don't send "are you okay?" check-ins or step up your effort; stay steady and keep living your life (because more effort never brings more interest).
+- When a promising chat stalls before you've met → send one low-interest touch point to restart it and push to get off the app (because it may just be timing, and she rarely logs on).
+- When she says "I miss you" or "you're addicting" → acknowledge it warmly but briefly ("See you tonight") instead of matching her intensity (because over-matching gives away the tension).
+- When she tells you where you're taking her → stay in charge of the plan (because her dictating it is a test, not interest).
+- When she calls to vent for 40 minutes → you don't have to always pick up and be her therapist (because always being available shows you have nothing going on).
+- When someone you just started seeing brings up bills, rent or money trouble → be kind but don't open your wallet (because rescuing her early sets you up as a resource).
+- When she sees you're well-off and asks for a far more expensive date than usual → keep the date you planned (because raising the price is a test).
+- When she asks what you normally do for Valentine's Day or where you vacation → don't list gifts, jewelry and luxury trips (because it sets her expectations).
+- When she calls you "so nice," "a perfect gentleman" or says "I can always count on you" → bring in more tension, teasing and mystery (because those phrases signal friend zone).
+- When she playfully says "I hate you" → take it as a good sign and keep the playful energy (because it usually means she hates how much she likes you).
+- When you're on a date and doing most of the talking → turn it back to her with good questions until she's talking about 80% (because she's in her best state talking about what she enjoys).
+- When her prompt invites banter (like joking about fighting) → banter back playfully and assertively with a reply specific to it (because playing off her profile creates emotion).
+- When your opener had a mistake, like the wrong name → don't grovel for forgiveness; recover with confidence (because apologizing puts you in an approval-seeking frame).
+- When you feel she has the power in the dynamic → show you have a life and options, that you'll walk away, and that she isn't your top priority (because being her everything kills desire).
+- When you're newly divorced → get new candid photos, set up Instagram and the apps, relearn modern texting, and do the inner work on any resentment (because the market changed completely since you last dated).
+- When you're a busy, successful guy with little time → max your looks, fix your online presence, get good at apps and texting, and run two-minute conversations in your normal routine (because it's the highest-leverage strategy).
+- When you make eye contact with a woman somewhere unexpected (even in traffic) → just say something casual and get her contact (because "it is never a bad time to talk to women").
+- When she offers a date weeks out ("free late April") → don't accept being scheduled like a dentist appointment (because sitting around waiting signals low value).
+- When you see a woman at the gym → be ready to act, wait until she's between sets, open with something contextual and indirect rather than "I thought you were so pretty," keep it nonchalant and short ("120 seconds. That's all you need").
+- When a retail worker or hostess is friendly → check for eye contact, a smile, and questions unrelated to the transaction; if they're there, expand the conversation, ask back, get off work talk, build rapport for a few minutes, then close.
+- When you approach anyone → lower her anxiety and raise comfort; a gushing "you're so beautiful, I just want to say hello" makes her freeze up and the conversation stalls.
+- When she goes dry or lazy over text → match it: like the message or send a short reply, and don't ask more questions; if she's interested she'll step back up (his example: she double-texted and answered his question).
+- When she gives a mediocre reply to your last question → don't keep interviewing; leave it, live your life and post your normal stories.
+- When she's doing the bare minimum and you're doing all the work → pull back your attention and effort significantly, stop acting impressed, and get better at making the interaction fun.
+- When she pulls back → don't push for a big "let's talk" conversation; match her distance and stay visible through your own content and life.
+- When she says "I had so much fun" after a date → skip the matching enthusiasm and future-pacing; reply with a light callback to something from the date.
+- When you ask her availability and get "I'm so busy, I have this, I have that" → read it as medium to low interest and don't chase; "wide open" means she wants to see you.
+- When she asks about your work or life on a date → give a short, playful answer and turn it back to something fun, because she's after a feeling, not information.
+- When she gives you an ultimatum → calmly decline; if scarcity makes that hard, fix your dating volume.
+- When she complains and asks you to change plans (e.g., come home early from work after a sweet request) → stay disciplined and keep your commitments rather than caving to every request.
+- When she tries to start an argument or challenges you → don't explain yourself at length; stay calm, amused and firm.
+- When she sends you a selfie → don't gush; stay low-key.
+- When a dating-app match is going well → move it to Instagram with a playful cliffhanger.
+- When it's late in the date and she's clearly into it → make your move decisively instead of waiting forever.
+- When an app match keeps sending low-effort replies → stop asking questions and keep yours short, then let her step up or move on (because carrying the conversation tells her she can treat you any way she likes).
+- When she goes dry in the run-up to a first date → don't up your effort; calmly lower yours (because it's often her checking whether you're needy, and she tends to come back).
+- When she gives a thumbs-up to your plan → ask for a clear yes (because a thumbs-up "doesn't validate anything").
+- When she says "maybe" or "let me text you when I know" → say you don't do maybes and offer a concrete alternative day (because people know their schedule two days out, and you're not waiting around).
+- When she cancels → see whether she offers another time or asks when you're free; if she doesn't, let it go (because her reschedule effort shows her real interest).
+- When she's running very late to a first meet → you're allowed to cancel (because setting standards early gets better behavior later).
+- When she texts "I had so much fun" after a date → don't just mirror it; bring up a specific fun moment (because echoing feels flat and predictable).
+- When she asks "why are you single?" on a date → answer playfully (because a long sincere answer suggests you have no options).
+- When she asks about you before the date → keep it short and light, not a big impressive answer (because she's reading how you handle women, not collecting your résumé).
+- When she teases you or makes fun of something you like → own it and exaggerate it playfully, no explaining (because explaining "gives them ammo").
+- When she brings up a physical insecurity, like her dress being too long → don't joke about it and don't gush; change the subject (because she'll take it personally).
+- When a match says she'd like to be friends → stop responding, unfollow, and move on (because your time belongs with women who are serious).
+- When she leaves you on seen, says she's busy, then reappears weeks later → don't jump back eagerly (because you don't reward bad behavior, and that's what makes her show effort).
+- When she seems low interest → don't offer trips or expensive dates to win her over (because she reads it as you trying to buy approval).
+- When you're successful and worried about being used for money → suggest low-cost, low-time first dates and walk if she refuses (because women who are really interested don't need a fancy dinner).
+- When she lives two-plus hours away → build extra certainty and comfort before asking her to travel (because texting alone won't get her through high-friction logistics).
+- When the woman helping you is at work (retail, barista) → steer to something personal and watch whether she engages and asks back (because she might just be doing her job).
+- When you meet a woman in your building → don't be timid (because the worst case is you just don't talk next time).
+- When she's high status or has a big following → keep the date as casual as you would with anyone (because upgrading says "I'm below you, please like me").
+- When nothing physical has happened after one to three dates → stop focusing only on comfort; add playful tension, lead, and pick a less formal setting than dinner (because comfort alone doesn't build desire).
+- When she gushes about a future together very early → enjoy it but don't match it (because matching drains the tension and desire drops).
+- When she threatens to leave or brings up an ex → stay calm and don't plead; let her know she's free to go (because begging destroys respect).
+- When she gets an attitude → stay unreactive and amused (because "there's no point to bark if they don't get a reaction").
+- When she starts restricting your work, ambition or freedom in a relationship → don't drop your purpose to appease her (because what she's really asking is whether you'll keep leading).
+- When you feel anxious over how to word a text to an attractive woman → treat it as an inner-game problem: you're undervaluing yourself (because the anxiety drives over-communication, and that pushes her away).
+- When she texts "thanks for the date" in a formal, polite way → read it as low interest and don't chase (an excited woman says "when am I gonna see you again?").
+- When the date went great and you want to text her right away to set the next one → hold off. Next-day plans feel "too eager, too fast," and a good date should have her reaching out.
+- When she reschedules without offering another day or time → treat it as low interest and don't keep re-offering.
+- When she hearts or laughs at your text and then goes quiet → it's a false positive; don't double down on being clever. Aim the conversation at a date.
+- When she goes quiet mid-funnel → send one low-effort, indirect Hail Mary suited to the platform, then let it go.
+- When she shows interest first ("I think you're hot") → don't assume it's sealed. Keep banter, tension and qualifying going before rushing to "let's go out."
+- When she asks for something that feels like a test (you joining her run, splitting the bill) → don't automatically say yes to please her. Decide like a leader and be okay saying no.
+- When she sends a 7-minute voice note venting about a co-worker this early → don't step into the role of her therapist ("I'm not a paid therapist").
+- When you arrive early and she walks in late with an iced coffee, says she already ate and suggests "just walking around" → don't arrive early next time, and hold the plan you set instead of letting it be rearranged.
+- When she ends the date with no kiss or escalation → look at your conversation, tonality and body language rather than assuming it's "her rule."
+- When she won't come back to your place → check whether you seemed nervous or like it mattered too much. Make clear she's free to go home, without pressure.
+- When she complains "you never compliment me" → don't panic and start flooding her with compliments; her investment is a good sign.
+- When she keeps starting fights or "feels sick" whenever you have plans → go do your plans anyway; don't let it condition you to stay home.
+- When she's lukewarm but agrees to a nice dinner → don't roll out the red carpet; suggest a low-effort date to see her real interest.
+- When you get a dry, low-effort reply → match her energy instead of writing more.
+- When you're about to move from Instagram to Snapchat → stay where you are and push toward a date; platform hopping adds friction.
+- When you get a number from an approach or app → bring her onto your Instagram so she remembers you and sees social proof; a bare saved number gets forgotten.
+- When she keeps steering every topic and question in texts → take back the lead with your own topics and questions.
+- When your gut says she's being sketchy → trust it and don't let her smooth it over just because you lack other options.
+- When she seems very interested but cancels and doesn't reschedule herself → don't chase; move on (her actions say more than her words).
+- When the conversation was great but she flaked and left you on read → don't keep texting; this is about abundance, so get more options.
+- When a chat has gone cold for a few days → don't send a cold double text; follow up on a different platform.
+- When she gives dry, one-word replies → call it out once; if she doesn't change, move on.
+- When you have 20 matches and can't keep track → get each one off the app fast (Instagram, then her number) and turn chats into plans.
+- When you're talking to a woman across the country → texting is the same; plan further out, and if she isn't keen to keep talking, work on her real desire, not the chat.
+- When you work security and women are around all the time → approach, but discreetly ("be really sly about it, you don't have to make a scene"); done right, it won't cost you your job.
+- When you've been friends with women (for example salsa dancers) for months and are attracted → act now; the long game usually fails.
+- When you like a client or coworker → don't tiptoe; suggest hanging out and accept a no cleanly.
+- When you like a girl who works at your gym → talk when she's not working (unless she's alone), get her Instagram or number, then make a plan.
+- When you want to know her priorities on a first date → don't ask; keep it light and playful.
+- When she brings up her ex all date → he ends it there; it's one of the worst signs.
+- When she offers to pay → he sees it as a test.
+- When she takes hours to reply and never texts first → it's a bad sign; stop being so available and so nice.
+- When you slept together on the first date and she gives no availability after → don't make excuses for her; "if she wanted to see you, she would make it easy."
+- When a guy hits on your girlfriend in front of you → say "That's my girl"; if you can't trust her, there are bigger problems.
+- When your girlfriend accuses you over something you didn't do (like an unwanted gift from someone else) → explain calmly once, then refuse to keep re-arguing it.
+- When your girlfriend picks fights every day → don't reward the fights with more attention; give attention when things are good.
+- When an argument about politics gets heated → stop trying to win it with logic; step back calmly.
+- When you don't like her but she likes you a lot → it's fine to end it.
+- When she says she's "fearful avoidant" and keeps ghosting → don't use the label to excuse repeated poor treatment; ask why you tolerate it.
+- When you're short and getting rejected for height → put insoles in and improve what you can ("boost up your base stats"); height isn't the decider.
+- When your hairstyle changed → do a new photoshoot; always optimize your photos.
+- When you're "on a break" with someone you call your soulmate → keep living and dating; you need more experience before calling anyone "the one."
+- When you came back after five months and she's ignoring you → get more options; she has too much hold on you.
+- When you find out an ex was with someone else while you were apart → turn the pain into motivation and go meet new women.
+- When you feel guilty about leaving a woman → remember the whole relationship, including what she did, not just the good parts.
+- When you feel shy every time you walk into a club → work on yourself with meditation and inner work.
+- When she's with a friend and your wingman won't talk to the friend → take her aside yourself: "Hey, I gotta talk to you."
+- When someone asks if you have a girlfriend and you do → own it calmly.
+- When your friend is dating someone sketchy → you won't win that argument; he may have to learn it himself.
+- When she asks to borrow money and says she'll pay it back → don't.
+- When you're deciding how often to see a new girl → once or twice a week at most, about a week between dates.
+- When you're thinking about moving in → only if you're building a family; doing it too early is a "catastrophic mistake."
+- When she replies super dry or doesn't respond → move on without caring and invest in other options, because you can't raise her effort with more of yours.
+- When she sends you a dry, low-effort reply mid-conversation → don't rush to fill the gap. Carry on with your day, and if she re-engages (likes your story, messages), reply and maybe drop a voice note, because showing you won't tolerate dry energy tends to raise her effort.
+- When you can't tell if she's playing hard to get or using you for attention → check whether she actually meets up and whether there's intimacy. If not, draw a line and move on.
+- When she views your stories but leaves your messages unanswered → don't chase the game; move on.
+- When the date ends and she asks "when are we hanging out again?" → keep it light and open rather than locking in "how about Tuesday?" on the spot.
+- When you got cheated on → set emotions aside, audit your behavior and how your time with her changed, then pour the pain into improving yourself. Don't turn bitter.
+- When you're cold approaching and she barely looks at you in the first five seconds → politely exit and move on.
+- When you really like a new woman → feel it, but use discipline: don't over-communicate or become predictable.
+- When you're a busy entrepreneur → set up systems, spend ~20 minutes a day on apps, approach while running errands, and block one to two days a week for dates.
+- When you're short or have other perceived "low-value" traits → max out everything you can control (fitness, grooming, style), then master presence and energy.
+- When you come across as intimidating → add an underlying playfulness and keep it lighthearted.
+- When things were "going well" and she suddenly pulled away → look at whether it went flat and predictable, and learn to keep spark and tension alive next time.
+- When you're traveling for work for weeks → leave the hotel and meet women where you are.
+- When she asks something political or controversial on a date → don't debate. Playfully deflect and keep the mood fun.
+- When she's a "20 out of 10" → treat her the same as anyone else; her rarity only feels huge because your options are few.
+- When she comes back after you've had distance → stay steady and keep your frame; don't get gushy.
+- When she only texts for attention after going quiet → keep texts to making plans only.
+- When a woman who ghosted you is someone you see daily → act completely unbothered, like nothing happened.
+- When you don't share a language with her → use a translator app. It's no excuse.
+- When she's lukewarm or plays power games → don't fight for her attention; focus on women who are clearly into you.
+- When she keeps "making plans" but makes meeting insanely difficult → stop investing; she wants attention, not a date.
+- When you're tempted to get back with your ex → remember the bad parts too; it's scarcity talking. Don't.
+- When you were left on undelivered and want to double text → don't. There's no nonchalant way. Post your life on social, and fix your early texting so it happens less.
+- When app banter is good but she disappears when you ask for her number → add social proof and certainty, not just more flirty intrigue.
+- When she reschedules → reply nonchalant and low-effort, and how much you tolerate depends on your abundance.
+- When the date is over → text a day or two later like a normal person. If the date went great, it takes care of itself.
+- When you only have success on apps and your in-person game slipped → keep approaching in person; never let that skill die.
+- When you want a quality woman → take her out on a proper date instead of just inviting her over.
+- When you're successful and want it to help your dating → show status organically in your online branding, understand attraction instead of paying for attention, and be willing to walk away.
+- When she wants to see you but keeps making you "audition" for it → step back and don't perform. If she comes back keen, give a simple invite.
+- When she likes your story after you stopped replying to her dry messages → re-engage, send a voice note, and keep the energy up. She's showing effort now.
+- When she messages first and comes on super flirty → stay normal and calm and add some friction. Don't match her energy, because it's "bait for dopamine."
+- When she texts first, then gives one-word answers → assume she wanted attention or your texting lost her. Vet hard and cut it fast if she won't commit to meeting.
+- When she says "a little occupied this week, but we'll meet sometime" → don't force it, don't reward the vagueness, don't keep chasing. Move on to other options.
+- After a great first date she texts "had a really good time," you suggest Saturday, she says "this week is crazy, I'll let you know," and by Friday there's nothing → treat it as a no. Next time don't jump to the next date the morning after. Play it cool after dates so you don't come across eager.
+- When a date turns into an interview (job, travel, hobbies back and forth) → switch to silly, absurd, imaginative banter that stirs emotion (the astronaut/moon bit).
+- When she says something you disagree with on a first date → say so honestly and playfully. Faking agreement backfires later.
+- When she tries to reschedule or change venue or time repeatedly → be assertive and don't just accommodate.
+- When she gives you an ultimatum → hold firm with a calm "hard no." Caving teaches her she can push you.
+- When a woman you're seeing acts entitled and keeps pressing → don't provide comfort. Calmly tell her she can find someone else if that's what she wants.
+- When she brings up family trauma on a date → make a small acknowledging comment and change the subject.
+- When she shit-tests you on a cold approach → deflect lightly. On a date → answer with teasing and humor, not logic.
+- When women keep asking "why do you want my Instagram/number?" → answer simply ("because I want it") or take it away ("never mind"). If it happens often, work on how valuable you come across.
+- When a girl ignored your last four attempts and then sends a random snap → probably ignore it, or draw a clear line.
+- When a girl from an app keeps flaking or won't meet → she may just want attention, so cut her off. Also review your texting and funnel.
+- When every app match ghosts you → it's a texting or funnel issue, not normal drop-off.
+- When she says she kissed someone else during a two-week break → move on. A second chance rarely brings respect back.
+- When an ex who blocked you texts "good morning" → don't be surprised and don't get pulled back in.
+- When considering long distance → only if she moves to you within a few months. Otherwise don't.
+- When a woman 80 miles away is open to taking the train to you → FaceTime her rather than voice-note, and have her pack a bag.
+- When women approach you at a social gathering → don't interview them. Take them "to la la land": be silly and absurd, spike emotions, then get her contact or move things along.
+- When you're working (e.g. DJing) and women come up → grab their Instagram and set up a date later.
+- When approaching a woman cold, especially if she didn't see you coming → disarm first: be calm, relaxed and friendly, don't make her the whole focus, then add playful teasing.
+- When you're unsure whether to approach at the gym → approach. Saying you can't is "excuses and cope," and an indirect approach never goes badly.
+- When she says "I have a boyfriend" → it happens to everyone. Stay light and playful and move on.
+- When you're 50+ or older and only attracting older women → work on your game. Older clients do date younger women.
+- When you think moving to another country will fix dating → fix your skills first. Otherwise you risk being used for money or status.
+- When women notice you on apps but then see a weak Instagram → fix the Instagram: photos, lighting, lifestyle stories, follower ratio.
+- When you only lose the women you really want → work on your self-worth and identity, not new lines.
+- When you can't get a kiss on the first date → look at your behavior and nonverbals on the date.
+- When you run into someone you met before and get excited → stay calm and unimpressed, not over-eager.
+- When you're tempted to chase a famous or "Instagram 10" woman for ego points → think twice. The upkeep and competition aren't worth it.
+- When you match or get a number and want to meet → don't go straight to "here, this time, this date" in two messages; build some comfort and intrigue, then set the date within about 3–5 days (because she needs more certainty to meet a stranger, and rushing reads as eager).
+- When you've texted for weeks and still no date → you've gone past the peak; next time move to a date sooner, because long texting kills momentum.
+- When she's wishy-washy over text → don't blaze to plans; lift her mood and comfort first, because she won't follow your lead until she's in a good state.
+- When her replies get dry and low-effort → match her effort instead of trying harder (otherwise you reward it and look like a pushover).
+- When you want to ask if she's free → say "Tell me what you have going on this week," then decide the plan yourself.
+- When choosing where to go → pick the place and time yourself, add one positive line, and choose somewhere close to your place (fewer reasons for things to fall apart).
+- When she texts "I had so much fun" after a date → skip the generic echo; bring up a specific fun moment from the date.
+- When you meet a woman in person who's free the same day → prioritize her, even if you move another date later.
+- When she's staring at you across the room → approach normally without leading with a compliment, because it makes you look inexperienced.
+- When she mentions something you've also done → ask her about it instead of "me too," and keep the spotlight on her.
+- When she brings up a bad day early on → playfully lighten the situation and change the mood rather than piling on sympathy; later in a relationship, be a steady, quiet presence.
+- When she asks lots of questions about you on a date → keep answers short and fun; she wants to feel something, not hear a résumé.
+- When she asks "What are you really looking for?", "Tell me more about you," or your body count → playfully deflect and keep some mystery instead of laying out your intentions.
+- When you genuinely disagree with her → say so, but keep it playful and warm so the mood stays up.
+- When comfort is built late in the night and she's clearly engaged → make your move confidently (with consent) and suggest your place; hesitating reads as a lack of confidence.
+- When she asks for something you don't want to do, or challenges you ("Why do you never do this?") → calmly hold your ground instead of complying out of fear; it's often a test of whether you can lead.
+- When she teases your style ("Why are you wearing those shoes?") → own it confidently instead of getting defensive.
+- When she starts an argument → don't over-explain or try to win it logically; stay calm and hold your boundary.
+- When a woman says she's free and interested but you're not sure how to text her → adjust to her (shy vs. extroverted, age, culture) instead of using a copy-paste script.
+- When a woman at the gym keeps making eye contact → walk over with a smile and an easy, friendly opener tied to where you are (because the eye contact is her inviting you to approach).
+- When she gives a plain fact about herself (job, where she's from) → tease or play with it instead of asking a dry follow-up (because rational questions are "too vanilla").
+- When she asks you a leading question ("Did you think I was American?") → don't just agree with her; give your own honest take (because agreeableness kills attraction).
+- When you have an app date planned and meet someone in person you like more → in his approach, prioritize the woman you met in person and directly ask the app date to move earlier or reschedule (because you already know the in-person energy).
+- When she's reserved (in his example, a more formal European woman) → slow down, talk about culture, travel, food and her home, and save heavy banter for later (because you calibrate push and pull to the woman).
+- When she spends a first date venting about her ex or trauma and never apologizes → recognize she sees you as a therapist; next time set the date up with less over-accommodating and keep heavy topics out (because her behavior reflects the impression you gave).
+- When a date felt great to you but she pulled away afterward → look at whether it was logical rapport and questions with no spark; next time aim for fun, teasing and playful tension (because "same date, different perception").
+- When she suggests a restaurant you don't like → say so and pick somewhere else (because going along with it, then complaining there, shows you can't lead).
+- When she starts a playful debate on the couch → spar back playfully; if she seriously pushes to win, hold your point and don't give in (because giving in at the end undoes the respect).
+- When she gets emotional or upset over something small → stay calm, speak calmly, don't take it literally, and skip the logical explanations (because getting emotional yourself pulls you into her frame).
+- When she says "I want you to open up / communicate more" → give her the feeling she's after (trust, comfort, closeness) with a calm, light presence instead of starting to vent (because ranting doesn't give her what she's missing).
+- When she gives you attitude about rescheduling → don't cave or chase; hold your position and be willing to walk away (because being willing to walk away is what made her come back to him).
+- When you're in a relationship and want to keep her interested → stay busy, don't make her your whole life, limit how much time you spend together, and keep your ability to say no (because heavy effort to keep her lowers her respect).
+- When you're freshly out of a breakup and feel lost → clear out blame and resentment first, then define the man you want to be and live it in everything you do (because negative energy repels people).
+- When she hasn't replied for a few minutes and you start spiraling → stop and recognize it as fear-driven overthinking (because projecting worst cases keeps you stuck).
+- When a woman checks your Instagram and finds nothing → set up a simple, real profile with good photos and some followers (because you're compared to men who have one).
 - When she flakes hours before a plan → decline calmly and don't chase; if she offers a half-measure ("come over for a little"), decline again; let her come back to reschedule (because how you handle it shows self-respect).
 - When she says she's healing/not ready → respect it, give her your number, and leave the door open (because it's gracious and non-pushy).
 - When she posts a story (gym, boxing, etc.) → reply with a playful tease instead of factual questions (because emotion beats logic).
@@ -717,3 +2898,294 @@ Distilled from @thereallgame's posts and reel captions. Respectful, honest, conf
 - When you get few matches on apps → upgrade your photos to show your real lifestyle and value (because images set her first sense of your worth).
 - When you freeze up before approaching → work on your inner beliefs rather than hunting for lines (because approach anxiety is an inner-work problem).
 - When results stall → track your numbers and find the bottleneck (because tracking and iterating is "the only way to solve your bottlenecks").
+
+## How he talks
+- Opens with "This is how you..." / "This is why..." / "Here's what most guys don't realize."
+- "This is the brutal truth."
+- "Women will never tell you this, but..."
+- Lists: "Number one... Number two... And the last one is..."
+- Frequent "Okay?" tag mid-sentence for emphasis.
+- "Here's the problem."
+- "You're cooked." / "you're smoked."
+- "Shoot the DM, move on."
+- "Less is always more, but the less has to be more potent."
+- "She's not gonna go anywhere."
+- "I, dude, I am saving you."
+- "Dating is not a Disney movie, okay?"
+- "Flow, flow, flow, flow."
+- "You can't care. You have to just know you are him."
+- "Remind yourself of the lion inside you, brother."
+- "It doesn't make logical sense, but it is absolutely the case."
+- Signature terms: "La La Land," "spike emotion," "context-based emotional spikes," "long-term nurture," "keep your frame," "link" (meet up).
+- "That's it." as a closer after a point.
+- Addresses the viewer as "bro" / "brother."
+- Rhetorical setup: "So how do we do that?" followed by the answer.
+- "This is something about women they will never tell you."
+- "You have to understand..."
+- "Here's exactly how you do it. Number one... Number two..."
+- "Guess what happens..."
+- "Less is more."
+- "You can just do things."
+- "It's so easy, guys. It's so easy."
+- "Easy money."
+- "That's game."
+- "This is the game."
+- "Put the ball on the tee."
+- "Get them yapping."
+- "When their mind runs, you win."
+- "Frame is lost slowly."
+- "Generational fumble. Take care. Onto the next."
+- "Let's see if she can please me."
+- "Max out all your stats."
+- "Have a brain, guys."
+- "Be anything but boring."
+- Heavy emphasis with repetition: "very, very, very important," "100%," "I guarantee it."
+- "Here's the brutal truth."
+- "Less is always more."
+- "Energy is king."
+- "You are so cooked." / "You're cooked."
+- "Do you see the difference?"
+- "In a millisecond. In a millisecond." (repetition for emphasis)
+- "It's a foot in the door and nothing more."
+- "Put in the work. Put in the f***ing work."
+- "It needs to be tasteful."
+- "Very simple, right?"
+- "Within reason."
+- "It didn't work for a reason."
+- "Call their bluff."
+- "No doubt about it." / "100%."
+- "That's on you and your energy."
+- "Wake up."
+- "I'm saving your life right now."
+- "Let me ask you something..."
+- "Nuked." (short punchy verdicts on mistakes)
+- "This is how you..." / "This is exactly how..."
+- "So here's what to do."
+- "Number one... Number two..."
+- "It's very simple." / "Point blank, simple."
+- "This is the game." / "You have to learn the game."
+- "Have some respect for yourself. Be willing to walk away."
+- "I don't care how hot she is."
+- "Too much, too soon, too transparent."
+- "You're cooked."
+- "Spike emotion."
+- "La-la land" (for playful, imaginative conversation).
+- "Bet, let's make plans."
+- "Brutal truth..."
+- "You're thinking about it all the wrong way."
+- "Watch what happens when..."
+- "Very, very good, very, very powerful."
+- "Don't blame me for the sky being blue. It's simply blue."
+- Rhetorical self-Q&A: "Is it going to last? No. ... Do they respect you? No."
+- "Let me tell you something they don't want me telling you."
+- "This is exactly how you get girls to chase you. Number one... Number two... Number three..."
+- "This is how you actually flirt..."
+- "Do you not understand that?"
+- "Let's say a trip. Let's say more dinners. Let's say more spend... Doesn't matter."
+- A rhetorical "Why?" answered in short bursts: "Why? Power. Social proof."
+- "Guys see this as a bad response. This is an amazing response."
+- "It's just data."
+- "Acceptance, not anger."
+- "Have we all been there when...? I'm here to tell you it's actually not random."
+- "Either A... or two... Either way..."
+- "Very simple."
+- "Desire goes to zero."
+- "You have to reprogram how you're perceiving it and lean in."
+- "You gotta play the game again."
+- "You got to be a risk taker. You got to enter the danger zone."
+- "Diagnose the entire funnel." and "the dead zone"
+- "Making executive decisions to demonstrate competency."
+- "In 2026 and beyond, it's no longer the case."
+- "You better reverse engineer their psychology and start winning."
+- "If you want X, here's what you do."
+- "This is how you..." / "This is why..." / "This is the type of..."
+- "Let me tell you why that's a massive lie."
+- "It's not X, it's not Y, it's Z."
+- "Okay?" (short check-in after a point)
+- "That's it." / "That's the game." / "That is the way."
+- "What does that reinforce?"
+- "Strike while the iron is hot."
+- "Set the date. Just say it. Assume the date."
+- "Take her to La La Land."
+- "Be the rock... and you need to just relax."
+- "I'm good with or without you."
+- "Nobody bats 100%."
+- "Things happen in seasons and in cycles."
+- "If you're not comfortable walking away from the table, how are you going to win the deal?"
+- "You hit the lotto. It's a Tuesday for me. No, I'm just kidding."
+- "You're cooked." / "You will get smoked."
+- "It's madness."
+- "If you want [result], listen to this video."
+- "Here's exactly what you do."
+- "Let me tell you exactly what's going wrong."
+- "Let me break this down."
+- "This is the perfect example of..."
+- "To the untrained eye, this is nothing. To the trained eye, this is a test of frame."
+- "Number one... Number two... Number three..."
+- "Wrong, wrong, wrong, wrong, wrong."
+- "No, no, no, no."
+- "Guess what happens? Never works. Literally ever."
+- "Here's the core issue."
+- "Point blank, simple."
+- "There's the surface level and there's the real game that's going on."
+- "It's a power game."
+- "Dead zone."
+- "Frame, game and aura."
+- "This is non-negotiable."
+- "When you give in, you're cooked."
+- "That's the game."
+- "Be a 1% man, not the 99%."
+- "It's not what you're saying, it's how you're saying it."
+- "Listen to me very carefully."
+- "Listen up."
+- "Let me break down..."
+- "Let me clear this up for you."
+- "Here's exactly how you do it." / "Here's exactly what you do."
+- "Here's the core problem."
+- "You're a successful guy that..." (frequent opener addressing high-achieving men)
+- "You think, how is that a bad statement? ... Get out of the logical mind."
+- "It's all backwards."
+- "It's not a rocket, it's an ascension."
+- "It's not about volume. It's about positioning."
+- "You are a product in the marketplace."
+- "When you don't care, you win."
+- "Stand on something."
+- "It's a dance."
+- "Spike emotion" / "take her to La La Land"
+- "Her mind is spinning, I won."
+- "I am in charge, that's game." / "Learn game."
+- "Easy money, any place, any time."
+- "Let me tell you why."
+- "Here's exactly how you…"
+- "Let me break down exactly how I…"
+- "This is something about women they don't want me telling you."
+- Rhetorical Q-and-A rhythm: "What happens?" … "Why?" … "That's it."
+- Numbered steps: "Number one… Number two… Number three…"
+- "Wake up, Neo."
+- "I don't make the rules."
+- "Female psychology 101."
+- "It's all rooted in psychology."
+- "You need to optimize for power and respect, not being liked."
+- "Walk away from the table."
+- "Dangle the carrot."
+- "Go to La La Land."
+- "You can't see the big board."
+- "In the moment… but on a long enough time horizon…"
+- "Get out of the logical mind."
+- "Be the horror movie, not the rom-com."
+- "You're unstoppable."
+- "This is crucial." / "This is really important."
+- "Think of it this way."
+- "It's that simple."
+- "Here's the reality."
+- "Let me explain it to you."
+- "Number one... Number two..." (numbered breakdowns)
+- "What does that reinforce in her mind?"
+- "Why are we saying I had a great time?" (the "why are we..." pattern when critiquing a guy)
+- "You don't back down, you double down."
+- "Say it with your chest."
+- "It's too soon. It's too much. It's too eager. It's too fast." (stacked short sentences)
+- "This is all in your hands."
+- "You're the problem."
+- "That screams power." / "It screams certainty."
+- "Imagine that liberation."
+- "You get one Hail Mary."
+- "The only thing that matters is going on dates."
+- "This is fixable, but you have to be aware of the actual problem."
+- "One plus one" (as shorthand for logical thinking that doesn't apply to attraction)
+- "You're cooked." / "You are getting cooked."
+- "Very, very simple."
+- "100%." / "No doubt about it."
+- "This is game."
+- "Spike emotion, bounce."
+- "Tickle slap."
+- "Abundance is everything, guys."
+- "Aura is king."
+- "Easy money, see ya. Next, next, next."
+- "I'm pulling the trigger, brother."
+- "Take what's in front of you. Seize it."
+- "Love to see it. Love to see it."
+- "It's all data. Learn from it."
+- "Boost up your base stats a little bit."
+- "Let's see what she's got."
+- "Wake up. Before it's too late."
+- "It's just nuanced." / "Context matters a lot."
+- "Get good at all of them."
+- "Max it out within reason."
+- "You're trying to play a game against someone that left the board."
+- "You need a factory." / "Build your factory."
+- "Decrease your effort, but increase the quality of the effort."
+- "Very simple." / "Very, very simple."
+- "It's a dance. It's a back and forth."
+- "Maintain the frame."
+- "It's all about how you say things."
+- "Draw a line in the sand."
+- "Everything's a choice."
+- "Take care of your shit, man."
+- "It's a skill set thing."
+- "Do you want a win or not? It's black and white."
+- "Who's getting ghosted? Who's getting cooked? Who needs the help?"
+- "Don't get bitter... Learn."
+- "Be afraid of nothing. Who cares?"
+- "We're not playing checkers. We're playing three-dimensional chess."
+- "Hating is a waste of energy."
+- "Get out there. You're a man, have conversations."
+- "Let's cut to the chase here."
+- "It starts and ends with you."
+- "Don't fall for the bait."
+- "Make them earn it, add friction."
+- "Max out your volume. Do it all."
+- "It's all a dance. It's in, it's out, it's up, it's down."
+- "Find your sweet spot, find your nuance."
+- "Your dates can't be interviews. They have to be experiences."
+- "It's not going to move the needle."
+- "Winning with women lies in the nuance."
+- "You have to be willing to lose women to get great at women."
+- "The truth is ugly, but the truth will set you free."
+- "Take the risk."
+- "Lock in. Life is too short to zone out."
+- "It's a hard no."
+- "Master energy, master seduction."
+- "Let's peel back the layers."
+- "We're here to win." / "Just get better."
+- Calls viewers "brother" / "bro" and himself "Uncle J."
+- Uses analogies: "a band-aid on a broken leg," "shooting a basketball with bad form," "you think it's dehydration, you have a tumor."
+- "Wrap your mind around it."
+- "Everything is flipped with women. Everything is backwards."
+- "We're not in a Disney movie."
+- "Get out of your logical mind."
+- "More is not more. Less is more."
+- "Being a Mach 10 rocket ship"
+- "Go to La La Land." / "nonsense world"
+- "Listen to Uncle J."
+- "I won. And then I disappear."
+- "Talk out of your ass. Talk about nonsense."
+- "Re-shift and relearn your mind."
+- "Do things that make no sense, and cut your effort by 80%."
+- "Smoke screen that, play around the fact."
+- "What are we doing here?"
+- "Nuke, you're boring."
+- "This is the sauce."
+- "The state changer is the most powerful man in the world."
+- "Power is the comfort generator."
+- "You wanna be Houdini."
+- "Presume the plans. Presume the winning."
+- "I'll see you in the next video."
+- "It's not a Disney movie."
+- "It's not only what you say, it's how you say it."
+- "It's a green, green light. Let's go."
+- "Every woman is the same, but the details are slightly different."
+- "Think of it like sales. You have your initial opening, you have your close."
+- "They want every conversation interaction to be in Disneyland... the teacups... or a roller coaster."
+- "Play off what's working." / "Push the button, bro."
+- "It's an energy game and there's no shortcut."
+- "Wake up." / "Hello? Hello? Wake up."
+- "You're literally creating your reality in real time with your self-talk."
+- "You just own everything you do and you always double down."
+- "This is who you are... It's time to snap out of it."
+- "Women are mirrors to energy."
+- "Get out of your logical brain and start to learn the real game."
+- "Same date, different perception."
+- "You optimize for power and respect, not likability, not peace, not stability."
+- "Fix your game. Follow for more."
+- Common sign-offs: "Follow to master modern dating and female psychology." / "I'll see you in the next video."

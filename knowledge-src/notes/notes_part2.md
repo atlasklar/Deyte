@@ -1,0 +1,200 @@
+# Notes — part 2 (@thereallgame)
+
+## Core beliefs & mindset
+- Attraction comes down to how you make her feel. Money spent, distance travelled and effort put in count for nothing if the interaction is emotionally flat: "it all boils down to how you make them feel and nothing else matters." [x2108628624173596993]
+- Effort she hasn't earned or returned lowers her respect. Heavy upfront investment (spending, eager texting, constant accommodating) gives her reasons to rule you out. Let your investment follow hers. [x2108628624173596993, x2110081402888704059]
+- The golden rule ("put in effort so she puts in effort") backfires in early dating. Giving effort first doesn't get effort back, it just shows eagerness. [x2110081402888704059]
+- Comfort and security alone don't create attraction or motivate her to invest. Some stakes and tension have to exist alongside the comfort. [x2106095389904429441, x2104317674608017775]
+- Her mood swings and fussiness are a fact of life that won't change. Swap anger and resentment for "understanding and detachment," and focus on the inputs you control (your behavior), not on being at the mercy of hers. [x2111496887454818498]
+- You get worse with women "the second you think highly of them and low of yourself". Take her off the pedestal and raise your own self-regard. [x2101780981476737347]
+- How you see women shapes how you read situations with them, and that drives your behavior. Fix the perception and the behavior follows. [x2103228497342656618, x2109026446718935458]
+- Her followers, travel photos and likes don't measure her value and shouldn't make you feel she's "above you." [x2100298703043178863]
+- If any part of you doesn't believe you're desirable, she'll pick it up. Men who only believe it with "average" women struggle at higher levels. "It starts with you." [x2109010098437665036]
+- Stop lying to yourself about what you actually want from women. Be "raw and authentic" and drop the hesitation about saying it. [x2111175834820022450]
+- Don't seek her approval. Caring how she perceives you shows a lack of inner certainty, which makes her less certain about you. You should be the one judging your own opinions and choices. [x2105733006354739589]
+- If your reflex is to say yes to everything she asks, you've been trained to appease. Do the inner work until "no" comes easily and often. [x2110475249548476796]
+- Most men who give women attention can't spark emotion, have no leverage and don't get it. Learn those core pillars and you stand out easily. [x2100628230684463606]
+- Accept dating as it really works, not as you wish it worked, then work backwards from the outcome you want. [x2099207939756322846]
+- Your logical way of operating serves you everywhere except with women. Learn to "toggle it on and off." [x2097431055078764724, x2103165851495272451]
+- Before attraction is built she'll pick at everything you do. Once desire, respect, comfort and tension are high, "you literally can do no wrong." [x2103543574943899792]
+- Abundance mindset: there are always more women to meet, so no single interaction is worth sacrificing your self-respect. [x2110779529249894537]
+- Being willing to walk away only works if it's real. "This can't be FAKED, it must be REAL." [x2100300203647516732]
+- Self-respect and composure ("power") make her feel safe and earn her respect and loyalty. Gifts, favors and niceness used as currency to win her signal the opposite. [x2107577909800030227]
+- Dating can be broken into a repeatable process with a constant feedback loop. It won't improve overnight, but steady calibration compounds. [x2103165851495272451, x2103167090404311455]
+
+## Attraction & frame
+- Showing you can walk away creates desire. Chasing her pushes her away: "Very similar to a cat - chase it, it runs." [x2100300203647516732, x2108628624173596993]
+- No tension, no desire. Nice-guy conditioning plus a logical mind makes most men play it safe, which leaves them "INVISIBLE," and then they wrongly blame their age or looks. [x2104317674608017775]
+- Sparking emotion means accepting some risk: the chance she's put off or you lose her. "You CANNOT play it safe with women and trigger emotions." [x2106428591416189151, x2103551488534729080]
+- Stop agreeing with everything to avoid upsetting her. Say what you really think, because people-pleasing makes you "a shell of yourself" and bores her. [x2099610127955296318]
+- Playful arguments and banter about nothing ("No chaos, no spark") create emotional stimulation, and that stimulation drives desire. Teasing counts as flirting. [x2106428591416189151]
+- Own the fact that she's into you. Instead of direct flirting or sweet talk, playfully tease that she's the one who's keen ("you're obsessed with me, I get it"). Read the girl and the vibe first. [x2110051963354182143]
+- Assume attraction ("presume she's in love with you and vibe out") instead of looking for reassurance. [x2110447969569063120]
+- Being able to be absurd and playful ("lala land" talk) raises how much she values you. Purely logical men get "ZERO" value despite looks, money or status. [x2099560329218769384, x2103165851495272451]
+- Switch between being the "fun spontaneous friend" and the grounded, discerning leader. Not one or the other, and not the try-hard romantic boyfriend. [x2108646952510398975]
+- Lead with your own judgment instead of catering to every stated want or complaint. The man who shows "discernment" about what she really wants is the one she picks. [x2102154932904251477]
+- Most of what makes her cringe is said without conviction. The right aura and certainty make the same words land. [x2100328398409134272]
+- Being called "the perfect gentleman" means no spark. Imperfect behavior that creates emotional push and pull beats bland, perfectly stable niceness. [x2110806429049209027]
+- Don't adore her or pile on compliments early. Gushing reads as low value and eager, not as attractive. [x2097828212504166725, x2097001982980665565, x2111531503985299473]
+- Praise her for what she actually does (effort, work), never just "for existing". Constant unearned praise breeds entitlement. [x2105730427738890503]
+- Hold back on the cards you show, the niceness you put out and the romance you push. What feels "logical and romantic to you is perceived as eager and desperate to her." [x2107170472123072644]
+- Signs that inner scarcity is leaking out: eagerness to lock in plans, long replies, constant flirting and complimenting, and overly predictable behavior. [x2109707187446550638]
+- "Never audition for any woman on planet earth." If she sets up a dynamic where you have to prove yourself, step out of it with no effort to win her back. [x2096666692483203132]
+- Your body language should say "I don't need your approval": relaxed, unhurried, not needy, with options in your life. [x2103165851495272451, x2103902444753187000]
+- Imply, don't announce. She enjoys being disarmed, things being left unsaid, and "guessing when you're going to make your move." [x2097036961483542583]
+- How she treats you depends on how she sees you. The same woman is rude and low-effort with men who treat her as important, and warm with men who are blunt and unbothered. "You always get what you tolerate." [x2108301932951445885]
+- Situations that start out professional can turn personal if you don't come across as wanting something, make her laugh with teasing and carry yourself well. Only where it's appropriate and she's clearly responding. [x2100299328149725367]
+
+## Texting
+- Don't text "good morning." It reads as eager and like she's your whole focus. [x2109383358258073600, x2110051963354182143]
+- Never ask her whether you're "still on." [x2110447969569063120]
+- Don't logically point out her dry replies ("why are you being dry?"). [x2110447969569063120]
+- Don't tell her you just want her to be happy. [x2110447969569063120]
+- Don't reward dry texting with more attention or bigger messages. [x2106458055210590261]
+- Keep your messages short. Long replies give away scarcity. [x2109707187446550638]
+- Why texting feels like pulling teeth: your messages leave her unsure how to answer, they're too logical and boring, you show no value or leverage online, you never create tension, you miss cues to change topic, and you don't know how to handle dry replies without losing your footing. "Texting should not be challenging AT ALL." [x2104677804637827419]
+- Why she went hot then cold: you gave her too much attention, she felt offended, you didn't build enough certainty, or you rewarded dry texting. [x2106458055210590261]
+- A gushing, overly polite, accommodating confirmation text marks you as a "nice guy." Keep confirmations short and matter-of-fact. [x2103904743945044380]
+- Don't send the "high effort" follow-up the moment the date ends ("so much fun, can't wait to see you again soon"). [x2108628624173596993]
+- Skip copy-pasted lines, coy flirting, backhanded compliments and pickup lines. [x2107894541252804899, x2103904020008190197]
+- Don't announce that you've chosen her before she's invested anything ("you're basically proposing to her"), and don't double down when it falls flat. [x2103904020008190197]
+- Ask for her number, not her Instagram. ("I have never asked a woman for her instagram.") [x2096091053304533488]
+- Jumping straight from first contact to asking for her number, with no connection built first, is "the worst funnel" and invites being ghosted. Build some spark first. [x2096290246401110138]
+- When you're seeing someone, low-volume casual texting is enough. Being unimpressed and relaxed lets her be the one who says she misses you. [x2101717043464536137]
+- After a good date, texting her is fine (the coach calls never texting after a date "a bit insane"), but a well-run date usually has her texting you first. [x2103902444753187000]
+
+## Dating apps & profiles
+- If you struggle with online dating it's usually your own profile. The average man's profile is so bad that fixing yours puts you "in the top 1% of guys." [x2101806124496208358]
+- Get 5–10 genuinely great photos, in one dedicated shoot day. It's very high leverage: it boosts your volume of matches, your sense of abundance, your optimism and your state. [x2103906378158838179]
+- Modern dating requires an online presence. Don't resist it, build it. [x2097431055078764724]
+- The same woman treats every match differently depending on how she sees him, so your profile and first messages set her behavior toward you. [x2108301932951445885]
+- If a match turns rude and then attacks you for reacting, don't argue. Unmatch and move on. [x2110779529249894537]
+- If she says she's "only on here for new friends," gently challenge it instead of quietly accepting a frame you don't want. [x2097402503830937881]
+
+## Setting and running dates
+- You pick the venue. Letting her choose can "nuke any potential" before the date starts. [x2107480295138271532]
+- Don't leave home or head to the venue until you know her exact arrival time. [x2096371829715652777]
+- If she's running late, be willing to call the plan off. "Never let a woman fuck with your time." [x2096371829715652777]
+- Your aim on the date is to create emotion, not to "build a connection" with logical talk. Women build desire through emotion, so logical conversation and talking about yourself kill it. [x2103165851495272451]
+- Keep first-date talk light and playful ("lala land"). Avoid heavy, divisive topics like politics. Arguing politics on a first date is a "nuclear mistake." [x2108628624173596993]
+- A lavish, expensive first date doesn't create attraction. The man who spent $400+ and flew across the country "got a hug." [x2108628624173596993]
+- Five fundamentals of a great date: (1) when you find a good topic, let her talk, (2) be bold in a playful way, (3) don't be afraid to escalate, (4) relaxed, detached body language, (5) lead the interaction from a position of self-assurance. [x2103902444753187000]
+- You don't need physical escalation at the venue. Keep her comfort and desire above yours so you're "not the eager one." Escalating too early is the fastest way to ruin a first date. [x2105039184528347442]
+
+## Escalation & leading
+- First kiss: take her somewhere private (behind a tree at the beach, in your car), say "I want to kiss you," and go ahead only if she responds positively. If she says no or reacts badly, don't. [x2099730398838440149]
+- Calibrate your escalation timing with a constant feedback loop. One clumsy move can end things for good, so you "cannot AFFORD any unforced errors." [x2103167090404311455, x2103165851495272451]
+- Don't be overly deliberate ("if I don't make a move how will she want me?"). Let tension build through implication. [x2097036961483542583]
+- Lead the logistics: choose the place, set the plan, invite her over. Don't put those decisions on her. [x2107480295138271532, x2108628624173596993]
+
+## Reading her signals (interest vs. disinterest)
+- If she texts you as soon as she gets home after a date (that she's home, or some wrap-up), she wants to see you again. [x2103902444753187000]
+- If she vents to you and then apologizes for it, she cares what you think of her. If she keeps venting, treats you like a therapist and never escalates, she's using you for support. [x2102471258298302973]
+- Interview or vetting questions mean she's looking for reasons to rule you out, because she doesn't like how she feels around you. A woman who's into you looks for reasons to rule you in. [x2107515244163527051, x2104272819995697456]
+- If she's asking you suspicious "qualifying" questions at all, your behavior needs to change. "No women into guys ask these questions." [x2107158861115511113]
+- Nit-picking before a date (your truck, your politics) usually isn't about the topic. She's in a bad emotional state with you and looking for a polite way to cancel. [x2103904743945044380]
+- "You're a great guy" or "perfect gentleman" usually means no attraction. She's being nice to avoid confrontation. [x2107910342642667948, x2110806429049209027]
+- Polite compliments from her often mean little desire, while playful jabs, teasing and calling you a "menace" usually mean interest. Look beneath the surface. [x2104992055542129040, x2098122872627605838]
+- She double-texts you, or reaches out mid-date with someone else: high interest. [x2108628624173596993, x2098122872627605838]
+- She says she misses you out of the blue during low-key texting: desire is building. [x2101717043464536137]
+- She "accidentally" leaves things at your place so she has to contact you: she wants to see you again. [x2103165851495272451]
+- Vague excuses like "not the right time," "not ready to date" or "didn't feel a spark" mean you never got past her logical, fault-finding mind to her emotions. [x2102059363372245108]
+- If she's hunting for your flaws, you haven't created the right feelings. When she wants you, she overlooks the same flaws. [x2104343015187755009, x2107515244163527051]
+
+## Tests, pushback & conflict
+- Her tests lose their power when you show her claims and jabs don't faze you, and even enjoy them. Apply this to every test. [x2099213292921036837]
+- Don't say yes to an unreasonable test or demand. Saying yes would be "quite literally" self-sabotage. [x2104278443718242714]
+- Too much grace backfires. Address disrespect directly and confidently instead of letting it slide. [x2103551488534729080]
+- To handle her mood swings, get ahead of them: talk in emotions, not logic, calm her anxiety instead of raising it, show social proof and abundance instead of scarcity, and change your behavior first instead of reacting after. [x2111496887454818498]
+- Small moments, like accepting a reschedule or caving to a test, mean nothing to you but can wreck her interest. Don't settle for less than you want. [x2097402503830937881]
+- If she keeps setting up a dynamic where you have to prove yourself, step away immediately. [x2096666692483203132]
+- When things are too calm and stable, she may pick fights. Keep the relationship playful and spirited so it doesn't go flat. [x2109351795432501561, x2106428591416189151]
+
+## Relationships & long-term
+- Keeping her interested is a skill: "most guys think the game is over when it's actually just beginning." If you can't keep her engaged and earn more respect over time, the upfront effort is wasted. [x2101717043464536137]
+- Keeping her shouldn't be a tactic. Keep raising your value, keep working on yourself, and keep your own masculine energy instead of mirroring her emotional energy. [x2106382648801423696]
+- Don't drift into a passive, submissive role in the relationship. It costs you her respect and leads to the breakdowns men later can't explain. [x2102110385650167992]
+- Long-term, stay relaxed and don't over-voice your interest. Let her pursue you too. [x2101717043464536137]
+- Praise her for effort and real actions, not just for being there, so she doesn't become entitled. [x2105730427738890503]
+- Comfort alone doesn't keep her invested. Keep some spark, playfulness and tension alive. [x2106095389904429441, x2109351795432501561]
+- A real emotional impression lasts. A woman can come back eager months later with no upkeep from you, if you reached her emotions and not only her logical mind. [x2102059363372245108]
+
+## Breakups, rejection & moving on
+- When a match is hostile or disrespectful, unmatch and move on. Don't argue. [x2110779529249894537]
+- When she shows no interest, don't double down with more effort. [x2103904020008190197]
+- Leave without trying to win her back the moment she makes you audition. [x2096666692483203132]
+- When it goes wrong, look at your own behavior instead of blaming women, your age or your looks. Those emotional swings "are in your hands." [x2103904743945044380, x2104317674608017775]
+- Treat every misstep as feedback, since women rarely give second chances after an uncalibrated move. [x2103167090404311455]
+
+## Self-improvement & lifestyle
+- Inner work comes first: release your past conditioning and affirm your new identity going forward. Dating happens in split seconds where you can't recite content, so who you are at your core is what shows. [x2097431055078764724, x2103165851495272451]
+- Work through your inner blocks around risk and boldness. They're "silent killers" that spread into everything. [x2103551488534729080]
+- Train yourself to be comfortable saying "no." [x2110475249548476796]
+- Build conviction and aura. Women "mirror" your inner-game flaws back at you. [x2100328398409134272]
+- Successful men often fail with women because they don't understand how differently women operate, won't adapt to modern (online) dating, skip inner work, and can't switch off logic mode. [x2097431055078764724]
+- Do a photo shoot and build a strong online presence. [x2103906378158838179, x2101806124496208358]
+- Practice playful, absurd, emotional conversation as a skill. [x2099560329218769384]
+- Never stop raising your value and working on yourself. [x2106382648801423696]
+
+## Common mistakes men make
+- Over-investing too early: big spending, eager texting, constant accommodating. [x2108628624173596993]
+- Letting her choose the date venue. [x2107480295138271532]
+- Talking politics or other heavy, logical topics on a first date. [x2108628624173596993]
+- Leading with logic and talking about yourself instead of creating emotion. [x2103165851495272451]
+- Habits that tell her she can use you: constant niceness, compliments, doing things for her whether she asks or not, never creating tension, and nurturing her without getting anything back. [x2111531503985299473]
+- Eagerness to set plans, long replies, constant flirting, and behavior so predictable there's no spark. [x2109707187446550638]
+- Good-morning texts. [x2109383358258073600]
+- Asking "are we still on?", calling out dry replies, telling her you just want her to be happy. [x2110447969569063120]
+- Rewarding dry texting with more attention. [x2106458055210590261]
+- Declaring you've chosen her before you know her, using pickup lines, then doubling down. [x2103904020008190197]
+- Seeking her approval and reflexively saying yes. [x2105733006354739589, x2110475249548476796]
+- Agreeing with everything and never voicing a real opinion. [x2099610127955296318]
+- Being overly deliberate and announcing every move. [x2097036961483542583]
+- Copy-pasted lines and backhanded compliments. [x2107894541252804899]
+- Heading to the venue before you know when she'll arrive. [x2096371829715652777]
+- Asking for her Instagram instead of her number. [x2096091053304533488]
+- Feeling inferior because of her followers or lifestyle. [x2100298703043178863]
+- Following the golden rule ("I'll put in effort so she does"). [x2110081402888704059]
+- Escalating physically at the venue too early. [x2105039184528347442]
+- Blaming the woman for an outcome your own behavior set up. [x2103904743945044380]
+- Thinking she builds connection the way you do, through logic. [x2103165851495272451, x2097431055078764724]
+- Thinking a romantic gesture comes across the way you mean it, when she reads it as eager. [x2109026446718935458, x2107170472123072644]
+
+## Example lines & scripts
+- First kiss, in a private spot: "I want to kiss you." Proceed only if she responds positively. [x2099730398838440149]
+- Playful tease showing you know she's into you: "You're obsessed with me, I get it." [x2110051963354182143]
+- The coach's inner frame (an attitude, not a line to say): "Presume she's in love with you and vibe out." [x2110447969569063120]
+- If she says she's only on the app to meet "new friends," gently challenge it rather than accept it (in the example, she replied that he was "the exception"). [x2097402503830937881]
+- If she says she's running late before you've left, offer to cancel the plans (he did this 20 minutes before). [x2096371829715652777]
+
+## Scenario → advice
+- When she's late or unsure about her arrival time → don't leave yet, get her exact arrival time, and be willing to cancel (because protecting your time shows self-respect). [x2096371829715652777]
+- When you're planning a first date → you choose the place and keep the spend modest (because letting her choose and splashing out reads as eager and can kill it before it starts). [x2107480295138271532, x2108628624173596993]
+- When politics or heavy topics come up on a date → steer back to light, playful "lala land" talk (because debates put her in a logical, critical mood). [x2108628624173596993]
+- When her texts go dry → don't call it out or send more, keep it short and playful, or change the topic (because rewarding dry texting confirms the low-effort dynamic). [x2110447969569063120, x2106458055210590261, x2104677804637827419]
+- When she went hot then cold → check whether you gave too much attention, offended her, didn't build certainty, or rewarded dry replies, and adjust (because the cooling usually follows one of those). [x2106458055210590261]
+- When she asks interview-style or vetting questions → treat it as a sign she doesn't like how she feels around you; switch to playful, emotional conversation instead of answering like a job candidate (because she's looking for reasons to rule you out). [x2107515244163527051, x2104272819995697456, x2107158861115511113]
+- When she picks at something trivial before a date (your car, your politics) → don't defend yourself logically; recognize the real problem is the mood you've created and change your approach (because the topic is a pretext). [x2103904743945044380]
+- When she vents and never escalates → step back from the therapist role (because if she cared what you think, she'd apologize for venting and show interest). [x2102471258298302973]
+- When she tests you or throws a jab → stay unfazed, even amused, and don't cave to unreasonable demands (because composure takes the test's power away). [x2099213292921036837, x2104278443718242714]
+- When she makes you audition or prove yourself → step out of it immediately and don't try to win her back (because auditioning puts you below her). [x2096666692483203132]
+- When a match turns hostile and attacks you for reacting → unmatch and move on (because arguing wastes energy and abundance is real). [x2110779529249894537]
+- When a date goes well → expect her to text when she gets home; if she does, she wants to see you again (texting her yourself is fine, just not a gushing, high-effort message). [x2103902444753187000, x2108628624173596993]
+- When you've just started seeing her → keep texting light and low-volume and don't over-express interest, so she has room to say she misses you (because being relaxed keeps desire up). [x2101717043464536137]
+- When you want the first kiss → get somewhere private, say "I want to kiss you," and go ahead only on a positive response. [x2099730398838440149]
+- When you're tempted to escalate physically at a first-date venue → hold off and keep her comfort and desire above yours (because escalating too soon makes you the eager one). [x2105039184528347442]
+- When she says she's "just here for friends" → lightly challenge it instead of accepting a frame you don't want (because small concessions quietly lower her interest). [x2097402503830937881]
+- When a relationship feels too calm and she starts picking fights → bring back playfulness and spirited banter (because a flat, too-stable dynamic leaves her under-stimulated). [x2109351795432501561, x2106428591416189151]
+- When you feel she's "out of your league" because of her followers or lifestyle → ignore those signals; they don't measure her value or yours. [x2100298703043178863]
+- When your reflex is to say yes to her requests → pause and ask whether you actually want it (because constant appeasing loses her respect). [x2110475249548476796]
+- When online dating isn't working → spend a day getting 5–10 great photos and rebuild your profile before changing anything else (because most men's profiles are the bottleneck). [x2103906378158838179, x2101806124496208358]
+
+## Excluded
+- Slurs, insults and name-calling of women ("weasel," "retard," "bitch," homophobic "gay" labels): demeaning. The underlying point is kept as "eager / try-hard" behavior.
+- Sweeping claims that women hate compliments, lie about everything, are a selfish "species," are near homelessness, or that only your mother will support you: demeaning, not actionable.
+- The story about pulling a woman away from her first date with another man and mocking his texts: demeaning to both. Only the "effort ≠ attraction" lesson is kept.
+- Deliberately ghosting her to "make her sweat," faking a dinner commitment, making women send photos to "qualify": manipulative and deceptive.
+- "Never give her an out": pressure tactic.
+- "Look down on her like a superior," "talk down to her," "you own them," dominating her as the reason women start fights, the "submissive little girl" dynamic: demeaning. Reframed as calm leadership and self-respect where a respectful kernel existed.
+- Unmatching a woman for criticizing you and then slamming her down when she reached out on Instagram: demeaning, escalates conflict.
+- Promotion, newsletters, links, "Reply TEXT" calls to action, and teaser posts with no content (x2104343015187755009, x2103548631349702757 approach teaser).

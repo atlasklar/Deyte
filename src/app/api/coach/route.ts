@@ -48,7 +48,7 @@ export async function POST(req: Request) {
 
   const today = new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   const system: Anthropic.Beta.BetaTextBlockParam[] = [
-    { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
+    { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral", ttl: "1h" } },
     { type: "text", text: contextBlock({ ...body.context, snippets, today }) },
   ];
 

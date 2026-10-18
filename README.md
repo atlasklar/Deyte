@@ -102,7 +102,7 @@ Things worth trying:
 
 The coach is Claude (`claude-opus-5-5`), answering only from the expert knowledge in `src/knowledge/`:
 
-- `playbook.md`: principles distilled from @thereallgame's X posts, reel captions and reel transcripts, grouped by topic. Sent with every request (prompt-cached, so it costs little after the first message).
+- `playbook.md`: about 3,100 principles distilled from @thereallgame's 1,876 reel transcripts (every reel with speech), X posts and reel captions, grouped by topic, plus how he talks. Sent with every request (prompt-cached for an hour, so it costs little after the first message).
 - `corpus.json`: what the coach searches, built from `knowledge-src/` (his reel transcripts, X posts and reel captions). For each message the server pulls the 7 most relevant video transcripts and 5 posts (keyword ranking in `src/lib/coach/retrieve.ts`), so replies carry his voice and his exact teaching.
 
 ### Adding more knowledge
@@ -110,7 +110,7 @@ The coach is Claude (`claude-opus-5-5`), answering only from the expert knowledg
 1. Instagram reels (an Apify reel-scraper CSV): `python3 scripts/knowledge/download_reels.py <reels.csv> <audio-dir>` then `python scripts/knowledge/transcribe_reels.py <audio-dir> <out.jsonl> small.en` (needs `pip install faster-whisper` and ffmpeg; runs locally, free). Append the output to `knowledge-src/reel_transcripts.jsonl`. Reel links expire a few days after scraping.
 2. X posts: append `{"id", "text"}` lines to `knowledge-src/x_posts.jsonl`.
 3. `python3 scripts/knowledge/build_corpus.py` rebuilds `src/knowledge/corpus.json` (strips promo, drops duplicates, leaves out contempt and manipulation tactics).
-4. Optionally refresh `playbook.md` with new principles, then commit and push.
+4. Distill new material into notes with the same headings (see `knowledge-src/notes/`), then `python3 scripts/knowledge/merge_playbook.py knowledge-src/notes/*.md` rebuilds `playbook.md`. Commit and push.
 
 The rules (answer only from the expert material, never guess, never say there's no answer, find the closest teaching) live in `src/lib/coach/prompt.ts`. Each request also carries the member's onboarding answers, saved memory and the connected person's profile. To grow the brain, add to these two files and redeploy.
 
