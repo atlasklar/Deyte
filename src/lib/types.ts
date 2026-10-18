@@ -1,0 +1,195 @@
+/* Shared shapes for the demo store and the coach engine. */
+
+export type StageId =
+  | "matched"
+  | "talking"
+  | "early_dates"
+  | "dating"
+  | "exclusive"
+  | "girlfriend"
+  | "ended";
+
+export const STAGES: { id: StageId; label: string; hint: string }[] = [
+  { id: "matched", label: "Just matched", hint: "Haven't really talked yet" },
+  { id: "talking", label: "Talking", hint: "Texting, no date yet" },
+  { id: "early_dates", label: "Early dates", hint: "One to three dates" },
+  { id: "dating", label: "Dating", hint: "Seeing each other regularly" },
+  { id: "exclusive", label: "Exclusive", hint: "Not seeing anyone else" },
+  { id: "girlfriend", label: "Girlfriend", hint: "In a relationship" },
+  { id: "ended", label: "Ended", hint: "Not pursuing this" },
+];
+
+export function stageLabel(id: StageId) {
+  return STAGES.find((s) => s.id === id)?.label ?? id;
+}
+
+/** Where a remembered item came from. Facts the user approved are kept apart from the coach's reads. */
+export type MemorySource = "you" | "onboarding" | "approved" | "learned";
+
+export type MemoryItem = {
+  id: string;
+  text: string;
+  source: MemorySource;
+  createdAt: string;
+};
+
+export type SelfCategory = "goal" | "style" | "voice" | "context";
+
+export type SelfMemoryItem = MemoryItem & { category: SelfCategory };
+
+export type TimelineEvent = {
+  id: string;
+  at: string;
+  kind: "review" | "update" | "stage" | "created";
+  title: string;
+  detail?: string;
+  threadId?: string;
+};
+
+export type Person = {
+  id: string;
+  name: string;
+  stage: StageId;
+  metVia?: string;
+  note?: string;
+  /** Things the user confirmed. */
+  facts: MemoryItem[];
+  /** Interpretations. Never presented as facts. */
+  reads: MemoryItem[];
+  timeline: TimelineEvent[];
+  createdAt: string;
+  updatedAt: string;
+};
+
+export type ChatLine = { id: string; from: "me" | "them"; text: string };
+
+export type Attachment = { id: string; name: string; thumb: string };
+
+export type Background = {
+  metInPerson?: boolean;
+  planExists?: boolean;
+  disagreement?: boolean;
+  notes?: string;
+};
+
+export type Intent = "decide" | "understand" | "respond" | "upload" | "open";
+
+export type RecommendationType =
+  | "keep_going"
+  | "flirt"
+  | "propose_date"
+  | "clarify"
+  | "repair"
+  | "boundary"
+  | "stop_initiating"
+  | "move_on"
+  | "reconnect"
+  | "hold";
+
+export const RECOMMENDATION_LABEL: Record<RecommendationType, string> = {
+  keep_going: "Keep the conversation going",
+  flirt: "Flirt",
+  propose_date: "Propose a date",
+  clarify: "Clarify intentions",
+  repair: "Address the misunderstanding",
+  boundary: "Set a boundary",
+  stop_initiating: "Stop initiating",
+  move_on: "Move on",
+  reconnect: "Reconnect",
+  hold: "Hold steady",
+};
+
+export type MemorySuggestion = {
+  id: string;
+  scope: "self" | "person";
+  kind: "fact" | "read";
+  text: string;
+  status: "pending" | "saved" | "dismissed";
+};
+
+export type Tone = "shorter" | "warmer" | "playful" | "direct";
+
+export type CoachReply =
+  | {
+      kind: "analysis";
+      happening: string[];
+      explanations: string[];
+      next: { type: RecommendationType; text: string };
+      why: string;
+      say?: { text: string; variants?: Partial<Record<Tone, string>> };
+      /** Shown instead of a message when the right move is to send nothing. */
+      noMessage?: string;
+      memory?: MemorySuggestion[];
+    }
+  | { kind: "clarify"; text: string; options: string[] }
+  | { kind: "note"; text: string; options?: string[]; actions?: ("upload" | "paste")[] }
+  | { kind: "draft"; intro: string; text: string };
+
+export type UserMessage = {
+  id: string;
+  role: "user";
+  at: string;
+  text?: string;
+  attachments?: Attachment[];
+  extracted?: ChatLine[];
+  background?: Background;
+};
+
+export type CoachMessage = {
+  id: string;
+  role: "coach";
+  at: string;
+  reply: CoachReply;
+  /** The user's writing feedback on the suggested message. */
+  voice?: "me" | "not_me";
+};
+
+export type Message = UserMessage | CoachMessage;
+
+export type Thread = {
+  id: string;
+  title: string;
+  personId?: string;
+  intent?: Intent;
+  createdAt: string;
+  updatedAt: string;
+  messages: Message[];
+};
+
+export type Profile = {
+  name: string;
+  email: string;
+  ageRange?: string;
+  situation: string[];
+  goals: string[];
+  style: string[];
+  emoji: "never" | "sometimes" | "often";
+  samples?: string;
+};
+
+export type SubStatus = "active" | "paused" | "canceled" | "ended";
+
+export type Subscription = {
+  status: SubStatus;
+  price: number;
+  /** Start of the current paid period. */
+  periodStart: string;
+  /** Renewal date while active; access end date once canceled. */
+  periodEnd: string;
+  pausedAt?: string;
+  resumeOn?: string;
+  canceledAt?: string;
+};
+
+export type AccountData = {
+  version: 1;
+  id: string;
+  profile: Profile;
+  onboarded: boolean;
+  self: SelfMemoryItem[];
+  people: Person[];
+  threads: Thread[];
+  subscription: Subscription;
+};
+
+export type AccountSummary = { id: string; name: string; email: string; demo?: boolean };

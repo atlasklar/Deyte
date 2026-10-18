@@ -1,0 +1,292 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────
+   DEYTE — design tokens
+   Neutral blacks in fine steps, hairline borders, compact type.
+   One warm accent (ember) for actions and the "next move";
+   sapphire for interpretations. Colour lives in the orb, not the chrome.
+   ────────────────────────────────────────────────────────────── */
+
+@theme {
+  --color-void: #09090a;
+  --color-ink-950: #0c0c0d;
+  --color-ink-900: #111112;
+  --color-ink-850: #141416;
+  --color-ink-800: #18181b;
+  --color-ink-700: #1f1f23;
+  --color-ink-600: #29292e;
+  --color-ink-500: #34343a;
+
+  --color-fg: #ededee;
+  --color-fg-muted: #a3a3ab;
+  --color-fg-subtle: #75757e;
+  --color-fg-faint: #4e4e56;
+
+  /* Accent. Token names kept from v1 so components stay stable. */
+  --color-bronze-100: #ffe1d6;
+  --color-bronze-200: #ffbfa8;
+  --color-bronze-300: #ff9474;
+  --color-bronze-400: #ff6b47;
+  --color-bronze-500: #ee5530;
+  --color-bronze-600: #a63a1f;
+  --color-bronze-700: #4a1c10;
+
+  --color-sapphire-200: #c7d4ff;
+  --color-sapphire-300: #98aeff;
+  --color-sapphire-400: #6d89f7;
+  --color-sapphire-500: #4c68e0;
+  --color-sapphire-700: #1c2557;
+
+  --color-ok: #4ade80;
+  --color-warn: #fbbf24;
+  --color-danger: #f87171;
+
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+  --font-display: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+:root {
+  color-scheme: dark;
+  --line: rgba(255, 255, 255, 0.065);
+  --line-strong: rgba(255, 255, 255, 0.11);
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* {
+  border-color: var(--line);
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  background: var(--color-void);
+  color: var(--color-fg);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(255, 107, 71, 0.3);
+  color: #fff;
+}
+
+/* Inputs at 16px stop iOS from zooming on focus */
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #26262b transparent;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  /* Headlines: same family, heavier and tighter — how real product sites do it */
+  .display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.035em;
+  }
+
+  .eyebrow {
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--color-fg-subtle);
+    letter-spacing: 0;
+  }
+
+  .mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+  }
+
+  .text-bronze {
+    color: var(--color-bronze-300);
+  }
+
+  /* Box: flat surface + hairline. The workhorse of the app. */
+  .card {
+    position: relative;
+    background: var(--color-ink-900);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+  }
+
+  .glass {
+    background: rgba(17, 17, 18, 0.82);
+    border: 1px solid var(--line-strong);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+  }
+
+  /* Kept as a hook for featured boxes; deliberately quiet now. */
+  .bronze-edge {
+    border-color: var(--line-strong);
+  }
+
+  .hairline {
+    height: 1px;
+    background: var(--line);
+  }
+
+  .focus-ring:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--color-void), 0 0 0 3.5px rgba(255, 255, 255, 0.35);
+  }
+
+  .skeleton {
+    background: linear-gradient(100deg, #141416 30%, #1d1d21 50%, #141416 70%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+
+  /* Shimmering status text while the coach works */
+  .shimmer-text {
+    background: linear-gradient(90deg, var(--color-fg-subtle) 0%, var(--color-fg) 40%, var(--color-fg-subtle) 80%);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 2s linear infinite;
+  }
+
+  .pt-safe {
+    padding-top: var(--safe-top);
+  }
+  .pb-safe {
+    padding-bottom: var(--safe-bottom);
+  }
+}
+
+/* Composer: a quiet box that wakes up on focus */
+.composer {
+  position: relative;
+  border-radius: 16px;
+  border: 1px solid var(--line-strong);
+  background: var(--color-ink-900);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.composer:focus-within {
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.04);
+}
+.composer-inner {
+  border-radius: 15px;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Orb fallback when WebGL is unavailable */
+.orb-fallback {
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255, 225, 214, 0.9), transparent 22%),
+    radial-gradient(circle at 60% 65%, rgba(109, 137, 247, 0.85), transparent 55%),
+    radial-gradient(circle at 40% 45%, #ff6b47, #4a1c10 75%);
+  box-shadow: 0 0 80px 10px rgba(255, 107, 71, 0.2), 0 0 140px 30px rgba(109, 137, 247, 0.1);
+  opacity: 0;
+}
+.orb:has(canvas[data-fallback]) .orb-fallback {
+  opacity: 1;
+  animation: breathe 6s ease-in-out infinite;
+}
+@keyframes breathe {
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+/* Loader: 3×3 squares fading in sequence */
+.loader-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 7px);
+  gap: 5px;
+}
+.loader-grid span {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--color-fg);
+  animation: sq 675ms ease-in-out infinite alternate;
+  opacity: 0;
+}
+@keyframes sq {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Streaming caret */
+.caret::after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 1.05em;
+  margin-left: 2px;
+  vertical-align: -0.15em;
+  border-radius: 1px;
+  background: var(--color-fg-muted);
+  animation: blink 1s steps(2) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Per-letter reveal for landing headlines */
+.split .char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(0.35em);
+  filter: blur(8px);
+  transition:
+    opacity 0.7s cubic-bezier(0.25, 1, 0.5, 1),
+    transform 0.7s cubic-bezier(0.25, 1, 0.5, 1),
+    filter 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.split.is-in .char {
+  opacity: 1;
+  transform: none;
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

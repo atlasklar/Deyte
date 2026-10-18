@@ -1,0 +1,13 @@
+{
+  "name": "Deyte preview",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "hostRequirements": { "cpus": 2 },
+  "containerEnv": { "NEXT_TELEMETRY_DISABLED": "1" },
+  "postCreateCommand": "npm ci && npm run build",
+  "postAttachCommand": { "server": "npm run start -- -p 3000" },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "Deyte", "onAutoForward": "openBrowser", "visibility": "public" }
+  },
+  "customizations": { "codespaces": { "openFiles": ["README.md"] } }
+}
