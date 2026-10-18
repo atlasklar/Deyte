@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Check, ChevronRight, Plus, UserPlus, X } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { haptic } from "@/lib/haptics";
 import { useAccount } from "@/lib/store";
 import { stageLabel } from "@/lib/types";
 import { cn, relativeTime } from "@/lib/util";
@@ -34,7 +35,13 @@ export function PersonChip({ personId, onOpen, onClear, compact }: { personId?: 
             </motion.span>
             <span className="text-[12.5px] font-medium text-fg">{person.name}</span>
           </button>
-          <button type="button" onClick={onClear} aria-label="Disconnect" className="flex h-6 w-6 items-center justify-center rounded-full text-fg-subtle hover:bg-white/[0.06] hover:text-fg">
+          <button
+            type="button"
+            onClick={() => {
+              haptic("selection");
+              onClear();
+            }}
+            aria-label="Disconnect" className="flex h-6 w-6 items-center justify-center rounded-full text-fg-subtle hover:bg-white/[0.06] hover:text-fg">
             <X size={12} strokeWidth={2.2} />
           </button>
         </motion.div>
@@ -43,7 +50,10 @@ export function PersonChip({ personId, onOpen, onClear, compact }: { personId?: 
           key="connect"
           layout
           type="button"
-          onClick={onOpen}
+          onClick={() => {
+            haptic("selection");
+            onOpen();
+          }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}
@@ -90,7 +100,7 @@ export function PersonSheet({
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.04, duration: 0.25 }}
                 onClick={() => {
-                  if ("vibrate" in navigator) navigator.vibrate?.(8);
+                  haptic("light");
                   onSelect(p.id);
                 }}
                 className={cn("flex w-full items-center gap-3 px-3.5 py-3 text-left transition-colors", active ? "bg-ink-800" : "hover:bg-ink-850")}

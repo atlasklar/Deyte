@@ -5,6 +5,7 @@ import { Check, ChevronLeft, X } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useState } from "react";
 import { useCoachActions } from "@/lib/actions";
+import { haptic } from "@/lib/haptics";
 import { CONCERNS, HER, HOW_LONG, MET, WANT } from "@/lib/personOptions";
 import { STAGES, type StageId } from "@/lib/types";
 import { cn } from "@/lib/util";
@@ -75,6 +76,7 @@ function NewPerson() {
       },
     });
     setCreated(id);
+    haptic("success");
     setTimeout(() => {
       if (back) router.replace(`${back}${back.includes("?") ? "&" : "?"}with=${id}`);
       else router.replace(`/app/people/${id}`);

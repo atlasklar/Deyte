@@ -6,6 +6,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { previewOf, useCoachActions, type Draft } from "@/lib/actions";
 import { validateScreenshots } from "@/lib/files";
+import { haptic } from "@/lib/haptics";
 import { accessFor, useAccount } from "@/lib/store";
 import { stageLabel, type Intent } from "@/lib/types";
 import { cn, partOfDay, relativeTime } from "@/lib/util";
@@ -84,6 +85,7 @@ function Lobby() {
   };
 
   const onShortcut = (intent: Intent) => {
+    haptic("selection");
     if (!access.canUseAI) return toast(access.reason!, "info");
     if (intent === "upload") return filePick.current?.click();
     go({ intent, personId: connected });
@@ -175,7 +177,10 @@ function Lobby() {
               <button
                 key={p.id}
                 type="button"
-                onClick={() => setConnected(connected === p.id ? undefined : p.id)}
+                onClick={() => {
+                  haptic("selection");
+                  setConnected(connected === p.id ? undefined : p.id);
+                }}
                 className={cn(
                   "card flex shrink-0 items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-3.5 transition-colors duration-150",
                   connected === p.id ? "border-white/30 bg-ink-800" : "hover:bg-ink-850",

@@ -4,7 +4,8 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect } from "react";
 import { BRAND } from "@/config/product";
-import { AccountProvider } from "@/lib/store";
+import { haptic, setHapticsEnabled } from "@/lib/haptics";
+import { AccountProvider, useAccount } from "@/lib/store";
 import { cn } from "@/lib/util";
 import { Wordmark } from "@/components/ui/Wordmark";
 import { isActive, NAV } from "./nav";
@@ -21,6 +22,14 @@ function Loading() {
       </div>
     </div>
   );
+}
+
+/** Mirrors the Haptics preference into the haptics helper. */
+function HapticsSync() {
+  const { data } = useAccount();
+  const on = data.prefs?.haptics ?? true;
+  useEffect(() => setHapticsEnabled(on), [on]);
+  return null;
 }
 
 /** Each tab opens at the top, instantly — no carried-over scroll, no sliding highlight. */
@@ -40,6 +49,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <AccountProvider fallback={<Loading />} onMissing={() => router.replace("/login")}>
       <ScrollReset />
+      <HapticsSync />
       <div className="relative min-h-dvh md:pl-[232px]">
         {/* Desktop rail */}
         <aside className="fixed inset-y-0 left-0 z-40 hidden w-[232px] flex-col border-r border-[var(--line)] bg-ink-950 px-3 py-5 md:flex">
@@ -89,6 +99,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                     href={item.href}
                     className="flex flex-1 flex-col items-center justify-center gap-[3px] active:opacity-60"
                     aria-current={active ? "page" : undefined}
+                    onClick={() => !active && haptic("selection")}
                   >
                     <Icon size={21} strokeWidth={active ? 2 : 1.6} className={active ? "text-fg" : "text-fg-faint"} />
                     <span className={cn("text-[10.5px] font-medium", active ? "text-fg" : "text-fg-faint")}>{item.label}</span>

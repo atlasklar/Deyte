@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { previewOf, useCoachActions } from "@/lib/actions";
+import { haptic } from "@/lib/haptics";
 import { useAccount } from "@/lib/store";
 import { stageLabel, type Thread } from "@/lib/types";
 import { cn, formatDate } from "@/lib/util";
@@ -99,7 +100,13 @@ export default function ChatsPage() {
           {[{ id: "all", name: "All" }, ...data.people].map((p) => {
             const active = who === p.id;
             return (
-              <button key={p.id} type="button" onClick={() => setWho(p.id)} className="flex w-[60px] shrink-0 flex-col items-center gap-1.5">
+              <button
+                key={p.id}
+                type="button"
+                onClick={() => {
+                  if (who !== p.id) haptic("selection");
+                  setWho(p.id);
+                }} className="flex w-[60px] shrink-0 flex-col items-center gap-1.5">
                 <span className={cn("rounded-full p-[2px] transition-colors duration-200", active ? "bg-white" : "bg-transparent")}>
                   <span className="block rounded-full border-2 border-void">
                     {p.id === "all" ? (
@@ -185,7 +192,7 @@ export default function ChatsPage() {
       <motion.button
         type="button"
         whileTap={{ scale: 0.92 }}
-        onClick={() => (person ? router.push(`/app/chat/${startThread({ intent: "open", personId: person.id })}`) : router.push("/app"))}
+        onClick={() => (haptic("light"), person ? router.push(`/app/chat/${startThread({ intent: "open", personId: person.id })}`) : router.push("/app"))}
         aria-label={person ? `New chat about ${person.name}` : "New chat"}
         className="fixed right-4 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-white text-black shadow-[0_10px_30px_-8px_rgba(0,0,0,0.8)] md:right-8"
         style={{ bottom: "calc(var(--safe-bottom) + 76px)" }}

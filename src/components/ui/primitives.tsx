@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { forwardRef } from "react";
+import { haptic } from "@/lib/haptics";
 import { cn, initials, personHue } from "@/lib/util";
 
 /* ── Buttons ────────────────────────────────────────────────── */
@@ -36,10 +37,21 @@ export function buttonClass(variant: Variant = "secondary", size: Size = "md", c
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & { variant?: Variant; size?: Size };
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(
-  { variant = "secondary", size = "md", className, type = "button", ...props },
+  { variant = "secondary", size = "md", className, type = "button", onClick, ...props },
   ref,
 ) {
-  return <button ref={ref} type={type} className={buttonClass(variant, size, className)} {...props} />;
+  return (
+    <button
+      ref={ref}
+      type={type}
+      className={buttonClass(variant, size, className)}
+      onClick={(e) => {
+        if (variant === "bronze" || variant === "primary") haptic("light");
+        onClick?.(e);
+      }}
+      {...props}
+    />
+  );
 });
 
 export function ButtonLink({
@@ -71,12 +83,17 @@ export function IconButton({ className, label, ...props }: React.ButtonHTMLAttri
 export function Chip({
   active,
   className,
+  onClick,
   ...props
 }: React.ButtonHTMLAttributes<HTMLButtonElement> & { active?: boolean }) {
   return (
     <button
       type="button"
       aria-pressed={active}
+      onClick={(e) => {
+        haptic("selection");
+        onClick?.(e);
+      }}
       className={cn(
         "focus-ring inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 py-1 text-[13px] transition-colors duration-150",
         active
@@ -138,7 +155,10 @@ export function Toggle({ checked, onChange, label }: { checked: boolean; onChang
       type="button"
       role="switch"
       aria-checked={checked}
-      onClick={() => onChange(!checked)}
+      onClick={() => {
+        haptic("selection");
+        onChange(!checked);
+      }}
       className="focus-ring flex w-full items-center justify-between gap-4 rounded-xl px-1 py-2.5 text-left text-[14px] text-fg"
     >
       {label}

@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Check, ChevronDown, ClipboardPaste, Copy, ImagePlus, Loader2, MessageSquareOff } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useCoachActions } from "@/lib/actions";
+import { haptic } from "@/lib/haptics";
 import { coach } from "@/lib/coach/engine";
 import { useAccount } from "@/lib/store";
 import { RECOMMENDATION_LABEL, type CoachMessage, type CoachReply, type Person, type Tone, type UserMessage } from "@/lib/types";
@@ -384,7 +385,12 @@ function AnalysisCard({ threadId, message, person, s, showExtras }: ReplyProps &
                     <button type="button" onClick={() => saveSuggestion(threadId, message.id, m.id, false)} className="rounded-lg px-2 py-1 text-[12px] text-fg-subtle hover:text-fg">
                       Skip
                     </button>
-                    <button type="button" onClick={() => saveSuggestion(threadId, message.id, m.id, true)} className="rounded-lg bg-white px-2.5 py-1 text-[12px] font-medium text-black hover:bg-white/90">
+                    <button
+                      type="button"
+                      onClick={() => {
+                        haptic("light");
+                        saveSuggestion(threadId, message.id, m.id, true);
+                      }} className="rounded-lg bg-white px-2.5 py-1 text-[12px] font-medium text-black hover:bg-white/90">
                       Save
                     </button>
                   </div>
@@ -483,6 +489,7 @@ export function SayBubble({ text, typing }: { text: string; typing?: boolean }) 
           type="button"
           disabled={typing}
           onClick={async () => {
+            haptic("light");
             try {
               await navigator.clipboard.writeText(text);
             } catch {

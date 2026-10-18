@@ -6,6 +6,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "re
 import { LIMITS } from "@/config/product";
 import { looksLikeConversation } from "@/lib/coach/parse";
 import { validateScreenshots } from "@/lib/files";
+import { haptic } from "@/lib/haptics";
 import { cn } from "@/lib/util";
 import { useToast } from "@/components/ui/Toast";
 
@@ -84,6 +85,7 @@ export const Composer = forwardRef<ComposerHandle, Props>(function Composer(
       toast(`Keep it under ${LIMITS.messageChars.toLocaleString()} characters.`, "info");
       return;
     }
+    haptic("light");
     onSubmit({ text: t, files, reviewPaste });
     setText("");
     setFiles([]);
@@ -198,7 +200,10 @@ export const Composer = forwardRef<ComposerHandle, Props>(function Composer(
           {busy ? (
             <button
               type="button"
-              onClick={onStop}
+              onClick={() => {
+                haptic("selection");
+                onStop?.();
+              }}
               aria-label="Stop"
               className="focus-ring flex h-9 w-9 items-center justify-center rounded-[10px] bg-white text-black"
             >

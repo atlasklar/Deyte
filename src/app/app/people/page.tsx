@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Plus, Users } from "lucide-react";
 import Link from "next/link";
 import { threadsFor } from "@/lib/actions";
+import { haptic } from "@/lib/haptics";
 import { useAccount } from "@/lib/store";
 import { stageLabel, STAGES } from "@/lib/types";
 import { relativeTime } from "@/lib/util";
@@ -75,7 +76,7 @@ export default function PeoplePage() {
       </div>
 
       <motion.div whileTap={{ scale: 0.92 }} className="fixed right-4 z-30 md:right-8" style={{ bottom: "calc(var(--safe-bottom) + 76px)" }}>
-        <Link href="/app/people/new" aria-label="Add someone" className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-black shadow-[0_10px_30px_-8px_rgba(0,0,0,0.8)]">
+        <Link href="/app/people/new" onClick={() => haptic("light")} aria-label="Add someone" className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-black shadow-[0_10px_30px_-8px_rgba(0,0,0,0.8)]">
           <Plus size={24} strokeWidth={2.2} />
         </Link>
       </motion.div>

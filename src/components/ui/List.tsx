@@ -2,6 +2,7 @@
 
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
+import { haptic } from "@/lib/haptics";
 import { cn } from "@/lib/util";
 
 /* iOS-style grouped lists: a quiet caption, then rows in one rounded box. */
@@ -102,7 +103,10 @@ export function Segmented<T extends string>({ value, options, onChange }: { valu
         <button
           key={o.id}
           type="button"
-          onClick={() => onChange(o.id)}
+          onClick={() => {
+            if (o.id !== value) haptic("selection");
+            onChange(o.id);
+          }}
           className={cn("relative z-10 h-8 rounded-[8px] text-[13px] font-medium transition-colors duration-200", value === o.id ? "text-fg" : "text-fg-subtle")}
         >
           {o.label}
@@ -115,7 +119,15 @@ export function Segmented<T extends string>({ value, options, onChange }: { valu
 /** A setting with a description and an iOS switch. */
 export function ToggleRow({ label, sub, checked, onChange }: { label: string; sub?: string; checked: boolean; onChange: (v: boolean) => void }) {
   return (
-    <button type="button" role="switch" aria-checked={checked} onClick={() => onChange(!checked)} className="group/row flex w-full items-center gap-3 px-4 text-left active:bg-ink-800">
+    <button
+      type="button"
+      role="switch"
+      aria-checked={checked}
+      onClick={() => {
+        haptic("selection");
+        onChange(!checked);
+      }}
+      className="group/row flex w-full items-center gap-3 px-4 text-left active:bg-ink-800">
       <span className="flex min-w-0 flex-1 items-center gap-3 border-b border-[var(--line)] py-3 group-last/row:border-0">
         <span className="min-w-0 flex-1">
           <span className="block text-[14.5px] text-fg">{label}</span>
