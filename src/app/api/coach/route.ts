@@ -44,7 +44,7 @@ export async function POST(req: Request) {
   const previous = history.slice(-3, -1).map((m) => m.content).join(" ");
   const p = body.context.person;
   const query = [latest, previous.slice(0, 600), p?.stage, ...(Object.values(p?.quiz ?? {}).flat() as string[])].filter(Boolean).join(" ");
-  const snippets = retrieve(query, 8);
+  const snippets = retrieve(query);
 
   const today = new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric" });
   const system: Anthropic.Beta.BetaTextBlockParam[] = [

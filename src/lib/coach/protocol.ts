@@ -23,7 +23,7 @@ export function liveView(raw: string): { text: string; say: string | null; sayDo
 
   const sayMatch = text.match(/<say>([\s\S]*?)(<\/say>|$)/);
   if (sayMatch) {
-    say = sayMatch[1].replace(/<\/?s?a?y?$/, "").trim();
+    say = humanize(sayMatch[1].replace(/<\/?s?a?y?$/, "").trim());
     sayDone = Boolean(sayMatch[2]);
   }
   for (const t of TAGS) text = text.replace(new RegExp(`<${t}\\b[^>]*>[\\s\\S]*?(</${t}>|$)`, "g"), "");
@@ -33,7 +33,8 @@ export function liveView(raw: string): { text: string; say: string | null; sayDo
 }
 
 export function parseReply(raw: string, partial = false): Extract<CoachReply, { kind: "chat" }> {
-  const say = raw.match(/<say>([\s\S]*?)<\/say>/)?.[1].trim();
+  const sayRaw = raw.match(/<say>([\s\S]*?)<\/say>/)?.[1].trim();
+  const say = sayRaw ? humanize(sayRaw) : undefined;
   const options = raw
     .match(/<options>([\s\S]*?)<\/options>/)?.[1]
     .split("|")
@@ -44,7 +45,7 @@ export function parseReply(raw: string, partial = false): Extract<CoachReply, { 
   const memory: MemorySuggestion[] = [];
   for (const m of raw.matchAll(/<remember\b([^>]*)>([\s\S]*?)<\/remember>/g)) {
     const attrs = m[1];
-    const text = m[2].trim();
+    const text = humanize(m[2].trim());
     if (!text) continue;
     memory.push({
       id: uid("sug"),
@@ -94,5 +95,18 @@ export function replyToText(reply: CoachReply): string {
 }
 
 function tidy(t: string) {
-  return t.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  return humanize(t.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim());
+}
+
+/**
+ * Makes text read like a person texting: no dashes as punctuation, and no
+ * period hanging off the end of a line. Hyphenated words and "..." are kept.
+ */
+export function humanize(t: string) {
+  return t
+    .replace(/\s*[—–]\s*/g, ", ")
+    .replace(/ +- +/g, ", ")
+    .replace(/,\s*,/g, ",")
+    .replace(/^, /gm, "")
+    .replace(/([^.\s])\.(\**)[ \t]*$/gm, "$1$2");
 }

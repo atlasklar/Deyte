@@ -7,7 +7,8 @@ import corpus from "@/knowledge/corpus.json";
  * coach's original wording and examples for the situation at hand.
  */
 
-type Doc = { id: string; t: string };
+/** k: "v" video transcript, "x" X post, "c" reel caption. */
+type Doc = { id: string; t: string; k: "v" | "x" | "c" };
 
 const STOP = new Set(
   "a an the and or but if then so to of in on at by for with from as is are was were be been being it its this that these those i me my you your he him his she her they them their we us our do does did doing have has had having not no yes just very really can could would should will shall may might must about into over after before again more most some such only own same than too also up down out off what which who whom when where why how all any both each few other here there im youre shes hes dont doesnt didnt cant wont isnt arent wasnt get got go going like know want think one".split(
@@ -43,7 +44,7 @@ for (const d of docs) {
 }
 const avgLen = lens.reduce((a, b) => a + b, 0) / Math.max(1, lens.length);
 
-export function retrieve(query: string, k = 8): Doc[] {
+function rank(query: string): { i: number; s: number }[] {
   const q = [...new Set(tokens(query))];
   if (!q.length) return [];
   const N = docs.length;
@@ -62,5 +63,15 @@ export function retrieve(query: string, k = 8): Doc[] {
     if (s > 0) scored.push({ i, s });
   }
   scored.sort((x, y) => y.s - x.s);
-  return scored.slice(0, k).map(({ i }) => docs[i]);
+  return scored;
+}
+
+/** His videos first (his voice), then posts and captions. */
+export function retrieve(query: string, videos = 7, others = 5): Doc[] {
+  const ranked = rank(query).map(({ i }) => docs[i]);
+  const v = ranked.filter((d) => d.k === "v").slice(0, videos);
+  const o = ranked.filter((d) => d.k !== "v").slice(0, others);
+  // Nothing matched (a very short message): still show him how the expert talks.
+  if (!v.length) v.push(...docs.filter((d) => d.k === "v").slice(0, 3));
+  return [...v, ...o];
 }
