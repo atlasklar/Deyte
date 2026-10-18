@@ -3,7 +3,7 @@
 import { useCallback } from "react";
 import { coach } from "./coach/engine";
 import { useAccount } from "./store";
-import type { AccountData, Attachment, Background, ChatLine, CoachReply, Intent, Person, StageId, Thread } from "./types";
+import type { AccountData, Attachment, Background, ChatLine, CoachReply, Intent, Person, PersonProfile, StageId, Thread } from "./types";
 import { RECOMMENDATION_LABEL } from "./types";
 import { nowIso, uid } from "./util";
 
@@ -87,6 +87,16 @@ export function useCoachActions() {
         t.messages.push({ id: messageId, role: "coach", at, reply });
         t.updatedAt = at;
         const p = d.people.find((x) => x.id === t.personId);
+        // "Remember automatically" setting: save the coach's suggestions straight away.
+        if (d.prefs?.autoRemember && reply.kind === "analysis") {
+          for (const m of reply.memory ?? []) {
+            if (m.status !== "pending") continue;
+            m.status = "saved";
+            const item = { id: uid("mem"), text: m.text, source: "approved" as const, createdAt: at };
+            if (m.scope === "person" && p) (m.kind === "fact" ? p.facts : p.reads).push(item);
+            else d.self.push({ ...item, category: "context" });
+          }
+        }
         if (p && reply.kind === "analysis") {
           p.timeline.push({ id: uid("ev"), at, kind: "review", title: t.title, detail: `Recommendation: ${RECOMMENDATION_LABEL[reply.next.type].toLowerCase()}`, threadId });
           p.updatedAt = at;
@@ -108,7 +118,7 @@ export function useCoachActions() {
   );
 
   const createPerson = useCallback(
-    (input: { name: string; stage: StageId; metVia?: string; note?: string }) => {
+    (input: { name: string; stage: StageId; metVia?: string; note?: string; profile?: PersonProfile }) => {
       const id = uid("p");
       const at = nowIso();
       mutate((d) => {
@@ -118,6 +128,7 @@ export function useCoachActions() {
           stage: input.stage,
           metVia: input.metVia?.trim() || undefined,
           note: input.note?.trim() || undefined,
+          profile: input.profile,
           facts: [],
           reads: [],
           timeline: [{ id: uid("ev"), at, kind: "created", title: "Profile created" }],

@@ -1,19 +1,21 @@
 "use client";
 
-import { ChevronLeft, MoreHorizontal, RotateCcw, Trash2, UserPlus } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import { ArrowDown, ChevronLeft, MoreHorizontal, RotateCcw, Trash2 } from "lucide-react";
 import Link from "next/link";
-import { useParams, useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
+import { memo, Suspense, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { lastUnanswered, useCoachActions, type Draft } from "@/lib/actions";
 import { coach } from "@/lib/coach/engine";
 import { validateScreenshots } from "@/lib/files";
 import { accessFor, useAccount } from "@/lib/store";
-import { stageLabel } from "@/lib/types";
+import { stageLabel, type Message, type Person } from "@/lib/types";
 import { formatDate, sleep } from "@/lib/util";
 import { Composer, type ComposerSubmit } from "@/components/chat/Composer";
+import { PersonChip, PersonSheet } from "@/components/chat/PersonConnect";
 import { CoachReplyView, Thinking, UserBubble } from "@/components/chat/Replies";
 import { ReviewFlow, type ReviewInput } from "@/components/chat/ReviewFlow";
-import { PasteSheet, PersonPicker } from "@/components/chat/Sheets";
+import { PasteSheet } from "@/components/chat/Sheets";
 import { ButtonLink, IconButton, PersonAvatar } from "@/components/ui/primitives";
 import { Sheet } from "@/components/ui/Sheet";
 import { useToast } from "@/components/ui/Toast";
@@ -23,8 +25,50 @@ const inflight = new Set<string>();
 /** Messages stopped by the user before the coach answered. */
 const stopped = new Set<string>();
 
-export default function ChatPage() {
+type RowProps = {
+  threadId: string;
+  message: Message;
+  person?: Person;
+  latest: boolean;
+  streaming: boolean;
+  stopSignal: number;
+  onStreamDone: () => void;
+  onOption: (text: string) => void;
+  onUpload: () => void;
+  onPaste: () => void;
+};
+
+/** One message. Memoised so a streaming reply never re-renders the rest of the thread. */
+const Row = memo(function Row(p: RowProps) {
+  return p.message.role === "user" ? (
+    <UserBubble message={p.message} person={p.person} />
+  ) : (
+    <CoachReplyView
+      threadId={p.threadId}
+      message={p.message}
+      person={p.person}
+      latest={p.latest}
+      stream={p.streaming}
+      stopSignal={p.stopSignal}
+      onStreamDone={p.onStreamDone}
+      onOption={p.onOption}
+      onUpload={p.onUpload}
+      onPaste={p.onPaste}
+    />
+  );
+});
+
+export default function ChatPageWrapper() {
+  return (
+    <Suspense fallback={null}>
+      <ChatPage />
+    </Suspense>
+  );
+}
+
+function ChatPage() {
   const { id } = useParams<{ id: string }>();
+  const params = useSearchParams();
   const router = useRouter();
   const toast = useToast();
   const { data, mutate } = useAccount();
@@ -32,21 +76,31 @@ export default function ChatPage() {
   const thread = data.threads.find((t) => t.id === id);
   const person = data.people.find((p) => p.id === thread?.personId);
   const access = accessFor(data);
-  const [thinking, setThinking] = useState<{ steps: string[]; start: number } | null>(null);
-  const [now, setNow] = useState(0);
+  const [thinking, setThinking] = useState<string[] | null>(null);
   const [streamingId, setStreamingId] = useState<string | null>(null);
   const [stopSignal, setStopSignal] = useState(0);
   const [, force] = useState(0);
   const [review, setReview] = useState<ReviewInput | null>(null);
   const [paste, setPaste] = useState(false);
-  const [picker, setPicker] = useState(false);
+  const [picking, setPicking] = useState(false);
   const [menu, setMenu] = useState(false);
+  const [showJump, setShowJump] = useState(false);
   const scroller = useRef<HTMLDivElement>(null);
-  const pinned = useRef(true);
+  const content = useRef<HTMLDivElement>(null);
+  const stick = useRef(true);
   const filePick = useRef<HTMLInputElement>(null);
 
   const pending = thread ? lastUnanswered(thread) : null;
   const isStopped = pending ? stopped.has(pending.id) : false;
+
+  // Coming back from setting up a new person: connect her to this chat.
+  useEffect(() => {
+    const w = params.get("with");
+    if (w && thread && data.people.some((p) => p.id === w)) {
+      linkPerson(thread.id, w);
+      router.replace(`/app/chat/${thread.id}`, { scroll: false });
+    }
+  }, [params, thread, data.people, linkPerson, router]);
 
   // Ask the coach whenever the latest message is the user's.
   useEffect(() => {
@@ -54,14 +108,12 @@ export default function ChatPage() {
     inflight.add(pending.id);
     const req = { account: data, thread, message: pending, person };
     const steps = coach.thinkingSteps(req);
-    const start = performance.now();
-    setThinking({ steps, start });
+    setThinking(steps);
     const minThinking = 2600 + steps.length * 450 + Math.random() * 700;
     Promise.all([coach.reply(req), sleep(minThinking)])
       .then(([reply]) => {
         if (stopped.has(pending.id)) return;
-        const messageId = receive(thread.id, reply);
-        setStreamingId(messageId);
+        setStreamingId(receive(thread.id, reply));
       })
       .finally(() => {
         setThinking(null);
@@ -71,28 +123,56 @@ export default function ChatPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pending?.id, isStopped]);
 
-  // Clock for the step list while thinking.
-  useEffect(() => {
-    if (!thinking) return;
-    let raf = 0;
-    const tick = () => {
-      setNow(performance.now() - thinking.start);
-      raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [thinking]);
+  /* ── Scrolling ──────────────────────────────────────────────
+     Follow new content only while the reader is at the bottom; the moment
+     they scroll up, stop following. Content growth (streaming, images,
+     expanding cards) is handled by one ResizeObserver, never per frame. */
 
-  const toBottom = useCallback((smooth = false) => {
+  const toBottom = useCallback((behavior: ScrollBehavior = "auto") => {
     const el = scroller.current;
-    if (el && pinned.current) el.scrollTo({ top: el.scrollHeight, behavior: smooth ? "smooth" : "auto" });
+    if (el) el.scrollTo({ top: el.scrollHeight, behavior });
   }, []);
 
-  const count = thread?.messages.length ?? 0;
+  useLayoutEffect(() => {
+    toBottom();
+  }, [toBottom, thread?.id]);
+
   useEffect(() => {
-    pinned.current = true;
-    toBottom(count > 2);
-  }, [count, Boolean(thinking), toBottom]); // eslint-disable-line react-hooks/exhaustive-deps
+    const el = content.current;
+    if (!el) return;
+    const ro = new ResizeObserver(() => {
+      if (stick.current) toBottom();
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [toBottom, thread?.id]);
+
+  const count = thread?.messages.length ?? 0;
+  const lastRole = thread?.messages[count - 1]?.role;
+  useEffect(() => {
+    // Your own message always brings you to the bottom.
+    if (lastRole === "user") {
+      stick.current = true;
+      toBottom("smooth");
+    }
+  }, [count, lastRole, toBottom]);
+
+  const onScroll = useCallback(() => {
+    const el = scroller.current;
+    if (!el) return;
+    const atBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 72;
+    stick.current = atBottom;
+    setShowJump(!atBottom);
+  }, []);
+
+  /* ── Callbacks (stable, so rows stay memoised) ──────────── */
+
+  const threadId = thread?.id ?? "";
+  const canSend = access.canUseAI && !thinking && !streamingId;
+  const onStreamDone = useCallback(() => setStreamingId(null), []);
+  const onOption = useCallback((text: string) => canSend && send(threadId, { text }), [canSend, send, threadId]);
+  const onUpload = useCallback(() => filePick.current?.click(), []);
+  const onPaste = useCallback(() => setPaste(true), []);
 
   const firstDate = useMemo(() => (thread ? formatDate(thread.createdAt, { weekday: "short", month: "short", day: "numeric" }) : ""), [thread]);
 
@@ -126,17 +206,17 @@ export default function ChatPage() {
     force((x) => x + 1);
   };
 
-  const submitDraft = (draft: Draft, personId?: string) => {
-    if (personId && personId !== thread.personId) linkPerson(thread.id, personId);
-    send(thread.id, draft);
-  };
-
   const onSubmit = ({ text, files, reviewPaste }: ComposerSubmit) => {
     if (files.length || reviewPaste) {
       setReview(reviewPaste ? { files: [], pasted: text, personId: thread.personId } : { files, text: text || undefined, personId: thread.personId });
       return;
     }
     send(thread.id, { text });
+  };
+
+  const submitDraft = (draft: Draft, personId?: string) => {
+    if (personId && personId !== thread.personId) linkPerson(thread.id, personId);
+    send(thread.id, draft);
   };
 
   const lastId = thread.messages[thread.messages.length - 1]?.id;
@@ -150,18 +230,14 @@ export default function ChatPage() {
           </IconButton>
           <div className="min-w-0 flex-1 px-1">
             <p className="truncate text-[14px] font-medium text-fg">{thread.title}</p>
-            <button type="button" onClick={() => setPicker(true)} className="flex items-center gap-1.5 text-[12px] text-fg-subtle hover:text-fg-muted">
-              {person ? (
-                <>
-                  <PersonAvatar id={person.id} name={person.name} size={14} />
-                  {person.name} · {stageLabel(person.stage)}
-                </>
-              ) : (
-                <>
-                  <UserPlus size={12} strokeWidth={1.75} /> Link a person
-                </>
-              )}
-            </button>
+            {person ? (
+              <Link href={`/app/people/${person.id}`} className="flex w-fit items-center gap-1.5 text-[12px] text-fg-subtle hover:text-fg-muted">
+                <PersonAvatar id={person.id} name={person.name} size={14} />
+                {person.name} · {stageLabel(person.stage)}
+              </Link>
+            ) : (
+              <p className="text-[12px] text-fg-faint">No one connected</p>
+            )}
           </div>
           <IconButton label="More" onClick={() => setMenu(true)}>
             <MoreHorizontal size={19} strokeWidth={1.75} />
@@ -169,56 +245,66 @@ export default function ChatPage() {
         </div>
       </header>
 
-      <div
-        ref={scroller}
-        onScroll={(e) => {
-          const el = e.currentTarget;
-          pinned.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
-        }}
-        className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 md:px-6"
-      >
-        <p className="py-4 text-center text-[11px] text-fg-faint">{firstDate}</p>
-        <div className="flex flex-col gap-5 pb-6">
-          {thread.messages.map((m) =>
-            m.role === "user" ? (
-              <UserBubble key={m.id} message={m} person={person} />
-            ) : (
-              <CoachReplyView
+      <div ref={scroller} onScroll={onScroll} className="relative min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 [overflow-anchor:none] md:px-6">
+        <div ref={content}>
+          <p className="py-4 text-center text-[11px] text-fg-faint">{firstDate}</p>
+          <div className="flex flex-col gap-5 pb-6">
+            {thread.messages.map((m) => (
+              <Row
                 key={m.id}
                 threadId={thread.id}
                 message={m}
                 person={person}
                 latest={m.id === lastId && !thinking}
-                stream={m.id === streamingId}
+                streaming={m.id === streamingId}
                 stopSignal={m.id === streamingId ? stopSignal : 0}
-                onStreamProgress={() => toBottom()}
-                onStreamDone={() => setStreamingId(null)}
-                onOption={(text) => access.canUseAI && !busy && send(thread.id, { text })}
-                onUpload={() => filePick.current?.click()}
-                onPaste={() => setPaste(true)}
+                onStreamDone={onStreamDone}
+                onOption={onOption}
+                onUpload={onUpload}
+                onPaste={onPaste}
               />
-            ),
-          )}
-          {thinking && <Thinking steps={thinking.steps} elapsed={now} />}
-          {pending && !thinking && isStopped && (
-            <div className="flex items-center gap-2 pl-8 text-[12.5px] text-fg-subtle">
-              Stopped.
-              <button type="button" onClick={retry} className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg">
-                <RotateCcw size={12} /> Retry
-              </button>
-            </div>
-          )}
-          {pending && !thinking && !isStopped && !access.canUseAI && <p className="text-center text-[12.5px] text-fg-subtle">{access.reason}</p>}
+            ))}
+            {thinking && <Thinking steps={thinking} />}
+            {pending && !thinking && isStopped && (
+              <div className="flex items-center gap-2 pl-8 text-[12.5px] text-fg-subtle">
+                Stopped.
+                <button type="button" onClick={retry} className="flex items-center gap-1 rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg">
+                  <RotateCcw size={12} /> Retry
+                </button>
+              </div>
+            )}
+            {pending && !thinking && !isStopped && !access.canUseAI && <p className="text-center text-[12.5px] text-fg-subtle">{access.reason}</p>}
+          </div>
         </div>
       </div>
 
-      <div className="shrink-0 px-3 pt-2 md:px-5" style={{ paddingBottom: "calc(var(--safe-bottom) + 10px)" }}>
+      <div className="relative shrink-0 px-3 pt-2 md:px-5" style={{ paddingBottom: "calc(var(--safe-bottom) + 10px)" }}>
+        <AnimatePresence>
+          {showJump && (
+            <motion.button
+              type="button"
+              initial={{ opacity: 0, y: 8, scale: 0.9 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 8, scale: 0.9 }}
+              transition={{ type: "spring", stiffness: 500, damping: 32 }}
+              onClick={() => {
+                stick.current = true;
+                toBottom("smooth");
+              }}
+              aria-label="Jump to latest"
+              className="absolute -top-11 left-1/2 flex h-9 w-9 -translate-x-1/2 items-center justify-center rounded-full border border-[var(--line-strong)] bg-ink-800 text-fg shadow-lg"
+            >
+              <ArrowDown size={16} />
+            </motion.button>
+          )}
+        </AnimatePresence>
         <Composer
           placeholder={person ? `Update on ${person.name}, or ask a follow-up…` : "Ask a follow-up or share more…"}
           disabledReason={access.reason}
           busy={busy}
           onStop={stop}
           onSubmit={onSubmit}
+          leading={<PersonChip personId={thread.personId} onOpen={() => setPicking(true)} onClear={() => linkPerson(thread.id, undefined)} />}
         />
       </div>
 
@@ -252,13 +338,14 @@ export default function ChatPage() {
           setReview({ files: [], pasted: text, personId: thread.personId });
         }}
       />
-      <PersonPicker
-        open={picker}
-        onClose={() => setPicker(false)}
+      <PersonSheet
+        open={picking}
+        onClose={() => setPicking(false)}
         selected={thread.personId}
+        returnTo={`/app/chat/${thread.id}`}
         onSelect={(pid) => {
           linkPerson(thread.id, pid);
-          setPicker(false);
+          setPicking(false);
         }}
       />
       <Sheet open={menu} onClose={() => setMenu(false)} title="This conversation">

@@ -46,12 +46,25 @@ export type TimelineEvent = {
   threadId?: string;
 };
 
+/** What the user told the coach when he set this person up. */
+export type PersonProfile = {
+  howLong?: string;
+  /** What he wants from this. */
+  want: string[];
+  /** What he's concerned about. */
+  concerns: string[];
+  /** What she's like / what's going on with her. */
+  her: string[];
+  notes?: string;
+};
+
 export type Person = {
   id: string;
   name: string;
   stage: StageId;
   metVia?: string;
   note?: string;
+  profile?: PersonProfile;
   /** Things the user confirmed. */
   facts: MemoryItem[];
   /** Interpretations. Never presented as facts. */
@@ -181,10 +194,22 @@ export type Subscription = {
   canceledAt?: string;
 };
 
+export type Prefs = {
+  /** Save facts the coach suggests without asking each time. */
+  autoRemember: boolean;
+  /** Keep small screenshot previews in chats. */
+  keepPreviews: boolean;
+  haptics: boolean;
+  notifications: boolean;
+};
+
+export const DEFAULT_PREFS: Prefs = { autoRemember: false, keepPreviews: true, haptics: true, notifications: true };
+
 export type AccountData = {
   version: 1;
   id: string;
   profile: Profile;
+  prefs?: Prefs;
   onboarded: boolean;
   self: SelfMemoryItem[];
   people: Person[];

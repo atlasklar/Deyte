@@ -6,10 +6,11 @@ import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import { previewOf, threadsFor, useCoachActions } from "@/lib/actions";
 import { useAccount } from "@/lib/store";
-import { stageLabel, STAGES, type MemoryItem, type Person } from "@/lib/types";
+import { CONCERNS, HER, WANT } from "@/lib/personOptions";
+import { stageLabel, STAGES, type MemoryItem, type Person, type PersonProfile } from "@/lib/types";
 import { cn, formatDate, nowIso, relativeTime, uid } from "@/lib/util";
 import { MemoryList } from "@/components/memory/MemoryList";
-import { Button, ButtonLink, Chip, Field, IconButton, Input, PersonAvatar, SectionTitle } from "@/components/ui/primitives";
+import { Button, ButtonLink, Chip, Field, IconButton, Input, PersonAvatar, SectionTitle, Textarea } from "@/components/ui/primitives";
 import { Page } from "@/components/ui/PageHeader";
 import { Sheet } from "@/components/ui/Sheet";
 import { useToast } from "@/components/ui/Toast";
@@ -24,6 +25,7 @@ export default function PersonPage() {
   const [stageOpen, setStageOpen] = useState(false);
   const [editOpen, setEditOpen] = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [profileOpen, setProfileOpen] = useState(false);
 
   if (!person) {
     return (
@@ -86,6 +88,42 @@ export default function PersonPage() {
       </section>
 
       <div className="flex flex-col gap-8 pb-10">
+        <section>
+          <SectionTitle action={<button type="button" onClick={() => setProfileOpen(true)} className="text-[12.5px] font-medium text-fg-muted hover:text-fg">Edit</button>}>
+            What you told me
+          </SectionTitle>
+          <div className="card divide-y divide-[var(--line)]">
+            {[
+              ["You want", person.profile?.want ?? []],
+              ["On your mind", person.profile?.concerns ?? []],
+              ["She's", person.profile?.her ?? []],
+            ].map(([label, items]) => (
+              <div key={label as string} className="px-4 py-3">
+                <p className="mb-1.5 text-[11.5px] font-medium text-fg-subtle">{label as string}</p>
+                {(items as string[]).length ? (
+                  <div className="flex flex-wrap gap-1.5">
+                    {(items as string[]).map((t) => (
+                      <span key={t} className="rounded-full bg-ink-700 px-2.5 py-1 text-[12.5px] text-fg">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <button type="button" onClick={() => setProfileOpen(true)} className="text-[13px] text-fg-faint hover:text-fg-muted">
+                    Not set — add
+                  </button>
+                )}
+              </div>
+            ))}
+            {(person.profile?.notes || person.profile?.howLong) && (
+              <div className="px-4 py-3">
+                <p className="mb-1 text-[11.5px] font-medium text-fg-subtle">Notes</p>
+                <p className="text-[13.5px] leading-relaxed text-fg-muted">{[person.profile?.howLong, person.profile?.notes].filter(Boolean).join(" · ")}</p>
+              </div>
+            )}
+          </div>
+        </section>
+
         <section>
           <SectionTitle>Facts you&apos;ve confirmed</SectionTitle>
           <div className="card px-4 py-1.5">
@@ -231,6 +269,7 @@ export default function PersonPage() {
         </div>
       </Sheet>
 
+      <ProfileSheet open={profileOpen} onClose={() => setProfileOpen(false)} person={person} onSave={(profile) => edit((p) => (p.profile = profile))} />
       <EditSheet open={editOpen} onClose={() => setEditOpen(false)} person={person} onSave={(patch) => edit((p) => Object.assign(p, patch))} />
     </Page>
   );
@@ -278,6 +317,60 @@ function EditSheet({ open, onClose, person, onSave }: { open: boolean; onClose: 
         <Field label="Short note" hint="What matters about her, in your words.">
           <Input value={note} onChange={(e) => setNote(e.target.value)} maxLength={140} />
         </Field>
+      </div>
+    </Sheet>
+  );
+}
+
+function ProfileSheet({ open, onClose, person, onSave }: { open: boolean; onClose: () => void; person: Person; onSave: (p: PersonProfile) => void }) {
+  const base = person.profile ?? { want: [], concerns: [], her: [] };
+  const [want, setWant] = useState<string[]>(base.want);
+  const [concerns, setConcerns] = useState<string[]>(base.concerns);
+  const [her, setHer] = useState<string[]>(base.her);
+  const [notes, setNotes] = useState(base.notes ?? "");
+  const tog = (list: string[], v: string) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
+  const extra = (list: string[], options: string[]) => list.filter((x) => !options.includes(x));
+  return (
+    <Sheet
+      open={open}
+      onClose={onClose}
+      title={`About ${person.name}`}
+      subtitle="Your coach uses this in every read about her."
+      size="lg"
+      footer={
+        <Button
+          variant="bronze"
+          className="w-full"
+          onClick={() => {
+            onSave({ ...base, want, concerns: concerns.filter((c) => c !== "Nothing yet"), her, notes: notes.trim() || undefined });
+            onClose();
+          }}
+        >
+          Save
+        </Button>
+      }
+    >
+      <div className="flex flex-col gap-6">
+        {[
+          ["What you want", WANT, want, setWant],
+          ["What's on your mind", CONCERNS, concerns, setConcerns],
+          ["What she's like", HER, her, setHer],
+        ].map(([label, options, value, set]) => (
+          <div key={label as string}>
+            <p className="eyebrow mb-2">{label as string}</p>
+            <div className="flex flex-wrap gap-1.5">
+              {[...(options as string[]), ...extra(value as string[], options as string[])].map((o) => (
+                <Chip key={o} active={(value as string[]).includes(o)} onClick={() => (set as (v: string[]) => void)(tog(value as string[], o))}>
+                  {o}
+                </Chip>
+              ))}
+            </div>
+          </div>
+        ))}
+        <div>
+          <p className="eyebrow mb-2">Notes</p>
+          <Textarea value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Anything else worth knowing about her." maxLength={400} />
+        </div>
       </div>
     </Sheet>
   );

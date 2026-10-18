@@ -35,7 +35,7 @@ function ScrollReset() {
 export function AppShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
-  const immersive = pathname.startsWith("/app/chat/");
+  const immersive = pathname.startsWith("/app/chat/") || pathname === "/app/people/new";
 
   return (
     <AccountProvider fallback={<Loading />} onMissing={() => router.replace("/login")}>

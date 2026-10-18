@@ -346,6 +346,14 @@ function lastAnalysis(req: CoachRequest): Analysis | null {
 function followUp(req: CoachRequest, c: Ctx): CoachReply | null {
   const prev = lastAnalysis(req);
   const t = c.text;
+  if (/^(ok|okay|thanks|thank you|thx|got it|cool|perfect|will do|sounds good)\b[.!]*\s*(thanks|thank you)?[.!]*$/.test(t.trim())) {
+    return {
+      kind: "note",
+      text: req.person
+        ? `Anytime. When ${req.person.name} replies — or doesn't — come back with it and we'll take the next step from there.`
+        : "Anytime. Come back with the next message or update and we'll pick it up from here.",
+    };
+  }
   if (!prev) return null;
 
   const toneMatch: [RegExp, Tone][] = [
@@ -457,6 +465,8 @@ export const demoEngine: CoachEngine = {
     const bg = message.background;
     const memory = [
       ...(person?.facts ?? []).map((f) => f.text),
+      ...(person?.profile?.concerns ?? []),
+      ...(person?.profile?.her ?? []),
       bg?.notes ?? "",
       bg?.disagreement ? "disagreement upset" : "",
     ]
@@ -518,6 +528,8 @@ function polish(a: Analysis, c: Ctx): Analysis {
     const prior = p.timeline.filter((t) => t.kind === "review").slice(-1)[0];
     if (prior && a.happening.length < 5) a.happening.push(`Last review: “${prior.title}” — ${prior.detail?.replace("Recommendation: ", "I recommended ") ?? "on file"}.`);
   }
+  const want = p?.profile?.want.filter((w) => w !== "Not sure yet")[0];
+  if (want && !a.why.includes("you told me")) a.why += ` It also fits what you told me you want with ${p!.name}: ${want.toLowerCase()}.`;
   a.memory = (a.memory ?? []).map((m) => ({ ...m, text: m.text.replace(/\bshe\b/i, p?.name ?? "she") }));
   if (c.name === "she") {
     a.happening = a.happening.map((h) => h.replace(/^she\b/, "She"));

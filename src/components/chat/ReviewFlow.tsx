@@ -3,14 +3,14 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowLeftRight, Plus, Trash2 } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { useCoachActions, type Draft } from "@/lib/actions";
+import type { Draft } from "@/lib/actions";
 import { coach } from "@/lib/coach/engine";
 import { parsePasted } from "@/lib/coach/parse";
 import { makeThumb } from "@/lib/files";
 import { useAccount } from "@/lib/store";
-import { STAGES, type Attachment, type ChatLine, type StageId } from "@/lib/types";
+import { STAGES, type Attachment, type ChatLine } from "@/lib/types";
 import { cn, sleep, uid } from "@/lib/util";
-import { Button, Chip, Input, Loader9, PersonAvatar, Textarea, Toggle } from "@/components/ui/primitives";
+import { Button, Chip, Loader9, PersonAvatar, Textarea, Toggle } from "@/components/ui/primitives";
 import { Sheet } from "@/components/ui/Sheet";
 
 export type ReviewInput = { files: File[]; pasted?: string; text?: string; personId?: string };
@@ -31,15 +31,11 @@ export function ReviewFlow({
   onComplete: (draft: Draft, personId?: string) => void;
 }) {
   const { data, mutate } = useAccount();
-  const { createPerson } = useCoachActions();
   const [step, setStep] = useState<Step>("reading");
   const [lines, setLines] = useState<ChatLine[]>([]);
   const [attachments, setAttachments] = useState<Attachment[]>([]);
   const [editing, setEditing] = useState<string | null>(null);
   const [personId, setPersonId] = useState<string | undefined>();
-  const [newName, setNewName] = useState("");
-  const [creating, setCreating] = useState(false);
-  const [newStage, setNewStage] = useState<StageId>("talking");
   const [metInPerson, setMetInPerson] = useState(false);
   const [planExists, setPlanExists] = useState(false);
   const [disagreement, setDisagreement] = useState(false);
@@ -49,7 +45,7 @@ export function ReviewFlow({
   const [progress, setProgress] = useState(0);
 
   const person = data.people.find((p) => p.id === personId);
-  const themLabel = person?.name || (creating && newName.trim()) || "Them";
+  const themLabel = person?.name || "Them";
   const fromScreens = (input?.files.length ?? 0) > 0;
 
   useEffect(() => {
@@ -58,8 +54,6 @@ export function ReviewFlow({
     setStep("reading");
     setEditing(null);
     setPersonId(input.personId);
-    setCreating(false);
-    setNewName("");
     setNotes("");
     const p = data.people.find((x) => x.id === input.personId);
     setMetInPerson(Boolean(p && !["matched", "talking"].includes(p.stage)));
@@ -105,8 +99,7 @@ export function ReviewFlow({
   const updateLine = (id: string, patch: Partial<ChatLine>) => setLines((ls) => ls.map((l) => (l.id === id ? { ...l, ...patch } : l)));
 
   const finish = () => {
-    let pid = personId;
-    if (creating && newName.trim()) pid = createPerson({ name: newName, stage: newStage });
+    const pid = personId;
     const clean = lines.filter((l) => l.text.trim());
     onComplete(
       {
@@ -153,7 +146,7 @@ export function ReviewFlow({
               <Button variant="ghost" onClick={() => setStep("review")}>
                 Back
               </Button>
-              <Button variant="bronze" className="flex-1" onClick={finish} disabled={creating && !newName.trim()}>
+              <Button variant="bronze" className="flex-1" onClick={finish}>
                 Get the read
               </Button>
             </div>
@@ -287,49 +280,34 @@ export function ReviewFlow({
                 {data.people.map((p) => (
                   <Chip
                     key={p.id}
-                    active={!creating && personId === p.id}
-                    onClick={() => {
-                      setCreating(false);
-                      setPersonId(personId === p.id ? undefined : p.id);
-                    }}
+                    active={personId === p.id}
+                    onClick={() => setPersonId(personId === p.id ? undefined : p.id)}
                     className="pl-1.5"
                   >
                     <PersonAvatar id={p.id} name={p.name} size={24} />
                     {p.name}
                   </Chip>
                 ))}
-                <Chip
-                  active={creating}
-                  onClick={() => {
-                    setCreating(!creating);
-                    setPersonId(undefined);
-                  }}
-                >
-                  <Plus size={14} strokeWidth={1.8} />
-                  New person
-                </Chip>
               </div>
-              {creating && (
-                <div className="mt-3 flex flex-col gap-3">
-                  <Input value={newName} onChange={(e) => setNewName(e.target.value)} placeholder="Her name or nickname" autoFocus maxLength={40} />
-                  <p className="text-[12.5px] text-fg-subtle">Private to your account. A first name or nickname is enough.</p>
-                </div>
+              {data.people.length === 0 ? (
+                <p className="mt-2 text-[12.5px] text-fg-subtle">No one set up yet. Add her in People to connect future chats.</p>
+              ) : (
+                <p className="mt-2 text-[12.5px] text-fg-subtle">Someone new? Set her up in People after this — it takes a minute.</p>
               )}
             </section>
 
-            {(person || creating) && (
+            {person && (
               <section>
                 <h3 className="eyebrow mb-3">Where are things?</h3>
                 <div className="flex flex-wrap gap-2">
                   {STAGES.map((s) => {
-                    const current = creating ? newStage : person?.stage;
+                    const current = person?.stage;
                     return (
                       <Chip
                         key={s.id}
                         active={current === s.id}
                         onClick={() => {
-                          if (creating) setNewStage(s.id);
-                          else if (person)
+                          if (person)
                             mutate((d) => {
                               const p = d.people.find((x) => x.id === person.id);
                               if (p && p.stage !== s.id) {

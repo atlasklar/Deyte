@@ -22,6 +22,8 @@ type Props = {
   autoFocus?: boolean;
   /** The coach is writing: show Stop instead of Send. */
   busy?: boolean;
+  /** Rendered at the start of the toolbar (the connected-person chip). */
+  leading?: React.ReactNode;
   onStop?: () => void;
 };
 
@@ -30,7 +32,7 @@ type Props = {
  * screenshots. Pasted conversations are offered for review before sending.
  */
 export const Composer = forwardRef<ComposerHandle, Props>(function Composer(
-  { placeholder = "What's going on in your dating life?", variant = "dock", disabledReason, onSubmit, onActiveChange, autoFocus, busy, onStop },
+  { placeholder = "What's going on in your dating life?", variant = "dock", disabledReason, onSubmit, onActiveChange, autoFocus, busy, onStop, leading },
   ref,
 ) {
   const toast = useToast();
@@ -169,15 +171,19 @@ export const Composer = forwardRef<ComposerHandle, Props>(function Composer(
         </AnimatePresence>
 
         <div className={cn("flex items-center justify-between", hero ? "px-2 pb-2" : "px-1.5 pb-1.5")}>
-          <button
-            type="button"
-            onClick={() => fileInput.current?.click()}
-            disabled={disabled}
-            className="focus-ring flex h-9 items-center gap-1.5 rounded-[9px] px-2.5 text-[12.5px] text-fg-subtle transition-colors hover:bg-white/[0.05] hover:text-fg"
-          >
-            <ImagePlus size={17} strokeWidth={1.75} />
-            {hero && <span>Screenshots</span>}
-          </button>
+          <div className="flex min-w-0 items-center gap-1">
+            <button
+              type="button"
+              onClick={() => fileInput.current?.click()}
+              disabled={disabled}
+              aria-label="Add screenshots"
+              title="Add screenshots"
+              className="focus-ring flex h-9 w-9 shrink-0 items-center justify-center rounded-[9px] text-fg-subtle transition-colors hover:bg-white/[0.05] hover:text-fg"
+            >
+              <ImagePlus size={17} strokeWidth={1.75} />
+            </button>
+            {leading}
+          </div>
           <input
             ref={fileInput}
             type="file"

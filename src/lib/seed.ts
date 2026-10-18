@@ -49,6 +49,13 @@ function daniel(): AccountData {
         stage: "early_dates",
         metVia: "Hinge",
         note: "Architect. Funny, quick replies on weekends.",
+        profile: {
+          howLong: "A few weeks",
+          want: ["Something serious", "See where it goes"],
+          concerns: ["Moving at the right pace"],
+          her: ["Busy job", "Playful", "Takes initiative"],
+          notes: "Deadline weeks make her slow on weekdays — not a signal.",
+        },
         facts: [
           { id: "m1", text: "Two dates so far: wine bar, then climbing.", source: "approved", createdAt: ago(5) },
           { id: "m2", text: "She suggested the climbing date herself.", source: "you", createdAt: ago(9) },
@@ -71,6 +78,12 @@ function daniel(): AccountData {
         name: "Sofia",
         stage: "talking",
         metVia: "Bumble",
+        profile: {
+          howLong: "Two weeks",
+          want: ["A first date"],
+          concerns: ["Mixed signals", "She keeps declining"],
+          her: ["Busy", "Friendly but short replies"],
+        },
         facts: [
           { id: "f1", text: "Invited her out twice. Both declined, no other time suggested.", source: "approved", createdAt: ago(3) },
           { id: "f2", text: "Replies are friendly but short, usually a day later.", source: "you", createdAt: ago(3) },
@@ -90,6 +103,7 @@ function daniel(): AccountData {
         name: "Ava",
         stage: "matched",
         metVia: "Hinge",
+        profile: { howLong: "Just matched", want: ["A first date"], concerns: [], her: ["Loves live music"] },
         facts: [{ id: "a1", text: "Liked his photo from Lisbon. Loves live music.", source: "you", createdAt: ago(0, 20) }],
         reads: [],
         timeline: [{ id: "at1", at: ago(0, 20), kind: "created", title: "Matched on Hinge" }],
@@ -260,6 +274,12 @@ function james(): AccountData {
         stage: "girlfriend",
         metVia: "Friend's birthday",
         note: "Together 8 months.",
+        profile: {
+          howLong: "8 months",
+          want: ["Keep it strong", "Fewer arguments"],
+          concerns: ["Work keeps getting in the way", "Feeling distant"],
+          her: ["Values quality time", "Says \"it's fine\" when it isn't"],
+        },
         facts: [
           { id: "e1", text: "Together since February.", source: "onboarding", createdAt: ago(60) },
           { id: "e2", text: "Feels deprioritized when plans change last minute.", source: "approved", createdAt: ago(4) },

@@ -503,7 +503,14 @@ export function SayBubble({ text, typing }: { text: string; typing?: boolean }) 
 }
 
 /** The coach working through the request, one step at a time. */
-export function Thinking({ steps, elapsed }: { steps: string[]; elapsed: number }) {
+export function Thinking({ steps }: { steps: string[] }) {
+  // Its own clock, so the rest of the thread doesn't re-render while it ticks.
+  const [elapsed, setElapsed] = useState(0);
+  useEffect(() => {
+    const start = performance.now();
+    const id = setInterval(() => setElapsed(performance.now() - start), 120);
+    return () => clearInterval(id);
+  }, []);
   // Each step takes a slightly different time, so it doesn't look scripted.
   const durations = [900, 1100, 1300, 900, 1000];
   let acc = 0;

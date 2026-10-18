@@ -1,16 +1,17 @@
 "use client";
 
-import { ChevronRight, Compass, Eye, ImagePlus, PenLine } from "lucide-react";
+import { ChevronRight, Compass, Eye, ImagePlus, PenLine, Plus } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useCallback, useEffect, useRef, useState } from "react";
 import { previewOf, useCoachActions, type Draft } from "@/lib/actions";
 import { validateScreenshots } from "@/lib/files";
 import { accessFor, useAccount } from "@/lib/store";
 import { stageLabel, type Intent } from "@/lib/types";
-import { partOfDay, relativeTime } from "@/lib/util";
+import { cn, partOfDay, relativeTime } from "@/lib/util";
 import { Composer, type ComposerSubmit } from "@/components/chat/Composer";
 import { ReviewFlow, type ReviewInput } from "@/components/chat/ReviewFlow";
+import { PersonChip, PersonSheet } from "@/components/chat/PersonConnect";
 import { EndedScreen } from "@/components/account/EndedScreen";
 import { Orb, type OrbState } from "@/components/orb/Orb";
 import { PersonAvatar } from "@/components/ui/primitives";
@@ -24,8 +25,17 @@ const SHORTCUTS: { intent: Intent; label: string; hint: string; icon: typeof Ima
   { intent: "respond", label: "Help me respond", hint: "In your own voice", icon: PenLine },
 ];
 
-export default function Lobby() {
+export default function LobbyPage() {
+  return (
+    <Suspense fallback={null}>
+      <Lobby />
+    </Suspense>
+  );
+}
+
+function Lobby() {
   const router = useRouter();
+  const params = useSearchParams();
   const toast = useToast();
   const { data } = useAccount();
   const { startThread } = useCoachActions();
@@ -34,6 +44,17 @@ export default function Lobby() {
   const [review, setReview] = useState<ReviewInput | null>(null);
   const [pendingIntent, setPendingIntent] = useState<Intent>("upload");
   const filePick = useRef<HTMLInputElement>(null);
+  const [connected, setConnected] = useState<string | undefined>(() => params.get("with") ?? undefined);
+  const [picking, setPicking] = useState(false);
+
+  // Arriving back from setting up a new person: keep her connected, tidy the URL.
+  useEffect(() => {
+    const w = params.get("with");
+    if (w) {
+      setConnected(w);
+      router.replace("/app", { scroll: false });
+    }
+  }, [params, router]);
 
   useEffect(() => {
     if (!data.onboarded && data.subscription.status !== "ended") router.replace("/onboarding");
@@ -55,17 +76,17 @@ export default function Lobby() {
   const onSubmit = ({ text, files, reviewPaste }: ComposerSubmit) => {
     if (files.length || reviewPaste) {
       setPendingIntent(files.length ? "upload" : "understand");
-      const personId = mentionedPerson(text);
+      const personId = connected ?? mentionedPerson(text);
       setReview(reviewPaste ? { files: [], pasted: text, personId } : { files, text: text || undefined, personId });
       return;
     }
-    go({ intent: "open", personId: mentionedPerson(text), draft: { text } });
+    go({ intent: "open", personId: connected ?? mentionedPerson(text), draft: { text } });
   };
 
   const onShortcut = (intent: Intent) => {
     if (!access.canUseAI) return toast(access.reason!, "info");
     if (intent === "upload") return filePick.current?.click();
-    go({ intent });
+    go({ intent, personId: connected });
   };
 
   const recent = data.threads.slice(0, 4);
@@ -95,7 +116,14 @@ export default function Lobby() {
       </section>
 
       <div className="mt-5">
-        <Composer variant="hero" placeholder="Describe it, ask, or paste the messages…" disabledReason={access.reason} onSubmit={onSubmit} onActiveChange={onActive} />
+        <Composer
+          variant="hero"
+          placeholder={connected ? `What's happening with ${data.people.find((p) => p.id === connected)?.name ?? "her"}?` : "Describe it, ask, or paste the messages…"}
+          disabledReason={access.reason}
+          onSubmit={onSubmit}
+          onActiveChange={onActive}
+          leading={<PersonChip personId={connected} onOpen={() => setPicking(true)} onClear={() => setConnected(undefined)} />}
+        />
       </div>
 
       <input
@@ -110,7 +138,7 @@ export default function Lobby() {
           if (error) toast(error, "info");
           if (accepted.length) {
             setPendingIntent("upload");
-            setReview({ files: accepted });
+            setReview({ files: accepted, personId: connected });
           }
         }}
       />
@@ -134,22 +162,33 @@ export default function Lobby() {
         ))}
       </div>
 
-      {people.length > 0 && (
+      {(
         <section className="mt-7">
           <div className="mb-2 flex items-center justify-between px-0.5">
-            <h2 className="eyebrow">People</h2>
+            <h2 className="eyebrow">Talk about</h2>
             <Link href="/app/people" className="text-[12px] text-fg-subtle hover:text-fg">
               See all
             </Link>
           </div>
           <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4">
             {people.map((p) => (
-              <Link key={p.id} href={`/app/people/${p.id}`} className="card flex shrink-0 items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-3.5 hover:bg-ink-850">
+              <button
+                key={p.id}
+                type="button"
+                onClick={() => setConnected(connected === p.id ? undefined : p.id)}
+                className={cn(
+                  "card flex shrink-0 items-center gap-2.5 rounded-full py-1.5 pl-1.5 pr-3.5 transition-colors duration-150",
+                  connected === p.id ? "border-white/30 bg-ink-800" : "hover:bg-ink-850",
+                )}
+              >
                 <PersonAvatar id={p.id} name={p.name} size={28} />
                 <span className="text-[13px] font-medium text-fg">{p.name}</span>
                 <span className="text-[11.5px] text-fg-subtle">{stageLabel(p.stage)}</span>
-              </Link>
+              </button>
             ))}
+            <Link href="/app/people/new?return=/app" className="flex shrink-0 items-center gap-1.5 rounded-full border border-dashed border-[var(--line-strong)] px-3.5 text-[13px] text-fg-subtle hover:text-fg">
+              <Plus size={14} /> Add someone
+            </Link>
           </div>
         </section>
       )}
@@ -180,6 +219,17 @@ export default function Lobby() {
           </div>
         </section>
       )}
+
+      <PersonSheet
+        open={picking}
+        onClose={() => setPicking(false)}
+        selected={connected}
+        returnTo="/app"
+        onSelect={(id) => {
+          setConnected(id);
+          setPicking(false);
+        }}
+      />
 
       <ReviewFlow
         input={review}
