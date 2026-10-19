@@ -178,6 +178,10 @@ export type Thread = {
   createdAt: string;
   updatedAt: string;
   messages: Message[];
+  /** Kept at the top of the Chats list. */
+  pinned?: boolean;
+  /** Position in the "Custom" chat order (lower first). */
+  rank?: number;
 };
 
 export type Profile = {
@@ -221,7 +225,11 @@ export type Prefs = {
   keepPreviews: boolean;
   haptics: boolean;
   notifications: boolean;
+  /** How the Chats list is ordered. */
+  chatSort?: ChatSort;
 };
+
+export type ChatSort = "recent" | "oldest" | "az" | "custom";
 
 export const DEFAULT_PREFS: Prefs = { autoRemember: false, keepPreviews: true, haptics: true, notifications: true };
 
