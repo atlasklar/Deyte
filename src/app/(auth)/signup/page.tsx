@@ -93,6 +93,11 @@ export default function SignupPage() {
         <Button type="submit" variant="bronze" size="lg" disabled={busy}>
           {busy ? "Creating your account…" : "Create account"}
         </Button>
+        <p className="text-center text-[12px] leading-relaxed text-fg-faint">
+          By continuing you confirm you&apos;re 18 or older and agree to our{" "}
+          <Link href="/terms" className="underline underline-offset-2 hover:text-fg">Terms</Link> and{" "}
+          <Link href="/privacy" className="underline underline-offset-2 hover:text-fg">Privacy Policy</Link>.
+        </p>
       </form>
 
       <p className="mt-auto pt-10 text-center text-[14px] text-fg-subtle">

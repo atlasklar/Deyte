@@ -9,7 +9,9 @@ import { supabaseServer } from "@/lib/supabase/server";
 export async function GET(req: NextRequest) {
   const url = req.nextUrl;
   const next = url.searchParams.get("next") ?? "/app";
-  const safeNext = next.startsWith("/") && !next.startsWith("//") ? next : "/app";
+  // Only ever send people somewhere on this site ("/\\evil.com" and "//evil.com" are other sites).
+  const target = /^\/(?![/\\])[^\s\\]*$/.test(next) ? new URL(next, url.origin) : null;
+  const safeNext = target && target.origin === url.origin ? target.pathname + target.search : "/app";
   const code = url.searchParams.get("code");
   const error = url.searchParams.get("error_description");
 

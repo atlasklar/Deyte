@@ -13,14 +13,16 @@ type Body = {
 };
 
 const MAX_MESSAGES = 40;
-const MAX_CHARS = 12_000;
+const MAX_CHARS = 8_000;
+/** Whole conversation sent per request; older turns drop off first. */
+const MAX_TOTAL = 60_000;
 
 /**
  * Streams the coach's reply as plain text. The client parses the few tags the
  * coach uses (see lib/coach/protocol.ts) once the reply is complete.
  */
 export async function POST(req: Request) {
-  const auth = await requireUser();
+  const auth = await requireUser("chat");
   if (auth.error) return auth.error;
   const ai = claude();
   if (!ai) return notConfigured();
@@ -35,6 +37,8 @@ export async function POST(req: Request) {
     .filter((m) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content.trim())
     .slice(-MAX_MESSAGES)
     .map((m) => ({ role: m.role, content: m.content.slice(0, MAX_CHARS) }));
+  let total = history.reduce((n, m) => n + m.content.length, 0);
+  while (total > MAX_TOTAL && history.length > 1) total -= history.shift()!.content.length;
   // The conversation must start with him and end with his latest message.
   while (history.length && history[0].role !== "user") history.shift();
   if (!history.length || history[history.length - 1].role !== "user") return NextResponse.json({ error: "Nothing to answer" }, { status: 400 });

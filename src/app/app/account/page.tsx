@@ -1,6 +1,6 @@
 "use client";
 
-import { Brain, ChevronRight, CreditCard, Download, HelpCircle, LogOut, Shield, SlidersHorizontal, Trash2, Users } from "lucide-react";
+import { Brain, ChevronRight, CreditCard, FileText, Download, HelpCircle, LogOut, Shield, SlidersHorizontal, Trash2, Users } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -95,6 +95,8 @@ export default function AccountPage() {
 
         <Group title="Support">
           <RowLink href="/#faq" icon={<IconTile icon={HelpCircle} tint="gray" />} label="Help & FAQ" />
+          <RowLink href="/privacy" icon={<IconTile icon={Shield} tint="gray" />} label="Privacy Policy" />
+          <RowLink href="/terms" icon={<IconTile icon={FileText} tint="gray" />} label="Terms of Service" />
         </Group>
 
         <Group>

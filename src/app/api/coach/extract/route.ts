@@ -26,13 +26,14 @@ const SCHEMA = {
 
 /** Reads chat screenshots into an ordered list of messages he can then correct. */
 export async function POST(req: Request) {
-  const auth = await requireUser();
+  const auth = await requireUser("extract");
   if (auth.error) return auth.error;
   const ai = claude();
   if (!ai) return notConfigured();
 
   const { images } = (await req.json().catch(() => ({}))) as { images?: string[] };
-  const valid = (images ?? []).filter((d) => typeof d === "string" && d.startsWith("data:image/jpeg;base64,")).slice(0, 8);
+  // At most 6 screenshots of ~2.5 MB each (the app sends ~300 KB JPEGs).
+  const valid = (images ?? []).filter((d) => typeof d === "string" && d.startsWith("data:image/jpeg;base64,") && d.length < 2_500_000).slice(0, 6);
   if (!valid.length) return NextResponse.json({ error: "No screenshots" }, { status: 400 });
 
   try {

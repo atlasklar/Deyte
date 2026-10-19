@@ -559,6 +559,10 @@ function Footer() {
           <Cta className="w-full md:w-auto">
             Start with Deyte <ArrowRight size={16} />
           </Cta>
+          <p className="flex gap-4">
+            <Link href="/privacy" className="hover:text-fg">Privacy</Link>
+            <Link href="/terms" className="hover:text-fg">Terms</Link>
+          </p>
           <p>© {new Date().getFullYear()} {BRAND.name} · No guarantees about anyone&apos;s feelings.</p>
         </div>
       </div>

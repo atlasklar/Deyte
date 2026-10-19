@@ -8,6 +8,9 @@ export const BRAND = {
   tagline: "Know where you stand.",
   description:
     "Deyte is a private AI dating and relationship coach. Share the conversation, add the context, get a clear read and the next move.",
+  /** Where privacy and support requests go. Set NEXT_PUBLIC_SUPPORT_EMAIL in Vercel. */
+  supportEmail: process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "",
+  legalUpdated: "October 19, 2026",
 };
 
 export const PRICE_MIN = 29.99;

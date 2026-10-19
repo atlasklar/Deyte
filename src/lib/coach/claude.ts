@@ -15,13 +15,29 @@ export function claude() {
   return client;
 }
 
-/** Only signed-in members can use the coach (keeps the API key from being used by anyone else). */
-export async function requireUser() {
+const LIMIT_MESSAGE: Record<string, string> = {
+  hour: "You've hit this hour's limit with your coach. Give it a bit and come back.",
+  day: "You've hit today's limit with your coach. It resets tomorrow.",
+  busy: "Your coach is swamped right now. Try again in a minute.",
+};
+
+/**
+ * Only signed-in members can use the coach, and each use counts against a
+ * per-member limit (see use_coach() in supabase/schema.sql). Keeps the API key
+ * and the bill safe from spam.
+ */
+export async function requireUser(kind: "chat" | "extract" | "retone") {
   if (!cloudReady) return { error: NextResponse.json({ error: "Sign-in isn't set up." }, { status: 503 }) };
+  const sb = await supabaseServer();
   const {
     data: { user },
-  } = await (await supabaseServer()).auth.getUser();
+  } = await sb.auth.getUser();
   if (!user) return { error: NextResponse.json({ error: "Sign in to talk to your coach." }, { status: 401 }) };
+  const { data, error } = await sb.rpc("use_coach", { p_kind: kind });
+  // If the limiter itself is unreachable, fail closed rather than run up the bill.
+  if (error) return { error: NextResponse.json({ error: "Your coach couldn't answer just now. Try again." }, { status: 503 }) };
+  const verdict = data as { allowed: boolean; reason?: string };
+  if (!verdict.allowed) return { error: NextResponse.json({ error: LIMIT_MESSAGE[verdict.reason ?? ""] ?? "Try again later." }, { status: 429 }) };
   return { user };
 }
 
