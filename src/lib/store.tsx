@@ -89,7 +89,8 @@ export async function signOut() {
       localStorage.removeItem(pendingKey(data.user.id));
     } catch {}
   }
-  await sb.auth.signOut();
+  // Only this device. Signing out on the laptop shouldn't sign the phone out.
+  await sb.auth.signOut({ scope: "local" });
 }
 
 /* ── Provider ───────────────────────────────────────────────── */
@@ -104,6 +105,8 @@ type Ctx = {
   sync: SyncState;
   /** Applies a change and saves it to the cloud right away (resolves once saved). */
   commit: (recipe: (draft: AccountData) => void) => Promise<void>;
+  /** True once the cloud copy has loaded (until then `data` may be this device's cached copy). */
+  ready: boolean;
 };
 
 const AccountContext = createContext<Ctx | null>(null);
@@ -123,6 +126,7 @@ export function AccountProvider({
   const [user, setUser] = useState<CloudUser | null>(null);
   const [sync, setSync] = useState<SyncState>("saved");
   const [loadError, setLoadError] = useState(false);
+  const [ready, setReady] = useState(false);
   const [attempt, setAttempt] = useState(0);
   const onMissingRef = useRef(onMissing);
   onMissingRef.current = onMissing;
@@ -154,6 +158,7 @@ export function AccountProvider({
       if (error) {
         // Never start a blank account because a read failed; keep the local copy if there is one.
         if (!cached) setLoadError(true);
+        else setReady(true);
         return;
       }
       let d = (row?.data as AccountData | undefined) ?? null;
@@ -173,6 +178,7 @@ export function AccountProvider({
       skipSave.current = true;
       setLoadError(false);
       setData(d);
+      setReady(true);
     })();
 
     const { data: sub } = sb.auth.onAuthStateChange((event, session) => {
@@ -257,7 +263,7 @@ export function AccountProvider({
     [flush],
   );
 
-  const value = useMemo(() => (data && user ? { data, mutate, user, setUser, sync, commit } : null), [data, mutate, user, sync, commit]);
+  const value = useMemo(() => (data && user ? { data, mutate, user, setUser, sync, commit, ready } : null), [data, mutate, user, sync, commit, ready]);
   if (!cloudReady) return <>{notConfigured ?? fallback}</>;
   if (loadError) return <LoadError onRetry={() => (setLoadError(false), setAttempt((n) => n + 1))} />;
   if (!value) return <>{fallback}</>;

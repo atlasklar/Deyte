@@ -16,10 +16,18 @@ export async function GET(req: NextRequest) {
   const error = url.searchParams.get("error_description");
 
   if (error) return NextResponse.redirect(new URL(`/login?error=${encodeURIComponent(error)}`, url.origin));
+  let dest = safeNext;
   if (code && cloudReady) {
     const sb = await supabaseServer();
-    const { error: exchangeError } = await sb.auth.exchangeCodeForSession(code);
+    const { data, error: exchangeError } = await sb.auth.exchangeCodeForSession(code);
     if (exchangeError) return NextResponse.redirect(new URL(`/login?error=${encodeURIComponent(exchangeError.message)}`, url.origin));
+    // Google/Apple from either page: set-up accounts go straight to their coach,
+    // new ones straight to setup, so nobody sees the wrong screen flash by.
+    if (data.user && (dest === "/app" || dest === "/onboarding")) {
+      const { data: row } = await sb.from("account_data").select("data->onboarded").eq("user_id", data.user.id).maybeSingle();
+      const onboarded = (row as { onboarded?: boolean } | null)?.onboarded === true;
+      dest = onboarded ? "/app" : "/onboarding";
+    }
   }
-  return NextResponse.redirect(new URL(safeNext, url.origin));
+  return NextResponse.redirect(new URL(dest, url.origin));
 }

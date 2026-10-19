@@ -20,23 +20,26 @@ export async function middleware(req: NextRequest) {
     data: { user },
   } = await sb.auth.getUser();
 
+  // A redirect must carry the refreshed session cookies. Otherwise the new
+  // tokens are lost, the old refresh token is already spent, and the person
+  // gets signed out a moment later (e.g. after reopening Safari).
+  const redirect = (pathname: string) => {
+    const to = req.nextUrl.clone();
+    to.pathname = pathname;
+    to.search = "";
+    const out = NextResponse.redirect(to);
+    for (const c of res.cookies.getAll()) out.cookies.set(c);
+    return out;
+  };
+
   const path = req.nextUrl.pathname;
   const protectedPath = path.startsWith("/app") || path.startsWith("/onboarding");
-  if (!user && protectedPath) {
-    const to = req.nextUrl.clone();
-    to.pathname = "/login";
-    to.search = "";
-    return NextResponse.redirect(to);
-  }
-  if (user && (path === "/login" || path === "/signup")) {
-    const to = req.nextUrl.clone();
-    to.pathname = "/app";
-    to.search = "";
-    return NextResponse.redirect(to);
-  }
+  if (!user && protectedPath) return redirect("/login");
+  if (user && (path === "/login" || path === "/signup")) return redirect("/app");
   return res;
 }
 
 export const config = {
-  matcher: ["/app/:path*", "/onboarding/:path*", "/login", "/signup", "/auth/reset"],
+  // "/" too, so opening the site keeps the session fresh (the landing page itself stays public).
+  matcher: ["/", "/app/:path*", "/onboarding/:path*", "/login", "/signup", "/auth/reset"],
 };

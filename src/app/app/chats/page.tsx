@@ -10,9 +10,8 @@ import { haptic } from "@/lib/haptics";
 import { useAccount } from "@/lib/store";
 import { stageLabel, type Thread } from "@/lib/types";
 import { cn, formatDate } from "@/lib/util";
-import { ButtonLink, PersonAvatar } from "@/components/ui/primitives";
+import { ButtonLink, CoachPic, PersonAvatar } from "@/components/ui/primitives";
 import { Empty, Page } from "@/components/ui/PageHeader";
-import { LogoMark } from "@/components/ui/Wordmark";
 
 const DAY = 86_400_000;
 
@@ -165,9 +164,7 @@ export default function ChatsPage() {
                       {p ? (
                         <PersonAvatar id={p.id} name={p.name} size={36} />
                       ) : (
-                        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ink-700">
-                          <LogoMark size={16} />
-                        </span>
+                        <CoachPic size={36} />
                       )}
                       <span className="flex min-w-0 flex-1 items-center gap-3 border-b border-[var(--line)] py-3 pr-3.5 group-last/row:border-0">
                         <span className="min-w-0 flex-1">

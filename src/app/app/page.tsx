@@ -15,9 +15,9 @@ import { ReviewFlow, type ReviewInput } from "@/components/chat/ReviewFlow";
 import { PersonChip, PersonSheet } from "@/components/chat/PersonConnect";
 import { EndedScreen } from "@/components/account/EndedScreen";
 import { Orb, type OrbState } from "@/components/orb/Orb";
-import { PersonAvatar, UserAvatar } from "@/components/ui/primitives";
+import { CoachPic, PersonAvatar, UserAvatar } from "@/components/ui/primitives";
 import { useToast } from "@/components/ui/Toast";
-import { LogoMark, Wordmark } from "@/components/ui/Wordmark";
+import { Wordmark } from "@/components/ui/Wordmark";
 
 const SHORTCUTS: { intent: Intent; label: string; hint: string; icon: typeof ImagePlus }[] = [
   { intent: "upload", label: "Upload screenshots", hint: "I'll read the chat for you", icon: ImagePlus },
@@ -38,7 +38,7 @@ function Lobby() {
   const router = useRouter();
   const params = useSearchParams();
   const toast = useToast();
-  const { data } = useAccount();
+  const { data, ready } = useAccount();
   const { startThread } = useCoachActions();
   const access = accessFor(data);
   const [orb, setOrb] = useState<OrbState>("idle");
@@ -58,8 +58,9 @@ function Lobby() {
   }, [params, router]);
 
   useEffect(() => {
-    if (!data.onboarded && data.subscription.status !== "ended") router.replace("/onboarding");
-  }, [data.onboarded, data.subscription.status, router]);
+    // Decide only on the cloud copy: a stale local copy must never bounce a set-up account into the quiz.
+    if (ready && !data.onboarded && data.subscription.status !== "ended") router.replace("/onboarding");
+  }, [ready, data.onboarded, data.subscription.status, router]);
 
   const onActive = useCallback((active: boolean) => setOrb(active ? "listening" : "idle"), []);
 
@@ -211,7 +212,7 @@ function Lobby() {
               const p = data.people.find((x) => x.id === t.personId);
               return (
                 <Link key={t.id} href={`/app/chat/${t.id}`} className="flex items-center gap-3 px-3.5 py-3 transition-colors duration-100 hover:bg-ink-850">
-                  {p ? <PersonAvatar id={p.id} name={p.name} size={32} /> : <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-ink-700"><LogoMark size={16} /></span>}
+                  {p ? <PersonAvatar id={p.id} name={p.name} size={32} /> : <CoachPic size={32} />}
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-[13.5px] font-medium text-fg">{t.title}</p>
                     <p className="truncate text-[12px] text-fg-subtle">{previewOf(t)}</p>

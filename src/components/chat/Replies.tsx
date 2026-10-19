@@ -9,11 +9,11 @@ import { coach } from "@/lib/coach/engine";
 import { retoneLive, voiceOf } from "@/lib/coach/live";
 import { liveView } from "@/lib/coach/protocol";
 import { Markdown } from "./Markdown";
+import { Orb } from "@/components/orb/Orb";
 import { useAccount } from "@/lib/store";
 import { RECOMMENDATION_LABEL, type CoachMessage, type CoachReply, type Person, type Tone, type UserMessage } from "@/lib/types";
 import { cn } from "@/lib/util";
 import { Badge, Chip } from "@/components/ui/primitives";
-import { LogoMark } from "@/components/ui/Wordmark";
 import { useToast } from "@/components/ui/Toast";
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -192,10 +192,16 @@ type ReplyProps = {
   onPaste: () => void;
 };
 
-export function CoachMark() {
+/** The coach's picture: the creature. Live and moving while it thinks or writes, a still otherwise. */
+export function CoachMark({ live = false }: { live?: boolean }) {
   return (
-    <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-ink-700" aria-hidden>
-      <LogoMark size={14} />
+    <span className="relative mt-0.5 h-7 w-7 shrink-0" aria-hidden>
+      {live ? (
+        <Orb state="thinking" className="pointer-events-none absolute -left-[10px] -top-[10px] w-12" />
+      ) : (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src="/coach.png" alt="" width={28} height={28} className="h-7 w-7 select-none" draggable={false} />
+      )}
     </span>
   );
 }
@@ -458,7 +464,7 @@ export function LiveReply({ raw }: { raw: string }) {
   const v = liveView(raw);
   return (
     <div className="flex gap-2.5">
-      <CoachMark />
+      <CoachMark live />
       <div className="min-w-0 flex-1 pt-0.5">
         <Markdown text={v.text} caret={v.say === null} />
         {v.say !== null && (
@@ -612,7 +618,7 @@ export function Thinking({ steps }: { steps: string[] }) {
 
   return (
     <div className="flex gap-2.5">
-      <CoachMark />
+      <CoachMark live />
       <div className="min-w-0 flex-1 pt-0.5">
         <p className="shimmer-text text-[14px] font-medium">{current >= steps.length - 1 ? "Writing your read" : "Thinking"}</p>
         <ul className="mt-2 flex flex-col gap-1.5 border-l border-[var(--line-strong)] pl-3">

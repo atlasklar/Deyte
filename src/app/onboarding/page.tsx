@@ -98,9 +98,30 @@ type Answers = { name: string; age?: string; situation?: string; struggles: stri
 export default function OnboardingPage() {
   return (
     <Suspense fallback={null}>
-      <Onboarding />
+      <OnboardingGate />
     </Suspense>
   );
+}
+
+/**
+ * Setup happens once. Waits for the cloud copy before deciding, so an account
+ * that's already set up goes straight to its coach without the quiz flashing.
+ */
+function OnboardingGate() {
+  const { data, ready } = useAccount();
+  const router = useRouter();
+  const editing = useSearchParams().get("edit") === "1";
+  // Captured on arrival (from the cloud copy), so finishing the quiz here doesn't skip its last screen.
+  const [doneOnArrival, setDoneOnArrival] = useState<boolean | null>(null);
+  useEffect(() => {
+    if (ready && doneOnArrival === null) setDoneOnArrival(data.onboarded);
+  }, [ready, doneOnArrival, data.onboarded]);
+  const skip = doneOnArrival === true && !editing;
+  useEffect(() => {
+    if (skip) router.replace("/app");
+  }, [skip, router]);
+  if (doneOnArrival === null || skip) return <div className="min-h-dvh" />;
+  return <Onboarding />;
 }
 
 function Onboarding() {
@@ -109,13 +130,6 @@ function Onboarding() {
   const params = useSearchParams();
   const toast = useToast();
   const editing = params.get("edit") === "1";
-
-  // Setup happens once. Anyone who had already finished goes straight to their coach
-  // (checked against the state on arrival, so finishing here doesn't skip the last screen).
-  const finishedBefore = useRef(data.onboarded);
-  useEffect(() => {
-    if (finishedBefore.current && !editing) router.replace("/app");
-  }, [editing, router]);
 
   const p = data.profile;
   const initialSituation = SITUATIONS.find((s) => p.situation[0]?.toLowerCase().includes(s.label.toLowerCase().split(",")[0].toLowerCase()))?.id;

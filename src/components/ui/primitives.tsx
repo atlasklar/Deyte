@@ -227,3 +227,11 @@ export function UserAvatar({ name, src, size = 40, className }: { name: string; 
     </span>
   );
 }
+
+/** The coach's picture (a still of the creature). */
+export function CoachPic({ size = 32, className }: { size?: number; className?: string }) {
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img src="/coach.png" alt="" width={size} height={size} className={cn("shrink-0 select-none", className)} style={{ width: size, height: size }} draggable={false} />
+  );
+}
