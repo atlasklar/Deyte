@@ -1,6 +1,5 @@
 import type { NextConfig } from "next";
 
-const MEDIA = "https://d8j0ntlcm91z4.cloudfront.net";
 /** This project's Supabase (auth, database, photos). Only it, not any Supabase project. */
 const SUPABASE = (() => {
   try {
@@ -15,10 +14,10 @@ const CSP = [
   "default-src 'self'",
   "script-src 'self' 'unsafe-inline' https://vercel.live",
   "style-src 'self' 'unsafe-inline'",
-  `img-src 'self' data: blob: ${SUPABASE} https://*.googleusercontent.com ${MEDIA}`,
-  `media-src 'self' blob: ${MEDIA}`,
+  `img-src 'self' data: blob: ${SUPABASE} https://*.googleusercontent.com`,
+  "media-src 'self' blob:",
   "font-src 'self' data:",
-  `connect-src 'self' ${SUPABASE} ${SUPABASE_WS} https://vercel.live ${MEDIA}`,
+  `connect-src 'self' ${SUPABASE} ${SUPABASE_WS} https://vercel.live`,
   "frame-src https://vercel.live",
   "frame-ancestors 'none'",
   "base-uri 'self'",

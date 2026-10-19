@@ -5,6 +5,20 @@ import { cloudReady, SUPABASE_ANON_KEY, SUPABASE_URL } from "@/lib/supabase/conf
 /** Keeps the Supabase session fresh and sends signed-out visitors to /login. */
 export async function middleware(req: NextRequest) {
   if (!cloudReady) return NextResponse.next();
+  const path = req.nextUrl.pathname;
+  const protectedPath = path.startsWith("/app") || path.startsWith("/onboarding");
+
+  // No session cookie means signed out: answer right away instead of asking
+  // Supabase first (keeps the homepage instant for new visitors).
+  const hasSession = req.cookies.getAll().some((c) => c.name.startsWith("sb-") && /-auth-token(\.\d+)?$/.test(c.name));
+  if (!hasSession) {
+    if (!protectedPath) return NextResponse.next();
+    const to = req.nextUrl.clone();
+    to.pathname = "/login";
+    to.search = "";
+    return NextResponse.redirect(to);
+  }
+
   let res = NextResponse.next({ request: req });
   const sb = createServerClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     cookies: {
@@ -32,8 +46,6 @@ export async function middleware(req: NextRequest) {
     return out;
   };
 
-  const path = req.nextUrl.pathname;
-  const protectedPath = path.startsWith("/app") || path.startsWith("/onboarding");
   if (!user && protectedPath) return redirect("/login");
   if (user && (path === "/login" || path === "/signup")) return redirect("/app");
   return res;

@@ -5,10 +5,9 @@ import { ArrowRight, Brain, Check, ClipboardCheck, Eye, ImagePlus, Lock, Message
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { BRAND, formatPrice } from "@/config/product";
-import { MEDIA } from "@/config/media";
 import { cn } from "@/lib/util";
 import { Wordmark } from "@/components/ui/Wordmark";
-import { ScrubMedia } from "./ScrubMedia";
+import { BarScene, Rose, Sparks, StageArt } from "./Scenes";
 
 const ease = [0.22, 1, 0.36, 1] as const;
 
@@ -17,11 +16,6 @@ const ease = [0.22, 1, 0.36, 1] as const;
  * timelines can desync opacity from scroll position on some browsers.)
  */
 function useRange(progress: MotionValue<number>, input: number[], output: number[]) {
-  const map = interpolate(input, output, { clamp: true });
-  return useTransform(progress, (v: number) => map(v));
-}
-
-function useRangeStr(progress: MotionValue<number>, input: number[], output: string[]) {
   const map = interpolate(input, output, { clamp: true });
   return useTransform(progress, (v: number) => map(v));
 }
@@ -140,9 +134,8 @@ function Nav() {
 function Phase({ progress, range, children, className }: { progress: MotionValue<number>; range: [number, number, number, number]; children: React.ReactNode; className?: string }) {
   const opacity = useRange(progress, range, [0, 1, 1, 0]);
   const y = useRange(progress, range, [24, 0, 0, -24]);
-  const filter = useRangeStr(progress, range, ["blur(8px)", "blur(0px)", "blur(0px)", "blur(8px)"]);
   return (
-    <motion.div style={{ opacity, y, filter }} className={className}>
+    <motion.div style={{ opacity, y }} className={className}>
       {children}
     </motion.div>
   );
@@ -156,18 +149,22 @@ function Hero() {
   const introOpacity = useRange(scrollYProgress, [0, 0.14, 0.22], [1, 1, 0]);
   const introY = useRange(scrollYProgress, [0, 0.22], [0, -40]);
   const glow = useRange(scrollYProgress, [0, 0.5, 1], [0.35, 0.7, 0.45]);
+  const scrim = useRange(scrollYProgress, [0.16, 0.28], [0, 1]);
 
   return (
     <section ref={ref} className="relative h-[360vh]">
       <div className="sticky top-0 h-[100svh] overflow-hidden">
         {/* Warm light behind the rose */}
-        <motion.div style={{ opacity: glow }} className="pointer-events-none absolute left-1/2 top-1/2 h-[90vmin] w-[90vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(190,30,45,0.35),rgba(120,20,30,0.12)_45%,transparent_70%)] blur-2xl" />
+        <motion.div style={{ opacity: glow }} className="pointer-events-none absolute left-1/2 top-1/2 h-[90vmin] w-[90vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(190,30,45,0.32),rgba(120,20,30,0.1)_45%,transparent_70%)]" />
         <motion.div
           style={{ scale }}
-          className="absolute left-1/2 top-[54%] aspect-square w-[min(118vw,96svh)] -translate-x-1/2 -translate-y-1/2 [mask-image:radial-gradient(circle_at_center,black_52%,transparent_71%)] md:top-1/2 md:w-[min(92vw,100svh)]"
+          className="absolute left-1/2 top-[63%] aspect-square w-[min(112vw,88svh)] -translate-x-1/2 -translate-y-1/2 md:top-[56%] md:w-[min(80vw,92svh)]"
         >
-          <ScrubMedia progress={media} video={MEDIA.rose.video} poster={MEDIA.rose.poster} seq={MEDIA.rose.seq} />
+          <Rose progress={media} className="h-full w-full" />
         </motion.div>
+
+        {/* Keeps the story text readable over the open rose on phones */}
+        <motion.div style={{ opacity: scrim }} className="pointer-events-none absolute inset-x-0 bottom-0 h-[55%] bg-gradient-to-t from-black via-black/75 to-transparent md:hidden" />
 
         {/* Intro */}
         <motion.div style={{ opacity: introOpacity, y: introY }} className="absolute inset-x-0 top-0 flex h-full flex-col px-5 pb-[calc(28px+var(--safe-bottom))] pt-[calc(92px+var(--safe-top))] md:items-center md:px-8 md:pt-32 md:text-center">
@@ -244,7 +241,7 @@ function Moment() {
 
         <InView className="relative mx-auto w-full max-w-[420px]">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[22px] border border-white/[0.08]">
-            <video src={MEDIA.bar.video} poster={MEDIA.bar.poster} autoPlay muted loop playsInline preload="metadata" className="h-full w-full object-cover" />
+            <BarScene />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
             <motion.div
               initial={{ opacity: 0, y: 12 }}
@@ -372,10 +369,10 @@ function Steps() {
 /* ── Every stage ────────────────────────────────────────────── */
 
 const STAGE_CARDS = [
-  { img: MEDIA.stages.before, tag: "Before", title: "Where to put your effort", body: "Flirting, invitations, reading intent — and knowing when interest isn't mutual." },
-  { img: MEDIA.stages.dating, tag: "Dating", title: "From good dates to something real", body: "Momentum, expectations and consistency, without guessing what she wants." },
-  { img: MEDIA.stages.together, tag: "Together", title: "Keep it strong", body: "Staying close, voicing needs, and handling disagreements like an adult." },
-];
+  { stage: "before", tag: "Before", title: "Where to put your effort", body: "Flirting, invitations, reading intent — and knowing when interest isn't mutual." },
+  { stage: "dating", tag: "Dating", title: "From good dates to something real", body: "Momentum, expectations and consistency, without guessing what she wants." },
+  { stage: "together", tag: "Together", title: "Keep it strong", body: "Staying close, voicing needs, and handling disagreements like an adult." },
+] as const;
 
 function Stages() {
   return (
@@ -390,8 +387,7 @@ function Stages() {
         {STAGE_CARDS.map((c, i) => (
           <InView key={c.tag} delay={i * 0.1} className="w-[80vw] max-w-[360px] shrink-0 snap-center md:w-auto md:max-w-none">
             <div className="group relative aspect-[3/4] overflow-hidden rounded-[20px] border border-white/[0.08] bg-[#0d0d0e]">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={c.img} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-[1.2s] ease-[var(--ease-luxe)] group-hover:scale-[1.04]" />
+              <StageArt stage={c.stage} />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
               <div className="absolute inset-x-0 bottom-0 p-5">
                 <span className="rounded-md bg-white/[0.12] px-2 py-1 text-[11.5px] font-medium text-white backdrop-blur-md">{c.tag}</span>
@@ -418,10 +414,8 @@ function Toast() {
   return (
     <section ref={ref} className="relative h-[260vh] border-t border-white/[0.06]">
       <div className="sticky top-0 h-[100svh] overflow-hidden">
-        <div className="pointer-events-none absolute left-1/2 top-[42%] h-[80vmin] w-[80vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(230,170,70,0.22),transparent_65%)] blur-2xl" />
-        <div className="absolute left-1/2 top-[40%] aspect-square w-[min(110vw,80svh)] -translate-x-1/2 -translate-y-1/2 [mask-image:radial-gradient(circle_at_center,black_50%,transparent_70%)]">
-          <ScrubMedia progress={media} video={MEDIA.toast.video} poster={MEDIA.toast.poster} seq={MEDIA.toast.seq} />
-        </div>
+        <div className="pointer-events-none absolute left-1/2 top-[42%] h-[80vmin] w-[80vmin] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[radial-gradient(circle,rgba(230,170,70,0.16),transparent_65%)]" />
+        <Sparks progress={media} className="absolute left-1/2 top-[40%] aspect-square w-[min(110vw,80svh)] -translate-x-1/2 -translate-y-1/2" />
         <motion.div style={{ opacity: textOpacity, y: textY }} className="absolute inset-x-0 bottom-0 flex flex-col items-center px-5 pb-[calc(48px+var(--safe-bottom))] text-center">
           <H2 className="text-[clamp(40px,11vw,96px)]">Then make the move.</H2>
           <p className="mt-4 max-w-[420px] text-[15.5px] leading-relaxed text-fg-muted">Better decisions, not better lines. That&apos;s the whole idea.</p>

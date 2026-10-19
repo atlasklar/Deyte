@@ -281,6 +281,30 @@ select {
   filter: blur(0);
 }
 
+/* Landing: drifting bar lights and floating stage lights */
+.bokeh {
+  animation: drift 10s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+@keyframes drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.55;
+  }
+  to {
+    transform: translate3d(14px, -18px, 0) scale(1.15);
+    opacity: 1;
+  }
+}
+.stage-orb {
+  animation: float 6s ease-in-out infinite alternate;
+}
+@keyframes float {
+  to {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
