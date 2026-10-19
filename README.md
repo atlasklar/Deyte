@@ -114,7 +114,7 @@ The coach is Claude (`claude-opus-5-5`), answering only from the expert knowledg
 
 The rules (answer only from the expert material, never guess, never say there's no answer, find the closest teaching) live in `src/lib/coach/prompt.ts`. Each request also carries the member's onboarding answers, saved memory and the connected person's profile. To grow the brain, add to these two files and redeploy.
 
-API routes (signed-in members only): `/api/coach` (streams the reply), `/api/coach/extract` (reads screenshots), `/api/coach/retone` (rewrites a suggested message).
+API routes (signed-in members only, rate limited): `/api/coach` (streams the reply) and `/api/coach/extract` (reads screenshots).
 
 ## Pages
 

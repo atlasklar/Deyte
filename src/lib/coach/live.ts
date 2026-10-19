@@ -5,7 +5,7 @@
  * streams the reply, and calls the screenshot and re-tone helpers.
  */
 
-import type { AccountData, ChatLine, Person, Thread, Tone, UserMessage } from "@/lib/types";
+import type { AccountData, ChatLine, Person, Thread, UserMessage } from "@/lib/types";
 import { stageLabel } from "@/lib/types";
 import { replyToText } from "./protocol";
 
@@ -93,12 +93,6 @@ export async function streamCoach(body: ReturnType<typeof buildRequest>, onText:
   return raw;
 }
 
-export async function retoneLive(text: string, tone: Tone, voice: string) {
-  const res = await fetch("/api/coach/retone", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text, tone, voice }) });
-  if (!res.ok) throw await errorFrom(res);
-  return ((await res.json()) as { text: string }).text;
-}
-
 /** Shrinks a screenshot so several fit in one request but text stays legible. */
 async function toJpeg(file: File, max = 1600): Promise<string> {
   const bitmap = await createImageBitmap(file);
@@ -116,10 +110,4 @@ export async function extractLive(files: File[]): Promise<Omit<ChatLine, "id">[]
   const res = await fetch("/api/coach/extract", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ images }) });
   if (!res.ok) throw await errorFrom(res);
   return ((await res.json()) as { lines: Omit<ChatLine, "id">[] }).lines;
-}
-
-export function voiceOf(account: AccountData) {
-  const p = account.profile;
-  const voice = account.self.filter((s) => s.category === "voice" || s.category === "style").map((s) => s.text);
-  return [p.style.join(", "), ...voice, p.samples ? `Examples: ${p.samples.slice(0, 300)}` : ""].filter(Boolean).join(". ");
 }

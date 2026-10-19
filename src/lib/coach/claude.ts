@@ -26,7 +26,7 @@ const LIMIT_MESSAGE: Record<string, string> = {
  * per-member limit (see use_coach() in supabase/schema.sql). Keeps the API key
  * and the bill safe from spam.
  */
-export async function requireUser(kind: "chat" | "extract" | "retone") {
+export async function requireUser(kind: "chat" | "extract") {
   if (!cloudReady) return { error: NextResponse.json({ error: "Sign-in isn't set up." }, { status: 503 }) };
   const sb = await supabaseServer();
   const {

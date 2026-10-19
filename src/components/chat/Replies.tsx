@@ -3,15 +3,11 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { Check, ChevronDown, ClipboardPaste, Copy, ImagePlus, Loader2, MessageSquareOff } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useCoachActions } from "@/lib/actions";
 import { haptic } from "@/lib/haptics";
-import { coach } from "@/lib/coach/engine";
-import { retoneLive, voiceOf } from "@/lib/coach/live";
 import { liveView } from "@/lib/coach/protocol";
 import { Markdown } from "./Markdown";
 import { Orb } from "@/components/orb/Orb";
-import { useAccount } from "@/lib/store";
-import { RECOMMENDATION_LABEL, type CoachMessage, type CoachReply, type Person, type Tone, type UserMessage } from "@/lib/types";
+import { RECOMMENDATION_LABEL, type CoachMessage, type CoachReply, type Person, type UserMessage } from "@/lib/types";
 import { cn } from "@/lib/util";
 import { Badge, Chip } from "@/components/ui/primitives";
 import { useToast } from "@/components/ui/Toast";
@@ -230,7 +226,6 @@ export function CoachReplyView(props: ReplyProps) {
             <p className="text-[14.5px] leading-relaxed text-fg">
               <Typed text={s.part(0)} typing={s.typing(0)} />
             </p>
-            {showExtras && <Options options={reply.options} onPick={props.onOption} />}
           </div>
         )}
         {reply.kind === "note" && (
@@ -252,7 +247,6 @@ export function CoachReplyView(props: ReplyProps) {
                 )}
               </FadeUp>
             )}
-            {showExtras && reply.options && <Options options={reply.options} onPick={props.onOption} />}
           </div>
         )}
         {reply.kind === "draft" && (
@@ -276,18 +270,6 @@ function FadeUp({ children, className }: { children: React.ReactNode; className?
   );
 }
 
-function Options({ options, onPick }: { options: string[]; onPick: (o: string) => void }) {
-  return (
-    <FadeUp className="mt-2.5 flex flex-wrap gap-1.5">
-      {options.map((o) => (
-        <Chip key={o} onClick={() => onPick(o)}>
-          {o}
-        </Chip>
-      ))}
-    </FadeUp>
-  );
-}
-
 function Row({ label, children, hint, show = true }: { label: string; children: React.ReactNode; hint?: string; show?: boolean }) {
   if (!show) return null;
   return (
@@ -303,7 +285,7 @@ function Row({ label, children, hint, show = true }: { label: string; children: 
 
 type Stream = ReturnType<typeof useStream>;
 
-function AnalysisCard({ threadId, message, person, s, showExtras }: ReplyProps & { s: Stream; showExtras: boolean }) {
+function AnalysisCard({ message, s, showExtras }: ReplyProps & { s: Stream; showExtras: boolean }) {
   const reply = message.reply;
   if (reply.kind !== "analysis") return null;
 
@@ -367,7 +349,7 @@ function AnalysisCard({ threadId, message, person, s, showExtras }: ReplyProps &
 
       <Row label="What to say" show={s.part(iSay) !== null}>
         {reply.say ? (
-          showExtras ? <SayEditor threadId={threadId} message={message} /> : <SayBubble text={s.part(iSay) ?? ""} typing={s.typing(iSay)} />
+          <SayBubble text={showExtras ? reply.say.text : (s.part(iSay) ?? "")} typing={!showExtras && s.typing(iSay)} />
         ) : (
           <div className="flex gap-2.5 rounded-[11px] bg-ink-850 px-3 py-2.5">
             <MessageSquareOff size={15} strokeWidth={1.75} className="mt-0.5 shrink-0 text-fg-subtle" />
@@ -378,83 +360,24 @@ function AnalysisCard({ threadId, message, person, s, showExtras }: ReplyProps &
         )}
       </Row>
 
-      {showExtras && reply.memory && reply.memory.length > 0 && (
-        <Row label="Remember this?">
-          <MemorySuggestions threadId={threadId} message={message} person={person} />
-        </Row>
-      )}
     </div>
   );
 }
 
-function MemorySuggestions({ threadId, message, person }: { threadId: string; message: CoachMessage; person?: Person }) {
-  const { saveSuggestion } = useCoachActions();
-  const memory = message.reply.kind === "analysis" || message.reply.kind === "chat" ? (message.reply.memory ?? []) : [];
-  return (
-    <div className="flex flex-col gap-1.5">
-      {memory.map((m) => (
-        <div key={m.id} className="flex items-center gap-3 rounded-[11px] border border-[var(--line)] bg-ink-850 px-3 py-2.5">
-          <div className="min-w-0 flex-1">
-            <p className="text-[13px] leading-snug text-fg">{m.text}</p>
-            <p className="mt-0.5 text-[11px] text-fg-subtle">
-              {m.kind === "fact" ? "Fact" : "Unconfirmed read"} · {m.scope === "person" && person ? `${person.name}'s profile` : "About you"}
-            </p>
-          </div>
-          {m.status === "pending" ? (
-            <div className="flex shrink-0 gap-1">
-              <button type="button" onClick={() => saveSuggestion(threadId, message.id, m.id, false)} className="rounded-lg px-2 py-1 text-[12px] text-fg-subtle hover:text-fg">
-                Skip
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  haptic("light");
-                  saveSuggestion(threadId, message.id, m.id, true);
-                }}
-                className="rounded-lg bg-white px-2.5 py-1 text-[12px] font-medium text-black hover:bg-white/90"
-              >
-                Save
-              </button>
-            </div>
-          ) : (
-            <span className="flex shrink-0 items-center gap-1 text-[11.5px] text-fg-subtle">
-              {m.status === "saved" && <Check size={12} />}
-              {m.status === "saved" ? "Saved" : "Skipped"}
-            </span>
-          )}
-        </div>
-      ))}
-    </div>
-  );
-}
-
-/** A live coach answer: Markdown, then the message to send, quick replies and memory suggestions. */
-function ChatReply({ threadId, message, person, latest, onOption }: ReplyProps) {
+/** A live coach answer: Markdown, plus the exact message to send when he asked for one. */
+function ChatReply({ message }: ReplyProps) {
   const reply = message.reply;
   if (reply.kind !== "chat") return null;
   return (
     <div className="pt-0.5">
       {reply.text && <Markdown text={reply.text} />}
-      {reply.next && (
-        <p className="mt-3 inline-flex items-center gap-1.5 rounded-full border border-bronze-400/25 bg-bronze-400/[0.06] px-2.5 py-1 text-[12px] font-medium text-bronze-300">
-          <span className="h-1.5 w-1.5 rounded-full bg-bronze-400" />
-          {RECOMMENDATION_LABEL[reply.next]}
-        </p>
-      )}
       {reply.say && (
         <div className="mt-3">
           <p className="mb-1.5 text-[11.5px] font-medium text-fg-subtle">What to send</p>
-          <SayEditor threadId={threadId} message={message} />
+          <SayBubble text={reply.say.text} />
         </div>
       )}
       {reply.partial && <p className="mt-2 text-[12px] text-fg-faint">Stopped</p>}
-      {reply.memory && reply.memory.length > 0 && (
-        <div className="mt-3">
-          <p className="mb-1.5 text-[11.5px] font-medium text-fg-subtle">Remember this?</p>
-          <MemorySuggestions threadId={threadId} message={message} person={person} />
-        </div>
-      )}
-      {latest && reply.options && <Options options={reply.options} onPick={onOption} />}
     </div>
   );
 }
@@ -472,95 +395,6 @@ export function LiveReply({ raw }: { raw: string }) {
             <p className="mb-1.5 text-[11.5px] font-medium text-fg-subtle">What to send</p>
             <SayBubble text={v.say} typing={!v.sayDone} />
           </div>
-        )}
-      </div>
-    </div>
-  );
-}
-
-const TONES: { id: Tone; label: string }[] = [
-  { id: "shorter", label: "Shorter" },
-  { id: "warmer", label: "Warmer" },
-  { id: "playful", label: "More playful" },
-  { id: "direct", label: "More direct" },
-];
-
-const CORRECTIONS = [
-  { label: "Too long", text: "Prefers shorter messages than suggested." },
-  { label: "Too formal", text: "Writes more casually than the suggestions." },
-  { label: "Too eager", text: "Doesn't want to come across as over-eager." },
-  { label: "Wouldn't say it", text: "Avoids lines that sound scripted." },
-];
-
-function SayEditor({ threadId, message }: { threadId: string; message: CoachMessage }) {
-  const { data } = useAccount();
-  const { voiceFeedback } = useCoachActions();
-  const toast = useToast();
-  const [tone, setTone] = useState<Tone | null>(null);
-  const [askWhy, setAskWhy] = useState(false);
-  const [variants, setVariants] = useState<Partial<Record<Tone, string>>>({});
-  const [loading, setLoading] = useState<Tone | null>(null);
-  const say = message.reply.kind === "analysis" || message.reply.kind === "chat" ? message.reply.say : undefined;
-  if (!say) return null;
-  const live = message.reply.kind === "chat";
-  const text = tone ? (say.variants?.[tone] ?? variants[tone] ?? (live ? say.text : coach.retone(say.text, tone, data))) : say.text;
-
-  const pick = async (t: Tone) => {
-    if (tone === t) return setTone(null);
-    setTone(t);
-    if (!live || say.variants?.[t] || variants[t]) return;
-    setLoading(t);
-    try {
-      const out = await retoneLive(say.text, t, voiceOf(data));
-      setVariants((v) => ({ ...v, [t]: out }));
-    } catch {
-      toast("Couldn't rewrite it just now", "info");
-      setTone(null);
-    } finally {
-      setLoading(null);
-    }
-  };
-
-  return (
-    <div>
-      <SayBubble text={text} typing={loading !== null && loading === tone} />
-      <div className="no-scrollbar -mx-1 mt-2 flex gap-1.5 overflow-x-auto px-1">
-        {TONES.map((t) => (
-          <Chip key={t.id} active={tone === t.id} onClick={() => pick(t.id)} className="shrink-0 text-[12px]">
-            {loading === t.id ? <Loader2 size={12} className="animate-spin" /> : null}
-            {t.label}
-          </Chip>
-        ))}
-      </div>
-      <div className="mt-2.5 flex flex-wrap items-center gap-1.5 text-[12px] text-fg-subtle">
-        {message.voice ? (
-          <span>{message.voice === "me" ? "Noted — sounds like you." : "Thanks. I'll write closer to your voice."}</span>
-        ) : askWhy ? (
-          <>
-            <span>What&apos;s off?</span>
-            {CORRECTIONS.map((c) => (
-              <Chip
-                key={c.label}
-                className="min-h-7 px-2.5 py-0.5 text-[12px]"
-                onClick={() => {
-                  voiceFeedback(threadId, message.id, "not_me", c.text);
-                  toast("Saved to your writing preferences");
-                }}
-              >
-                {c.label}
-              </Chip>
-            ))}
-          </>
-        ) : (
-          <>
-            <span>Sound like you?</span>
-            <button type="button" className="rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg" onClick={() => voiceFeedback(threadId, message.id, "me")}>
-              Yes
-            </button>
-            <button type="button" className="rounded-md px-1.5 py-0.5 text-fg-muted hover:text-fg" onClick={() => setAskWhy(true)}>
-              Not quite
-            </button>
-          </>
         )}
       </div>
     </div>

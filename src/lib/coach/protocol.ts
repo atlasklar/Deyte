@@ -95,7 +95,12 @@ export function replyToText(reply: CoachReply): string {
 }
 
 function tidy(t: string) {
-  return humanize(t.replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim());
+  return humanize(stripEmoji(t).replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim());
+}
+
+/** The coach's own words never carry emojis (a suggested message may, when it's the joke). */
+export function stripEmoji(t: string) {
+  return t.replace(/(?:\p{Extended_Pictographic}|\p{Regional_Indicator})(?:\uFE0F|\u200D|\p{Extended_Pictographic}|[\u{1F3FB}-\u{1F3FF}])*/gu, "").replace(/[ \t]{2,}/g, " ").replace(/ +([,.!?])/g, "$1");
 }
 
 /**
